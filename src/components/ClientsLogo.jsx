@@ -69,14 +69,14 @@ const ClientsLogo = () => {
       {
         breakpoint: 370,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
         },
       },
     ],
   };
   return (
     <>
-      <Container fluid className="py-lg-4 my-5 py-4 overflow-hidden">
+      <Container fluid className=" my-5 py-md-4 overflow-hidden">
         <h2 className="fw-bold fs_8xl mb-2 text-center mb-5 text-black">
           Our Trusted Partners
         </h2>
@@ -88,7 +88,7 @@ const ClientsLogo = () => {
                 alt="cardimg"
                 width={190}
                 height={70}
-                className="object-fit-contain p-lg-0 p-3"
+                className="object-fit-contain p-lg-0 p-1"
               />
             </div>
           ))}

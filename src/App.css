@@ -304,14 +304,18 @@
   max-width: 800px;
 }
 /* =======================================Footer============================================ */
-.bg_footer{
-background-image: url(./components/assets/images/svg/footer_bg.svg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+.bg_footer {
+  background-image: url(./components/assets/images/svg/footer_bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(224, 236, 252);
 }
-.social_icon:hover{
-transform: translateY(-5px);
+.social_icon:hover {
+  transform: translateY(-5px);
+}
+.contact_icon:hover > img {
+  transform: scale(1.1);
 }
 /* ===============================================media-quaries=============================== */
 @media (max-width: 1366px) {

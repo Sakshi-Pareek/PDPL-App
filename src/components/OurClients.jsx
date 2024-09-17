@@ -5,7 +5,7 @@ import Clients from "./assets/images/svg/our_clients.svg";
 const OurClients = () => {
   return (
     <>
-      <div className="bg_sky py-lg-5 pb-3">
+      <div className="bg_sky py-lg-5 pb-md-3">
         <Container className="py-lg-5 pb-5 text-lg-start text-center">
           <Row className="justify-content-center align-items-center flex-column-reverse flex-lg-row">
             <Col lg={7}>
