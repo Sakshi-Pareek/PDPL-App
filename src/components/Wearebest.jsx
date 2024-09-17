@@ -25,7 +25,7 @@ const Wearebest = () => {
       <div className="distributor_bg py-5 bg_gray">
         <Container className="py-md-3">
           <h2 className="text-center fw-bold fs_8xl mx-auto letter_spacing mb-0">
-            We are the best pharmaceutical<br className=" d-lg-block d-none"/> distributor in India
+            We Are The Best Pharmaceutical<br className=" d-lg-block d-none"/> Distributor In India
           </h2>
           <Row className="mt-xl-4 pt-md-5 pt-4 justify-content-center">
             {data.map((a, index) => (

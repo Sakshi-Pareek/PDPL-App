@@ -14,10 +14,7 @@
   display: flex;
   gap: 2px;
   top: 50%;
-  /* position: absolute; */
-  width: calc(100% - 200px);
   color: #fff;
-  padding: 0 100px;
   text-align: center;
 }
 .cs-loader-inner label {
@@ -289,6 +286,10 @@
 }
 .distributor_bg {
   background-image: url(./components/assets/images/svg/distributrebg.svg);
+}
+.distributor_bg,
+.bg_ourpresence,
+.bg_footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -296,9 +297,6 @@
 /* =======================================ourPresence===================================== */
 .bg_ourpresence {
   background-image: url(./components/assets/images/svg/ourpressencebg.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .max_w_800 {
   max-width: 800px;
@@ -306,9 +304,6 @@
 /* =======================================Footer============================================ */
 .bg_footer {
   background-image: url(./components/assets/images/svg/footer_bg.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: rgb(224, 236, 252);
 }
 .social_icon:hover {
@@ -317,6 +312,12 @@
 .contact_icon:hover > img {
   transform: scale(1.1);
 }
+/* =======================================About=Hero============================================= */
+.modal_view {
+  height: 55vw;
+  width: 100%;
+}
+
 /* ===============================================media-quaries=============================== */
 @media (max-width: 1366px) {
 }

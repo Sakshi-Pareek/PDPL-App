@@ -21,7 +21,7 @@ const PartnerWithus = () => {
     <>
       <Container className="py-lg-5 py-5 my-4 text-center">
         <h2 className="fw-bold fs_8xl letter_spacing mb-3">
-          Why partner with us
+          Why Partner With Us
         </h2>
         <p className="fs_4md letter_spacing fw-normal lh-base text-black ff_roboto mb-3">
           As a leading pharmaceutical distributor, PDPL offers unparalleled

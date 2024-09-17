@@ -9,8 +9,8 @@ const OurClients = () => {
         <Container className="py-lg-5 pb-5 text-lg-start text-center">
           <Row className="justify-content-center align-items-center flex-column-reverse flex-lg-row">
             <Col lg={7}>
-              <h2 className="fw-bold fs_2xl letter_spacing mb-3 text-white lh-1">
-                We provide the best service to our clients and the vendors
+              <h2 className="fw-bold fs_2xl letter_spacing mb-3 text-white lh-sm">
+                We Provide The Best Service To Our Clients And The Vendors
               </h2>
               <p className="fs_6sm letter_spacing fw-normal lh-base text-white ff_roboto mb-3">
                 With our extensive network and cutting-edge technology, we

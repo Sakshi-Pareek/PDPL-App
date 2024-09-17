@@ -42,7 +42,7 @@ const ClientReview = () => {
       <div className="bg_gray py-5">
         <Container className="my-lg-4">
           <h2 className="fw-bold fs_8xl mb-2 text-center mb-5 text-black">
-            What they say about us
+            What They Say About Us
           </h2>
           <Slider {...settings}>
             <div className="px-1">

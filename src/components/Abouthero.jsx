@@ -5,9 +5,19 @@ import Commonbtn from "./common/CommonBtn";
 const Abouthero = () => {
   return (
     <>
-      <div className="bg_about py-lg-5">
-        <Container className="py-5">
-          <div className="gray_section mx-auto p-md-5 p-4 rounded">
+      <div className="bg_abouthero position-relative">
+        <video
+          className="modal_view"
+          src="https://videos.pexels.com/video-files/4291725/4291725-uhd_2560_1440_25fps.mp4"
+          autoPlay
+          loop
+          muted
+          controls
+          width="100%"
+
+        ></video>
+        <Container className="py-5 position-absolute top-50 start-50 translate-middle">
+          <div className="bg_gray mx-auto p-md-5 p-4 rounded w-50">
             <h2 className="text-center text_blue fs_8lg fw-bold">
               We are PDPL
             </h2>
