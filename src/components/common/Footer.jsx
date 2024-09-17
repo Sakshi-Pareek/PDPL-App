@@ -20,7 +20,7 @@ const Footer = () => {
     <>
       <div className="bg_footer pt-4">
         <Container>
-          <Row className="justify-content-between gap-lg-0 gap-4 border-bottom border-black py-5">
+          <Row className="justify-content-between gap-lg-0 gap-3 border-bottom border-black py-5">
             <Col xl={4} lg={3} xs={12}>
               <a href="#" className="text-black d-flex align-items-center">
                 <img src={WebLogo} alt="WebLogo" className="w-100 max_w_80" />
@@ -72,7 +72,7 @@ const Footer = () => {
                 </a>
               </div>
             </Col>
-            <Col lg={2} sm={3} xs={12}>
+            <Col lg={2} sm={3} xs={12} className="mt-2">
               <ul className="d-flex flex-column gap-2 mb-0 ps-0">
                 <li className="fw-semibold fs_md text-black ff_roboto">
                   Our Company
@@ -123,7 +123,7 @@ const Footer = () => {
               lg={3}
               sm={3}
               xs={12}
-              className="d-lg-flex justify-content-center"
+              className="d-lg-flex justify-content-center mt-2"
             >
               <ul className="d-flex flex-column gap-2 mb-0 ps-0">
                 <li className="fw-semibold fs_md text-black ff_roboto">
@@ -163,7 +163,7 @@ const Footer = () => {
                 </li>
               </ul>
             </Col>
-            <Col lg={3} xs={12}>
+            <Col lg={3} xs={12} className="mt-2">
               <ul className="d-flex flex-column gap-2 mb-0 ps-0">
                 <li className="fw-semibold fs_md text-black ff_roboto">
                   Contact Us
