@@ -189,7 +189,7 @@ const Footer = () => {
                   <a
                     href="tel: 9671480888"
                     target="_blank"
-                          rel="noreferrer"
+                    rel="noreferrer"
                     className="fw-normal fs_8sm text-black ff_roboto mb-1 d-flex align-items-center gap-2 contact_icon nav_link transition"
                   >
                     <img
@@ -205,7 +205,8 @@ const Footer = () => {
                 <li>
                   <a
                     href="https://www.google.com/maps/place/Plus+Distribution+Pvt.+Ltd/@28.4339692,76.9917312,17z/data=!3m1!4b1!4m6!3m5!1s0x390d17bdf3ddf591:0xbdbb9a6f0115739d!8m2!3d28.4339645!4d76.9943061!16s%2Fg%2F11rn7qzn6k?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
-                    target="_blank"       rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                     className="fw-normal fs_8sm text-black ff_roboto mb-1 d-flex gap-2 contact_icon nav_link transition"
                   >
                     <img
