@@ -5,8 +5,9 @@
   margin: 0;
   text-decoration: none !important;
   box-sizing: border-box;
-  font-family: "Playfair Display", system-ui !important;
+  font-family: "Roboto", sans-serif !important;
   list-style: none;
+  scroll-behavior: smooth !important;
 }
 /* =================================================loader===================================== */
 .cs-loader-inner {
@@ -207,6 +208,7 @@
 .crl_3 {
   background-color: rgb(29, 121, 187);
 }
+/* ---------------------------------------------Home-Page------------------------------------ */
 /* ===========================================Hero-Section=================================== */
 .herobg1,
 .herobg2,
@@ -317,7 +319,16 @@
   height: 55vw;
   width: 100%;
 }
-
+/* ---------------------------------------------Parten-Page------------------------------------ */
+.bg_ourpartner {
+  background-image: url(./components/assets/images/png/Network.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.bg_blur {
+  backdrop-filter: blur(20px);
+}
 /* ===============================================media-quaries=============================== */
 @media (max-width: 1366px) {
 }
