@@ -1,7 +1,7 @@
-import './App.css';
+import "./App.css";
 import React, { useEffect, useState } from "react";
-import MainRoute from './components/common/MainRoute';
-import Loader from './components/common/Loader';
+import MainRoute from "./components/common/MainRoute";
+import Loader from "./components/common/Loader";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -47,15 +47,7 @@ function App() {
     };
   }, []);
 
-  return (
-    <>
-      {loader ? (
-        <Loader />
-      ) : (
-        <MainRoute />
-      )}
-    </>
-  );
+  return <>{loader ? <Loader /> : <MainRoute />}</>;
 }
 
 export default App;
