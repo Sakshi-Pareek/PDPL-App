@@ -105,8 +105,8 @@
   --fs-2lg: 32px;
   --fs-2xl: 42px;
   --fs-4xl: 44px;
-  --fs-8xl: 48px;
-  --fs-xxl: 64px;
+  --fs-8xl: 46px;
+  --fs-xxl: 56px;
 }
 .fs_6sm {
   font-size: var(--fs-6sm);
@@ -165,15 +165,28 @@
   background-color: rgb(29, 121, 187);
   border: 2px solid transparent;
 }
+.common_btn:focus,
 .common_btn:hover {
-  box-shadow: 1px 3px 6px rgb(29, 121, 187);
+  animation: pulse 1s;
+  box-shadow: 0 0 0 0.7em transparent;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgb(29, 121, 187);
+  }
 }
 .learn_btn {
   color: rgb(29, 121, 187);
   border: 2px solid white;
 }
 .learn_btn:hover {
-  box-shadow: 1px 3px 6px white;
+  animation: ani 1s;
+  box-shadow: 0 0 0 0.7em transparent;
+}
+@keyframes ani {
+  0% {
+    box-shadow: 0 0 0 0 white;
+  }
 }
 .bg_gray {
   background: rgb(245, 245, 245);
@@ -280,12 +293,6 @@
   outline: none !important;
 }
 /* =======================================We-are-the-best===================================== */
-.distributor_card {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px;
-}
-.distributor_card:hover {
-  transform: scale(0.95);
-}
 .distributor_bg {
   background-image: url(./components/assets/images/svg/distributrebg.svg);
 }
@@ -296,12 +303,31 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.flip-card-inner {
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  min-height: 300px;
+  min-width: 220px;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.cardfrontside,
+.cardbackside {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.cardbackside {
+  transform: rotateY(180deg);
+  background-color: rgb(197, 229, 253);
+
+}
 /* =======================================ourPresence===================================== */
 .bg_ourpresence {
   background-image: url(./components/assets/images/svg/ourpressencebg.svg);
 }
-.max_w_800 {
-  max-width: 800px;
+.max_w_500 {
+  max-width: 500px;
 }
 /* =======================================Footer============================================ */
 .bg_footer {
@@ -315,19 +341,71 @@
   transform: scale(1.1);
 }
 /* =======================================About=Hero============================================= */
-.modal_view {
-  height: 55vw;
-  width: 100%;
+.max_w_835 {
+  max-width: 835px !important;
 }
-/* ---------------------------------------------Parten-Page------------------------------------ */
+.gray_layer {
+  backdrop-filter: blur(30px);
+  opacity: 0.7;
+  background: rgb(245, 245, 245);
+}
+/* ---------------------------------------------Partner-Page------------------------------------ */
 .bg_ourpartner {
-  background-image: url(./components/assets/images/png/Network.png);
+  background-image: url(./components/assets/images/png/wareHouseimg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-.bg_blur {
-  backdrop-filter: blur(20px);
+.glass:hover {
+  animation: tilt linear 2s infinite;
+}
+
+@keyframes tilt {
+  0%,
+  100% {
+    transform: skewY(2deg);
+  }
+  50% {
+    transform: skewY(-2deg);
+  }
+}
+.glass_effect::before {
+  content: "";
+  background: rgba(245, 243, 243, 0.4);
+  transform: skew(45deg);
+  position: absolute;
+  width: 50px;
+  height: 100%;
+  left: -120%;
+  transition: all 500ms ease-in-out;
+  filter: blur(40px);
+}
+.glass_effect:hover::before {
+  left: 150%;
+}
+.animation {
+  animation: zoomInOut 1.5s infinite;
+}
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.list_dots li:before {
+  background: black;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  position: absolute;
+  left: -20px;
+  top: 10px;
+  content: "";
 }
 /* ===============================================media-quaries=============================== */
 @media (max-width: 1366px) {
@@ -388,7 +466,7 @@
     --fs-2xl: 38px;
     --fs-4xl: 42px;
     --fs-8xl: 44px;
-    --fs-xxl: 56px;
+    --fs-xxl: 52px;
   }
 }
 @media (max-width: 576px) {
@@ -396,7 +474,7 @@
     --fs-2xl: 36px;
     --fs-4xl: 40px;
     --fs-8xl: 42px;
-    --fs-xxl: 50px;
+    --fs-xxl: 48px;
   }
 }
 @media (max-width: 425px) {
@@ -418,3 +496,4 @@
     height: 600px;
   }
 }
+

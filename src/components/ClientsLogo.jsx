@@ -77,22 +77,27 @@ const ClientsLogo = () => {
   return (
     <>
       <Container fluid className=" my-5 py-md-4 overflow-hidden">
-        <h2 className="fw-bold fs_8xl mb-2 text-center mb-5 text-black">
+        <h2
+          className="fw-bold fs_8xl mb-2 text-center mb-5 text-black"
+          data-aos="fade-down"
+        >
           Our Trusted Partners
         </h2>
-        <Slider {...settings}>
-          {logo.map((a, index) => (
-            <div key={index}>
-              <img
-                src={a.image}
-                alt="cardimg"
-                width={190}
-                height={70}
-                className="object-fit-contain p-lg-0 p-1"
-              />
-            </div>
-          ))}
-        </Slider>
+        <div data-aos="fade-down">
+          <Slider {...settings}>
+            {logo.map((a, index) => (
+              <div key={index}>
+                <img
+                  src={a.image}
+                  alt="cardimg"
+                  width={190}
+                  height={70}
+                  className="object-fit-contain p-lg-0 p-1"
+                />
+              </div>
+            ))}
+          </Slider>
+        </div>
       </Container>
     </>
   );

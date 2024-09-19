@@ -9,12 +9,14 @@ import PartnerWithus from "../PartnerWithus";
 import OurClients from "../OurClients";
 import ClientsLogo from "../ClientsLogo";
 import ClientReview from "../ClientReview";
+import Banner from "../Banner";
 
 const Homepage = () => {
   return (
     <>
       <Nav />
       <Herosection />
+      <Banner />
       <Wearebest />
       <Whatwedo />
       <OurPresence />

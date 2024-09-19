@@ -10,8 +10,8 @@ const Whatwedo = () => {
             <img src={Nurse} alt="Nurse" className="w-100 pe-xl-5 pe-lg-4 pe-0" />
           </Col>
           <Col lg={6} className="text-lg-start text-center">
-            <h2 className="fw-bold fs_8xl mb-2">What We Do</h2>
-            <p className="ff_roboto fw-normal fs_md letter_spacing mb-0 lh-base text-black">
+            <h2 className="fw-bold fs_8xl mb-2"data-aos="fade-left">What We Do</h2>
+            <p className="ff_roboto fw-normal fs_md letter_spacing mb-0 lh-base text-black"data-aos="fade-left">
               We are a trusted pharmaceutical distribution provider in India,
               delivering genuine healthcare products, medicines, drugs,
               consumables, implants, masks, PPE kits, and more. Our experienced

@@ -18,7 +18,7 @@ const Footer = () => {
 
   return (
     <>
-      <div className="bg_footer pt-4">
+      <div className="bg_footer pt-md-4 ">
         <Container>
           <Row className="justify-content-between gap-lg-0 gap-3 border-bottom border-black py-5">
             <Col xl={4} lg={3} xs={12}>
@@ -26,9 +26,8 @@ const Footer = () => {
                 <img src={WebLogo} alt="WebLogo" className="w-100 max_w_80" />
               </a>
               <p className="text-black fs_4md fw-semibold ff_roboto mt-2">
-                Delivering Health, Empowering
-                <br className="d-xl-block d-none" />
-                Lives
+                Delivering Health, <br className="d-xl-block d-none" />
+                Empowering Lives
               </p>
               <div className="d-flex gap-2">
                 <a

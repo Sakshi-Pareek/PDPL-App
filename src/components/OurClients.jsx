@@ -9,10 +9,16 @@ const OurClients = () => {
         <Container className="py-lg-5 pb-5 text-lg-start text-center">
           <Row className="justify-content-center align-items-center flex-column-reverse flex-lg-row">
             <Col lg={7}>
-              <h2 className="fw-bold fs_2xl letter_spacing mb-3 text-white lh-sm">
+              <h2
+                className="fw-bold fs_2xl letter_spacing mb-3 text-white lh-sm"
+                data-aos="fade-right"
+              >
                 We Provide The Best Service To Our Clients And The Vendors
               </h2>
-              <p className="fs_6sm letter_spacing fw-normal lh-base text-white ff_roboto mb-3">
+              <p
+                className="fs_6sm letter_spacing fw-normal lh-base text-white ff_roboto mb-3"
+                data-aos="fade-right"
+              >
                 With our extensive network and cutting-edge technology, we
                 seamlessly collect, warehouse, and deliver medicines to
                 hospitals and medical stores across India. We have exclusive
@@ -24,9 +30,11 @@ const OurClients = () => {
                 pharmaceutical companies, ensuring access to high-quality
                 products for healthcare institutions.
               </p>
-              <button className="learn_btn fw-medium fs_md rounded-5 cursor_pointer transition bg-white py-2 px-4">
-                Learn More
-              </button>
+              <div  data-aos="fade-right">
+                <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
+                  Learn More
+                </button>
+              </div>
             </Col>
             <Col lg={5}>
               <img src={Clients} alt="Clients" className="w-100" />

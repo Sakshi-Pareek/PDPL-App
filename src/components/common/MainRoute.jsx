@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes,Navigate } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import Homepage from "../view/Homepage";
 import About from "../view/About";
 import Partner from "../view/Partner";
@@ -7,6 +7,7 @@ import Career from "../view/Career";
 import Contact from "../view/Contact";
 
 const MainRoute = () => {
+  // =======================aos============================
   return (
     <Routes>
       <Route path="/" element={<Homepage />} />

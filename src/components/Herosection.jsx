@@ -8,7 +8,7 @@ export const Herosection = () => {
     dots: true,
     arrows: false,
     infinite: true,
-    speed: 300,
+    speed: 400,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -22,10 +22,16 @@ export const Herosection = () => {
             <Container className="py-5 position-relative z-1">
               <Row className="text-md-start text-center">
                 <Col lg={8} className="py-5">
-                  <h1 className="fw-bold text-white fs_xxl">
+                  <h1
+                    className="fw-bold text-white fs_xxl"
+                    data-aos="fade-right"
+                  >
                     Delivering Health, Empowering Lives
                   </h1>
-                  <p className="fw-normal text-white fs_md py-2 mb-4">
+                  <p
+                    className="fw-normal text-white fs_md py-2 mb-4"
+                    data-aos="fade-right"
+                  >
                     We deliver healthcare and empower lives through our
                     experienced team and digital platforms. Our services include
                     Pharma distribution, temperature-controlled storage, global
@@ -34,9 +40,11 @@ export const Herosection = () => {
                     trusted provider in India, making a positive impact on
                     healthcare.
                   </p>
-                  <button className="learn_btn fw-medium fs_md rounded-5 cursor_pointer transition bg-white py-2 px-4">
-                    Learn More
-                  </button>
+                  <div data-aos="fade-right ">
+                    <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
+                      Learn More
+                    </button>
+                  </div>
                 </Col>
               </Row>
             </Container>
@@ -46,10 +54,16 @@ export const Herosection = () => {
             <Container className="py-5 position-relative z-1">
               <Row className="text-md-start text-center">
                 <Col lg={8} className="py-5">
-                  <h1 className="fw-bold text-white fs_xxl">
+                  <h1
+                    className="fw-bold text-white fs_xxl"
+                    data-aos="fade-right "
+                  >
                     Partnering for Better Healthcare Access
                   </h1>
-                  <p className="fw-normal text-white fs_md py-2 mb-4">
+                  <p
+                    className="fw-normal text-white fs_md py-2 mb-4"
+                    data-aos="fade-right "
+                  >
                     We deliver healthcare and empower lives through our
                     experienced team and digital platforms. Our services include
                     Pharma distribution, temperature-controlled storage, global
@@ -58,9 +72,11 @@ export const Herosection = () => {
                     trusted provider in India, making a positive impact on
                     healthcare.
                   </p>
-                  <button className="learn_btn fw-medium fs_md rounded-5 cursor_pointer transition bg-white py-2 px-4">
-                    Learn More
-                  </button>
+                  <div data-aos="fade-right ">
+                    <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
+                      Learn More
+                    </button>
+                  </div>
                 </Col>
               </Row>
             </Container>
@@ -70,10 +86,16 @@ export const Herosection = () => {
             <Container className="py-5 position-relative z-1">
               <Row className="text-md-start text-center">
                 <Col lg={8} className="py-5">
-                  <h1 className="fw-bold text-white fs_xxl">
+                  <h1
+                    className="fw-bold text-white fs_xxl"
+                    data-aos="fade-right "
+                  >
                     Quality Products, Trusted Service
                   </h1>
-                  <p className="fw-normal text-white fs_md py-2 mb-4">
+                  <p
+                    className="fw-normal text-white fs_md py-2 mb-4"
+                    data-aos="fade-right "
+                  >
                     We deliver healthcare and empower lives through our
                     experienced team and digital platforms. Our services include
                     Pharma distribution, temperature-controlled storage, global
@@ -82,9 +104,11 @@ export const Herosection = () => {
                     trusted provider in India, making a positive impact on
                     healthcare.
                   </p>
-                  <button className="learn_btn fw-medium fs_md rounded-5 cursor_pointer transition bg-white py-2 px-4">
-                    Learn More
-                  </button>
+                  <div data-aos="fade-right">
+                    <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
+                      Learn More
+                    </button>
+                  </div>
                 </Col>
               </Row>
             </Container>
@@ -94,10 +118,16 @@ export const Herosection = () => {
             <Container className="py-5 position-relative z-1">
               <Row className="text-md-start text-center">
                 <Col lg={8} className="py-5">
-                  <h1 className="fw-bold text-white fs_xxl">
+                  <h1
+                    className="fw-bold text-white fs_xxl"
+                    data-aos="fade-right "
+                  >
                     Health Solutions, Seamless Delivery
                   </h1>
-                  <p className="fw-normal text-white fs_md py-2 mb-4">
+                  <p
+                    className="fw-normal text-white fs_md py-2 mb-4"
+                    data-aos="fade-right "
+                  >
                     We deliver healthcare and empower lives through our
                     experienced team and digital platforms. Our services include
                     Pharma distribution, temperature-controlled storage, global
@@ -106,9 +136,11 @@ export const Herosection = () => {
                     trusted provider in India, making a positive impact on
                     healthcare.
                   </p>
-                  <button className="learn_btn fw-medium fs_md rounded-5 cursor_pointer transition bg-white py-2 px-4">
-                    Learn More
-                  </button>
+                  <div data-aos="fade-right ">
+                    <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
+                      Learn More
+                    </button>
+                  </div>
                 </Col>
               </Row>
             </Container>
