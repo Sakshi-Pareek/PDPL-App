@@ -320,7 +320,6 @@
 .cardbackside {
   transform: rotateY(180deg);
   background-color: rgb(197, 229, 253);
-
 }
 /* =======================================ourPresence===================================== */
 .bg_ourpresence {
@@ -359,7 +358,9 @@
 .glass:hover {
   animation: tilt linear 2s infinite;
 }
-
+.partner_ani:hover > img {
+  transform: scale(1.1);
+}
 @keyframes tilt {
   0%,
   100% {
@@ -368,6 +369,9 @@
   50% {
     transform: skewY(-2deg);
   }
+}
+.glass_effect:hover {
+  transform: translateY(-12px);
 }
 .glass_effect::before {
   content: "";
@@ -496,4 +500,3 @@
     height: 600px;
   }
 }
-

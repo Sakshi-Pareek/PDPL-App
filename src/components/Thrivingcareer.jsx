@@ -1,0 +1,41 @@
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import CareerHero from "../components/assets/images/svg/career_hero_img.svg";
+import CommonBtn from "./common/CommonBtn";
+const Thrivingcareer = () => {
+  return (
+    <>
+      <div className="bg_gray py-lg-5 pt-4">
+        <Container className="py-5">
+          <Row className="text-lg-start text-center">
+            <Col lg={7}>
+              <h1
+                className="fw-bold text-black fs_xxl lh-1"
+                data-aos="fade-right "
+              >
+                Discover A Flourishing Career At PDPL!
+              </h1>
+              <p
+                className="fw-normal text-black fs_md py-2 mb-4"
+                data-aos="fade-right "
+              >
+                PDPL offers exciting career opportunities for you! Join our
+                dynamic team, committed to innovation, growth, and making a
+                meaningful impact in the community.
+              </p>
+
+              <div data-aos="fade-right ">
+                <CommonBtn btnname="Explore Career Opportunities"></CommonBtn>
+              </div>
+            </Col>
+            <Col lg={5}>
+              <img src={CareerHero} alt="CareerHero" className="w-100" />
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    </>
+  );
+};
+
+export default Thrivingcareer;

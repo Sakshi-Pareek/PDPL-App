@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import SpecialPartner from "../components/assets/images/png/specialpartner.png";
+import CommonBtn from "./common/CommonBtn";
 
 const SpecialPaetner = () => {
   return (
@@ -24,12 +25,21 @@ const SpecialPaetner = () => {
                 of high-quality medical products and guarantees reliable access
                 to essential medications for better healthcare outcomes.
               </p>
+              <a
+                href="https://plusdistributions.in/Assets/partners.pdf"
+                target="_blank"
+                rel="noreferrer"
+                data-aos="fade-right"
+              >
+                {" "}
+                <CommonBtn btnname="Learn More"></CommonBtn>
+              </a>
             </Col>
             <Col lg={5} xs={10}>
               <img
                 src={SpecialPartner}
                 alt="SpecialPartner"
-                className="w-100 p-5"
+                className="w-100 p-sm-5 pt-5 p-0"
               />
             </Col>
           </Row>

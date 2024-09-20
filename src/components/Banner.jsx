@@ -20,7 +20,7 @@ const Banner = () => {
         {cardData.map((card, index) => (
           <div key={index} className="w-100">
             <div
-              className={`text-center text-white px-4 py-xl-4 py-3 h-100 d-flex align-items-center justify-content-center text-center cursor_pointer bg_sky glass_effect position-relative overflow-hidden w-100`}
+              className={`text-center text-white px-4 py-xl-4 py-3 h-100 d-flex align-items-center justify-content-center text-center cursor_pointer bg_sky glass_effect transition position-relative overflow-hidden w-100`}
               style={{
                 boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
               }}

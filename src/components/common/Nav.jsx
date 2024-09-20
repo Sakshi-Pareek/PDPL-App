@@ -12,7 +12,7 @@ const Nav = () => {
     document.body.classList.remove("overflow-hidden");
   }
   return (
-    <div className="bg-white shadow-lg">
+    <div className="bg-white shadow">
       <Container>
         <nav className="d-flex align-items-center justify-content-between py-1">
           <div>

@@ -58,9 +58,9 @@ const Wearebest = () => {
                 key={index}
                 data-aos="fade-up"
               >
-                <div class="flip-card bg-transparent">
-                  <div class="flip-card-inner position-relative w-100 h-100 text-center">
-                    <div class="cardfrontside position-absolute w-100 h-100">
+                <div className="flip-card bg-transparent">
+                  <div className="flip-card-inner position-relative w-100 h-100 text-center">
+                    <div className="cardfrontside position-absolute w-100 h-100">
                       <div className="bg-white rounded-4 shadow cursor_pointer d-flex flex-column gap-2 h-100 transition p-4">
                         <img
                           src={a.image}
@@ -77,7 +77,7 @@ const Wearebest = () => {
                         </p>
                       </div>
                     </div>
-                    <div class="cardbackside position-absolute w-100 h-100 bg_gray cursor_pointer rounded-4 shadow p-4 d-flex justify-content-center align-items-center">
+                    <div className="cardbackside position-absolute w-100 h-100 bg_gray cursor_pointer rounded-4 shadow p-4 d-flex justify-content-center align-items-center">
                       <h2 className="fs_8sm text-center text-black ff_roboto">
                         {" "}
                         {a.rotate}
