@@ -6,7 +6,7 @@ import Location from "../components/assets/images/svg/location.svg";
 const OurPresence = () => {
   return (
     <>
-      <div className="py-lg-5 py-4 bg_ourpresence">
+      <div className="py-lg-5 py-4 bg_gray">
         <Container className="py-4">
           <h2
             className="fw-bold fs_8xl mx-auto letter_spacing mb-3 text-center"

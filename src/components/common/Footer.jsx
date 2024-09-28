@@ -56,7 +56,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/partener" className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition">
+                  <Link to="/partner" className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition">
                     Partners
                   </Link>
                 </li>

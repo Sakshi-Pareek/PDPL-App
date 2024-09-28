@@ -230,9 +230,11 @@
 }
 /* ===========================================NavBar-Section=================================== */
 .nav_link:hover,
-.nav_link:active {
-  color: rgb(29, 121, 187) !important;
+.nav_link:active,
+.under_line.hover .nav_link {
+  color: rgb(29, 121, 187) !important; /* Apply hover-like effect on click */
 }
+
 .under_line::after {
   position: absolute;
   content: "";
@@ -241,21 +243,45 @@
   left: 0;
   right: 0;
   width: 0;
+  height: 2px;
   border-radius: 3px;
   background-color: rgb(29, 121, 187);
-  transition: all 0.3s linear;
+  transition: width 0.3s linear;
 }
-.under_line::after {
-  height: 2px;
+
+/* Hover and Active underline effect */
+.under_line:hover::after,
+.under_line.hover::after {
+  width: 100%; /* Full width underline for active or hovered items */
 }
-.under_line:hover::after {
-  width: 100%;
-}
+
+/* Mobile menu toggle icon */
 .crl_1,
 .crl_2,
 .crl_3 {
   background-color: rgb(29, 121, 187);
+  width: 30px;
+  height: 3px;
 }
+
+/* Transition for mobile menu lines to create a cross effect */
+.cross .crl_1 {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.cross .crl_2 {
+  opacity: 0;
+}
+
+.cross .crl_3 {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Transition animations */
+.navline span {
+  transition: all 0.3s ease;
+}
+
 /* ---------------------------------------------Home-Page------------------------------------ */
 /* ===========================================Hero-Section=================================== */
 .herobg1,
@@ -601,7 +627,7 @@
     background-position: left;
     background-size: cover;
   }
-  .mt_neg_50{
+  .mt_neg_50 {
     margin-top: 48px;
   }
 }
