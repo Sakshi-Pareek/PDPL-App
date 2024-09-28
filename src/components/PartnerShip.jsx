@@ -8,13 +8,13 @@ import Accessibility from "../components/assets/images/svg/access.svg";
 export const PartnerShip = () => {
   return (
     <>
-      <Container className="py-5">
+      <Container className="py-5 mt-lg-4">
         <Row className="d-flex justify-content-md-between justify-content-center">
           <h2
             className="fw-bold fs_8xl mx-auto letter_spacing mb-3 text-center"
             data-aos="fade-down"
           >
-            Parntership
+            Partnership
           </h2>
           <p
             className="fs_md letter_spacing fw-normal lh-base text-black ff_roboto mb-5 text-center"

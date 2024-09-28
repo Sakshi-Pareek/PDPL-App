@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import CommonBtn from "./common/CommonBtn";
 import CountUp from "react-countup"; // Import the CountUp component
 import { useInView } from "react-intersection-observer"; // Import the useInView hook
+import { Link } from "react-router-dom";
 
 const PartnerWithus = () => {
   const [hasAnimated, setHasAnimated] = useState(false); // Track if animation has started
@@ -21,7 +22,7 @@ const PartnerWithus = () => {
       para: "Hospital Customers",
     },
     {
-      heading: 7446,
+      heading: 450,
       para: "Employees",
     },
   ];
@@ -59,7 +60,7 @@ const PartnerWithus = () => {
                   ) : (
                     0
                   )}
-                  + {/* Animated count with + */}
+                  +
                 </h3>
                 <p className=" fs_6md text_sky fw-semibold text-center lh-sn letter_spacing ff_roboto mb-0">
                   {a.para}
@@ -68,9 +69,9 @@ const PartnerWithus = () => {
             </Col>
           ))}
         </Row>
-        <div data-aos="fade-up">
+        <Link to="/contact" data-aos="fade-up">
           <CommonBtn btnname="Contact Us"></CommonBtn>
-        </div>
+        </Link>
       </Container>
     </>
   );

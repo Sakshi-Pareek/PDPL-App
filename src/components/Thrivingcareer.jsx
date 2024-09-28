@@ -5,7 +5,7 @@ import CommonBtn from "./common/CommonBtn";
 const Thrivingcareer = () => {
   return (
     <>
-      <div className="bg_gray py-lg-5 pt-4">
+      <div className="bg_gray py-lg-5 pt-4" >
         <Container className="py-5">
           <Row className="text-lg-start text-center">
             <Col lg={7}>
@@ -13,7 +13,7 @@ const Thrivingcareer = () => {
                 className="fw-bold text-black fs_xxl lh-1"
                 data-aos="fade-right "
               >
-                Discover A Flourishing Career At PDPL!
+                Discover a Flourishing Career at PDPL!
               </h1>
               <p
                 className="fw-normal text-black fs_md py-2 mb-4"
@@ -24,12 +24,12 @@ const Thrivingcareer = () => {
                 meaningful impact in the community.
               </p>
 
-              <div data-aos="fade-right ">
+              <a href="#hire" data-aos="fade-right ">
                 <CommonBtn btnname="Explore Career Opportunities"></CommonBtn>
-              </div>
+              </a>
             </Col>
             <Col lg={5}>
-              <img src={CareerHero} alt="CareerHero" className="w-100" />
+              <img src={CareerHero} alt="CareerHero" className="w-100 updown_ani" />
             </Col>
           </Row>
         </Container>

@@ -7,6 +7,7 @@ import LocationIcon from "../assets/images/svg/location_icon.svg";
 import FbIcon from "../assets/images/svg/fbicon.svg";
 import InstaIcon from "../assets/images/svg/instaicon.svg";
 import WhatsappIcon from "../assets/images/svg/whatsappicon.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const [year, setYear] = useState(new Date().getFullYear());
@@ -77,40 +78,40 @@ const Footer = () => {
                   Our Company
                 </li>
                 <li>
-                  <a
-                    href=""
+                  <Link
+                    to="/"
                     className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href=""
+                  <Link
+                    to="/about"
                     className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
                   >
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href=""
+                  <Link
+                    to="/partener"
                     className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
                   >
-                    Partner
-                  </a>
+                    Partners
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href=""
+                  <Link
+                    to="/career"
                     className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
                   >
-                    Careers
-                  </a>
+                    Career
+                  </Link>
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="#"
                     className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition text-nowrap"
                   >
                     Terms and Conditions
@@ -130,7 +131,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="#"
                     className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
                   >
                     Security
@@ -138,7 +139,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="#"
                     className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
                   >
                     Privacy
@@ -146,7 +147,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="#"
                     className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
                   >
                     Sustainability
@@ -154,7 +155,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href=""
+                    href="#"
                     className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
                   >
                     News

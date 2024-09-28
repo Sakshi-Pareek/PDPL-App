@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 export const Herosection = () => {
@@ -15,7 +16,7 @@ export const Herosection = () => {
   };
   return (
     <>
-      <div>
+      <div id="Home">
         <Slider ref={slider} {...settings}>
           <div className="herobg1 position-relative d-flex justify-content-center align-items-center">
             <div className="hero_section_layer position-absolute h-100 w-100"></div>
@@ -41,9 +42,14 @@ export const Herosection = () => {
                     healthcare.
                   </p>
                   <div data-aos="fade-right ">
-                    <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
-                      Learn More
-                    </button>
+                    <Link
+                      to="/about"
+                      className="fs_md text-black nav_link transition"
+                    >
+                      <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
+                        Learn More
+                      </button>
+                    </Link>
                   </div>
                 </Col>
               </Row>
@@ -73,9 +79,14 @@ export const Herosection = () => {
                     healthcare.
                   </p>
                   <div data-aos="fade-right ">
-                    <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
-                      Learn More
-                    </button>
+                    <Link
+                      to="/about"
+                      className="fs_md text-black nav_link transition"
+                    >
+                      <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
+                        Learn More
+                      </button>
+                    </Link>
                   </div>
                 </Col>
               </Row>
@@ -104,10 +115,15 @@ export const Herosection = () => {
                     trusted provider in India, making a positive impact on
                     healthcare.
                   </p>
-                  <div data-aos="fade-right">
-                    <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
-                      Learn More
-                    </button>
+                  <div data-aos="fade-right ">
+                    <Link
+                      to="/about"
+                      className="fs_md text-black nav_link transition"
+                    >
+                      <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
+                        Learn More
+                      </button>
+                    </Link>
                   </div>
                 </Col>
               </Row>

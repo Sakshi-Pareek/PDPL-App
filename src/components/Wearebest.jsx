@@ -16,21 +16,21 @@ const Wearebest = () => {
     },
     {
       image: Business2,
-      heading: "10+",
+      heading: "4+",
       para: "Cold Storage Management System",
       rotate:
         "Cold storage in pharmaceuticals preserves the quality and efficacy of temperature-sensitive products by maintaining strict temperature control throughout the supply chain",
     },
     {
       image: Business3,
-      heading: "10+",
+      heading: "14+",
       para: "Supply Chain & Distribution",
       rotate:
         "We invest in technology at all of our distribution warehouses to enhance fulfilment rates, reliability and product availability",
     },
     {
       image: Business4,
-      heading: "10+",
+      heading: "21+",
       para: "Retail Pharmacies",
       rotate:
         "Customers can arrange for returns and claims settlements through our Entero Direct (ED) Application",

@@ -95,6 +95,40 @@
   background: rgb(29, 121, 187);
   border-radius: 10px;
 }
+/* ====================================================back-to-top===================================== */
+.back_to_top {
+  height: 40px;
+  width: 40px;
+  box-shadow: 2px 5px 7px rgb(29, 121, 187);
+  z-index: 20;
+  border-radius: 50%;
+  position: fixed;
+  border: 1px solid white;
+  bottom: 2%;
+  right: 1%;
+  animation: moves 1s alternate infinite;
+}
+.updown_ani {
+  animation: updowm 2s ease-in-out infinite;
+}
+@keyframes moves {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+@keyframes updowm {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
 /* ===============================================Root=========================================== */
 :root {
   --fs-6sm: 16px;
@@ -146,7 +180,7 @@
   font-family: "Roboto", sans-serif !important;
 }
 .bg_sky {
-  background: rgb(29, 121, 187);
+  background: #1d79bb;
 }
 .text_sky {
   color: rgb(29, 121, 187);
@@ -195,7 +229,8 @@
   letter-spacing: 0.03em;
 }
 /* ===========================================NavBar-Section=================================== */
-.nav_link:hover {
+.nav_link:hover,
+.nav_link:active {
   color: rgb(29, 121, 187) !important;
 }
 .under_line::after {
@@ -227,11 +262,13 @@
 .herobg2,
 .herobg3,
 .herobg4 {
-  background-image: url(./components/assets/images//video/Hero1Gff.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 85vh;
+}
+.herobg1 {
+  background-image: url(./components/assets/images//video/Hero1Gff.gif);
 }
 .herobg2 {
   background-image: url(./components/assets/images//video/Hero2Gff.gif);
@@ -328,6 +365,18 @@
 .max_w_500 {
   max-width: 500px;
 }
+/* ========================================Client-Reviews================================= */
+.custom_dots .slick-slider .slick-dots {
+  bottom: -20px !important;
+}
+.custom_dots .slick-slider .slick-dots li {
+  width: 8px !important;
+}
+.custom_dots .slick-slider .slick-dots li.slick-active button:before {
+  width: 8px !important;
+  background-color: rgb(29, 121, 187) !important;
+  opacity: 1 !important;
+}
 /* =======================================Footer============================================ */
 .bg_footer {
   background-image: url(./components/assets/images/svg/footer_bg.svg);
@@ -345,15 +394,29 @@
 }
 .gray_layer {
   backdrop-filter: blur(30px);
-  opacity: 0.7;
+  opacity: 0.8;
   background: rgb(245, 245, 245);
 }
+.bg_abouthero {
+  background-image: url(../src/components/assets/images/png/about-banner.jpg);
+}
+.hover-card:hover {
+  transform: scale(1.01);
+  border: 1px solid #1d79bb;
+  box-shadow: 2px 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+.mt_neg_50 {
+  margin-top: -50px;
+}
 /* ---------------------------------------------Partner-Page------------------------------------ */
-.bg_ourpartner {
-  background-image: url(./components/assets/images/png/wareHouseimg.jpg);
+.bg_ourpartner,
+.bg_abouthero {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+.bg_ourpartner {
+  background-image: url(./components/assets/images/png/wareHouseimg.jpg);
 }
 .glass:hover {
   animation: tilt linear 2s infinite;
@@ -411,6 +474,80 @@
   top: 10px;
   content: "";
 }
+/* ===============================================Accordian=============================== */
+.accordion {
+  --bs-accordion-border-color: unset !important;
+  --bs-accordion-inner-border-radius: 0px !important;
+  --bs-accordion-btn-focus-box-shadow: unset !important;
+  --bs-accordion-active-color: unset !important;
+  --bs-accordion-active-bg: none !important;
+}
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+  font-size: var(--fs-4md) !important;
+  color: #000000 !important;
+}
+.custom-accordion-item {
+  border: none;
+}
+.custom-accordion-item {
+  border: 2px solid transparent !important; /* Custom color for the border */
+  border-bottom: 4px solid transparent !important; /* Custom color for the border */
+  box-shadow: 0px 4px 32px 0px #00000014 !important; /* Soft shadow */
+  border-radius: 8px !important;
+}
+.custom-accordion-item.active {
+  border-radius: 8px !important;
+  border: 2px solid rgb(29, 121, 187) !important; /* Custom color for the border */
+  border-bottom: 4px solid rgb(29, 121, 187) !important; /* Custom color for the border */
+  box-shadow: 0px 4px 32px 0px #00000014 !important; /* Soft shadow */
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #f9f9fc; /* Light background when active */
+  font-weight: normal;
+}
+
+.accordion-button {
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+.accordion-button:focus {
+  box-shadow: none; /* Remove default Bootstrap focus shadow */
+}
+
+.accordion-body {
+  padding: 16px;
+}
+/* ====================================contact-us================================ */
+.contact_bg {
+  background-image: url(../src/components/assets/images/png/top-contact-us-banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 300px;
+}
+.contact_input {
+  border: 2px solid #025066;
+  background: white;
+  border-radius: 8px;
+  padding: 14px;
+  width: 100%;
+  color: #000000 !important;
+  font-size: 14px !important;
+  line-height: 142.857% !important;
+  outline: none !important;
+  font-weight: 500 !important;
+  resize: none !important;
+}
+.mb_neg_7 {
+  margin-bottom: -7px;
+}
+
 /* ===============================================media-quaries=============================== */
 @media (max-width: 1366px) {
 }
@@ -458,11 +595,17 @@
   .herobg1,
   .herobg2,
   .herobg3,
-  .herobg4 {
+  .herobg4,
+  .bg_ourpartner,
+  .bg_abouthero {
     background-position: left;
     background-size: cover;
   }
+  .mt_neg_50{
+    margin-top: 48px;
+  }
 }
+
 @media (max-width: 820px) {
 }
 @media (max-width: 768px) {

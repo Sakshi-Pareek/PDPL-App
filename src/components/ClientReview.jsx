@@ -1,11 +1,11 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
-import Profile from "./assets/images/png/profile.png";
+import Profile from "./assets/images/svg/profile.svg";
 
 const ClientReview = () => {
-  var settings = {
-    dots: false,
+  const settings = {
+    dots: true,
     arrows: false,
     infinite: true,
     speed: 500,
@@ -13,7 +13,7 @@ const ClientReview = () => {
     slidesToScroll: 1,
     centerMode: true,
     centerPadding: "0",
-    autoplay: true,
+    // autoplay: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -47,7 +47,7 @@ const ClientReview = () => {
           >
             What They Say About Us
           </h2>
-          <div data-aos="zoom-in">
+          <div data-aos="zoom-in" className="custom_dots">
             <Slider {...settings}>
               <div className="px-1">
                 <div className="rounded-4 p-3 hover_active cursor_pointer bg-white">

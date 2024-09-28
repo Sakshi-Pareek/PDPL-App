@@ -32,7 +32,7 @@ const SpecialPaetner = () => {
                 data-aos="fade-right"
               >
                 {" "}
-                <CommonBtn btnname="Learn More"></CommonBtn>
+                <CommonBtn btnname="Product List"></CommonBtn>
               </a>
             </Col>
             <Col lg={5} xs={10}>

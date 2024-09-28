@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Clients from "./assets/images/svg/our_clients.svg";
+import { Link } from "react-router-dom";
 
 const OurClients = () => {
   return (
@@ -30,14 +31,19 @@ const OurClients = () => {
                 pharmaceutical companies, ensuring access to high-quality
                 products for healthcare institutions.
               </p>
-              <div  data-aos="fade-right">
-                <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
-                  Learn More
-                </button>
+              <div data-aos="fade-right">
+                <Link
+                  to="/about"
+                  className="fs_md text-black nav_link transition"
+                >
+                  <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
+                    Learn More
+                  </button>
+                </Link>
               </div>
             </Col>
             <Col lg={5}>
-              <img src={Clients} alt="Clients" className="w-100" />
+              <img src={Clients} alt="Clients" className="w-100 updown_ani" />
             </Col>
           </Row>
         </Container>

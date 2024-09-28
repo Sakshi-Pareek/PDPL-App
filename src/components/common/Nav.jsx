@@ -12,9 +12,9 @@ const Nav = () => {
     document.body.classList.remove("overflow-hidden");
   }
   return (
-    <div className="bg-white shadow">
+    <div className="bg-white shadow position-sticky top-0 z_4">
       <Container>
-        <nav className="d-flex align-items-center justify-content-between py-1">
+        <nav className="d-flex align-items-center justify-content-between py-1 ">
           <div>
             <a href="/" className="text-black d-flex align-items-center">
               <img src={WebLogo} alt="WebLogo" className="w-100 max_w_80" />
@@ -36,7 +36,7 @@ const Nav = () => {
             </li>
             <li
               onClick={() => setShow(true)}
-              className="under_line position-relative"
+              className="under_line position-relative d-md-ta"
             >
               <Link
                 to="/about"
@@ -77,7 +77,7 @@ const Nav = () => {
             onClick={() => setShow(!show)}
             className={`${
               show ? "" : "cross transition"
-            } navline d-xl-none d-flex bg-transparent flex-column gap-2 justify-content-center align-items-center position-relative px-xl-0 px-4 top-0 z_4`}
+            } navline cursor_pointer d-xl-none d-flex bg-transparent flex-column gap-2 justify-content-center align-items-center position-relative px-xl-0 px-4 top-0 z_4`}
           >
             <span className="crl_1 bg_blue transition rounded"></span>
             <span className="crl_2 bg_blue transition rounded"></span>
