@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
 import Nav from "../common/Nav";
 import { Herosection } from "../Herosection";
 import Footer from "../common/Footer";
@@ -12,6 +14,11 @@ import ClientReview from "../ClientReview";
 import Banner from "../Banner";
 
 const Homepage = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <>
       <Nav />

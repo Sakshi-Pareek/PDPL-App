@@ -2,6 +2,7 @@
   "name": "pdpl_app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/ady",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@material-tailwind/react": "^2.1.10",
