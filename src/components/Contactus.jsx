@@ -6,10 +6,7 @@ import CommonBtn from "./common/CommonBtn";
 import linkedIn from "../components/assets/images/svg/linkedin_logo.svg";
 
 const Contactus = () => {
-  // State to manage form submission status
   const [isSubmitted, setIsSubmitted] = useState(false);
-
-  // Validation schema using Yup
   const validationSchema = Yup.object({
     user_name: Yup.string()
       .min(2, "Name must be at least 2 characters")
@@ -24,8 +21,6 @@ const Contactus = () => {
       .min(10, "Message must be at least 10 characters")
       .required("Message is required"),
   });
-
-  // Formik hook for form state and validation
   const formik = useFormik({
     initialValues: {
       user_name: "",
@@ -36,11 +31,7 @@ const Contactus = () => {
     validationSchema,
     onSubmit: (values, { resetForm }) => {
       console.log("Form Submitted:", values);
-
-      // Set submitted state to true
       setIsSubmitted(true);
-
-      // Reset the form after submission
       resetForm();
     },
   });
@@ -135,7 +126,7 @@ const Contactus = () => {
                 type="text"
                 name="user_name"
                 placeholder="Your Name"
-                className="contact_input"
+                className="contact_input w-100 bg-white text-black lh-1 fw-medium rounded-2"
                 value={formik.values.user_name}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
@@ -148,7 +139,7 @@ const Contactus = () => {
                 type="tel"
                 name="user_contact"
                 placeholder="Phone Number"
-                className="contact_input"
+                className="contact_input w-100 bg-white text-black lh-1 fw-medium rounded-2"
                 value={formik.values.user_contact}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
@@ -161,7 +152,7 @@ const Contactus = () => {
                 type="email"
                 name="user_mail"
                 placeholder="E-Mail"
-                className="contact_input"
+                className="contact_input w-100 bg-white text-black lh-1 fw-medium rounded-2"
                 value={formik.values.user_mail}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
@@ -174,7 +165,7 @@ const Contactus = () => {
                 name="message"
                 rows={5}
                 placeholder="Message"
-                className="contact_input"
+                className="contact_input w-100 bg-white text-black lh-1 fw-medium rounded-2"
                 value={formik.values.message}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}

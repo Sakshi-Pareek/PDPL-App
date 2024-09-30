@@ -7,15 +7,11 @@ const MeetLeaders = () => {
   const slider1 = useRef(null);
   const slider2 = useRef(null);
 
-  // Data for leader names and designations
   const leaders = [
-    { name: "John Doe", designation: "CEO" },
-    { name: "Jane Smith", designation: "CTO" },
-    { name: "Michael Johnson", designation: "CFO" },
-    { name: "Emily Davis", designation: "CMO" },
-    { name: "William Brown", designation: "COO" },
-    { name: "Olivia Wilson", designation: "VP of Sales" },
-    { name: "James Taylor", designation: "VP of Marketing" },
+    { name: "Anil Kumar", designation: "Managing Director" },
+    { name: "Ashwani Kumar Bhatia", designation: "Managing Director" },
+    { name: "Himanshu Chawla", designation: "Chief Procurement Officer" },
+    { name: "Raghav Bhatia", designation: "Chief Operating Officer" },
   ];
 
   const settings1 = {

@@ -9,16 +9,14 @@ import Contact from "../view/Contact";
 const MainRoute = () => {
   // =======================aos============================
   return (
-    <div clasName="overflow-hidden">
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="about" element={<About />} />
-        <Route path="partner" element={<Partner />} />
-        <Route path="career" element={<Career />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="*" element={<Navigate to="/" />} />
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" element={<Homepage />} />
+      <Route path="about" element={<About />} />
+      <Route path="partner" element={<Partner />} />
+      <Route path="career" element={<Career />} />
+      <Route path="contact" element={<Contact />} />
+      <Route path="*" element={<Navigate to="/" />} />
+    </Routes>
   );
 };
 

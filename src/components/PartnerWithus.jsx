@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import CommonBtn from "./common/CommonBtn";
-import CountUp from "react-countup"; // Import the CountUp component
-import { useInView } from "react-intersection-observer"; // Import the useInView hook
+import CountUp from "react-countup"; 
+import { useInView } from "react-intersection-observer"; 
 import { Link } from "react-router-dom";
 
 const PartnerWithus = () => {
-  const [hasAnimated, setHasAnimated] = useState(false); // Track if animation has started
+  const [hasAnimated, setHasAnimated] = useState(false); 
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.3,
@@ -14,11 +14,11 @@ const PartnerWithus = () => {
 
   const card = [
     {
-      heading: 2562,
+      heading: 350,
       para: "Retail Customers",
     },
     {
-      heading: 3409,
+      heading: 800,
       para: "Hospital Customers",
     },
     {
@@ -27,7 +27,6 @@ const PartnerWithus = () => {
     },
   ];
 
-  // If the section is in view and animation hasn't started, set hasAnimated to true
   if (inView && !hasAnimated) {
     setHasAnimated(true);
   }
@@ -69,7 +68,8 @@ const PartnerWithus = () => {
             </Col>
           ))}
         </Row>
-        <Link to="/contact" data-aos="fade-up">
+        <Link
+         to="/contact" data-aos="fade-up">
           <CommonBtn btnname="Contact Us"></CommonBtn>
         </Link>
       </Container>

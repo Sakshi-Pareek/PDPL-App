@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   padding: 0;
@@ -95,14 +94,13 @@
   background: rgb(29, 121, 187);
   border-radius: 10px;
 }
-/* ====================================================back-to-top===================================== */
+/* ====================================================back-to-top============================= */
 .back_to_top {
   height: 40px;
   width: 40px;
   box-shadow: 2px 5px 7px rgb(29, 121, 187);
   z-index: 20;
   border-radius: 50%;
-  position: fixed;
   border: 1px solid white;
   bottom: 2%;
   right: 1%;
@@ -172,18 +170,18 @@
 .fs_xxl {
   font-size: var(--fs-xxl);
 }
-/* ===========================================Common-classes================================== */
+/* ===========================================Common-classes===================================== */
 .transition {
   transition: all 0.3s linear !important;
-}
-.ff_roboto {
-  font-family: "Roboto", sans-serif !important;
 }
 .bg_sky {
   background: #1d79bb;
 }
 .text_sky {
   color: rgb(29, 121, 187);
+}
+.bg_gray {
+  background: rgb(245, 245, 245);
 }
 .max_w_80 {
   max-width: 150px;
@@ -222,19 +220,14 @@
     box-shadow: 0 0 0 0 white;
   }
 }
-.bg_gray {
-  background: rgb(245, 245, 245);
-}
 .letter_spacing {
   letter-spacing: 0.03em;
 }
 /* ===========================================NavBar-Section=================================== */
 .nav_link:hover,
-.nav_link:active,
 .under_line.hover .nav_link {
-  color: rgb(29, 121, 187) !important; /* Apply hover-like effect on click */
+  color: rgb(29, 121, 187) !important;
 }
-
 .under_line::after {
   position: absolute;
   content: "";
@@ -248,14 +241,10 @@
   background-color: rgb(29, 121, 187);
   transition: width 0.3s linear;
 }
-
-/* Hover and Active underline effect */
 .under_line:hover::after,
 .under_line.hover::after {
-  width: 100%; /* Full width underline for active or hovered items */
+  width: 100%;
 }
-
-/* Mobile menu toggle icon */
 .crl_1,
 .crl_2,
 .crl_3 {
@@ -263,26 +252,16 @@
   width: 30px;
   height: 3px;
 }
-
-/* Transition for mobile menu lines to create a cross effect */
 .cross .crl_1 {
   transform: rotate(45deg) translate(5px, 5px);
 }
-
 .cross .crl_2 {
   opacity: 0;
 }
-
 .cross .crl_3 {
   transform: rotate(-45deg) translate(5px, -5px);
 }
-
-/* Transition animations */
-.navline span {
-  transition: all 0.3s ease;
-}
-
-/* ---------------------------------------------Home-Page------------------------------------ */
+/* ---------------------------------------------HOME-PAGe------------------------------------ */
 /* ===========================================Hero-Section=================================== */
 .herobg1,
 .herobg2,
@@ -414,7 +393,8 @@
 .contact_icon:hover > img {
   transform: scale(1.1);
 }
-/* =======================================About=Hero============================================= */
+/* -----------------------------------------ABOUT-US-------------------------------------------- */
+/* =======================================About-Hero============================================= */
 .max_w_835 {
   max-width: 835px !important;
 }
@@ -434,7 +414,8 @@
 .mt_neg_50 {
   margin-top: -50px;
 }
-/* ---------------------------------------------Partner-Page------------------------------------ */
+/* ---------------------------------------------PARTNER-PAGE------------------------------------ */
+/* ==============================================Partner-Hero=================================== */
 .bg_ourpartner,
 .bg_abouthero {
   background-position: center;
@@ -480,14 +461,12 @@
   animation: zoomInOut 1.5s infinite;
 }
 @keyframes zoomInOut {
-  0% {
+  0%,
+  100% {
     transform: scale(1);
   }
   50% {
     transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
   }
 }
 .list_dots li:before {
@@ -500,7 +479,8 @@
   top: 10px;
   content: "";
 }
-/* ===============================================Accordian=============================== */
+/* -----------------------------------------CAREER--------------------------------------- */
+/* =======================================Accordian====================================== */
 .accordion {
   --bs-accordion-border-color: unset !important;
   --bs-accordion-inner-border-radius: 0px !important;
@@ -509,74 +489,31 @@
   --bs-accordion-active-bg: none !important;
 }
 .accordion-button {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
   font-size: var(--fs-4md) !important;
   color: #000000 !important;
 }
 .custom-accordion-item {
-  border: none;
-}
-.custom-accordion-item {
-  border: 2px solid transparent !important; /* Custom color for the border */
-  border-bottom: 4px solid transparent !important; /* Custom color for the border */
-  box-shadow: 0px 4px 32px 0px #00000014 !important; /* Soft shadow */
+  border: 2px solid transparent !important;
+  border-bottom: 4px solid transparent !important;
+  box-shadow: 0px 4px 32px 0px #00000014 !important;
   border-radius: 8px !important;
 }
 .custom-accordion-item.active {
-  border-radius: 8px !important;
-  border: 2px solid rgb(29, 121, 187) !important; /* Custom color for the border */
-  border-bottom: 4px solid rgb(29, 121, 187) !important; /* Custom color for the border */
-  box-shadow: 0px 4px 32px 0px #00000014 !important; /* Soft shadow */
+  border: 2px solid rgb(29, 121, 187) !important;
+  border-bottom: 4px solid rgb(29, 121, 187) !important;
 }
-
-.accordion-button:not(.collapsed) {
-  background-color: #f9f9fc; /* Light background when active */
-  font-weight: normal;
-}
-
-.accordion-button {
-  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition */
-}
-
-.accordion-button:focus {
-  box-shadow: none; /* Remove default Bootstrap focus shadow */
-}
-
-.accordion-body {
-  padding: 16px;
-}
-/* ====================================contact-us================================ */
-.contact_bg {
-  background-image: url(../src/components/assets/images/png/top-contact-us-banner.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  height: 300px;
-}
+/* -------------------------------------CONTACT-US----------------------------------------- */
 .contact_input {
   border: 2px solid #025066;
-  background: white;
-  border-radius: 8px;
   padding: 14px;
-  width: 100%;
-  color: #000000 !important;
   font-size: 14px !important;
-  line-height: 142.857% !important;
   outline: none !important;
-  font-weight: 500 !important;
   resize: none !important;
 }
 .mb_neg_7 {
   margin-bottom: -7px;
 }
-
-/* ===============================================media-quaries=============================== */
-@media (max-width: 1366px) {
-}
+/* =======================================media-quaries===================================== */
 @media (max-width: 1200px) {
   .nav_bar {
     position: fixed;
@@ -631,9 +568,6 @@
     margin-top: 48px;
   }
 }
-
-@media (max-width: 820px) {
-}
 @media (max-width: 768px) {
   :root {
     --fs-2xl: 38px;
@@ -669,3 +603,4 @@
     height: 600px;
   }
 }
+

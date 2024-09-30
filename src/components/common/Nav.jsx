@@ -6,9 +6,8 @@ import CommonBtn from "./CommonBtn";
 
 const Nav = () => {
   const [show, setShow] = useState(true);
-  const [activeLink, setActiveLink] = useState(""); // Track the active link
+  const [activeLink, setActiveLink] = useState("");
 
-  // Toggling the class for body when mobile menu is open/closed
   if (show === false) {
     document.body.classList.add("overflow-hidden");
   } else {
@@ -16,8 +15,8 @@ const Nav = () => {
   }
 
   const handleNavClick = (path) => {
-    setActiveLink(path); // Set the active link when clicked
-    setShow(true); // Close the menu on mobile when a link is clicked
+    setActiveLink(path);
+    setShow(true);
   };
 
   return (
@@ -31,7 +30,6 @@ const Nav = () => {
             </a>
           </div>
 
-          {/* Navigation Links */}
           <ul
             className={`${
               show ? "left_neg_100" : "start-0"
@@ -40,7 +38,7 @@ const Nav = () => {
             {["Home", "About", "Partner", "Career"].map((item, index) => (
               <li
                 key={index}
-                onClick={() => handleNavClick(`/${item.toLowerCase()}`)} // Set active link on click
+                onClick={() => handleNavClick(`/${item.toLowerCase()}`)}
                 className={`under_line position-relative ${
                   activeLink === `/${item.toLowerCase()}` ? "hover" : ""
                 }`}
@@ -53,8 +51,6 @@ const Nav = () => {
                 </Link>
               </li>
             ))}
-
-            {/* Contact Button */}
             <li onClick={() => handleNavClick("/contact")}>
               <Link to="/contact">
                 <CommonBtn btnname="Contact Us" />
@@ -62,9 +58,8 @@ const Nav = () => {
             </li>
           </ul>
 
-          {/* Mobile Toggle Icon */}
           <div
-            onClick={() => setShow(!show)} // Toggle mobile menu
+            onClick={() => setShow(!show)}
             className={`${
               show ? "" : "cross transition"
             } navline cursor_pointer d-xl-none d-flex bg-transparent flex-column gap-2 justify-content-center align-items-center position-relative px-xl-0 px-4 top-0 z_4`}

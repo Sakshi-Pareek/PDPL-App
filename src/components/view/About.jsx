@@ -17,7 +17,7 @@ const About = () => {
   }, [pathname]);
 
   return (
-    <div>
+    <>
       <Nav />
       <Abouthero />
       <OurPurpose />
@@ -25,7 +25,7 @@ const About = () => {
       <MeetLeaders />
       <Awards />
       <Footer />
-    </div>
+    </>
   );
 };
 

@@ -13,7 +13,7 @@ const ClientReview = () => {
     slidesToScroll: 1,
     centerMode: true,
     centerPadding: "0",
-    // autoplay: true,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 1024,
