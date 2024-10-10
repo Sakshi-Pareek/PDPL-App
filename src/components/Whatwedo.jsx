@@ -21,6 +21,7 @@ const Whatwedo = () => {
               name in pharmaceutical distribution.
             </p>
           </Col>
+          
         </Row>
       </Container>
     </>
