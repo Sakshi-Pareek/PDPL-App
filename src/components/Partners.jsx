@@ -1,37 +1,37 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
-import Client1 from "./assets/images/png/partner1.png";
-import Client2 from "./assets/images/png/partner2.png";
-import Client3 from "./assets/images/png/partner3.png";
-import Client4 from "./assets/images/png/partner4.png";
-import Client5 from "./assets/images/png/partner5.png";
-import Client6 from "./assets/images/png/partner6.png";
-import Client7 from "./assets/images/png/partner7.png";
-import Client8 from "./assets/images/png/partner8.png";
-import Client9 from "./assets/images/png/partner9.png";
-import Client10 from "./assets/images/png/partner10.png";
-import Client11 from "./assets/images/png/partner11.png";
-import Client12 from "./assets/images/png/partner12.png";
-import Client13 from "./assets/images/png/partner13.png";
-import Client14 from "./assets/images/png/partner14.png";
-import Client15 from "./assets/images/png/partner15.png";
-import Client16 from "./assets/images/png/partner16.png";
-import Client17 from "./assets/images/png/partner17.png";
-import Client18 from "./assets/images/png/partner18.png";
-import Client19 from "./assets/images/png/partner19.png";
-import Client20 from "./assets/images/png/partner20.png";
-import Client21 from "./assets/images/png/partner21.png";
-import Client22 from "./assets/images/png/partner22.png";
-import Client23 from "./assets/images/png/partner23.png";
-import Client24 from "./assets/images/png/partner24.png";
-import Client25 from "./assets/images/png/partner25.png";
-import Client26 from "./assets/images/png/partner26.png";
-import Client27 from "./assets/images/png/partner27.png";
-import Client28 from "./assets/images/png/partner28.png";
-import Client29 from "./assets/images/png/partner29.png";
-import Client30 from "./assets/images/png/partner30.png";
-import Client31 from "./assets/images/png/partner31.png";
+import Client1 from "./assets/images/webp/partner1.webp";
+import Client2 from "./assets/images/webp/partner2.webp";
+import Client3 from "./assets/images/webp/partner3.webp";
+import Client4 from "./assets/images/webp/partner4.webp";
+import Client5 from "./assets/images/webp/partner5.webp";
+import Client6 from "./assets/images/webp/partner6.webp";
+import Client7 from "./assets/images/webp/partner7.webp";
+import Client8 from "./assets/images/webp/partner8.webp";
+import Client9 from "./assets/images/webp/partner9.webp";
+import Client10 from "./assets/images/webp/partner10.webp";
+import Client11 from "./assets/images/webp/partner11.webp";
+import Client12 from "./assets/images/webp/partner12.webp";
+import Client13 from "./assets/images/webp/partner13.webp";
+import Client14 from "./assets/images/webp/partner14.webp";
+import Client15 from "./assets/images/webp/partner15.webp";
+import Client16 from "./assets/images/webp/partner16.webp";
+import Client17 from "./assets/images/webp/partner17.webp";
+import Client18 from "./assets/images/webp/partner18.webp";
+import Client19 from "./assets/images/webp/partner19.webp";
+import Client20 from "./assets/images/webp/partner20.webp";
+import Client21 from "./assets/images/webp/partner21.webp";
+import Client22 from "./assets/images/webp/partner22.webp";
+import Client23 from "./assets/images/webp/partner23.webp";
+import Client24 from "./assets/images/webp/partner24.webp";
+import Client25 from "./assets/images/webp/partner25.webp";
+import Client26 from "./assets/images/webp/partner26.webp";
+import Client27 from "./assets/images/webp/partner27.webp";
+import Client28 from "./assets/images/webp/partner28.webp";
+import Client29 from "./assets/images/webp/partner29.webp";
+import Client30 from "./assets/images/webp/partner30.webp";
+import Client31 from "./assets/images/webp/partner31.webp";
 
 const Partners = () => {
   const logos1 = [
@@ -214,7 +214,7 @@ const Partners = () => {
               <div key={index}>
                 <img
                   src={a.image}
-                  alt="cardimg"
+                  alt="Partners Of PDPL"
                   width={190}
                   height={190}
                   className="object-fit-contain p-lg-0 p-1"

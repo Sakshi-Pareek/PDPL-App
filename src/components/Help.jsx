@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import ContactImg from "../components/assets/images/png/contactus.webp";
+import ContactImg from "../components/assets/images/webp/contactus.webp";
 
 const Help = () => {
   return (
@@ -29,7 +29,7 @@ const Help = () => {
             <Col lg={6}>
               <img
                 src={ContactImg}
-                alt="ContactImg"
+                alt="Connect with us"
                 className="w-100 updown_ani"
               />
             </Col>

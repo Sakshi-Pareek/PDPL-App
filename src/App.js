@@ -1,7 +1,6 @@
 import "./App.css";
 import React, { useEffect, useState } from "react";
 import MainRoute from "./components/common/MainRoute";
-import Loader from "./components/common/Loader";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -10,7 +9,7 @@ function App() {
   useEffect(() => {
     Aos.init({
       once: true,
-      duration: 1000,
+      duration: 900,
       easing: "ease-in-out",
     });
     Aos.refresh();
@@ -29,38 +28,8 @@ function App() {
       }
     });
   }, []);
-  // --------------------loader-----------------------------
-  const [loader, setLoader] = useState(true);
 
-  useEffect(() => {
-    const scrollPosition = window.scrollY;
-
-    const fetchData = async () => {
-      try {
-        setLoader(true);
-        document.body.style.overflow = "hidden";
-        await new Promise((resolve) => setTimeout(resolve, 1000));
-
-        setLoader(false);
-        document.body.style.overflow = "auto";
-        window.scrollTo(0, scrollPosition);
-      } catch (error) {
-        console.error("Error fetching the data:", error);
-        setLoader(false);
-        document.body.style.overflow = "auto";
-        window.scrollTo(0, scrollPosition);
-      }
-    };
-
-    fetchData();
-
-    return () => {
-      document.body.style.overflow = "auto";
-      window.scrollTo(0, scrollPosition);
-    };
-  }, []);
-
-  return <>{loader ? <Loader /> : <>
+  return <>
     <MainRoute />
     <div>
       <button className={`${backToTop ? "position-fixed back_to_top updown_ani cursor_pointer d-flex justify-content-center align-items-center  bg_sky" : "d-none"}`} onClick={() => top()}><svg width="16" height="16" fill="#FFFFFF" viewBox="0 0 16 16">
@@ -74,7 +43,7 @@ function App() {
         ></path>
       </svg></button>
     </div></>
-  }</>;
+
 }
 
 export default App;

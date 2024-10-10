@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
-import Award from "../components/assets/images/png/awards.png";
+import Award from "../components/assets/images/webp/awards.webp";
 
 const Awards = () => {
   const awardsData = [
@@ -49,7 +49,7 @@ const Awards = () => {
             <div className="award-card d-flex flex-column align-items-center p-3 h-100">
               <img
                 src={Award}
-                alt="Award"
+                alt="Awards of company"
                 width={80}
                 height={80}
                 className="mx-auto"

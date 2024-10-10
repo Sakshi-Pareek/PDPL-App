@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import SpecialPartner from "../components/assets/images/png/specialpartner.png";
+import SpecialPartner from "../components/assets/images/webp/specialpartner.webp";
 import CommonBtn from "./common/CommonBtn";
 
 const SpecialPaetner = () => {
@@ -38,7 +38,7 @@ const SpecialPaetner = () => {
             <Col lg={5} xs={10}>
               <img
                 src={SpecialPartner}
-                alt="SpecialPartner"
+                alt="SpecialPartner Of Company"
                 className="w-100 p-sm-5 pt-5 p-0"
               />
             </Col>

@@ -10,7 +10,7 @@ const OpenRoles = () => {
   const [activeKey, setActiveKey] = useState(null);
 
   const handleSelect = (key) => {
-    setActiveKey(key === activeKey ? null : key); 
+    setActiveKey(key === activeKey ? null : key);
   };
 
   const accordionData = [
@@ -87,7 +87,7 @@ const OpenRoles = () => {
           >
             <Accordion.Header>
               <img
-                src={item.image} 
+                src={item.image}
                 alt={`${item.title} Icon`}
                 className="me-3"
                 width={45}

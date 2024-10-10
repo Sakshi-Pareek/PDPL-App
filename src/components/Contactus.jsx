@@ -108,7 +108,7 @@ const Contactus = () => {
               >
                 <img
                   src={linkedIn}
-                  alt="linkedIn"
+                  alt="linkedIn Profile"
                   width={30}
                   height={30}
                   className="transition"

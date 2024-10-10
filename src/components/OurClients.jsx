@@ -33,7 +33,7 @@ const OurClients = () => {
               </p>
               <div data-aos="fade-right">
                 <Link
-                  to="/about"
+                  to="/about" aria-label="Navigate to About page"
                   className="fs_md text-black nav_link transition"
                 >
                   <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
@@ -43,7 +43,7 @@ const OurClients = () => {
               </div>
             </Col>
             <Col lg={5}>
-              <img src={Clients} alt="Clients" className="w-100 updown_ani" />
+              <img src={Clients} alt="Company Clients" className="w-100 updown_ani" />
             </Col>
           </Row>
         </Container>

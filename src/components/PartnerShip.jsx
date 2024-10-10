@@ -31,7 +31,7 @@ export const PartnerShip = () => {
             <div className="text-center d-flex flex-column gap-2 cursor_pointer partner_ani">
               <img
                 src={Quality}
-                alt="Quality"
+                alt="Product Quality"
                 width={50}
                 height={50}
                 className="mx-auto transition"
@@ -47,7 +47,7 @@ export const PartnerShip = () => {
             <div className="text-center d-flex flex-column gap-2 cursor_pointer partner_ani">
               <img
                 src={Affordable}
-                alt="Affordable"
+                alt="Affordable Product"
                 width={50}
                 height={50}
                 className="mx-auto transition"
@@ -64,7 +64,7 @@ export const PartnerShip = () => {
               {" "}
               <img
                 src={Friendly}
-                alt="Friendly"
+                alt="Nature Friendly"
                 className="mx-auto transition"
                 width={50}
                 height={50}
@@ -80,7 +80,7 @@ export const PartnerShip = () => {
             <div className="text-center d-flex flex-column gap-2 cursor_pointer partner_ani">
               <img
                 src={Accessibility}
-                alt="Accessibility"
+                alt="Easily Accessibility"
                 width={50}
                 height={50}
                 className="mx-auto transition"

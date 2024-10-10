@@ -90,7 +90,7 @@ const MeetLeaders = () => {
               <div className="d-flex justify-content-center pb-3" key={index}>
                 <img
                   src={Profile}
-                  alt={`customerslide-${index}`}
+                  alt="Customer Profile"
                   className="testimg position-relative z-1 cursor_pointer shadow rounded-circle"
                   width={120}
                   height={120}

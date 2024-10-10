@@ -1,7 +1,5 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 
-// Data for the cards
 const cardData = [
   { text: "PAN India presence" },
   { text: "Advance data analytics capabilities" },

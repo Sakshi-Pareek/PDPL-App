@@ -46,22 +46,22 @@ const Footer = () => {
               <ul className="d-flex flex-column gap-2 mb-0 ps-0">
                 <li className="fw-semibold fs_md text-black ff_roboto">Our Company</li>
                 <li>
-                  <Link to="/" className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition">
+                  <Link to="/" aria-label="Go to the home page" className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition">
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about" className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition">
+                  <Link to="/about"  aria-label="Learn more about us and our company" className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition">
                     About Us
                   </Link>
                 </li>
                 <li>
-                  <Link to="/partner" className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition">
+                  <Link to="/partner" aria-label="Learn more about our partners and partnership opportunities" className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition">
                     Partners
                   </Link>
                 </li>
                 <li>
-                  <Link to="/career" className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition">
+                  <Link to="/career" aria-label="Explore career opportunities with us" className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition">
                     Career
                   </Link>
                 </li>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import EqualOpp from "../components/assets/images/png/equaly_opp.png";
+import EqualOpp from "../components/assets/images/webp/equaly_opp.webp";
 
 const JoinPDPL = () => {
   return (
@@ -9,7 +9,7 @@ const JoinPDPL = () => {
         <Row className="justify-content-center align-items-center gap-lg-0 gap-4">
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
-              <img src={EqualOpp} alt="EqualOpp" className="transition w-100" />
+              <img src={EqualOpp} alt="Equal Opp at PDPL" className="transition w-100" />
             </div>
           </Col>
           <Col lg={6}>
@@ -46,14 +46,14 @@ const JoinPDPL = () => {
           </Col>
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
-              <img src={EqualOpp} alt="EqualOpp" className="transition w-100" />
+              <img src={EqualOpp} alt="Equal Opp at PDPL" className="transition w-100" />
             </div>
           </Col>
         </Row>
         <Row className="justify-content-center align-items-center gap-lg-0 gap-4">
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
-              <img src={EqualOpp} alt="EqualOpp" className="transition w-100" />
+              <img src={EqualOpp} alt="Equal Opp at PDPL" className="transition w-100" />
             </div>
           </Col>
           <Col lg={6}>
@@ -88,14 +88,14 @@ const JoinPDPL = () => {
           </Col>
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
-              <img src={EqualOpp} alt="EqualOpp" className="transition w-100" />
+              <img src={EqualOpp} alt="Equal Opp at PDPL" className="transition w-100" />
             </div>
           </Col>
         </Row>
         <Row className="justify-content-center align-items-center gap-lg-0 gap-4">
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
-              <img src={EqualOpp} alt="EqualOpp" className="transition w-100" />
+              <img src={EqualOpp} alt="Equal Opp at PDPL" className="transition w-100" />
             </div>
           </Col>
           <Col lg={6}>

@@ -23,13 +23,17 @@ const Nav = () => {
     <div className="bg-white shadow position-sticky top-0 z_4">
       <Container>
         <nav className="d-flex align-items-center justify-content-between py-1">
-          {/* Logo */}
           <div>
             <a href="/" className="text-black d-flex align-items-center">
-              <img src={WebLogo} alt="WebLogo" className="w-100 max_w_80" />
+              <img
+                src={WebLogo}
+                alt="WebLogo"
+                className="w-100 max_w_80"
+                width={80}
+                height={80}
+              />
             </a>
           </div>
-
           <ul
             className={`${
               show ? "left_neg_100" : "start-0"
@@ -38,12 +42,14 @@ const Nav = () => {
             {["Home", "About", "Partner", "Career"].map((item, index) => (
               <li
                 key={index}
+                aria-label="Learn more about our company"
                 onClick={() => handleNavClick(`/${item.toLowerCase()}`)}
                 className={`under_line position-relative ${
                   activeLink === `/${item.toLowerCase()}` ? "hover" : ""
                 }`}
               >
                 <Link
+                  aria-label="Learn more about our company"
                   to={`/${item.toLowerCase()}`}
                   className="fs_md text-black nav_link transition"
                 >
@@ -52,7 +58,10 @@ const Nav = () => {
               </li>
             ))}
             <li onClick={() => handleNavClick("/contact")}>
-              <Link to="/contact">
+              <Link
+                to="/contact"
+                aria-label="Contact us for more information or support"
+              >
                 <CommonBtn btnname="Contact Us" />
               </Link>
             </li>

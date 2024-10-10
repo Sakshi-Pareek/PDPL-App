@@ -29,7 +29,7 @@ const Thrivingcareer = () => {
               </a>
             </Col>
             <Col lg={5}>
-              <img src={CareerHero} alt="CareerHero" className="w-100 updown_ani" />
+              <img src={CareerHero} alt="Career at PDPL" className="w-100 updown_ani" />
             </Col>
           </Row>
         </Container>

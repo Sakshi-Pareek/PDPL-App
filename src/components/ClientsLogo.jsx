@@ -1,14 +1,14 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
-import Client1 from "./assets/images/png/client1.png";
-import Client2 from "./assets/images/png/client2.png";
-import Client3 from "./assets/images/png/client3.png";
-import Client4 from "./assets/images/png/client4.png";
-import Client5 from "./assets/images/png/client5.png";
-import Client6 from "./assets/images/png/client6.png";
-import Client7 from "./assets/images/png/client7.png";
-import Client8 from "./assets/images/png/client8.png";
+import Client1 from "./assets/images/webp/client1.webp";
+import Client2 from "./assets/images/webp/client2.webp";
+import Client3 from "./assets/images/webp/client3.webp";
+import Client4 from "./assets/images/webp/client4.webp";
+import Client5 from "./assets/images/webp/client5.webp";
+import Client6 from "./assets/images/webp/client6.webp";
+import Client7 from "./assets/images/webp/client7.webp";
+import Client8 from "./assets/images/webp/client8.webp";
 
 const ClientsLogo = () => {
   const logo = [
@@ -89,7 +89,7 @@ const ClientsLogo = () => {
               <div key={index}>
                 <img
                   src={a.image}
-                  alt="cardimg"
+                  alt="Clients Logo"
                   width={190}
                   height={70}
                   className="object-fit-contain p-lg-0 p-1"

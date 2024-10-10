@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Map from "./assets/images/png/indiamap.jpg";
+import Map from "./assets/images/webp/indiamap.webp";
 import Location from "../components/assets/images/svg/location.svg";
 
 const OurPresence = () => {
@@ -42,7 +42,7 @@ const OurPresence = () => {
             <Col lg={8} md={7} className="d-flex justify-content-center ">
               <img
                 src={Map}
-                alt="Map"
+                alt="Map of india"
                 className="w-100 max_w_500"
                 data-aos="fade-right"
               />
@@ -51,7 +51,7 @@ const OurPresence = () => {
               <h3 className="fs_md text-black ">
                 <img
                   src={Location}
-                  alt="Location"
+                  alt="Location Icon to define Loacton"
                   width={30}
                   height={30}
                   className="animation "

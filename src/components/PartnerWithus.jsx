@@ -68,7 +68,7 @@ const PartnerWithus = () => {
             </Col>
           ))}
         </Row>
-        <Link
+        <Link aria-label="Navigate to Contact page"
          to="/contact" data-aos="fade-up">
           <CommonBtn btnname="Contact Us"></CommonBtn>
         </Link>

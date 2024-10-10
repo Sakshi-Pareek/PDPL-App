@@ -43,7 +43,7 @@ export const Herosection = () => {
                   </p>
                   <div data-aos="fade-right ">
                     <Link
-                      to="/about"
+                      to="/about" aria-label="Navigate to about page"
                       className="fs_md text-black nav_link transition"
                     >
                       <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
@@ -79,8 +79,8 @@ export const Herosection = () => {
                     healthcare.
                   </p>
                   <div data-aos="fade-right ">
-                    <Link
-                      to="/about"
+                    <Link aria-label="Navigate to About page"
+                      to="/about" 
                       className="fs_md text-black nav_link transition"
                     >
                       <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
@@ -116,8 +116,8 @@ export const Herosection = () => {
                     healthcare.
                   </p>
                   <div data-aos="fade-right ">
-                    <Link
-                      to="/about"
+                    <Link 
+                      to="/about" aria-label="Navigate to about page"
                       className="fs_md text-black nav_link transition"
                     >
                       <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">

@@ -37,6 +37,28 @@ const ClientReview = () => {
       },
     ],
   };
+
+  const reviews = [
+    {
+      name: "Brendan Buchholz",
+      role: "Director, Apollo Hospital, Delhi",
+      feedback:
+        "PDPL has been our trusted partner for years, consistently providing quality products. Their wide selection of healthcare products meets diverse patient needs. Their efficient distribution network and prompt service exceed expectations. Highly recommended pharmaceutical distributor.",
+    },
+    {
+      name: "Brendan Buchholz",
+      role: "Director, Apollo Hospital, Delhi",
+      feedback:
+        "PDPL has been our trusted partner for years, consistently providing quality products. Their wide selection of healthcare products meets diverse patient needs. Their efficient distribution network and prompt service exceed expectations. Highly recommended pharmaceutical distributor.",
+    },
+    {
+      name: "Brendan Buchholz",
+      role: "Director, Apollo Hospital, Delhi",
+      feedback:
+        "PDPL has been our trusted partner for years, consistently providing quality products. Their wide selection of healthcare products meets diverse patient needs. Their efficient distribution network and prompt service exceed expectations. Highly recommended pharmaceutical distributor.",
+    },
+  ];
+
   return (
     <>
       <div className="bg_gray py-5">
@@ -49,98 +71,26 @@ const ClientReview = () => {
           </h2>
           <div data-aos="zoom-in" className="custom_dots">
             <Slider {...settings}>
-              <div className="px-1">
-                <div className="rounded-4 p-3 hover_active cursor_pointer bg-white">
-                  <div className="d-flex align-items-center gap-2 mb-3">
-                    <img src={Profile} alt="Profile" height={45} width={45} />
-                    <div>
-                      <h3 className="ff_roboto fs_6sm text-black fw-bold mb-0">
-                        Brendan Buchholz
-                      </h3>
-                      <p className="ff_roboto fs_6sm text-black fw-semibold mb-0">
-                        Director, Appolo Hospital, Delhi
-                      </p>
+              {reviews.map((review, index) => (
+                <div className="px-1" key={index}>
+                  <div className="rounded-4 p-3 hover_active cursor_pointer bg-white h-full flex flex-col justify-between">
+                    <div className="d-flex align-items-center gap-2 mb-3">
+                      <img src={Profile} alt="Clients Profile" height={45} width={45} />
+                      <div>
+                        <h3 className="ff_roboto fs_6sm text-black fw-bold mb-0">
+                          {review.name}
+                        </h3>
+                        <p className="ff_roboto fs_6sm text-black fw-semibold mb-0">
+                          {review.role}
+                        </p>
+                      </div>
                     </div>
+                    <p className="font-normal fs_6sm lh-sm text-black ff_roboto mb-0 flex-grow">
+                      {review.feedback}
+                    </p>
                   </div>
-                  <p className="font-normal fs_6sm lh-sm text-black ff_roboto mb-0">
-                    "PDPL has been our trusted partner for years, consistently
-                    providing quality products. Their wide selection of
-                    healthcare products meets diverse patient needs. Their
-                    efficient distribution network and prompt service exceed
-                    expectations. Highly recommended pharmaceutical
-                    distributor."
-                  </p>
                 </div>
-              </div>
-              <div className="px-1">
-                <div className="rounded-4 p-3 hover_active cursor_pointer bg-white">
-                  <div className="d-flex align-items-center gap-2 mb-3">
-                    <img src={Profile} alt="Profile" height={45} width={45} />
-                    <div>
-                      <h3 className="ff_roboto fs_6sm text-black fw-bold mb-0">
-                        Brendan Buchholz
-                      </h3>
-                      <p className="ff_roboto fs_6sm text-black fw-semibold mb-0">
-                        Director, Appolo Hospital, Delhi
-                      </p>
-                    </div>
-                  </div>
-                  <p className="font-normal fs_6sm lh-sm text-black ff_roboto mb-0">
-                    "PDPL has been our trusted partner for years, consistently
-                    providing quality products. Their wide selection of
-                    healthcare products meets diverse patient needs. Their
-                    efficient distribution network and prompt service exceed
-                    expectations. Highly recommended pharmaceutical
-                    distributor."
-                  </p>
-                </div>
-              </div>
-              <div className="px-1">
-                <div className="rounded-4 p-3 hover_active cursor_pointer bg-white">
-                  <div className="d-flex align-items-center gap-2 mb-3">
-                    <img src={Profile} alt="Profile" height={45} width={45} />
-                    <div>
-                      <h3 className="ff_roboto fs_6sm text-black fw-bold mb-0">
-                        Brendan Buchholz
-                      </h3>
-                      <p className="ff_roboto fs_6sm text-black fw-semibold mb-0">
-                        Director, Appolo Hospital, Delhi
-                      </p>
-                    </div>
-                  </div>
-                  <p className="font-normal fs_6sm lh-sm text-black ff_roboto mb-0">
-                    "PDPL has been our trusted partner for years, consistently
-                    providing quality products. Their wide selection of
-                    healthcare products meets diverse patient needs. Their
-                    efficient distribution network and prompt service exceed
-                    expectations. Highly recommended pharmaceutical
-                    distributor."
-                  </p>
-                </div>
-              </div>
-              <div className="px-1">
-                <div className="rounded-4 p-3 hover_active cursor_pointer bg-white">
-                  <div className="d-flex align-items-center gap-2 mb-3">
-                    <img src={Profile} alt="Profile" height={45} width={45} />
-                    <div>
-                      <h3 className="ff_roboto fs_6sm text-black fw-bold mb-0">
-                        Brendan Buchholz
-                      </h3>
-                      <p className="ff_roboto fs_6sm text-black fw-semibold mb-0">
-                        Director, Appolo Hospital, Delhi
-                      </p>
-                    </div>
-                  </div>
-                  <p className="font-normal fs_6sm lh-sm text-black ff_roboto mb-0">
-                    "PDPL has been our trusted partner for years, consistently
-                    providing quality products. Their wide selection of
-                    healthcare products meets diverse patient needs. Their
-                    efficient distribution network and prompt service exceed
-                    expectations. Highly recommended pharmaceutical
-                    distributor."
-                  </p>
-                </div>
-              </div>
+              ))}
             </Slider>
           </div>
         </Container>
