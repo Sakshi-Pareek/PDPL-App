@@ -57,6 +57,12 @@ const ClientReview = () => {
       feedback:
         "PDPL has been our trusted partner for years, consistently providing quality products. Their wide selection of healthcare products meets diverse patient needs. Their efficient distribution network and prompt service exceed expectations. Highly recommended pharmaceutical distributor.",
     },
+    {
+      name: "Brendan Buchholz",
+      role: "Director, Apollo Hospital, Delhi",
+      feedback:
+        "PDPL has been our trusted partner for years, consistently providing quality products. Their wide selection of healthcare products meets diverse patient needs. Their efficient distribution network and prompt service exceed expectations. Highly recommended pharmaceutical distributor.",
+    },
   ];
 
   return (

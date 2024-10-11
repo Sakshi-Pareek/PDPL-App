@@ -7,11 +7,20 @@ const Whatwedo = () => {
       <Container className="py-4 my-4">
         <Row className="justify-content-center flex-column-reverse flex-lg-row align-items-center gap-lg-0 gap-4">
           <Col lg={6} xs={10}>
-            <img src={Nurse} alt="Nurse" className="w-100 pe-xl-5 pe-lg-4 pe-0 updown_ani" />
+            <img
+              src={Nurse}
+              alt="Nurse"
+              className="w-100 pe-xl-5 pe-lg-4 pe-0 updown_ani"
+            />
           </Col>
           <Col lg={6} className="text-lg-start text-center">
-            <h2 className="fw-bold fs_8xl mb-2"data-aos="fade-left">What We Do</h2>
-            <p className="ff_roboto fw-normal fs_md letter_spacing mb-0 lh-base text-black"data-aos="fade-left">
+            <h2 className="fw-bold fs_8xl mb-2" data-aos="fade-left">
+              What We Do
+            </h2>
+            <p
+              className="ff_roboto fw-normal fs_md letter_spacing mb-0 lh-base text-black"
+              data-aos="fade-left"
+            >
               We are a trusted pharmaceutical distribution provider in India,
               delivering genuine healthcare products, medicines, drugs,
               consumables, implants, masks, PPE kits, and more. Our experienced
@@ -21,7 +30,6 @@ const Whatwedo = () => {
               name in pharmaceutical distribution.
             </p>
           </Col>
-          
         </Row>
       </Container>
     </>

@@ -8,6 +8,7 @@ import OurValue from "../OurValue";
 import MeetLeaders from "../MeetLeaders";
 import Awards from "../Awards";
 import Footer from "../common/Footer";
+import UniosApp from "../UniosApp";
 
 const About = () => {
   const { pathname } = useLocation();
@@ -24,6 +25,7 @@ const About = () => {
       <OurValue />
       <MeetLeaders />
       <Awards />
+      <UniosApp />
       <Footer />
     </>
   );

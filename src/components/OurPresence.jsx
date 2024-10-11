@@ -4,17 +4,6 @@ import Map from "./assets/images/webp/indiamap.webp";
 import Location from "../components/assets/images/svg/location.svg";
 
 const OurPresence = () => {
-  const locations = [
-    { name: "Panipat", top: "45%", left: "48%" },
-    { name: "Delhi", top: "40%", left: "49%" },
-    { name: "Gurugram", top: "41%", left: "48.5%" },
-    { name: "Noida", top: "40%", left: "50%" },
-    { name: "Hisar", top: "43%", left: "46%" },
-    { name: "Jaipur", top: "52%", left: "46%" },
-    { name: "Dehradun", top: "35%", left: "48%" },
-    { name: "Bhopal", top: "60%", left: "51%" },
-    { name: "Ludhiana", top: "37%", left: "46%" },
-  ];
   return (
     <>
       <div className="py-lg-5 py-4 bg_gray">
@@ -39,22 +28,114 @@ const OurPresence = () => {
             secure delivery of life-saving medications and healthcare products.
           </p>
           <Row>
-            <Col lg={8} md={7} className="d-flex justify-content-center ">
-              <img
-                src={Map}
-                alt="Map of india"
-                className="w-100 max_w_500"
-                data-aos="fade-right"
-              />
+            <Col lg={8} md={7} className="d-flex justify-content-center">
+              <div className="position-relative">
+                <img
+                  src={Map}
+                  alt="Map of India"
+                  className="w-100 max_w_500 position-relative"
+                  data-aos="fade-right"
+                />
+                <div
+                  className="translate-middle position-absolute transition z-2"
+                  style={{ top: "35%", left: "40%" }}
+                >
+                  <img
+                    src={Location}
+                    className="animation" width={25} height={25}
+                    alt="Panipat Location"
+                  />
+                </div>
+                <div
+                  className="translate-middle position-absolute transition z-2"
+                  style={{ top: "37%", left: "44%" }}
+                >
+                  <img
+                    src={Location}
+                    className="animation" width={25} height={25}
+                    alt="Delhi Location"
+                  />
+                </div>
+                <div
+                  className="translate-middle position-absolute transition z-2"
+                  style={{ top: "42%", left: "45%" }}
+                >
+                  <img
+                    src={Location}
+                    className="animation" width={25} height={25}
+                    alt="Gurugram Location"
+                  />
+                </div>
+                <div
+                  className="translate-middle position-absolute transition z-2"
+                  style={{ top: "45%", left: "50%" }}
+                >
+                  <img
+                    src={Location}
+                    className="animation" width={25} height={25}
+                    alt="Noida Location"
+                  />
+                </div>
+                <div
+                  className="translate-middle position-absolute transition z-2"
+                  style={{ top: "35%", left: "30%" }}
+                >
+                  <img
+                    src={Location}
+                    className="animation" width={25} height={25}
+                    alt="Hisar Location"
+                  />
+                </div>
+                <div
+                  className="translate-middle position-absolute transition z-2"
+                  style={{ top: "50%", left: "40%" }}
+                >
+                  <img
+                    src={Location}
+                    className="animation" width={25} height={25}
+                    alt="Jaipur Location"
+                  />
+                </div>
+                <div
+                  className="translate-middle position-absolute transition z-2"
+                  style={{ top: "60%", left: "40%" }}
+                >
+                  <img
+                    src={Location}
+                    className="animation" width={25} height={25}
+                    alt="Bhopal Location"
+                  />
+                </div>
+                <div
+                  className="translate-middle position-absolute transition z-2"
+                  style={{ top: "60%", left: "45%" }}
+                >
+                  <img
+                    src={Location}
+                    className="animation" width={25} height={25}
+                    alt="Dehradun Location"
+                  />
+                </div>
+                <div
+                  className="translate-middle position-absolute transition z-2"
+                  style={{ top: "60%", left: "50%" }}
+                >
+                  <img
+                    src={Location}
+                    className="animation" width={25} height={25}
+                    alt="Ludhiana Location"
+                  />
+                </div>
+              </div>
             </Col>
-            <Col lg={4} md={5} xs={8} className="mt-5 " data-aos="fade-left">
+            <Col lg={4} md={5} xs={8} className="mt-5" data-aos="fade-left">
               <h3 className="fs_md text-black ">
                 <img
                   src={Location}
-                  alt="Location Icon to define Loacton"
+                  alt="Location Icon to define Location"
                   width={30}
                   height={30}
-                  className="animation "
+                  className="animation"
                 />
                 Company Warehouses
               </h3>
