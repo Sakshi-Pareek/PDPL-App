@@ -34,7 +34,6 @@ const OurPresence = () => {
                   src={Map}
                   alt="Map of India"
                   className="w-100 max_w_500 position-relative"
-                  data-aos="fade-right"
                 />
                 <div
                   className="translate-middle position-absolute transition z-2"
