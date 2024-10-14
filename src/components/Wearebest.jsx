@@ -17,7 +17,7 @@ const Wearebest = () => {
     {
       image: Business2,
       heading: "4+",
-      para: "Cold Storage Management System",
+      para: "Cold Storage System",
       rotate:
         "Cold storage in pharmaceuticals preserves the quality and efficacy of temperature-sensitive products by maintaining strict temperature control throughout the supply chain",
     },
@@ -61,7 +61,7 @@ const Wearebest = () => {
                 <div className="flip-card bg-transparent">
                   <div className="flip-card-inner position-relative w-100 h-100 text-center">
                     <div className="cardfrontside position-absolute w-100 h-100">
-                      <div className="bg-white rounded-4 shadow cursor_pointer d-flex flex-column gap-2 h-100 transition p-4">
+                      <div className="bg-white rounded-4 shadow cursor_pointer d-flex flex-column gap-2 h-100 transition p-3">
                         <img
                           src={a.image}
                           alt="Company Assets"
@@ -69,10 +69,10 @@ const Wearebest = () => {
                           height="131px"
                           className="mx-auto"
                         />
-                        <h3 className="ff_roboto fs_2lg fw-bold text-center mb-0 ">
+                        <h3 className="ff_roboto fs_4md fw-bold text-center mb-0 ">
                           {a.heading}
                         </h3>
-                        <p className="text-center fs_md fw-normal lh-base ff_roboto mb-0">
+                        <p className="text-center fs_8sm fw-normal lh-base ff_roboto mb-0">
                           {a.para}
                         </p>
                       </div>

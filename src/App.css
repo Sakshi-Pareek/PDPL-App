@@ -64,7 +64,7 @@
   --fs-2xl: 42px;
   --fs-4xl: 44px;
   --fs-8xl: 46px;
-  --fs-xxl: 56px;
+  --fs-xxl: 50px;
 }
 .fs_6sm {
   font-size: var(--fs-6sm);
@@ -199,7 +199,7 @@
   height: 85vh;
 }
 .herobg1 {
-  background-image: url(./components/assets/images//video/Hero1Gff.gif);
+  background-image: url(./components/assets/images/video/Hero1Gff.gif);
 }
 .herobg2 {
   background-image: url(./components/assets/images//video/Hero2Gff.gif);
@@ -274,7 +274,7 @@
 .flip-card-inner {
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  min-height: 300px;
+  min-height:260px;
   min-width: 220px;
 }
 .flip-card:hover .flip-card-inner {
@@ -479,7 +479,7 @@
 }
 @media (max-width: 992px) {
   :root {
-    --fs-xxl: 60px;
+    --fs-xxl: 50px;
   }
   .herobg1,
   .herobg2,
@@ -499,7 +499,7 @@
     --fs-2xl: 38px;
     --fs-4xl: 42px;
     --fs-8xl: 44px;
-    --fs-xxl: 52px;
+    --fs-xxl: 50px;
   }
 }
 @media (max-width: 576px) {

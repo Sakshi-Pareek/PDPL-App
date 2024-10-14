@@ -21,13 +21,14 @@ const Whatwedo = () => {
               className="ff_roboto fw-normal fs_md letter_spacing mb-0 lh-base text-black"
               data-aos="fade-left"
             >
-              We are a trusted pharmaceutical distribution provider in India,
-              delivering genuine healthcare products, medicines, drugs,
-              consumables, implants, masks, PPE kits, and more. Our experienced
-              team leverages digital platforms, and ensures effective delivery
-              through proper shipping channels. With a commitment to excellence
-              and end-to-end technological solutions, we have become a leading
-              name in pharmaceutical distribution.
+              At our core, we are a trusted pharmaceutical distribution provider
+              in India, delivering only genuine healthcare products, medicines,
+              drugs, consumables, implants, masks, PPE kits, and more. Our
+              experienced team adeptly leverages digital platforms to ensure
+              efficient delivery through proper shipping channels. With an
+              unwavering commitment to excellence and end-to-end technological
+              solutions, we proudly stand as a leading name in pharmaceutical
+              distribution.
             </p>
           </Col>
         </Row>
