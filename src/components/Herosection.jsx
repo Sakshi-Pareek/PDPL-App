@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import Arrow from "./assets/images/webp/arrow.png";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
@@ -43,9 +44,17 @@ export const Herosection = () => {
                   </p>
                   <div data-aos="fade-right ">
                     <Link
-                      to="/about" aria-label="Navigate to about page"
-                      className="fs_md text-black nav_link transition"
+                      to="/about"
+                      aria-label="Navigate to about page"
+                      className="fs_md text-black nav_link transition position-relative"
                     >
+                      <img
+                        src={Arrow}
+                        alt="arrow"
+                        width="80"
+                        height="50"
+                        class="position-absolute arrow"
+                      ></img>
                       <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
                         Learn More
                       </button>
@@ -79,10 +88,19 @@ export const Herosection = () => {
                     healthcare.
                   </p>
                   <div data-aos="fade-right ">
-                    <Link aria-label="Navigate to About page"
-                      to="/about" 
-                      className="fs_md text-black nav_link transition"
+                    <Link
+                      aria-label="Navigate to About page"
+                      to="/about"
+                      className="fs_md text-black nav_link transition position-relative"
                     >
+                      {" "}
+                      <img
+                        src={Arrow}
+                        alt="arrow"
+                        width="80"
+                        height="50"
+                        class="position-absolute arrow"
+                      ></img>
                       <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
                         Learn More
                       </button>
@@ -116,10 +134,18 @@ export const Herosection = () => {
                     healthcare.
                   </p>
                   <div data-aos="fade-right ">
-                    <Link 
-                      to="/about" aria-label="Navigate to about page"
-                      className="fs_md text-black nav_link transition"
+                    <Link
+                      to="/about"
+                      aria-label="Navigate to about page"
+                      className="fs_md text-black nav_link transition position-relative"
                     >
+                      <img
+                        src={Arrow}
+                        alt="arrow"
+                        width="80"
+                        height="50"
+                        class="position-absolute arrow"
+                      ></img>
                       <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
                         Learn More
                       </button>
@@ -152,11 +178,22 @@ export const Herosection = () => {
                     trusted provider in India, making a positive impact on
                     healthcare.
                   </p>
-                  <div data-aos="fade-right ">
-                    <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
-                      Learn More
-                    </button>
-                  </div>
+                  <Link
+                      to="/about"
+                      aria-label="Navigate to about page"
+                      className="fs_md text-black nav_link transition position-relative"
+                    >
+                      <img
+                        src={Arrow}
+                        alt="arrow"
+                        width="80"
+                        height="50"
+                        class="position-absolute arrow"
+                      ></img>
+                      <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
+                        Learn More
+                      </button>
+                    </Link>
                 </Col>
               </Row>
             </Container>

@@ -31,6 +31,7 @@ const UniosApp = () => {
               target="_blank"
               rel="noreferrer"
               data-aos="fade-right"
+              
             >
               {" "}
               <CommonBtn btnname="Read More"></CommonBtn>

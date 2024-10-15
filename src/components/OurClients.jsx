@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Clients from "./assets/images/svg/our_clients.svg";
+import Arrow from "./assets/images/webp/arrow.png";
 import { Link } from "react-router-dom";
 
 const OurClients = () => {
@@ -33,9 +34,17 @@ const OurClients = () => {
               </p>
               <div data-aos="fade-right">
                 <Link
-                  to="/about" aria-label="Navigate to About page"
-                  className="fs_md text-black nav_link transition"
+                  to="/about"
+                  aria-label="Navigate to About page"
+                  className="fs_md text-black nav_link transition position-relative"
                 >
+                  <img
+                    src={Arrow}
+                    alt="arrow"
+                    width="80"
+                    height="50"
+                    class="position-absolute arrow"
+                  ></img>
                   <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
                     Learn More
                   </button>
@@ -43,7 +52,11 @@ const OurClients = () => {
               </div>
             </Col>
             <Col lg={5}>
-              <img src={Clients} alt="Company Clients" className="w-100 updown_ani" />
+              <img
+                src={Clients}
+                alt="Company Clients"
+                className="w-100 updown_ani"
+              />
             </Col>
           </Row>
         </Container>

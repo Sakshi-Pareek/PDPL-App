@@ -53,6 +53,19 @@
     transform: translateY(-10px);
   }
 }
+.arrow {
+  left: 170px;
+  animation: arrow 5s linear infinite;
+}
+@keyframes arrow {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-15deg);
+  }
+}
 /* ===============================================Root=========================================== */
 :root {
   --fs-6sm: 16px;
@@ -201,6 +214,7 @@
 .herobg1 {
   background-image: url(./components/assets/images/video/Hero1Gff.gif);
 }
+
 .herobg2 {
   background-image: url(./components/assets/images//video/Hero2Gff.gif);
 }
