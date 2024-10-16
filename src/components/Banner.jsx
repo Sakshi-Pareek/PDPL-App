@@ -11,10 +11,7 @@ const cardData = [
 const Banner = () => {
   return (
     <div className="px-xl-4 px-0 my-xl-5 my-0">
-      <div
-        className="d-flex flex-xl-nowrap gap-2 flex-wrap justify-content-center"
-        data-aos="fade-down"
-      >
+      <div className="d-flex flex-xl-nowrap gap-2 flex-wrap justify-content-center">
         {cardData.map((card, index) => (
           <div key={index} className="w-100">
             <div
