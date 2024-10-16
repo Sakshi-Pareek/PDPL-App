@@ -122,10 +122,6 @@
 .bg_gray {
   background: rgb(245, 245, 245);
 }
-.max_w_80 {
-  max-width: 150px;
-  max-height: 80px;
-}
 .cursor_pointer {
   cursor: pointer;
 }
@@ -136,7 +132,6 @@
   background-color: rgb(29, 121, 187);
   border: 2px solid transparent;
 }
-.common_btn:focus,
 .common_btn:hover {
   animation: pulse 1s;
   box-shadow: 0 0 0 0.7em transparent;
@@ -202,45 +197,12 @@
 }
 /* ---------------------------------------------HOME-PAGe------------------------------------ */
 /* ===========================================Hero-Section=================================== */
-.herobg1,
-.herobg2,
-.herobg3,
-.herobg4 {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  height: 85vh;
-}
-.herobg1 {
-  background-image: url(./components/assets/images/video/Hero1Gff.gif);
-}
-
-.herobg2 {
-  background-image: url(./components/assets/images//video/Hero2Gff.gif);
-}
-.herobg3 {
-  background-image: url(./components/assets/images//video/Hero3Gff.gif);
-}
-.herobg4 {
-  background-image: url(./components/assets/images//video/Hero4Gff.gif);
-}
-.hero_section_layer {
-  background: linear-gradient(
-      90.18deg,
-      rgb(29, 121, 187) 0.13%,
-      rgb(29, 121, 187) 24.19%,
-      rgb(29, 121, 187) 44.58%,
-      rgba(29, 121, 187, 0.97) 50.76%,
-      rgba(29, 121, 187, 0) 99.82%
-    )
-    0% 0% / cover;
-}
 .slick-dots {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
   gap: 4px !important;
-  bottom: 15px !important;
+  bottom: -35px !important;
 }
 .slick-dots li {
   width: 8px !important;
@@ -279,7 +241,6 @@
   background-image: url(./components/assets/images/svg/distributrebg.svg);
 }
 .distributor_bg,
-.bg_ourpresence,
 .bg_footer {
   background-position: center;
   background-repeat: no-repeat;
@@ -304,9 +265,6 @@
   background-color: rgb(197, 229, 253);
 }
 /* =======================================ourPresence===================================== */
-.bg_ourpresence {
-  background-image: url(./components/assets/images/svg/ourpressencebg.svg);
-}
 .max_w_500 {
   max-width: 500px;
 }
@@ -335,16 +293,10 @@
 }
 /* -----------------------------------------ABOUT-US-------------------------------------------- */
 /* =======================================About-Hero============================================= */
-.max_w_835 {
-  max-width: 835px !important;
-}
 .gray_layer {
   backdrop-filter: blur(30px);
   opacity: 0.8;
   background: rgb(245, 245, 245);
-}
-.bg_abouthero {
-  background-image: url(../src/components/assets/images/webp/about-banner.webp);
 }
 .hover-card:hover {
   transform: scale(1.01);
@@ -352,19 +304,10 @@
   box-shadow: 2px 10px 20px rgba(0, 0, 0, 0.1) !important;
 }
 .mt_neg_50 {
-  margin-top: -50px;
+  margin-top: -115px;
 }
 /* ---------------------------------------------PARTNER-PAGE------------------------------------ */
 /* ==============================================Partner-Hero=================================== */
-.bg_ourpartner,
-.bg_abouthero {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-.bg_ourpartner {
-  background-image: url(./components/assets/images/webp/wareHouseimg.webp);
-}
 .glass:hover {
   animation: tilt linear 2s infinite;
 }
@@ -453,6 +396,12 @@
 .mb_neg_7 {
   margin-bottom: -7px;
 }
+.logo_bg {
+  background-image: url("./components/assets/images/svg/PolygonShape.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
 /* =======================================media-quaries===================================== */
 @media (max-width: 1200px) {
   .nav_bar {
@@ -462,9 +411,6 @@
     min-height: 100vh;
     top: 0 !important;
     width: 100%;
-  }
-  .nav_bar > li > a:nth-last-child() {
-    font-size: 22px !important;
   }
   .left_neg_100 {
     left: -100%;
@@ -483,26 +429,9 @@
     height: 4px;
   }
 }
-@media (max-width: 1024px) {
-  .herobg1,
-  .herobg2,
-  .herobg3,
-  .herobg4 {
-    height: 760px;
-  }
-}
 @media (max-width: 992px) {
   :root {
     --fs-xxl: 50px;
-  }
-  .herobg1,
-  .herobg2,
-  .herobg3,
-  .herobg4,
-  .bg_ourpartner,
-  .bg_abouthero {
-    background-position: left;
-    background-size: cover;
   }
   .mt_neg_50 {
     margin-top: 48px;
@@ -535,11 +464,5 @@
     --fs-4xl: 30px;
     --fs-8xl: 36px;
     --fs-xxl: 38px;
-  }
-  .herobg1,
-  .herobg2,
-  .herobg3,
-  .herobg4 {
-    height: 600px;
   }
 }

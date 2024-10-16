@@ -28,9 +28,9 @@ const Nav = () => {
               <img
                 src={WebLogo}
                 alt="WebLogo"
-                className="w-100 max_w_80"
+                className="w-100"
                 width={70}
-                height={70}
+                height={60}
               />
             </a>
           </div>

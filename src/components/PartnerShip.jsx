@@ -5,6 +5,7 @@ import Affordable from "../components/assets/images/svg/affordability.svg";
 import Friendly from "../components/assets/images/svg/friendlySupport.svg";
 import Accessibility from "../components/assets/images/svg/access.svg";
 
+
 export const PartnerShip = () => {
   return (
     <>

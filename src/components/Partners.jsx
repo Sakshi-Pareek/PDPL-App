@@ -192,18 +192,20 @@ const Partners = () => {
   };
   return (
     <>
-      <Container fluid className="mt-5 overflow-hidden d-flex flex-column">
+      <Container fluid className="overflow-hidden d-flex flex-column py-5">
         <div data-aos="zoom-in">
           <Slider {...settings1}>
             {logos1.map((a, index) => (
-              <div key={index}>
-                <img
-                  src={a.image}
-                  alt="cardimg"
-                  width={190}
-                  height={120}
-                  className="object-fit-contain p-lg-0 p-1"
-                />
+              <div key={index} className="logo_bg">
+                <div>
+                  <img
+                    src={a.image}
+                    alt="Partners Of PDPL"
+                    width={146}
+                    height={168}
+                    className="object-fit-contain px-2 mx-auto"
+                  />
+                </div>
               </div>
             ))}
           </Slider>
@@ -211,13 +213,13 @@ const Partners = () => {
         <div data-aos="zoom-in">
           <Slider {...settings2}>
             {logos2.map((a, index) => (
-              <div key={index}>
+              <div key={index} className="logo_bg">
                 <img
                   src={a.image}
                   alt="Partners Of PDPL"
-                  width={190}
-                  height={190}
-                  className="object-fit-contain p-lg-0 p-1"
+                  width={146}
+                  height={168}
+                  className="object-fit-contain px-2 mx-auto"
                 />
               </div>
             ))}

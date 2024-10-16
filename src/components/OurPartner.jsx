@@ -1,28 +1,40 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+import PartnerHero from "../components/assets/images/svg/partners.svg";
 
 function OurPartner() {
   return (
     <>
-      <div className="bg_ourpartner py-5 px-lg-0 px-3">
-        <Container className="p-xl-5 p-sm-4 p-3 my-lg-5 my-sm-4 max_w_835 mx-sm-auto rounded text-center position-relative z-2">
-          <div className="gray_layer position-absolute top-0 start-0 w-100 h-100 z-n1 rounded"></div>
-          <h2
-            className="fw-bold fs_8xl mx-auto letter_spacing mb-3"
-            data-aos="zoom-in"
-          >
-            Our Partners
-          </h2>
-          <p
-            className="fs_md letter_spacing fw-medium lh-base text-black ff_roboto mb-3"
-            data-aos="zoom-in"
-          >
-            Partnerships have been the key driving force behind PDPL’s growth
-            story. We collaborate with manufacturers, distributors, and
-            suppliers to deliver high-quality medical requirements. Together, we
-            cater to diverse needs, ensuring unwavering dedication to customers
-            and strive to make a global impact through trusted alliances.
-          </p>
+      <div className="bg_gray py-lg-5 pt-4">
+        <Container className="py-lg-0 py-4">
+          <Row className="text-lg-start text-center align-items-center">
+            <Col lg={7}>
+              <h1
+                className="fw-bold text-black fs_xxl lh-1"
+                data-aos="fade-right "
+              >
+                Our Partners
+              </h1>
+              <p
+                className="fw-normal text-black fs_md pt-2"
+                data-aos="fade-right "
+              >
+                Partnerships have been the key driving force behind PDPL’s
+                growth story. We collaborate with manufacturers, distributors,
+                and suppliers to deliver high-quality medical requirements.
+                Together, we cater to diverse needs, ensuring unwavering
+                dedication to customers and strive to make a global impact
+                through trusted alliances.
+              </p>
+            </Col>
+            <Col lg={5}>
+              <img
+                src={PartnerHero}
+                alt="Partner with PDPL"
+                className="w-100 updown_ani"
+              />
+            </Col>
+          </Row>
         </Container>
       </div>
     </>

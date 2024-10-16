@@ -41,7 +41,9 @@ const OurPresence = () => {
                 >
                   <img
                     src={Location}
-                    className="animation" width={25} height={25}
+                    className="animation"
+                    width={25}
+                    height={25}
                     alt="Panipat Location"
                   />
                 </div>
@@ -51,7 +53,9 @@ const OurPresence = () => {
                 >
                   <img
                     src={Location}
-                    className="animation" width={25} height={25}
+                    className="animation"
+                    width={25}
+                    height={25}
                     alt="Delhi Location"
                   />
                 </div>
@@ -61,7 +65,9 @@ const OurPresence = () => {
                 >
                   <img
                     src={Location}
-                    className="animation" width={25} height={25}
+                    className="animation"
+                    width={25}
+                    height={25}
                     alt="Gurugram Location"
                   />
                 </div>
@@ -71,7 +77,9 @@ const OurPresence = () => {
                 >
                   <img
                     src={Location}
-                    className="animation" width={25} height={25}
+                    className="animation"
+                    width={25}
+                    height={25}
                     alt="Noida Location"
                   />
                 </div>
@@ -81,7 +89,9 @@ const OurPresence = () => {
                 >
                   <img
                     src={Location}
-                    className="animation" width={25} height={25}
+                    className="animation"
+                    width={25}
+                    height={25}
                     alt="Hisar Location"
                   />
                 </div>
@@ -91,7 +101,9 @@ const OurPresence = () => {
                 >
                   <img
                     src={Location}
-                    className="animation" width={25} height={25}
+                    className="animation"
+                    width={25}
+                    height={25}
                     alt="Jaipur Location"
                   />
                 </div>
@@ -101,7 +113,9 @@ const OurPresence = () => {
                 >
                   <img
                     src={Location}
-                    className="animation" width={25} height={25}
+                    className="animation"
+                    width={25}
+                    height={25}
                     alt="Bhopal Location"
                   />
                 </div>
@@ -111,7 +125,9 @@ const OurPresence = () => {
                 >
                   <img
                     src={Location}
-                    className="animation" width={25} height={25}
+                    className="animation"
+                    width={25}
+                    height={25}
                     alt="Dehradun Location"
                   />
                 </div>
@@ -121,7 +137,9 @@ const OurPresence = () => {
                 >
                   <img
                     src={Location}
-                    className="animation" width={25} height={25}
+                    className="animation"
+                    width={25}
+                    height={25}
                     alt="Ludhiana Location"
                   />
                 </div>

@@ -23,75 +23,145 @@ const Footer = () => {
         <Container>
           <Row className="justify-content-between gap-lg-0 gap-3 border-bottom border-black py-5">
             <Col xl={4} lg={3} xs={12}>
-              <a href="#" className="text-black d-flex align-items-center">
-                <img src={WebLogo} alt="WebLogo" className="w-100 max_w_80" />
+              <a href="#" className="ms-auto">
+                <img src={WebLogo} alt="WebLogo" width={160} height={70} />
               </a>
               <p className="text-black fs_4md fw-semibold ff_roboto mt-2">
                 Delivering Health, <br className="d-xl-block d-none" />
                 Empowering Lives
               </p>
               <div className="d-flex gap-2">
-                <a href="https://www.facebook.com/" target="_black" rel="noreferrer">
-                  <img src={FbIcon} alt="FbIcon" width={35} height={35} className="social_icon transition" />
+                <a
+                  href="https://www.facebook.com/"
+                  target="_black"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={FbIcon}
+                    alt="FbIcon"
+                    width={35}
+                    height={35}
+                    className="social_icon transition"
+                  />
                 </a>
-                <a href="https://www.instagram.com/" target="_black" rel="noreferrer">
-                  <img src={InstaIcon} alt="InstaIcon" width={35} height={35} className="social_icon transition" />
+                <a
+                  href="https://www.instagram.com/"
+                  target="_black"
+                  rel="noreferrer"
+                >
+                  <img
+                    src={InstaIcon}
+                    alt="InstaIcon"
+                    width={35}
+                    height={35}
+                    className="social_icon transition"
+                  />
                 </a>
-                <a href="https://www.whatsapp.com/" target="_black" rel="noreferrer" className="social_icon transition">
-                  <img src={WhatsappIcon} alt="WhatsappIcon" width={35} height={35} />
+                <a
+                  href="https://www.whatsapp.com/"
+                  target="_black"
+                  rel="noreferrer"
+                  className="social_icon transition"
+                >
+                  <img
+                    src={WhatsappIcon}
+                    alt="WhatsappIcon"
+                    width={35}
+                    height={35}
+                  />
                 </a>
               </div>
             </Col>
             <Col lg={2} sm={3} xs={12} className="mt-2">
               <ul className="d-flex flex-column gap-2 mb-0 ps-0">
-                <li className="fw-semibold fs_md text-black ff_roboto">Our Company</li>
+                <li className="fw-semibold fs_md text-black ff_roboto">
+                  Our Company
+                </li>
                 <li>
-                  <Link to="/" aria-label="Go to the home page" className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition">
+                  <Link
+                    to="/"
+                    aria-label="Go to the home page"
+                    className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
+                  >
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about"  aria-label="Learn more about us and our company" className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition">
+                  <Link
+                    to="/about"
+                    aria-label="Learn more about us and our company"
+                    className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
+                  >
                     About Us
                   </Link>
                 </li>
                 <li>
-                  <Link to="/partner" aria-label="Learn more about our partners and partnership opportunities" className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition">
+                  <Link
+                    to="/partner"
+                    aria-label="Learn more about our partners and partnership opportunities"
+                    className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
+                  >
                     Partners
                   </Link>
                 </li>
                 <li>
-                  <Link to="/career" aria-label="Explore career opportunities with us" className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition">
+                  <Link
+                    to="/career"
+                    aria-label="Explore career opportunities with us"
+                    className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
+                  >
                     Career
                   </Link>
                 </li>
                 <li>
-                  <a href="#" className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition text-nowrap">
+                  <a
+                    href="#"
+                    className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition text-nowrap"
+                  >
                     Terms and Conditions
                   </a>
                 </li>
               </ul>
             </Col>
-            <Col lg={3} sm={3} xs={12} className="d-lg-flex justify-content-center mt-2">
+            <Col
+              lg={3}
+              sm={3}
+              xs={12}
+              className="d-lg-flex justify-content-center mt-2"
+            >
               <ul className="d-flex flex-column gap-2 mb-0 ps-0">
-                <li className="fw-semibold fs_md text-black ff_roboto">Support</li>
+                <li className="fw-semibold fs_md text-black ff_roboto">
+                  Support
+                </li>
                 <li>
-                  <a href="#" className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition">
+                  <a
+                    href="#"
+                    className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
+                  >
                     Security
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition">
+                  <a
+                    href="#"
+                    className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
+                  >
                     Privacy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition">
+                  <a
+                    href="#"
+                    className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
+                  >
                     Sustainability
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition">
+                  <a
+                    href="#"
+                    className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
+                  >
                     News
                   </a>
                 </li>
@@ -99,7 +169,9 @@ const Footer = () => {
             </Col>
             <Col lg={3} xs={12} className="mt-2">
               <ul className="d-flex flex-column gap-2 mb-0 ps-0">
-                <li className="fw-semibold fs_md text-black ff_roboto">Contact Us</li>
+                <li className="fw-semibold fs_md text-black ff_roboto">
+                  Contact Us
+                </li>
                 <li>
                   <a
                     href="mailto: info@plusdistributions.in"
@@ -107,7 +179,14 @@ const Footer = () => {
                     rel="noreferrer"
                     className="fw-normal fs_8sm text-black ff_roboto mb-1 d-flex align-items-center gap-2 contact_icon nav_link transition"
                   >
-                    <img src={MailIcon} alt="MailIcon" width={30} height={30} className="transition" /> info@plusdistributions.in
+                    <img
+                      src={MailIcon}
+                      alt="MailIcon"
+                      width={30}
+                      height={30}
+                      className="transition"
+                    />{" "}
+                    info@plusdistributions.in
                   </a>
                 </li>
                 <li>
@@ -117,7 +196,14 @@ const Footer = () => {
                     rel="noreferrer"
                     className="fw-normal fs_8sm text-black ff_roboto mb-1 d-flex align-items-center gap-2 contact_icon nav_link transition"
                   >
-                    <img src={PhoneIcon} className="transition" alt="PhoneIcon" width={30} height={30} /> 9671480888 ,+91124-4014675
+                    <img
+                      src={PhoneIcon}
+                      className="transition"
+                      alt="PhoneIcon"
+                      width={30}
+                      height={30}
+                    />{" "}
+                    9671480888 ,+91124-4014675
                   </a>
                 </li>
                 <li>
@@ -127,7 +213,14 @@ const Footer = () => {
                     rel="noreferrer"
                     className="fw-normal fs_8sm text-black ff_roboto mb-1 d-flex gap-2 contact_icon nav_link transition"
                   >
-                    <img src={LocationIcon} alt="LocationIcon" className="transition" width={35} height={35} /> Plus Distribution Pvt. Ltd
+                    <img
+                      src={LocationIcon}
+                      alt="LocationIcon"
+                      className="transition"
+                      width={35}
+                      height={35}
+                    />{" "}
+                    Plus Distribution Pvt. Ltd
                   </a>
                 </li>
               </ul>
