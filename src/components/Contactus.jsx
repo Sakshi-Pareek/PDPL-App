@@ -38,9 +38,9 @@ const Contactus = () => {
 
   return (
     <>
-      <Container className="py-5 lg:my-4 ">
+      <Container className="py-5 my-lg-4">
         <h2
-          className="fs_8xl letter_spacing text-center lg:mb-5 mb-4"
+          className="fw-bold text-black fs_xxl lh-1 text-center lg:mb-5 mb-4 pb-lg-3"
           data-aos="fade-down"
         >
           Contact Us

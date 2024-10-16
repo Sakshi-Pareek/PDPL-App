@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import PartnerHero from "../components/assets/images/svg/partners.svg";
+import { Link } from "react-router-dom";
+import CommonBtn from "./common/CommonBtn";
 
 function OurPartner() {
   return (
@@ -16,7 +18,7 @@ function OurPartner() {
                 Our Partners
               </h1>
               <p
-                className="fw-normal text-black fs_md pt-2"
+                className="fw-normal text-black fs_md pt-2 mb-3"
                 data-aos="fade-right "
               >
                 Partnerships have been the key driving force behind PDPL’s
@@ -26,6 +28,13 @@ function OurPartner() {
                 dedication to customers and strive to make a global impact
                 through trusted alliances.
               </p>
+              <Link
+                to="/about"
+                aria-label="Navigate to about page"
+                className="fs_md text-black nav_link transition"
+              >
+                <CommonBtn btnname="Learn More"></CommonBtn>
+              </Link>
             </Col>
             <Col lg={5}>
               <img
