@@ -46,7 +46,7 @@ const OurClients = () => {
                     className="position-absolute arrow"
                   ></img>
                   <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
-                    Learn More
+                    More Details
                   </button>
                 </Link>
               </div>
