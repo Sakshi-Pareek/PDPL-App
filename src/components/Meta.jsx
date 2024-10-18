@@ -3,28 +3,35 @@ import { Helmet } from "react-helmet";
 import axios from "axios";
 
 const Meta = () => {
-  const [data, setData] = useState(null); // State to hold the fetched data
+  const [metaData, setMetaData] = useState({
+    meta_title: "",
+    meta_description: "",
+    meta_keywords: "",
+    meta_image: "",
+  }); // State to hold the fetched meta data
   const [loading, setLoading] = useState(true); // State for loading status
   const [error, setError] = useState(null);
+
   useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
           "https://aditya.monurana.xyz/einv/meta/get-meta"
         ); // Replace with your API endpoint
-        // setData(response.data); // Update state with the fetched data
 
-        // alert("LLLL")
+        const siteMeta = response.data.response.metaInf.find(
+          (site) => site.site_name === "sakshi.xyz"
+        );
 
-        response.data.response.metaInf.map((user) => {
-          console.log(user.name); // Log the name of each user
-
-          // alert(JSON.stringify(user));
-
-          if (user.site_name == "sakshi.xyz") {
-            setData(user.meta_tags);
-          }
-        });
+        if (siteMeta) {
+          setMetaData({
+            meta_title: siteMeta.meta_title,
+            meta_description: siteMeta.meta_description,
+            meta_keywords: siteMeta.meta_keywords,
+            meta_image:
+              siteMeta.meta_image || "https://i.postimg.cc/8CNQC9hk/pdplss.png",
+          });
+        }
       } catch (err) {
         setError(err); // Handle error
       } finally {
@@ -33,57 +40,35 @@ const Meta = () => {
     };
 
     fetchData();
-
-    // alert("kkkkk");
   }, []); // Empty dependency array to run only once on mount
+
+  if (loading) {
+    return <div>Loading...</div>; // Display loading indicator
+  }
+
+  if (error) {
+    return <div>Error fetching data: {error.message}</div>; // Handle error
+  }
 
   return (
     <>
       <div>
         <Helmet>
-          <title>
-            Plus Distribution Pvt Ltd | Premier Pharmaceutical Distributor in
-            India
-          </title>
-          <meta
-            name="title"
-            content="Excellence in Healthcare Supply Chain Management - PDPL"
-          />
-          <meta
-            name="description"
-            content="Plus Distribution Pvt Ltd (PDPL) is a leading pharmaceutical distributor in India, dedicated to providing high-quality healthcare products and efficient distribution services."
-          />
-          <meta name="keywords" content={data} />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-          />
-          <meta
-            property="og:title"
-            content="Excellence in Healthcare Supply Chain Management - PDPL"
-          />
-          <meta
-            property="og:description"
-            content="Plus Distribution Pvt Ltd (PDPL) is a leading pharmaceutical distributor in India, dedicated to providing high-quality healthcare products and efficient distribution services."
-          />
-          <meta
-            property="og:image"
-            content="https://i.postimg.cc/8CNQC9hk/pdplss.png"
-          />
+          <title>{metaData.meta_title}</title>
+          <meta name="title" content={metaData.meta_title} />
+          <meta name="description" content={metaData.meta_description} />
+          <meta name="keywords" content={metaData.meta_keywords} />
+          <meta property="og:title" content={metaData.meta_title} />
+          <meta property="og:description" content={metaData.meta_description} />
+          <meta property="og:image" content={metaData.meta_image} />
           <meta property="og:url" content="https://pdpl.sakshi.xyz/" />
           <meta property="twitter:url" content="https://pdpl.sakshi.xyz/" />
-          <meta
-            property="twitter:title"
-            content="Excellence in Healthcare Supply Chain Management - PDPL"
-          />
+          <meta property="twitter:title" content={metaData.meta_title} />
           <meta
             property="twitter:description"
-            content="Plus Distribution Pvt Ltd (PDPL) is a leading pharmaceutical distributor in India, dedicated to providing high-quality healthcare products and efficient distribution services."
+            content={metaData.meta_description}
           />
-          <meta
-            property="twitter:image"
-            content="https://i.postimg.cc/8CNQC9hk/pdplss.png"
-          />
+          <meta property="twitter:image" content={metaData.meta_image} />
         </Helmet>
 
         <div id="root"></div>
