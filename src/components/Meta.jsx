@@ -1,18 +1,46 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
+import axios from "axios";
 
 const Meta = () => {
+  const [data, setData] = useState(null); // State to hold the fetched data
+  const [loading, setLoading] = useState(true); // State for loading status
+  const [error, setError] = useState(null);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(
+          "https://aditya.monurana.xyz/einv/meta/get-meta"
+        ); // Replace with your API endpoint
+        // setData(response.data); // Update state with the fetched data
+
+        // alert("LLLL")
+
+        response.data.response.metaInf.map((user) => {
+          console.log(user.name); // Log the name of each user
+
+          // alert(JSON.stringify(user));
+
+          if (user.site_name == "sakshi.xyz") {
+            setData(user.meta_tags);
+          }
+        });
+      } catch (err) {
+        setError(err); // Handle error
+      } finally {
+        setLoading(false); // Set loading to false after fetching
+      }
+    };
+
+    fetchData();
+
+    // alert("kkkkk");
+  }, []); // Empty dependency array to run only once on mount
+
   return (
     <>
       <div>
         <Helmet>
-          <meta charSet="utf-8" />
-          <link
-            rel="alternate"
-            type="application/xml"
-            title="Site Map"
-            href="https://pdpl.sakshi.xyz/sitemap.xml"
-          />
-          <link rel="canonical" href="https://pdpl.sakshi.xyz/" />
           <title>
             Plus Distribution Pvt Ltd | Premier Pharmaceutical Distributor in
             India
@@ -25,10 +53,7 @@ const Meta = () => {
             name="description"
             content="Plus Distribution Pvt Ltd (PDPL) is a leading pharmaceutical distributor in India, dedicated to providing high-quality healthcare products and efficient distribution services."
           />
-          <meta
-            name="keywords"
-            content="PDPL, Plus Distribution Pvt Ltd, best pharmaceutical company, trusted pharmaceutical company in India"
-          />
+          <meta name="keywords" content={data} />
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
