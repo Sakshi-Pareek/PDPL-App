@@ -4,12 +4,12 @@ import axios from "axios";
 
 const Meta = () => {
   const [metaData, setMetaData] = useState({
-    meta_title: "",
-    meta_desc: "",
-    meta_key: "",
-    meta_image: "",
-  }); 
-  const [loading, setLoading] = useState(true); 
+    meta_title: "Plus Distribution Pvt Ltd",
+    meta_desc: "PDPL ensures efficient, reliable pharmaceutical logistics, driving innovation and excellence in global healthcare supply chains.",
+    meta_key: "pharmaceutical distributor in India healthcare products distribution pharmaceutical supply chain medical supply distribution Plus Distribution Pvt Ltd healthcare logistics",
+    meta_image: "https://i.postimg.cc/8CNQC9hk/pdplss.png",
+  });
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
@@ -17,7 +17,7 @@ const Meta = () => {
       try {
         const response = await axios.get(
           "https://aditya.monurana.xyz/einv/meta/get-meta"
-        ); 
+        );
 
         const siteMeta = response.data.response.metaInf.find(
           (site) => site.site_name === "pdpl.sakshi.xyz"
@@ -64,10 +64,7 @@ const Meta = () => {
           <meta property="og:url" content="https://pdpl.sakshi.xyz/" />
           <meta property="twitter:url" content="https://pdpl.sakshi.xyz/" />
           <meta property="twitter:title" content={metaData.meta_title} />
-          <meta
-            property="twitter:description"
-            content={metaData.meta_desc}
-          />
+          <meta property="twitter:description" content={metaData.meta_desc} />
           <meta property="twitter:image" content={metaData.meta_image} />
         </Helmet>
 
