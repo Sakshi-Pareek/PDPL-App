@@ -5,11 +5,11 @@ import axios from "axios";
 const Meta = () => {
   const [metaData, setMetaData] = useState({
     meta_title: "",
-    meta_description: "",
-    meta_keywords: "",
+    meta_desc: "",
+    meta_key: "",
     meta_image: "",
-  }); // State to hold the fetched meta data
-  const [loading, setLoading] = useState(true); // State for loading status
+  }); 
+  const [loading, setLoading] = useState(true); 
   const [error, setError] = useState(null);
 
   useEffect(() => {
@@ -17,17 +17,17 @@ const Meta = () => {
       try {
         const response = await axios.get(
           "https://aditya.monurana.xyz/einv/meta/get-meta"
-        ); // Replace with your API endpoint
+        ); 
 
         const siteMeta = response.data.response.metaInf.find(
-          (site) => site.site_name === "sakshi.xyz"
+          (site) => site.site_name === "pdpl.sakshi.xyz"
         );
 
         if (siteMeta) {
           setMetaData({
             meta_title: siteMeta.meta_title,
-            meta_description: siteMeta.meta_description,
-            meta_keywords: siteMeta.meta_keywords,
+            meta_desc: siteMeta.meta_desc,
+            meta_key: siteMeta.meta_key,
             meta_image:
               siteMeta.meta_image || "https://i.postimg.cc/8CNQC9hk/pdplss.png",
           });
@@ -56,17 +56,17 @@ const Meta = () => {
         <Helmet>
           <title>{metaData.meta_title}</title>
           <meta name="title" content={metaData.meta_title} />
-          <meta name="description" content={metaData.meta_description} />
-          <meta name="keywords" content={metaData.meta_keywords} />
+          <meta name="description" content={metaData.meta_desc} />
+          <meta name="keywords" content={metaData.meta_key} />
           <meta property="og:title" content={metaData.meta_title} />
-          <meta property="og:description" content={metaData.meta_description} />
+          <meta property="og:description" content={metaData.meta_desc} />
           <meta property="og:image" content={metaData.meta_image} />
           <meta property="og:url" content="https://pdpl.sakshi.xyz/" />
           <meta property="twitter:url" content="https://pdpl.sakshi.xyz/" />
           <meta property="twitter:title" content={metaData.meta_title} />
           <meta
             property="twitter:description"
-            content={metaData.meta_description}
+            content={metaData.meta_desc}
           />
           <meta property="twitter:image" content={metaData.meta_image} />
         </Helmet>
