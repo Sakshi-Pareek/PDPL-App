@@ -225,7 +225,7 @@
   width: 8px !important;
   height: 8px !important;
 }
-.slick-slide.slick-active.slick-current div div.hover_active {
+.slick-slide .slick-active .slick-current div div .hover_active {
   border: 1px solid rgb(29, 121, 187) !important;
   border-bottom-width: 5px !important;
   transform: all 300ms linear !important;
@@ -305,6 +305,14 @@
 }
 .mt_neg_50 {
   margin-top: -115px;
+}
+.phone_icon {
+  right: 1%;
+  bottom: 3%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #80a33e;
 }
 /* ---------------------------------------------PARTNER-PAGE------------------------------------ */
 /* ==============================================Partner-Hero=================================== */

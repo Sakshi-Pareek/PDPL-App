@@ -5,8 +5,10 @@ import axios from "axios";
 const Meta = () => {
   const [metaData, setMetaData] = useState({
     meta_title: "Plus Distribution Pvt Ltd",
-    meta_desc: "PDPL ensures efficient, reliable pharmaceutical logistics, driving innovation and excellence in global healthcare supply chains.",
-    meta_key: "pharmaceutical distributor in India healthcare products distribution pharmaceutical supply chain medical supply distribution Plus Distribution Pvt Ltd healthcare logistics",
+    meta_desc:
+      "PDPL ensures efficient, reliable pharmaceutical logistics, driving innovation and excellence in global healthcare supply chains.",
+    meta_key:
+      "pharmaceutical distributor in India healthcare products distribution pharmaceutical supply chain medical supply distribution Plus Distribution Pvt Ltd healthcare logistics",
     meta_image: "https://i.postimg.cc/8CNQC9hk/pdplss.png",
   });
   const [loading, setLoading] = useState(true);
@@ -16,7 +18,7 @@ const Meta = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://aditya.monurana.xyz/einv/meta/get-meta"
+          "https://api.sakshi.xyz/meta/get-meta"
         );
 
         const siteMeta = response.data.response.metaInf.find(
@@ -33,21 +35,21 @@ const Meta = () => {
           });
         }
       } catch (err) {
-        setError(err); // Handle error
+        setError(err);
       } finally {
-        setLoading(false); // Set loading to false after fetching
+        setLoading(false);
       }
     };
 
     fetchData();
-  }, []); // Empty dependency array to run only once on mount
+  }, []);
 
   if (loading) {
-    return <div>Loading...</div>; // Display loading indicator
+    return <div>Loading...</div>;
   }
 
   if (error) {
-    return <div>Error fetching data: {error.message}</div>; // Handle error
+    return <div>Error fetching data: {error.message}</div>;
   }
 
   return (
