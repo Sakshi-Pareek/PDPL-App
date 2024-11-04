@@ -22,7 +22,7 @@ const Meta = () => {
         );
 
         const siteMeta = response.data.response.metaInf.find(
-          (site) => site.site_name === "pdpl.sakshi.xyz"
+          (site) => site.site_name === "pdpl.pareek.sakshi.xyz"
         );
 
         if (siteMeta) {
@@ -45,7 +45,7 @@ const Meta = () => {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div></div>;
   }
 
   if (error) {
@@ -63,8 +63,11 @@ const Meta = () => {
           <meta property="og:title" content={metaData.meta_title} />
           <meta property="og:description" content={metaData.meta_desc} />
           <meta property="og:image" content={metaData.meta_image} />
-          <meta property="og:url" content="https://pdpl.sakshi.xyz/" />
-          <meta property="twitter:url" content="https://pdpl.sakshi.xyz/" />
+          <meta property="og:url" content="https://pdpl.pareek.sakshi.xyz/" />
+          <meta
+            property="twitter:url"
+            content="https://pdpl.pareek.sakshi.xyz/"
+          />
           <meta property="twitter:title" content={metaData.meta_title} />
           <meta property="twitter:description" content={metaData.meta_desc} />
           <meta property="twitter:image" content={metaData.meta_image} />
