@@ -1,74 +1,58 @@
 import React, { useRef } from "react";
 import { Container, Row } from "react-bootstrap";
 import Slider from "react-slick";
-import Profile from "../components/assets/images/svg/profile.svg";
+import Leaders1 from "../components/assets/images/webp/RaghavBhatia.jpg";
+import Leaders2 from "../components/assets/images/webp/anilBhatia.jpg";
+import Leaders3 from "../components/assets/images/webp/Himanshu.jpg";
 
 const MeetLeaders = () => {
   const slider1 = useRef(null);
   const slider2 = useRef(null);
 
   const leaders = [
-    { name: "Anil Kumar", designation: "Managing Director" },
-    { name: "Ashwani Kumar Bhatia", designation: "Managing Director" },
-    { name: "Himanshu Chawla", designation: "Chief Procurement Officer" },
-    { name: "Raghav Bhatia", designation: "Chief Operating Officer" },
+    { name: "Anil Kumar", designation: "Managing Director", images: Leaders1 },
+    {
+      name: "Himanshu Chawla",
+      designation: "Chief Procurement Officer",
+      images: Leaders2,
+    },
+    {
+      name: "Raghav Bhatia",
+      designation: "Chief Operating Officer",
+      images: Leaders3,
+    },
   ];
 
   const settings1 = {
-    slidesToShow: 5,
+    slidesToShow: 3,
     slidesToScroll: 1,
     asNavFor: slider2.current,
+    ref: slider1,
     dots: false,
     arrows: false,
     centerMode: true,
-    centerPadding: 0,
+    centerPadding: "0px",
     focusOnSelect: true,
-    autoplaySpeed: 5000,
     autoplay: true,
+    autoplaySpeed: 5000,
     responsive: [
-      {
-        breakpoint: 1280,
-        settings: {
-          slidesToShow: 5,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false,
-        },
-      },
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          dots: false,
-        },
-      },
-      {
-        breakpoint: 576,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          dots: false,
-        },
-      },
+      { breakpoint: 992, settings: { slidesToShow: 3, slidesToScroll: 1 } },
+      { breakpoint: 768, settings: { slidesToShow: 3, slidesToScroll: 1 } },
+      { breakpoint: 576, settings: { slidesToShow: 1, slidesToScroll: 1 } },
     ],
   };
 
   const settings2 = {
     slidesToShow: 1,
+    centerMode: true,
+    centerPadding: "0px",
     slidesToScroll: 1,
     arrows: false,
     fade: true,
     asNavFor: slider1.current,
+    ref: slider2,
+    autoplay: true,
+    autoplaySpeed: 5000,
   };
 
   return (
@@ -89,9 +73,9 @@ const MeetLeaders = () => {
             {leaders.map((leader, index) => (
               <div className="d-flex justify-content-center pb-3" key={index}>
                 <img
-                  src={Profile}
-                  alt="Customer Profile"
-                  className="testimg position-relative z-1 cursor_pointer shadow rounded-circle"
+                  src={leader.images}
+                  alt={`${leader.name} Profile`}
+                  className="testimg position-relative z-1 cursor_pointer shadow rounded-circle object-fit-cover"
                   width={120}
                   height={120}
                 />

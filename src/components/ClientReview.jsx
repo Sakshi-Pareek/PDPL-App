@@ -46,62 +46,65 @@ const ClientReview = () => {
         "PDPL has been our trusted partner for years, consistently providing quality products. Their wide selection of healthcare products meets diverse patient needs. Their efficient distribution network and prompt service exceed expectations. Highly recommended pharmaceutical distributor.",
     },
     {
-      name: "Brendan Buchholz",
-      role: "Director, Apollo Hospital, Delhi",
+      name: "Anita Sharma",
+      role: "Pro. Manager, Fortis Healthcare, Mumbai",
       feedback:
-        "PDPL has been our trusted partner for years, consistently providing quality products. Their wide selection of healthcare products meets diverse patient needs. Their efficient distribution network and prompt service exceed expectations. Highly recommended pharmaceutical distributor.",
+        "Working with PDPL has been instrumental in streamlining our hospital’s supply chain management. From their proactive communication to the quality of their pharmaceutical and medical supplies, PDPL has exceeded our expectations time and again. ",
     },
     {
-      name: "Brendan Buchholz",
-      role: "Director, Apollo Hospital, Delhi",
+      name: "Rakesh Verma",
+      role: "Pharmacist, MedPlus Pharmacies, Pune",
       feedback:
-        "PDPL has been our trusted partner for years, consistently providing quality products. Their wide selection of healthcare products meets diverse patient needs. Their efficient distribution network and prompt service exceed expectations. Highly recommended pharmaceutical distributor.",
+        "PDPL's dependable delivery schedule and vast range of products have transformed our ability to serve customers effectively. Their transparent approach to business, along with the responsiveness of their customer support team, makes them a standout partner in the pharmaceutical supply industry.",
     },
     {
-      name: "Brendan Buchholz",
-      role: "Director, Apollo Hospital, Delhi",
+      name: "Dr. Meera Gupta",
+      role: "Officer, Max Healthcare, Bangalore",
       feedback:
-        "PDPL has been our trusted partner for years, consistently providing quality products. Their wide selection of healthcare products meets diverse patient needs. Their efficient distribution network and prompt service exceed expectations. Highly recommended pharmaceutical distributor.",
+        "PDPL has become an essential partner in our mission to deliver top-tier patient care. Their consistent delivery of high-quality products reassures us of their dedication to the healthcare industry. PDPL’s rigorous standards for regulatory compliance and commitment to patient safety align with our own, creating a seamless partnership.",
     },
   ];
 
   return (
-    <>
-      <div className="bg_gray py-5">
-        <Container className="my-lg-4">
-          <h2
-            className="fw-bold fs_8xl mb-2 text-center mb-5 text-black"
-            data-aos="fade-down"
-          >
-            What They Say About Us
-          </h2>
-          <div data-aos="zoom-in" className="custom_dots">
-            <Slider {...settings}>
-              {reviews.map((review, index) => (
-                <div className="px-1" key={index}>
-                  <div className="rounded-4 p-3 hover_active cursor_pointer bg-white h-full flex flex-col justify-between">
-                    <div className="d-flex align-items-center gap-2 mb-3">
-                      <img src={Profile} alt="Clients Profile" height={45} width={45} />
-                      <div>
-                        <h3 className="ff_roboto fs_6sm text-black fw-bold mb-0">
-                          {review.name}
-                        </h3>
-                        <p className="ff_roboto fs_6sm text-black fw-semibold mb-0">
-                          {review.role}
-                        </p>
-                      </div>
+    <div className="bg_gray py-5">
+      <Container className="my-lg-4">
+        <h2
+          className="fw-bold fs_8xl mb-2 text-center mb-5 text-black"
+          data-aos="fade-down"
+        >
+          What They Say About Us
+        </h2>
+        <div data-aos="zoom-in" className="custom_dots">
+          <Slider {...settings}>
+            {reviews.map((review, index) => (
+              <div className="px-1" key={index}>
+                <div className="review-card rounded-4 p-3 hover_active cursor_pointer bg-white h-full">
+                  <div className="d-flex align-items-center gap-2 mb-3">
+                    <img
+                      src={Profile}
+                      alt="Clients Profile"
+                      height={45}
+                      width={45}
+                    />
+                    <div>
+                      <h3 className="ff_roboto fs_6sm text-black fw-bold mb-0">
+                        {review.name}
+                      </h3>
+                      <p className="ff_roboto fs_6sm text-black fw-semibold mb-0">
+                        {review.role}
+                      </p>
                     </div>
-                    <p className="font-normal fs_6sm lh-sm text-black ff_roboto mb-0 flex-grow">
-                      {review.feedback}
-                    </p>
                   </div>
+                  <p className="font-normal fs_6sm lh-sm text-black ff_roboto mb-0 flex-grow">
+                    {review.feedback}
+                  </p>
                 </div>
-              ))}
-            </Slider>
-          </div>
-        </Container>
-      </div>
-    </>
+              </div>
+            ))}
+          </Slider>
+        </div>
+      </Container>
+    </div>
   );
 };
 

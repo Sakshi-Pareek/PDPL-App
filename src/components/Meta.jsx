@@ -18,7 +18,7 @@ const Meta = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://api.sakshi.xyz/meta/get-meta"
+          "https://api.plusdistribution.in/meta/get-meta"
         );
 
         const siteMeta = response.data.response.metaInf.find(
@@ -63,10 +63,10 @@ const Meta = () => {
           <meta property="og:title" content={metaData.meta_title} />
           <meta property="og:description" content={metaData.meta_desc} />
           <meta property="og:image" content={metaData.meta_image} />
-          <meta property="og:url" content="https://pdpl.pareek.sakshi.xyz/" />
+          <meta property="og:url" content="https://pdpl.test.plusdistribution.in/" />
           <meta
             property="twitter:url"
-            content="https://pdpl.pareek.sakshi.xyz/"
+            content="https://pdpl.test.plusdistribution.in/"
           />
           <meta property="twitter:title" content={metaData.meta_title} />
           <meta property="twitter:description" content={metaData.meta_desc} />

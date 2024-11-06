@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { Accordion, Container } from "react-bootstrap";
 import FrontendIcon from "../components/assets/images/svg/frontend_sign.svg";
-import UxUiIcon from "../components/assets/images/svg/ui_desgn.svg";
-import HrIcon from "../components/assets/images/svg/hr_sign.svg";
-import GraphicIcon from "../components/assets/images/svg/graphic.svg";
 import FullStack from "../components/assets/images/svg/full-stack.svg";
 
 const OpenRoles = () => {
@@ -23,36 +20,6 @@ const OpenRoles = () => {
         "Build responsive web applications using HTML, CSS, JavaScript. Work with modern frameworks (React, Angular, or Vue). Ensure cross-browser compatibility and smooth user experiences.",
       reqtext:
         "Proficiency in HTML, CSS, and JavaScript. Experience with JavaScript frameworks (React, Vue, or Angular). Strong attention to detail and problem-solving skills.",
-    },
-    {
-      title: "UX/UI Designer",
-      content:
-        "AI can enhance business processes by improving efficiency, reducing costs, and providing data-driven insights.",
-      image: UxUiIcon,
-      restext:
-        "Design user-friendly interfaces for web and mobile applications. Conduct user research and usability testing. Create wireframes, prototypes, and mockups.",
-      reqtext:
-        "Strong portfolio showcasing UI/UX design work. Proficiency in design tools (Figma, Sketch, Adobe XD). Knowledge of user-centered design principles.",
-    },
-    {
-      title: "HR Executive",
-      content:
-        "Relevant AI technologies include machine learning, natural language processing, and computer vision.",
-      image: HrIcon,
-      restext:
-        "Manage recruitment processes and onboarding of new employees. Administer employee benefits and maintain HR records. Assist in performance management and employee relations. Develop and implement HR policies and procedures.",
-      reqtext:
-        "Bachelor’s degree in Human Resources or related field. Proven experience in HR roles. Strong communication and interpersonal skills. Knowledge of HR software and labor laws.",
-    },
-    {
-      title: "Graphic Designer",
-      content:
-        "Relevant AI technologies include machine learning, natural language processing, and computer vision.",
-      image: GraphicIcon,
-      restext:
-        "Create visually appealing designs for print and digital media. Collaborate with marketing teams to develop branding materials. Produce layouts, logos, and illustrations based on project requirements. Ensure consistency in designs across various platforms.",
-      reqtext:
-        "Proven experience as a Graphic Designer with a strong portfolio. Proficiency in design software (Adobe Creative Suite, CorelDRAW, etc.). Strong creative skills and attention to detail. Excellent communication and teamwork abilities",
     },
     {
       title: "Fullstack Developer",

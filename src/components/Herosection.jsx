@@ -3,26 +3,33 @@ import { Col, Container, Row } from "react-bootstrap";
 import Arrow from "./assets/images/webp/arrow.png";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import CareerHero from "../components/assets/images/svg/career_hero_img.svg";
+import CareerHero1 from "../components/assets/images/webp/hero2.png";
+import CareerHero2 from "../components/assets/images/webp/hero1.png";
+import CareerHero3 from "../components/assets/images/webp/hero3.png";
+import CareerHero4 from "../components/assets/images/webp/hero4.png";
 
 const slidesData = [
   {
     title: "Delivering Health, Empowering Lives",
+    image: CareerHero1,
     description:
       "We deliver healthcare and empower lives through our experienced team and digital platforms. Our services include Pharma distribution, temperature-controlled storage, global distribution, customs clearance, and track-and-trace capabilities. With our commitment to excellence, we are a trusted provider in India, making a positive impact on healthcare.",
   },
   {
     title: "Partnering for Better Healthcare Access",
+    image: CareerHero2,
     description:
       "We deliver healthcare and empower lives through our experienced team and digital platforms. Our services include Pharma distribution, temperature-controlled storage, global distribution, customs clearance, and track-and-trace capabilities. With our commitment to excellence, we are a trusted provider in India, making a positive impact on healthcare.",
   },
   {
     title: "Quality Products, Trusted Service",
+    image: CareerHero3,
     description:
       "We deliver healthcare and empower lives through our experienced team and digital platforms. Our services include Pharma distribution, temperature-controlled storage, global distribution, customs clearance, and track-and-trace capabilities. With our commitment to excellence, we are a trusted provider in India, making a positive impact on healthcare.",
   },
   {
     title: "Health Solutions, Seamless Delivery",
+    image: CareerHero4,
     description:
       "We deliver healthcare and empower lives through our experienced team and digital platforms. Our services include Pharma distribution, temperature-controlled storage, global distribution, customs clearance, and track-and-trace capabilities. With our commitment to excellence, we are a trusted provider in India, making a positive impact on healthcare.",
   },
@@ -41,7 +48,7 @@ export const Herosection = () => {
   };
 
   return (
-    <div id="Home" className="bg_sky py-lg-5 pt-4">
+    <div id="Home" className="bg_sky pt-lg-5 pt-4">
       <Slider ref={slider} {...settings}>
         {slidesData.map((slide, index) => (
           <div key={index}>
@@ -81,7 +88,7 @@ export const Herosection = () => {
                 </Col>
                 <Col lg={5}>
                   <img
-                    src={CareerHero}
+                    src={slide.image}
                     alt="Career at PDPL"
                     className="w-100 updown_ani"
                   />

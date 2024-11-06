@@ -29,10 +29,17 @@ const Contactus = () => {
       message: "",
     },
     validationSchema,
-    onSubmit: (values, { resetForm }) => {
+    onSubmit: async (values, { resetForm }) => {
       console.log("Form Submitted:", values);
       const contactus = { ...values, code: "pdpl" };
       console.log(contactus);
+      await fetch("https://api.plusdistribution.in/pdpl/contact-us", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(contactus),
+      });
       setIsSubmitted(true);
       resetForm();
     },

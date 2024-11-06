@@ -1,7 +1,17 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Map from "./assets/images/webp/indiamap.webp";
+import Map from "./assets/images/webp/map.png";
 import Location from "../components/assets/images/svg/location.svg";
+import Pointer from "../components/assets/images/webp/pointer.png";
+import Ludhiana from "../components/assets/images/webp/ludhiana.png";
+import Hisar from "../components/assets/images/webp/Hisar.png";
+import Dehradun from "../components/assets/images/webp/Dehradun.png";
+import Jaipur from "../components/assets/images/webp/jaipur.png";
+import Bhopal from "../components/assets/images/webp/Bhoopal.png";
+import Noida from "../components/assets/images/webp/Noida.png";
+import Gurugram from "../components/assets/images/webp/gurugram.png";
+import Delhi from "../components/assets/images/webp/delhi.png";
+import Panipat from "../components/assets/images/webp/Panipat.png";
 
 const OurPresence = () => {
   return (
@@ -29,18 +39,28 @@ const OurPresence = () => {
           </p>
           <Row>
             <Col lg={8} md={7} className="d-flex justify-content-center">
-              <div className="position-relative">
+              <div className="position-relative ">
                 <img
                   src={Map}
                   alt="Map of India"
                   className="w-100 max_w_500 position-relative"
                 />
                 <div
-                  className="translate-middle position-absolute transition z-2"
-                  style={{ top: "35%", left: "40%" }}
+                  className="translate-middle position-absolute transition z-2 location-hover"
+                  style={{ top: "26%", left: "39%" }}
                 >
                   <img
-                    src={Location}
+                    src={Hisar}
+                    alt="Hisar"
+                    className="transtion location position-relative"
+                    style={{
+                      width: "45px",
+                      left: "-20%",
+                    }}
+                  />
+                  <br />
+                  <img
+                    src={Pointer}
                     className="animation"
                     width={25}
                     height={25}
@@ -48,11 +68,21 @@ const OurPresence = () => {
                   />
                 </div>
                 <div
-                  className="translate-middle position-absolute transition z-2"
-                  style={{ top: "37%", left: "44%" }}
+                  className="translate-middle position-absolute transition z-2 location-hover"
+                  style={{ top: "33%", left: "44%" }}
                 >
                   <img
-                    src={Location}
+                    src={Delhi}
+                    alt="Delhi"
+                    className="transtion location position-relative"
+                    style={{
+                      width: "45px",
+                      left: "-20%",
+                    }}
+                  />
+                  <br />
+                  <img
+                    src={Pointer}
                     className="animation"
                     width={25}
                     height={25}
@@ -60,11 +90,21 @@ const OurPresence = () => {
                   />
                 </div>
                 <div
-                  className="translate-middle position-absolute transition z-2"
-                  style={{ top: "42%", left: "45%" }}
+                  className="translate-middle position-absolute transition z-2 location-hover"
+                  style={{ top: "36%", left: "47%" }}
                 >
                   <img
-                    src={Location}
+                    src={Gurugram}
+                    alt="Gurugram"
+                    className="transtion location position-relative"
+                    style={{
+                      width: "45px",
+                      left: "-20%",
+                    }}
+                  />
+                  <br />
+                  <img
+                    src={Pointer}
                     className="animation"
                     width={25}
                     height={25}
@@ -72,11 +112,21 @@ const OurPresence = () => {
                   />
                 </div>
                 <div
-                  className="translate-middle position-absolute transition z-2"
-                  style={{ top: "45%", left: "50%" }}
+                  className="translate-middle position-absolute transition z-2 location-hover"
+                  style={{ top: "37%", left: "50%" }}
                 >
                   <img
-                    src={Location}
+                    src={Noida}
+                    alt="Noida"
+                    className="transtion location position-relative"
+                    style={{
+                      width: "45px",
+                      left: "-20%",
+                    }}
+                  />
+                  <br />
+                  <img
+                    src={Pointer}
                     className="animation"
                     width={25}
                     height={25}
@@ -84,11 +134,21 @@ const OurPresence = () => {
                   />
                 </div>
                 <div
-                  className="translate-middle position-absolute transition z-2"
+                  className="translate-middle position-absolute transition z-2 location-hover"
                   style={{ top: "35%", left: "30%" }}
                 >
                   <img
-                    src={Location}
+                    src={Jaipur}
+                    alt="Jaipur"
+                    className="transtion location position-relative"
+                    style={{
+                      width: "45px",
+                      left: "-20%",
+                    }}
+                  />
+                  <br />
+                  <img
+                    src={Pointer}
                     className="animation"
                     width={25}
                     height={25}
@@ -96,11 +156,21 @@ const OurPresence = () => {
                   />
                 </div>
                 <div
-                  className="translate-middle position-absolute transition z-2"
-                  style={{ top: "50%", left: "40%" }}
+                  className="translate-middle position-absolute transition z-2 location-hover"
+                  style={{ top: "45%", left: "42%" }}
                 >
                   <img
-                    src={Location}
+                    src={Bhopal}
+                    alt="Bhopal"
+                    className="transtion location position-relative"
+                    style={{
+                      width: "55px",
+                      left: "-20%",
+                    }}
+                  />
+                  <br />
+                  <img
+                    src={Pointer}
                     className="animation"
                     width={25}
                     height={25}
@@ -108,23 +178,44 @@ const OurPresence = () => {
                   />
                 </div>
                 <div
-                  className="translate-middle position-absolute transition z-2"
-                  style={{ top: "60%", left: "40%" }}
+                  className="translate-middle position-absolute transition z-2 location-hover"
+                  style={{ top: "23%", left: "37%" }}
                 >
                   <img
-                    src={Location}
+                    src={Ludhiana}
+                    alt="Ludhiana"
+                    className="transtion location position-relative"
+                    style={{
+                      width: "70px",
+                      left: "-30%",
+                      margin: "-10px 0 0 0",
+                    }}
+                  />
+                  <br />
+                  <img
+                    src={Pointer}
                     className="animation"
                     width={25}
                     height={25}
-                    alt="Bhopal Location"
+                    alt="Bhopal Location cursor_pointer"
                   />
                 </div>
                 <div
-                  className="translate-middle position-absolute transition z-2"
-                  style={{ top: "60%", left: "45%" }}
+                  className="translate-middle position-absolute transition z-2 location-hover"
+                  style={{ top: "25%", left: "48%" }}
                 >
                   <img
-                    src={Location}
+                    src={Dehradun}
+                    alt="Dehradun"
+                    className="transtion location position-relative"
+                    style={{
+                      width: "70px",
+                      left: "-20%",
+                    }}
+                  />
+                  <br />
+                  <img
+                    src={Pointer}
                     className="animation"
                     width={25}
                     height={25}
@@ -132,11 +223,21 @@ const OurPresence = () => {
                   />
                 </div>
                 <div
-                  className="translate-middle position-absolute transition z-2"
-                  style={{ top: "60%", left: "50%" }}
+                  className="translate-middle position-absolute transition z-2 location-hover"
+                  style={{ top: "30%", left: "55%" }}
                 >
                   <img
-                    src={Location}
+                    src={Panipat}
+                    alt="Panipat"
+                    className="transtion location position-relative"
+                    style={{
+                      width: "70px",
+                      left: "-20%",
+                    }}
+                  />
+                  <br />
+                  <img
+                    src={Pointer}
                     className="animation"
                     width={25}
                     height={25}

@@ -1,6 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import EqualOpp from "../components/assets/images/webp/equaly_opp.webp";
+import EqualOpp1 from "../components/assets/images/webp/office1.jpg";
+import EqualOpp2 from "../components/assets/images/webp/office5.jpg";
+import EqualOpp3 from "../components/assets/images/webp/officeimg2.jpg";
+import EqualOpp4 from "../components/assets/images/webp/officeimg4.png";
+import EqualOpp5 from "../components/assets/images/webp/officeimg3.jpg";
 
 const JoinPDPL = () => {
   return (
@@ -9,7 +13,7 @@ const JoinPDPL = () => {
         <Row className="justify-content-center align-items-center gap-lg-0 gap-4">
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
-              <img src={EqualOpp} alt="Equal Opp at PDPL" className="transition w-100" />
+              <img src={EqualOpp1} alt="Equal Opp at PDPL" className="transition w-100" />
             </div>
           </Col>
           <Col lg={6}>
@@ -46,14 +50,14 @@ const JoinPDPL = () => {
           </Col>
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
-              <img src={EqualOpp} alt="Equal Opp at PDPL" className="transition w-100" />
+              <img src={EqualOpp2} alt="Equal Opp at PDPL" className="transition w-100" />
             </div>
           </Col>
         </Row>
         <Row className="justify-content-center align-items-center gap-lg-0 gap-4">
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
-              <img src={EqualOpp} alt="Equal Opp at PDPL" className="transition w-100" />
+              <img src={EqualOpp3} alt="Equal Opp at PDPL" className="transition w-100" />
             </div>
           </Col>
           <Col lg={6}>
@@ -88,27 +92,7 @@ const JoinPDPL = () => {
           </Col>
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
-              <img src={EqualOpp} alt="Equal Opp at PDPL" className="transition w-100" />
-            </div>
-          </Col>
-        </Row>
-        <Row className="justify-content-center align-items-center gap-lg-0 gap-4">
-          <Col lg={6}>
-            <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
-              <img src={EqualOpp} alt="Equal Opp at PDPL" className="transition w-100" />
-            </div>
-          </Col>
-          <Col lg={6}>
-            <div className="ps-lg-5 ps-0">
-              <h3 className="text_sky fs_4md fw-semibold" data-aos="fade-left">
-                Expertise in Competence
-              </h3>
-              <p className="fw-normal text-black fs_6sm" data-aos="fade-left">
-                We prioritize expertise by fostering continuous learning and
-                excellence. Our commitment to competence ensures our team
-                excels, delivering exceptional results and setting industry
-                benchmarks.
-              </p>
+              <img src={EqualOpp4} alt="Equal Opp at PDPL" className="transition w-100" />
             </div>
           </Col>
         </Row>

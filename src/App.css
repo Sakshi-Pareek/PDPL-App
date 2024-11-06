@@ -268,6 +268,12 @@
 .max_w_500 {
   max-width: 500px;
 }
+.location-hover:hover .location {
+  visibility: visible;
+}
+.location {
+  visibility: hidden;
+}
 /* ========================================Client-Reviews================================= */
 .custom_dots .slick-slider .slick-dots {
   bottom: -20px !important;
@@ -279,6 +285,9 @@
   width: 8px !important;
   background-color: rgb(29, 121, 187) !important;
   opacity: 1 !important;
+}
+.review-card {
+  min-height: 250px;
 }
 /* =======================================Footer============================================ */
 .bg_footer {
