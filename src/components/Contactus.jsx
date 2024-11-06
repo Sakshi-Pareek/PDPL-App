@@ -31,6 +31,8 @@ const Contactus = () => {
     validationSchema,
     onSubmit: (values, { resetForm }) => {
       console.log("Form Submitted:", values);
+      const contactus = { ...values, code: "pdpl" };
+      console.log(contactus);
       setIsSubmitted(true);
       resetForm();
     },
