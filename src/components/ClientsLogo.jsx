@@ -12,38 +12,31 @@ import Client8 from "./assets/images/webp/client8.webp";
 
 const ClientsLogo = () => {
   const logo = [
-    {
-      image: Client1,
-    },
-    {
-      image: Client2,
-    },
-    {
-      image: Client3,
-    },
-    {
-      image: Client4,
-    },
-    {
-      image: Client5,
-    },
-    {
-      image: Client6,
-    },
-    {
-      image: Client7,
-    },
-    {
-      image: Client8,
-    },
+    { image: Client1 },
+    { image: Client2 },
+    { image: Client3 },
+    { image: Client4 },
+    { image: Client5 },
+    { image: Client6 },
+    { image: Client7 },
+    { image: Client8 },
+    { image: Client1 },
+    { image: Client2 },
+    { image: Client3 },
+    { image: Client4 },
+    { image: Client5 },
+    { image: Client6 },
+    { image: Client7 },
+    { image: Client8 },
   ];
+
   const settings = {
     dots: false,
     infinite: true,
     arrows: false,
     autoplay: true,
     autoplaySpeed: 0,
-    speed: 6000,
+    speed: 5000,
     cssEase: "linear",
     slidesToShow: 6,
     slidesToScroll: 1,
@@ -63,7 +56,7 @@ const ClientsLogo = () => {
       {
         breakpoint: 640,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
         },
       },
       {
@@ -74,32 +67,32 @@ const ClientsLogo = () => {
       },
     ],
   };
+
   return (
-    <>
-      <Container fluid className="my-5 py-md-4 overflow-hidden max-w-1920 mx-auto">
-        <h2
-          className="fw-bold fs_8xl mb-2 text-center mb-5 text-black"
-          data-aos="fade-down"
-        >
-          Our Trusted Partners
-        </h2>
-        <div data-aos="fade-down">
-          <Slider {...settings}>
-            {logo.map((a, index) => (
-              <div key={index}>
-                <img
-                  src={a.image}
-                  alt="Clients Logo"
-                  width={190}
-                  height={70}
-                  className="object-fit-contain p-lg-0 p-1"
-                />
-              </div>
-            ))}
-          </Slider>
-        </div>
-      </Container>
-    </>
+    <Container fluid className="my-5 py-md-4 overflow-hidden max-w-1920 mx-auto">
+      <h2
+        className="fw-bold fs_8xl mb-2 text-center mb-5 text-black"
+        data-aos="fade-down"
+      >
+        Our Trusted Partners
+      </h2>
+      <div data-aos="fade-down">
+        <Slider {...settings}>
+          {logo.map((a, index) => (
+            <div key={index}>
+              <img
+                src={a.image}
+                alt="Client Logo"
+                width={190}
+                height={70}
+                className="object-fit-contain p-lg-0 p-1"
+                style={{ margin: "0 auto" }}
+              />
+            </div>
+          ))}
+        </Slider>
+      </div>
+    </Container>
   );
 };
 

@@ -42,6 +42,9 @@ const Section = ({ data }) => {
           className="mb-3 shadow-sm p-md-4 p-3 cursor_pointer hover-card transition 
           "
           data-aos="fade-down"
+          style={{
+            background: "linear-gradient(to bottom, rgb(215, 231, 239), white)",
+          }}
         >
           <div className="d-flex">
             <img src={HandIcon} alt="HandIcon" width={30} height={25} />

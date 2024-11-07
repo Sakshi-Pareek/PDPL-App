@@ -5,10 +5,10 @@ import Profile from "./assets/images/svg/profile.svg";
 
 const ClientReview = () => {
   const settings = {
-    dots: true,
+    dots: false,
     arrows: false,
     infinite: true,
-    speed: 500,
+    speed: 400,
     slidesToShow: 3,
     slidesToScroll: 1,
     centerMode: true,
@@ -18,14 +18,15 @@ const ClientReview = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
+          centerPadding: "0",
         },
       },
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
-          centerPadding: "80px",
+          centerPadding: "0",
         },
       },
       {
@@ -47,7 +48,7 @@ const ClientReview = () => {
     },
     {
       name: "Anita Sharma",
-      role: "Pro. Manager, Fortis Healthcare, Mumbai",
+      role: "Manager, Fortis Healthcare, Mumbai",
       feedback:
         "Working with PDPL has been instrumental in streamlining our hospital’s supply chain management. From their proactive communication to the quality of their pharmaceutical and medical supplies, PDPL has exceeded our expectations time and again. ",
     },

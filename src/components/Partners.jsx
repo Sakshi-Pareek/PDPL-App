@@ -158,7 +158,7 @@ const Partners = () => {
       {
         breakpoint: 426,
         settings: {
-          slidesToShow: 1.67,
+          slidesToShow: 2.2,
         },
       },
     ],
@@ -185,7 +185,7 @@ const Partners = () => {
       {
         breakpoint: 426,
         settings: {
-          slidesToShow: 1.67,
+          slidesToShow: 2.2,
         },
       },
     ],

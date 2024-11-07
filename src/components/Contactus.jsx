@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import React, { useState, useEffect } from "react";
+import { Col, Container, Row, Alert } from "react-bootstrap";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import CommonBtn from "./common/CommonBtn";
@@ -7,6 +7,7 @@ import linkedIn from "../components/assets/images/svg/linkedin_logo.svg";
 
 const Contactus = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
+
   const validationSchema = Yup.object({
     user_name: Yup.string()
       .min(2, "Name must be at least 2 characters")
@@ -21,6 +22,7 @@ const Contactus = () => {
       .min(10, "Message must be at least 10 characters")
       .required("Message is required"),
   });
+
   const formik = useFormik({
     initialValues: {
       user_name: "",
@@ -33,6 +35,7 @@ const Contactus = () => {
       console.log("Form Submitted:", values);
       const contactus = { ...values, code: "pdpl" };
       console.log(contactus);
+
       await fetch("https://api.plusdistribution.in/pdpl/contact-us", {
         method: "POST",
         headers: {
@@ -40,10 +43,21 @@ const Contactus = () => {
         },
         body: JSON.stringify(contactus),
       });
+
       setIsSubmitted(true);
       resetForm();
     },
   });
+
+  useEffect(() => {
+    if (isSubmitted) {
+      const timer = setTimeout(() => {
+        setIsSubmitted(false);
+      }, 3000); // Hides the alert after 3 seconds
+
+      return () => clearTimeout(timer); // Clear the timer if component unmounts
+    }
+  }, [isSubmitted]);
 
   return (
     <>
@@ -54,13 +68,20 @@ const Contactus = () => {
         >
           Contact Us
         </h2>
+
+        {/* Alert message displayed after form submission */}
+        {isSubmitted && (
+          <Alert variant="success" className="text-center">
+            Thank you for contacting us! We will get back to you shortly.
+          </Alert>
+        )}
+
         <Row className="d-flex flex-wrap flex-row justify-content-between gap-lg-0 gap-3">
           <Col lg={5}>
-            <h3 className=" fs_2lg" data-aos="fade-right">
+            <h3 className="fs_2lg" data-aos="fade-right">
               Inquiries
             </h3>
-
-            <p className=" fs_8sm" data-aos="fade-right">
+            <p className="fs_8sm" data-aos="fade-right">
               Looking to collaborate or need assistance? Connect with us for
               partnership opportunities or dedicated support.
             </p>
@@ -108,7 +129,6 @@ const Contactus = () => {
               </a>
             </p>
             <p data-aos="fade-right">
-              {" "}
               <a
                 href="https://www.linkedin.com/company/plus-distribution-private-limited/posts/?feedView=all"
                 target="_blank"
@@ -126,6 +146,7 @@ const Contactus = () => {
               </a>
             </p>
           </Col>
+
           <Col lg={6}>
             <form
               onSubmit={formik.handleSubmit}
@@ -190,13 +211,14 @@ const Contactus = () => {
           </Col>
         </Row>
       </Container>
+
       <div data-aos="fade-down">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.5124600147733!2d76.9943061!3d28.4339645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d17bdf3ddf591%3A0xbdbb9a6f0115739d!2sPlus%20Distribution%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1685521082009!5m2!1sen!2sin"
           width="100%"
           height="340px"
           loading="lazy"
-          className=" mb_neg_7"
+          className="mb_neg_7"
         ></iframe>
       </div>
     </>

@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import EqualOpp1 from "../components/assets/images/webp/office1.jpg";
+import EqualOpp1 from "../components/assets/images/webp/officeimg2.jpg";
 import EqualOpp2 from "../components/assets/images/webp/office5.jpg";
-import EqualOpp3 from "../components/assets/images/webp/officeimg2.jpg";
+import EqualOpp3 from "../components/assets/images/webp/office1.jpg";
 import EqualOpp4 from "../components/assets/images/webp/officeimg3.jpg";
+import EqualOpp5 from "../components/assets/images/webp/hrimg.jpg";
 
 const JoinPDPL = () => {
   return (
@@ -108,6 +109,30 @@ const JoinPDPL = () => {
                 alt="Equal Opp at PDPL"
                 className="transition w-100 min-h-290 object-fit-cover"
               />
+            </div>
+          </Col>
+        </Row>
+        <Row className="justify-content-center align-items-center gap-lg-0 gap-4">
+          <Col lg={6}>
+            <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
+              <img
+                src={EqualOpp5}
+                alt="Equal Opp at PDPL"
+                className="transition w-100 min-h-290 object-fit-cover"
+              />
+            </div>
+          </Col>
+          <Col lg={6}>
+            <div className="ps-lg-5 ps-0">
+              <h3 className="text_sky fs_4md fw-semibold" data-aos="fade-left">
+                Expertise in Competence
+              </h3>
+              <p className="fw-normal text-black fs_6sm" data-aos="fade-left">
+                We prioritize expertise by fostering continuous learning and
+                excellence. Our commitment to competence ensures our team
+                excels, delivering exceptional results and setting industry
+                benchmarks.
+              </p>
             </div>
           </Col>
         </Row>

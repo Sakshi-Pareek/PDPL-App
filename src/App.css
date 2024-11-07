@@ -230,14 +230,25 @@
 }
 .slick-slide.slick-active.slick-current div div.hover_active {
   border: 1px solid rgb(29, 121, 187) !important;
+  background-color: #abd5eb !important;
+  transform: scale(1.2);
+  position: relative;
+  z-index: 2;
+  filter: blur(0px);
   border-bottom-width: 5px !important;
-  transform: all 300ms linear !important;
+  transform: all 500ms linear !important;
   outline: none !important;
+}
+.custom_dots .slick-track {
+  padding: 35px 0px !important;
 }
 .slick-slide div div.hover_active {
   border-radius: 18px !important;
   border: 1px solid rgb(164, 196, 219) !important;
+  background-color: #dde3d1 !important;
+  filter: blur(2px);
   outline: none !important;
+  transform: all 500ms linear !important;
 }
 /* =======================================We-are-the-best===================================== */
 .distributor_bg {
@@ -270,12 +281,6 @@
 /* =======================================ourPresence===================================== */
 .max_w_500 {
   max-width: 550px;
-}
-.location-hover:hover .location {
-  visibility: visible;
-}
-.location {
-  visibility: hidden;
 }
 /* ========================================Client-Reviews================================= */
 .custom_dots .slick-slider .slick-dots {
@@ -448,6 +453,9 @@
     width: 40px;
     height: 4px;
   }
+  .review-card {
+    min-height: 320px;
+  }
 }
 @media (max-width: 992px) {
   :root {
@@ -463,6 +471,15 @@
     --fs-4xl: 42px;
     --fs-8xl: 44px;
     --fs-xxl: 50px;
+  }
+  .slick-slide.slick-active.slick-current div div.hover_active {
+    transform: scale(1) !important;
+  }
+  .review-card {
+    min-height: 250px;
+  }
+  .custom_dots .slick-track {
+    padding: 0px !important;
   }
 }
 @media (max-width: 576px) {
@@ -485,4 +502,25 @@
     --fs-8xl: 32px;
     --fs-xxl: 34px;
   }
+}
+.location-wrapper {
+  text-align: center;
+  cursor: pointer;
+}
+.location-name {
+  display: none;
+  font-size: 14px;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2px 8px;
+  border-radius: 4px;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  z-index: 1;
+}
+.location-wrapper:hover .location-name {
+  display: block;
 }

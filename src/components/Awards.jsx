@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
 import Award from "../components/assets/images/webp/awards.webp";
+import Victory from "../components/assets/images/webp/victory.png";
 
 const Awards = () => {
   const awardsData = [
@@ -23,10 +24,11 @@ const Awards = () => {
   ];
 
   return (
-    <Container className="py-5 my-lg-4">
+    <Container className="py-5 my-lg-4 text-center">
       <h2 className="fw-bold fs_8xl mb-2 text-center" data-aos="fade-down">
         Awards and Recognitions
       </h2>
+      <img src={Victory} alt="Victory" className="w-100 max_w_500 mx-auto" data-aos="fade-down"/>
       <p
         className="ff_roboto fw-normal fs_md letter_spacing mb-0 lh-base text-black text-center"
         data-aos="fade-down"
