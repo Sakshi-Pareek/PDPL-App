@@ -31,7 +31,7 @@ const Meta = () => {
             meta_desc: siteMeta.meta_desc,
             meta_key: siteMeta.meta_key,
             meta_image:
-              siteMeta.meta_image || "https://i.postimg.cc/8CNQC9hk/pdplss.png",
+              siteMeta.meta_image || "https://postimg.cc/R61b1gxs",
           });
         }
       } catch (err) {
