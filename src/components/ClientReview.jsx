@@ -1,19 +1,25 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
 import Profile from "./assets/images/svg/profile.svg";
 
 const ClientReview = () => {
+  const sliderRef = useRef(null);
+  const [currentSlide, setCurrentSlide] = useState(0);
+
   const settings = {
-    dots: false,
+    dots: true,
     arrows: false,
     infinite: true,
-    speed: 400,
+    speed: 800,
     slidesToShow: 3,
     slidesToScroll: 1,
     centerMode: true,
     centerPadding: "0",
-    autoplay: true,
+    autoplay: false,
+    autoplaySpeed: 5000,
+    cssEase: "ease-in-out",
+    beforeChange: (oldIndex, newIndex) => setCurrentSlide(newIndex),
     responsive: [
       {
         breakpoint: 1024,
@@ -50,7 +56,7 @@ const ClientReview = () => {
       name: "Anita Sharma",
       role: "Manager, Fortis Healthcare, Mumbai",
       feedback:
-        "Working with PDPL has been instrumental in streamlining our hospital’s supply chain management. From their proactive communication to the quality of their pharmaceutical and medical supplies, PDPL has exceeded our expectations time and again. ",
+        "Working with PDPL has been instrumental in streamlining our hospital’s supply chain management. From their proactive communication to the quality of their pharmaceutical and medical supplies, PDPL has exceeded our expectations time and again.",
     },
     {
       name: "Rakesh Verma",
@@ -66,6 +72,11 @@ const ClientReview = () => {
     },
   ];
 
+  const handleSlideClick = (index) => {
+    setCurrentSlide(index);
+    sliderRef.current.slickGoTo(index);
+  };
+
   return (
     <div className="bg_gray py-5">
       <Container className="my-lg-4">
@@ -76,9 +87,15 @@ const ClientReview = () => {
           What They Say About Us
         </h2>
         <div data-aos="zoom-in" className="custom_dots">
-          <Slider {...settings}>
+          <Slider ref={sliderRef} {...settings}>
             {reviews.map((review, index) => (
-              <div className="px-1" key={index}>
+              <div
+                className={`px-1 ${
+                  index === currentSlide ? "center-slide" : ""
+                }`}
+                key={index}
+                onClick={() => handleSlideClick(index)}
+              >
                 <div className="review-card rounded-4 p-3 hover_active cursor_pointer bg-white h-full">
                   <div className="d-flex align-items-center gap-2 mb-3">
                     <img

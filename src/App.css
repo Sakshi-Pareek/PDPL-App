@@ -232,11 +232,11 @@
   border: 1px solid rgb(29, 121, 187) !important;
   background-color: #abd5eb !important;
   transform: scale(1.2);
+  transition: transform 0.9s ease;
   position: relative;
   z-index: 2;
   filter: blur(0px);
   border-bottom-width: 5px !important;
-  transform: all 500ms linear !important;
   outline: none !important;
 }
 .custom_dots .slick-track {
@@ -246,9 +246,10 @@
   border-radius: 18px !important;
   border: 1px solid rgb(164, 196, 219) !important;
   background-color: #dde3d1 !important;
+  transform: scale(0.99);
   filter: blur(2px);
   outline: none !important;
-  transform: all 500ms linear !important;
+  transform: all 900ms linear !important;
 }
 /* =======================================We-are-the-best===================================== */
 .distributor_bg {
