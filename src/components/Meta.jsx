@@ -9,7 +9,7 @@ const Meta = () => {
       "PDPL ensures efficient, reliable pharmaceutical logistics, driving innovation and excellence in global healthcare supply chains.",
     meta_key:
       "pharmaceutical distributor in India healthcare products distribution pharmaceutical supply chain medical supply distribution Plus Distribution Pvt Ltd healthcare logistics",
-    meta_image: "https://postimg.cc/https://i.postimg.cc/7LsGsQNN/Screenshot-2024-11-07-151431.png",
+    meta_image: "https://i.postimg.cc/Dy025yMR/Screenshot-2024-11-07-151431.png",
   });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -31,7 +31,7 @@ const Meta = () => {
             meta_desc: siteMeta.meta_desc,
             meta_key: siteMeta.meta_key,
             meta_image:
-              siteMeta.meta_image || "https://postimg.cc/https://i.postimg.cc/7LsGsQNN/Screenshot-2024-11-07-151431.png",
+              siteMeta.meta_image || "https://i.postimg.cc/Dy025yMR/Screenshot-2024-11-07-151431.png",
           });
         }
       } catch (err) {
