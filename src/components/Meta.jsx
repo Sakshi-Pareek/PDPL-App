@@ -23,7 +23,7 @@ const Meta = () => {
         );
 
         const siteMeta = response.data.response.metaInf.find(
-          (site) => site.site_name === "pdpl.test.plusdistribution.in"
+          (site) => site.site_name === "plusdistributions.in"
         );
 
         if (siteMeta) {
@@ -67,11 +67,11 @@ const Meta = () => {
           <meta property="og:image" content={metaData.meta_image} />
           <meta
             property="og:url"
-            content="https://pdpl.test.plusdistribution.in/"
+            content="https://plusdistributions.in/"
           />
           <meta
             property="twitter:url"
-            content="https://pdpl.test.plusdistribution.in/"
+            content="https://plusdistributions.in/"
           />
           <meta property="twitter:title" content={metaData.meta_title} />
           <meta property="twitter:description" content={metaData.meta_desc} />

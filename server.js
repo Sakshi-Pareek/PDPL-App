@@ -8,7 +8,7 @@ const routes = require('./src/components/common/MainRoute');
 const app = express();
 
 app.get('/sitemap.xml', (req, res) => {
-    const sitemap = new SitemapStream({ hostname: 'https://pdpl.sakshi.xyz/' });
+    const sitemap = new SitemapStream({ hostname: 'https://plusdistributions.in/' });
   
     matchRoutes(routes, req.path).map(({ route }) => {
       sitemap.write({ url: route.path, changefreq: 'monthly', priority: 0.7 });
