@@ -9,7 +9,8 @@ const Meta = () => {
       "PDPL ensures efficient, reliable pharmaceutical logistics, driving innovation and excellence in global healthcare supply chains.",
     meta_key:
       "pharmaceutical distributor in India healthcare products distribution pharmaceutical supply chain medical supply distribution Plus Distribution Pvt Ltd healthcare logistics",
-    meta_image: "https://i.postimg.cc/Dy025yMR/Screenshot-2024-11-07-151431.png",
+    meta_image:
+      "https://i.postimg.cc/Dy025yMR/Screenshot-2024-11-07-151431.png",
   });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -22,7 +23,7 @@ const Meta = () => {
         );
 
         const siteMeta = response.data.response.metaInf.find(
-          (site) => site.site_name === "pdpl.pareek.sakshi.xyz"
+          (site) => site.site_name === "pdpl.test.plusdistribution.in"
         );
 
         if (siteMeta) {
@@ -31,7 +32,8 @@ const Meta = () => {
             meta_desc: siteMeta.meta_desc,
             meta_key: siteMeta.meta_key,
             meta_image:
-              siteMeta.meta_image || "https://i.postimg.cc/Dy025yMR/Screenshot-2024-11-07-151431.png",
+              siteMeta.meta_image ||
+              "https://i.postimg.cc/Dy025yMR/Screenshot-2024-11-07-151431.png",
           });
         }
       } catch (err) {
@@ -63,7 +65,10 @@ const Meta = () => {
           <meta property="og:title" content={metaData.meta_title} />
           <meta property="og:description" content={metaData.meta_desc} />
           <meta property="og:image" content={metaData.meta_image} />
-          <meta property="og:url" content="https://pdpl.test.plusdistribution.in/" />
+          <meta
+            property="og:url"
+            content="https://pdpl.test.plusdistribution.in/"
+          />
           <meta
             property="twitter:url"
             content="https://pdpl.test.plusdistribution.in/"
