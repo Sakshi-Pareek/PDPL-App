@@ -40,7 +40,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper"
                   style={{ top: "26%", left: "30%" }}
                 >
-                  <img src={Pointer} width={25} height={25} alt="Pointer" />
+                  <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
                   <span className="location-name">Hisar</span>
                 </div>
 
@@ -48,7 +48,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper"
                   style={{ top: "28%", left: "37%" }}
                 >
-                  <img src={Pointer} width={25} height={25} alt="Pointer" />
+                  <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
                   <span className="location-name">Delhi</span>
                 </div>
 
@@ -56,7 +56,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper"
                   style={{ top: "26%", left: "35%" }}
                 >
-                  <img src={Pointer} width={25} height={25} alt="Pointer" />
+                  <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
                   <span className="location-name">Gurugram</span>
                 </div>
 
@@ -64,7 +64,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper"
                   style={{ top: "37%", left: "50%" }}
                 >
-                  <img src={Pointer} width={25} height={25} alt="Pointer" />
+                  <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
                   <span className="location-name">Noida</span>
                 </div>
 
@@ -72,7 +72,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper"
                   style={{ top: "35%", left: "30%" }}
                 >
-                  <img src={Pointer} width={25} height={25} alt="Pointer" />
+                  <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
                   <span className="location-name">Jaipur</span>
                 </div>
 
@@ -80,7 +80,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper"
                   style={{ top: "45%", left: "42%" }}
                 >
-                  <img src={Pointer} width={25} height={25} alt="Pointer" />
+                  <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
                   <span className="location-name">Bhopal</span>
                 </div>
 
@@ -88,7 +88,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper"
                   style={{ top: "22%", left: "31%" }}
                 >
-                  <img src={Pointer} width={25} height={25} alt="Pointer" />
+                  <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
                   <span className="location-name">Ludhiana</span>
                 </div>
 
@@ -96,7 +96,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper"
                   style={{ top: "24%", left: "43%" }}
                 >
-                  <img src={Pointer} width={25} height={25} alt="Pointer" />
+                  <img src={Pointer} width={20} height={20} alt="Pointer" className="animation"  />
                   <span className="location-name">Dehradun</span>
                 </div>
 
@@ -104,7 +104,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper"
                   style={{ top: "29%", left: "33%" }}
                 >
-                  <img src={Pointer} width={25} height={25} alt="Pointer" />
+                  <img src={Pointer} width={20} height={20} alt="Pointer"  className="animation"/>
                   <span className="location-name">Panipat</span>
                 </div>
               </div>
