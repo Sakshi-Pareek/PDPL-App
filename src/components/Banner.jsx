@@ -10,7 +10,7 @@ const cardData = [
 
 const Banner = () => {
   return (
-    <div className="px-xl-4 px-0 my-xl-5 my-0">
+    <div className="px-xl-4 px-0 my-xl-5 my-0 max-w-1920 mx-auto">
       <div className="d-flex flex-xl-nowrap gap-2 flex-wrap justify-content-center">
         {cardData.map((card, index) => (
           <div key={index} className="w-100">

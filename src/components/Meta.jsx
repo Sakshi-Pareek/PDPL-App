@@ -49,7 +49,7 @@ const Meta = () => {
   }
 
   if (error) {
-    return <div>Error fetching data: {error.message}</div>;
+    return <div>{error.message}</div>;
   }
 
   return (

@@ -53,7 +53,7 @@ export const Herosection = () => {
         {slidesData.map((slide, index) => (
           <div key={index}>
             <Container>
-              <Row className="text-lg-start text-center align-items-center gap-lg-0 gap-3 py-5">
+              <Row className="text-lg-start text-center align-items-center gap-lg-0 gap-5 py-5">
                 <Col lg={7}>
                   <h1
                     className="fw-bold text-white fs_xxl"

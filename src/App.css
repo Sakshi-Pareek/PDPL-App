@@ -195,6 +195,9 @@
 .cross .crl_3 {
   transform: rotate(-45deg) translate(5px, -5px);
 }
+.max-w-1920 {
+  max-width: 1920px;
+}
 /* ---------------------------------------------HOME-PAGe------------------------------------ */
 /* ===========================================Hero-Section=================================== */
 .slick-dots {
@@ -202,7 +205,7 @@
   justify-content: center !important;
   align-items: center !important;
   gap: 4px !important;
-  bottom: -35px !important;
+  bottom: 16px !important;
 }
 .slick-dots li {
   width: 8px !important;
@@ -266,7 +269,7 @@
 }
 /* =======================================ourPresence===================================== */
 .max_w_500 {
-  max-width: 500px;
+  max-width: 550px;
 }
 .location-hover:hover .location {
   visibility: visible;

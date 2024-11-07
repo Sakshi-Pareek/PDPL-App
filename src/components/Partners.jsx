@@ -192,7 +192,10 @@ const Partners = () => {
   };
   return (
     <>
-      <Container fluid className="overflow-hidden d-flex flex-column py-5">
+      <Container
+        fluid
+        className="overflow-hidden d-flex flex-column py-5 max-w-1920 mx-auto"
+      >
         <div data-aos="zoom-in">
           <Slider {...settings1}>
             {logos1.map((a, index) => (

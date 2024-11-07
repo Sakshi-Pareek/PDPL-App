@@ -3,8 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import EqualOpp1 from "../components/assets/images/webp/office1.jpg";
 import EqualOpp2 from "../components/assets/images/webp/office5.jpg";
 import EqualOpp3 from "../components/assets/images/webp/officeimg2.jpg";
-import EqualOpp4 from "../components/assets/images/webp/officeimg4.png";
-import EqualOpp5 from "../components/assets/images/webp/officeimg3.jpg";
+import EqualOpp4 from "../components/assets/images/webp/officeimg3.jpg";
 
 const JoinPDPL = () => {
   return (
@@ -13,7 +12,11 @@ const JoinPDPL = () => {
         <Row className="justify-content-center align-items-center gap-lg-0 gap-4">
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
-              <img src={EqualOpp1} alt="Equal Opp at PDPL" className="transition w-100" />
+              <img
+                src={EqualOpp1}
+                alt="Equal Opp at PDPL"
+                className="transition w-100 min-h-290 object-fit-cover"
+              />
             </div>
           </Col>
           <Col lg={6}>
@@ -50,14 +53,22 @@ const JoinPDPL = () => {
           </Col>
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
-              <img src={EqualOpp2} alt="Equal Opp at PDPL" className="transition w-100" />
+              <img
+                src={EqualOpp2}
+                alt="Equal Opp at PDPL"
+                className="transition w-100 min-h-290 object-fit-cover"
+              />
             </div>
           </Col>
         </Row>
         <Row className="justify-content-center align-items-center gap-lg-0 gap-4">
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
-              <img src={EqualOpp3} alt="Equal Opp at PDPL" className="transition w-100" />
+              <img
+                src={EqualOpp3}
+                alt="Equal Opp at PDPL"
+                className="transition w-100 min-h-290 object-fit-cover"
+              />
             </div>
           </Col>
           <Col lg={6}>
@@ -92,7 +103,11 @@ const JoinPDPL = () => {
           </Col>
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
-              <img src={EqualOpp4} alt="Equal Opp at PDPL" className="transition w-100" />
+              <img
+                src={EqualOpp4}
+                alt="Equal Opp at PDPL"
+                className="transition w-100 min-h-290 object-fit-cover"
+              />
             </div>
           </Col>
         </Row>

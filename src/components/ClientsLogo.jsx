@@ -76,7 +76,7 @@ const ClientsLogo = () => {
   };
   return (
     <>
-      <Container fluid className="my-5 py-md-4 overflow-hidden">
+      <Container fluid className="my-5 py-md-4 overflow-hidden max-w-1920 mx-auto">
         <h2
           className="fw-bold fs_8xl mb-2 text-center mb-5 text-black"
           data-aos="fade-down"

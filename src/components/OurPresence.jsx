@@ -160,6 +160,14 @@ const OurPresence = () => {
                   style={{ top: "45%", left: "42%" }}
                 >
                   <img
+                    src={Pointer}
+                    className="animation"
+                    width={25}
+                    height={25}
+                    alt="Jaipur Location"
+                  />{" "}
+                  <br />
+                  <img
                     src={Bhopal}
                     alt="Bhopal"
                     className="transtion location position-relative"
@@ -167,14 +175,6 @@ const OurPresence = () => {
                       width: "55px",
                       left: "-20%",
                     }}
-                  />
-                  <br />
-                  <img
-                    src={Pointer}
-                    className="animation"
-                    width={25}
-                    height={25}
-                    alt="Jaipur Location"
                   />
                 </div>
                 <div
