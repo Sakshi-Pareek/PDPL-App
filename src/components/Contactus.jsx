@@ -1,16 +1,15 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Col, Container, Row, Alert } from "react-bootstrap";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import CommonBtn from "./common/CommonBtn";
 import linkedIn from "../components/assets/images/svg/linkedin_logo.svg";
-import ReCAPTCHA from "react-google-recaptcha"; // Import reCAPTCHA
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Contactus = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [captchaValue, setCaptchaValue] = useState(null); // State for reCAPTCHA value
+  const [captchaValue, setCaptchaValue] = useState(null);
 
-  // Validation schema
   const validationSchema = Yup.object({
     user_name: Yup.string()
       .min(2, "Name must be at least 2 characters")
@@ -26,7 +25,6 @@ const Contactus = () => {
       .required("Message is required"),
   });
 
-  // Formik setup
   const formik = useFormik({
     initialValues: {
       user_name: "",
@@ -54,7 +52,8 @@ const Contactus = () => {
 
       setIsSubmitted(true);
       resetForm();
-      setCaptchaValue(null); // Reset reCAPTCHA after submission
+      setCaptchaValue(null);
+      window.grecaptcha.reset();
     },
   });
 
@@ -206,10 +205,9 @@ const Contactus = () => {
                 <div className="text-danger">{formik.errors.message}</div>
               )}
 
-              {/* reCAPTCHA */}
               <div className="mt-3">
                 <ReCAPTCHA
-                  sitekey="6LfCoXgqAAAAAOM3ZQDaOmvx5ScXLX8oZrEN_bvO" // Replace with actual site key from Google reCAPTCHA
+                  sitekey="6Ld0pngqAAAAABeeMbSya_ErNScFMKDk2HRPWBtZ"
                   onChange={handleCaptchaChange}
                 />
               </div>
