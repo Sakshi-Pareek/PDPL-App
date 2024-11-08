@@ -4,10 +4,13 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import CommonBtn from "./common/CommonBtn";
 import linkedIn from "../components/assets/images/svg/linkedin_logo.svg";
+import ReCAPTCHA from "react-google-recaptcha"; // Import reCAPTCHA
 
 const Contactus = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [captchaValue, setCaptchaValue] = useState(null); // State for reCAPTCHA value
 
+  // Validation schema
   const validationSchema = Yup.object({
     user_name: Yup.string()
       .min(2, "Name must be at least 2 characters")
@@ -23,6 +26,7 @@ const Contactus = () => {
       .required("Message is required"),
   });
 
+  // Formik setup
   const formik = useFormik({
     initialValues: {
       user_name: "",
@@ -32,7 +36,11 @@ const Contactus = () => {
     },
     validationSchema,
     onSubmit: async (values, { resetForm }) => {
-      console.log("Form Submitted:", values);
+      if (!captchaValue) {
+        alert("Please complete the reCAPTCHA verification.");
+        return;
+      }
+
       const contactus = { ...values, code: "pdpl" };
       console.log(contactus);
 
@@ -46,6 +54,7 @@ const Contactus = () => {
 
       setIsSubmitted(true);
       resetForm();
+      setCaptchaValue(null); // Reset reCAPTCHA after submission
     },
   });
 
@@ -53,11 +62,15 @@ const Contactus = () => {
     if (isSubmitted) {
       const timer = setTimeout(() => {
         setIsSubmitted(false);
-      }, 3000); // Hides the alert after 3 seconds
+      }, 3000);
 
-      return () => clearTimeout(timer); // Clear the timer if component unmounts
+      return () => clearTimeout(timer);
     }
   }, [isSubmitted]);
+
+  const handleCaptchaChange = (value) => {
+    setCaptchaValue(value);
+  };
 
   return (
     <>
@@ -69,7 +82,6 @@ const Contactus = () => {
           Contact Us
         </h2>
 
-        {/* Alert message displayed after form submission */}
         {isSubmitted && (
           <Alert variant="success" className="text-center">
             Thank you for contacting us! We will get back to you shortly.
@@ -88,29 +100,23 @@ const Contactus = () => {
             <p className="fs_md" data-aos="fade-right">
               <strong>Contact us at : </strong>
               <a
-                href="tel: 9671480888"
-                target="_blank"
-                rel="noreferrer"
+                href="tel:9671480888"
                 className="text-black nav_link transition fs_6sm"
               >
                 9671480888
-              </a>
-              {" / "}
+              </a>{" "}
+              /{" "}
               <a
-                href="tel: +91124-4014675"
-                target="_blank"
-                rel="noreferrer"
+                href="tel:+91124-4014675"
                 className="text-black nav_link transition fs_6sm"
               >
                 +91124-4014675
               </a>
             </p>
             <p data-aos="fade-right">
-              <strong>Mail us at : </strong>{" "}
+              <strong>Mail us at : </strong>
               <a
-                href="mailto: info@plusdistributions.in"
-                target="_blank"
-                rel="noreferrer"
+                href="mailto:info@plusdistributions.in"
                 className="text-black nav_link transition"
               >
                 info@plusdistributions.in
@@ -119,9 +125,7 @@ const Contactus = () => {
             <p data-aos="fade-right">
               <strong>Locate Us : </strong>
               <a
-                href="https://www.google.com/maps/place/Plus+Distribution+Pvt.+Ltd/@28.4339692,76.9917312,17z/data=!3m1!4b1!4m6!3m5!1s0x390d17bdf3ddf591:0xbdbb9a6f0115739d!8m2!3d28.4339645!4d76.9943061!16s%2Fg%2F11rn7qzn6k?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
-                target="_blank"
-                rel="noreferrer"
+                href="https://www.google.com/maps"
                 className="text-black ff_roboto nav_link transition"
               >
                 Plus Distribution Pvt. Ltd, Company no: 581, Pace City II,
@@ -130,19 +134,17 @@ const Contactus = () => {
             </p>
             <p data-aos="fade-right">
               <a
-                href="https://www.linkedin.com/company/plus-distribution-private-limited/posts/?feedView=all"
-                target="_blank"
-                rel="noreferrer"
-                className="fw-normal fs_6sm text-black ff_roboto mb-1 d-flex align-items-center gap-2 contact_icon nav_link transition"
+                href="https://www.linkedin.com/company/plus-distribution-private-limited"
+                className="text-black ff_roboto nav_link transition"
               >
                 <img
                   src={linkedIn}
-                  alt="linkedIn Profile"
+                  alt="LinkedIn"
                   width={30}
                   height={30}
                   className="transition"
-                />{" "}
-                Plus Distribution Private Limited
+                />
+                <span className="ms-2">Plus Distribution Private Limited</span>
               </a>
             </p>
           </Col>
@@ -161,9 +163,9 @@ const Contactus = () => {
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
               />
-              {formik.touched.user_name && formik.errors.user_name ? (
+              {formik.touched.user_name && formik.errors.user_name && (
                 <div className="text-danger">{formik.errors.user_name}</div>
-              ) : null}
+              )}
 
               <input
                 type="tel"
@@ -174,9 +176,9 @@ const Contactus = () => {
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
               />
-              {formik.touched.user_contact && formik.errors.user_contact ? (
+              {formik.touched.user_contact && formik.errors.user_contact && (
                 <div className="text-danger">{formik.errors.user_contact}</div>
-              ) : null}
+              )}
 
               <input
                 type="email"
@@ -187,9 +189,9 @@ const Contactus = () => {
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
               />
-              {formik.touched.user_mail && formik.errors.user_mail ? (
+              {formik.touched.user_mail && formik.errors.user_mail && (
                 <div className="text-danger">{formik.errors.user_mail}</div>
-              ) : null}
+              )}
 
               <textarea
                 name="message"
@@ -200,9 +202,17 @@ const Contactus = () => {
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
               />
-              {formik.touched.message && formik.errors.message ? (
+              {formik.touched.message && formik.errors.message && (
                 <div className="text-danger">{formik.errors.message}</div>
-              ) : null}
+              )}
+
+              {/* reCAPTCHA */}
+              <div className="mt-3">
+                <ReCAPTCHA
+                  sitekey="6Ld9ingqAAAAAJBFFtrClStqB1vf-N9cde6bCzSO" // Replace with actual site key from Google reCAPTCHA
+                  onChange={handleCaptchaChange}
+                />
+              </div>
 
               <div>
                 <CommonBtn btnname="Send" type="submit"></CommonBtn>
