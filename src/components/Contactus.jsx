@@ -209,7 +209,7 @@ const Contactus = () => {
               {/* reCAPTCHA */}
               <div className="mt-3">
                 <ReCAPTCHA
-                  sitekey="6Ld9ingqAAAAAJBFFtrClStqB1vf-N9cde6bCzSO" // Replace with actual site key from Google reCAPTCHA
+                  sitekey="6LfCoXgqAAAAAOM3ZQDaOmvx5ScXLX8oZrEN_bvO" // Replace with actual site key from Google reCAPTCHA
                   onChange={handleCaptchaChange}
                 />
               </div>
