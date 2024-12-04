@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.custom-container {
+  max-width: 300px !important;
+}
+.ff_montserrat {
+  font-family: "Montserrat", sans-serif !important;
+}
+.fs_8 {
+  font-size: 8px;
+}
+.text-gray {
+  color: #575757;
+}
+.cross_icon {
+  width: 8px !important;
+  height: 8px !important;
+  cursor: pointer;
+}
+.pb_2 {
+  padding-bottom: 2px;
+}
+.table tbody tr td {
+  padding: 0px !important;
+  height: 21px !important;
+}
+.table-bordered > :not(caption) > * {
+  border-width: 0.4px !important;
+}
+.table tbody tr td:nth-child(odd) {
+  background-color: #ebebeb !important;
+}
+.table > :not(caption) > * > * {
+  padding: 2.9px !important;
+  background-color: var(--bs-table-bg);
+  border-bottom-width: 0 !important;
+}
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-color-type: var(--bs-table-striped-color);
+  --bs-table-bg-type: transparent !important;
+}
+th {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 6px !important;
+  line-height: 7.31px !important;
+  font-weight: 500 !important;
+  background-color: #d9d9d9 !important;
+  border: 0 !important;
+}
+td {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 6px !important;
+  line-height: 7.31px !important;
+  font-weight: 500 !important;
+  color: #898989 !important;
+  border: 0 !important;
+  vertical-align: middle;
+}
+.download_icon {
+  width: 11px !important;
+  height: 11px !important;
+}
+.generate_btn {
+  font-family: "Montserrat", sans-serif !important;
+  background: #0c732d !important;
+  border: 0.5px solid #b6b6b6 !important;
+  border-radius: 3px !important;
+  padding: 1.27px 2.4px !important;
+  color: white !important;
+  font-size: 4px !important;
+  line-height: 4.88px !important;
+  font-weight: 500 !important;
+  margin-right: 1px;
+  margin-left: 8px;
+}
+.print_btn {
+  font-family: "Montserrat", sans-serif !important;
+  background: #fefcd6 !important;
+  border: 0.5px solid #b6b6b6 !important;
+  border-radius: 3px !important;
+  padding: 1.27px 1px !important;
+  color: black !important;
+  font-size: 4px !important;
+  line-height: 4.88px !important;
+  font-weight: 500 !important;
+}

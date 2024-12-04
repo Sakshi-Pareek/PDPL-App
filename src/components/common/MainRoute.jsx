@@ -5,9 +5,9 @@ import About from "../view/About";
 import Partner from "../view/Partner";
 import Career from "../view/Career";
 import Contact from "../view/Contact";
+import OurTeam from "../view/OurTeam";
 
 const MainRoute = () => {
-  // =======================aos============================
   return (
     <div className="overflow-hidden">
       <Routes>
@@ -15,7 +15,9 @@ const MainRoute = () => {
         <Route path="about" element={<About />} />
         <Route path="partner" element={<Partner />} />
         <Route path="career" element={<Career />} />
+        <Route path="teams" element={<OurTeam />} />
         <Route path="contact" element={<Contact />} />
+        {/* Updated path */}
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </div>

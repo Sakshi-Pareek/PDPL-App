@@ -46,7 +46,8 @@ const ClientReview = () => {
     },
   ];
 
-  const adjustedReviews = reviews.length < 3 ? [...reviews, ...reviews] : reviews;
+  const adjustedReviews =
+    reviews.length < 3 ? [...reviews, ...reviews] : reviews;
 
   const settings = {
     dots: true,
@@ -66,6 +67,13 @@ const ClientReview = () => {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
+          centerPadding: "0",
+        },
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2,
           centerPadding: "0",
         },
       },

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import WebLogo from "../assets/images/svg/footerlogo.svg";
+import WebLogo from "../assets/images/webp/webLogo.png";
 import MailIcon from "../assets/images/svg/mail_icon.svg";
 import PhoneIcon from "../assets/images/svg/call_icon.svg";
 import LocationIcon from "../assets/images/svg/location_icon.svg";
@@ -24,7 +24,7 @@ const Footer = () => {
           <Row className="justify-content-between gap-lg-0 gap-3 border-bottom border-black py-5">
             <Col xl={4} lg={3} xs={12}>
               <a href="#" className="ms-auto">
-                <img src={WebLogo} alt="WebLogo" width={160} height={70} />
+                <img src={WebLogo} alt="WebLogo" width={150} height={56} />
               </a>
               <p className="text-black fs_4md fw-semibold ff_roboto mt-2">
                 Delivering Health, <br className="d-xl-block d-none" />

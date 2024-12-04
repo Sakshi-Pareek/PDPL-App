@@ -17,13 +17,12 @@ const Thrivingcareer = () => {
               </h1>
               <p
                 className="fw-normal text-black fs_md py-2 mb-4"
-                data-aos="fade-right "
+                data-aos="fade-right"
               >
                 PDPL offers exciting career opportunities for you! Join our
                 dynamic team, committed to innovation, growth, and making a
                 meaningful impact in the community.
               </p>
-
               <a href="#hire" data-aos="fade-right ">
                 <CommonBtn btnname="Explore Career Opportunities"></CommonBtn>
               </a>

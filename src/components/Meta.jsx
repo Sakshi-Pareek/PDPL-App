@@ -51,7 +51,7 @@ const Meta = () => {
   }
 
   if (error) {
-    return <div>{error.message}</div>;
+    return <div>{error}</div>;
   }
 
   return (

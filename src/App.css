@@ -433,22 +433,35 @@
   .nav_bar {
     position: fixed;
     z-index: 4 !important;
-    background: white;
+    background: #abd5eb;
     min-height: 100vh;
     top: 0 !important;
-    width: 100%;
+    width: 70%;
+    padding-top: 100px;
   }
-  .left_neg_100 {
-    left: -100%;
+
+  .navline span {
+    width: 30px;
+    height: 3px;
+    background-color: #0056b3;
   }
   .cross .crl_1 {
-    transform: rotate(50deg) translate(14px, 16px);
+    transform: rotate(45deg) translate(6px, 6px);
+    background-color: white;
   }
   .cross .crl_2 {
     opacity: 0;
   }
   .cross .crl_3 {
-    transform: rotate(-50deg) translateY(-97%);
+    transform: rotate(-45deg) translate(6px, -6px);
+  }
+  .nav_bar li {
+    width: 100%;
+    padding: 0px 24px;
+    border-bottom: 1px solid white;
+  }
+  .left_neg_100 {
+    right: -100%;
   }
   .navline span {
     width: 40px;
@@ -456,6 +469,20 @@
   }
   .review-card {
     min-height: 320px;
+  }
+  .Nav_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s linear;
+  }
+  .Nav_overlay {
+    opacity: 1;
   }
 }
 @media (max-width: 992px) {
@@ -465,6 +492,9 @@
   .mt_neg_50 {
     margin-top: 48px;
   }
+  .slick-slide.slick-active.slick-current div div.hover_active {
+    transform: scale(1) !important;
+  }
 }
 @media (max-width: 768px) {
   :root {
@@ -472,9 +502,6 @@
     --fs-4xl: 42px;
     --fs-8xl: 44px;
     --fs-xxl: 50px;
-  }
-  .slick-slide.slick-active.slick-current div div.hover_active {
-    transform: scale(1) !important;
   }
   .review-card {
     min-height: 250px;
@@ -524,4 +551,52 @@
 }
 .location-wrapper:hover .location-name {
   display: block;
+}
+
+.leader-card {
+  position: relative;
+  text-align: center;
+  background-color: transparent;
+}
+.leader-img-card {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.leader-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+.bg-hover {
+  background-color: #abd5eb;
+  transition: background-color 0.5s linear;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+.overlay:hover {
+  opacity: 1;
+}
+.arrow-icon {
+  color: white;
+  font-size: 20px;
+}
+.modal {
+  --bs-modal-width: 800px !important;
 }
