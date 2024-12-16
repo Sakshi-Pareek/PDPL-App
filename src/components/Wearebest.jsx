@@ -33,7 +33,7 @@ const Wearebest = () => {
       heading: "21+",
       para: "Retail Pharmacies",
       rotate:
-        "Customers can arrange for returns and claims settlements through our Entero Direct (ED) Application",
+        "Customers can arrange for returns and claims settlements through our Unios Application",
     },
   ];
   return (
