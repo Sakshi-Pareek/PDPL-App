@@ -159,10 +159,11 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="mailto: hr.workspace@plusdistributions.in"
+                    target="_blank" rel="noreferrer"
                     className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
                   >
-                    News
+                    Join Us
                   </a>
                 </li>
               </ul>
@@ -189,7 +190,7 @@ const Footer = () => {
                     info@plusdistributions.in
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="tel: 9671480888"
                     target="_blank"
@@ -203,9 +204,9 @@ const Footer = () => {
                       width={30}
                       height={30}
                     />{" "}
-                    9671480888 ,+91124-4014675
+                    ......
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
                     href="https://www.google.com/maps/place/Plus+Distribution+Pvt.+Ltd/@28.4339692,76.9917312,17z/data=!3m1!4b1!4m6!3m5!1s0x390d17bdf3ddf591:0xbdbb9a6f0115739d!8m2!3d28.4339645!4d76.9943061!16s%2Fg%2F11rn7qzn6k?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"

@@ -31,7 +31,7 @@ const Wearebest = () => {
     {
       image: Business4,
       heading: "21+",
-      para: "Retail Pharmacies",
+      para: "Hospital Pharmacies",
       rotate:
         "Customers can arrange for returns and claims settlements through our Unios Application",
     },

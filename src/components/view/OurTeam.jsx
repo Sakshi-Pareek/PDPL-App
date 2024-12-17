@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import Nav from "../common/Nav";
-import Footer from "../common/Footer";
-import OurTeamHeader from "../OurTeamHeader";
-import TeamHead from "../TeamHead";
+// import Nav from "../common/Nav";
+// import Footer from "../common/Footer";
+// import OurTeamHeader from "../OurTeamHeader";
+// import TeamHead from "../TeamHead";
 
 const OurTeam = () => {
   const { pathname } = useLocation();
@@ -13,10 +13,10 @@ const OurTeam = () => {
   }, [pathname]);
   return (
     <div>
-      <Nav />
+      {/* <Nav /> */}
       {/* <OurTeamHeader /> */}
-      <TeamHead />
-      <Footer />
+      {/* <TeamHead /> */}
+      {/* <Footer /> */}
     </div>
   );
 };

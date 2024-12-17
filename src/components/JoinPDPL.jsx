@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import HimanshuBhatiaImage from "../components/assets/images/webp/HimashuBhatiaImage.jpg";
+// import HimanshuBhatiaImage from "../components/assets/images/webp/HimashuBhatiaImage.jpg";
 import EqualOpp2 from "../components/assets/images/webp/office5.jpg";
 import EqualOpp3 from "../components/assets/images/webp/office1.jpg";
 import EqualOpp4 from "../components/assets/images/webp/officeimg3.jpg";
@@ -10,7 +10,7 @@ const JoinPDPL = () => {
   return (
     <>
       <Container className="py-5 my-4 d-flex flex-column gap-lg-5 gap-4 ">
-        <Row className="justify-content-center align-items-center gap-lg-0 gap-4">
+        {/* <Row className="justify-content-center align-items-center gap-lg-0 gap-4">
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
               <img
@@ -34,7 +34,7 @@ const JoinPDPL = () => {
               </p>
             </div>
           </Col>
-        </Row>
+        </Row> */}
         <Row className="justify-content-center align-items-center flex-lg-row flex-column-reverse gap-lg-0 gap-4">
           <Col lg={6}>
             <div className="pe-lg-5 ps-0">
