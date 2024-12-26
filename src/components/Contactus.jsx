@@ -124,17 +124,18 @@ const Contactus = () => {
             <p data-aos="fade-right">
               <strong>Locate Us : </strong>
               <a
-                href="https://www.google.com/maps"
+                target="_blank"
+                href="https://www.google.com/maps/place/SAS+Tower/@28.4409488,77.0367062,17z/data=!3m1!4b1!4m6!3m5!1s0x390d18695c471015:0xa44b7b144935cae4!8m2!3d28.4409488!4d77.0392811!16s%2Fg%2F11byp844cp?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
                 className="text-black ff_roboto nav_link transition"
               >
-                Plus Distribution Pvt. Ltd, Company no: 581, Pace City II,
-                Sector 37, Gurugram, Haryana 122004
+                Plus Distribution Pvt. Ltd, 315, 3rd Floor, SAS Towers,
+                Medicity, Sector-38, Gurugram, Haryana- 122001
               </a>
             </p>
             <p data-aos="fade-right">
               <a
                 href="https://www.linkedin.com/company/plus-distribution-private-limited"
-                className="text-black ff_roboto nav_link transition"
+                className="text-black ff_roboto nav_link transition" target="_blank"
               >
                 <img
                   src={linkedIn}

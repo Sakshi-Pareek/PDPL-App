@@ -122,7 +122,7 @@ const Nav = () => {
             Menu
           </h3>
           <ul className="list-unstyled">
-            {["Home", "About", "Partner", "Teams", "Career"].map(
+            {["Home", "About", "Partner", "Career"].map(
               (item, index) => (
                 <li key={index} className="py-3 border-bottom">
                   <Link
