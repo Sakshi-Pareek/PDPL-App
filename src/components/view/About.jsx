@@ -25,7 +25,7 @@ const About = () => {
       <OurValue />
       <MeetLeaders />
       <Awards />
-      <UniosApp />
+    
       <Footer />
     </>
   );

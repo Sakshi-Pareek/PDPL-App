@@ -20,6 +20,12 @@
   background: rgb(29, 121, 187);
   border-radius: 10px;
 }
+.slick-slide:focus,
+.slick-list:focus,
+.slick-slider img {
+  outline: none !important;
+  border: none !important;
+}
 /* ====================================================back-to-top============================= */
 .back_to_top {
   height: 40px;
@@ -131,6 +137,9 @@
 .common_btn {
   background-color: rgb(29, 121, 187);
   border: 2px solid transparent;
+}
+.bg_skyblue {
+  background: #e0ecfc;
 }
 .common_btn:hover {
   animation: pulse 1s;
@@ -408,8 +417,8 @@
   border-radius: 8px !important;
 }
 .custom-accordion-item.active {
-  border: 2px solid rgb(29, 121, 187) !important;
-  border-bottom: 4px solid rgb(29, 121, 187) !important;
+  border: 2px solid #1d79bb !important;
+  border-bottom: 4px solid #1d79bb !important;
 }
 /* -------------------------------------CONTACT-US----------------------------------------- */
 .contact_input {

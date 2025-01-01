@@ -9,38 +9,44 @@ const ClientReview = () => {
 
   const reviews = [
     {
-      name: "Brendan Buchholz",
-      role: "Director, Apollo Hospital, Delhi",
+      name: "Amit",
+      role: "PSRI Hospital, Delhi",
       feedback:
         "PDPL has been our trusted partner for years, consistently providing quality products. Their wide selection of healthcare products meets diverse patient needs. Their efficient distribution network and prompt service exceed expectations. Highly recommended pharmaceutical distributor.",
     },
     {
-      name: "Anita Sharma",
-      role: "Manager, Fortis Healthcare, Mumbai",
+      name: "Divendra",
+      role: "Saroj Hospital, Gurugram",
       feedback:
         "Working with PDPL has been instrumental in streamlining our hospital’s supply chain management. From their proactive communication to the quality of their pharmaceutical and medical supplies, PDPL has exceeded our expectations time and again.",
     },
     {
-      name: "Rakesh Verma",
-      role: "Pharmacist, MedPlus Pharmacies, Pune",
+      name: "Rakesh",
+      role: "Park Hospital, Gurugram",
       feedback:
         "PDPL's dependable delivery schedule and vast range of products have transformed our ability to serve customers effectively. Their transparent approach to business, along with the responsiveness of their customer support team, makes them a standout partner in the pharmaceutical supply industry.",
     },
     {
-      name: "Dr. Meera Gupta",
-      role: "Officer, Max Healthcare, Bangalore",
-      feedback:
-        "PDPL has become an essential partner in our mission to deliver top-tier patient care. Their consistent delivery of high-quality products reassures us of their dedication to the healthcare industry. PDPL’s rigorous standards for regulatory compliance and commitment to patient safety align with our own, creating a seamless partnership.",
-    },
-    {
-      name: "Anita Sharma",
-      role: "Manager, Fortis Healthcare, Mumbai",
+      name: "Anil Kumar",
+      role: "Fortis Healthcare, Gurugram",
       feedback:
         "Working with PDPL has been instrumental in streamlining our hospital’s supply chain management. From their proactive communication to the quality of their pharmaceutical and medical supplies, PDPL has exceeded our expectations time and again.",
     },
     {
-      name: "Rakesh Verma",
-      role: "Pharmacist, MedPlus Pharmacies, Pune",
+      name: "Divendra",
+      role: "Saroj Hospital, Gurugram",
+      feedback:
+        "Working with PDPL has been instrumental in streamlining our hospital’s supply chain management. From their proactive communication to the quality of their pharmaceutical and medical supplies, PDPL has exceeded our expectations time and again.",
+    },
+    {
+      name: "Anil Kumar",
+      role: "Fortis Healthcare, Gurugram",
+      feedback:
+        "Working with PDPL has been instrumental in streamlining our hospital’s supply chain management. From their proactive communication to the quality of their pharmaceutical and medical supplies, PDPL has exceeded our expectations time and again.",
+    },
+    {
+      name: "Rakesh",
+      role: "Park Hospital, Gurugram",
       feedback:
         "PDPL's dependable delivery schedule and vast range of products have transformed our ability to serve customers effectively. Their transparent approach to business, along with the responsiveness of their customer support team, makes them a standout partner in the pharmaceutical supply industry.",
     },

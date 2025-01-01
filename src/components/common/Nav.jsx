@@ -57,7 +57,7 @@ const Nav = () => {
             </a>
 
             <ul className="d-none d-xl-flex list-unstyled gap-4 align-items-center mb-0 pe-0">
-              {["Home", "About", "Partner", "Career"].map(
+              {["Home", "About", "Infrastructure", "Partner", "Career"].map(
                 (item, index) => (
                   <li
                     key={index}
@@ -122,7 +122,7 @@ const Nav = () => {
             Menu
           </h3>
           <ul className="list-unstyled">
-            {["Home", "About", "Partner", "Career"].map(
+            {["Home", "About", "Infrastructure", "Partner", "Career"].map(
               (item, index) => (
                 <li key={index} className="py-3 border-bottom">
                   <Link

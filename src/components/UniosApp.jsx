@@ -34,7 +34,7 @@ const UniosApp = () => {
               
             >
               {" "}
-              <CommonBtn btnname="Read More"></CommonBtn>
+              <CommonBtn btnname="Explore"></CommonBtn>
             </a>
           </Col>
           <Col lg={5} xs={10}>
