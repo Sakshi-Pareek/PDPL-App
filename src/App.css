@@ -209,6 +209,13 @@
 }
 /* ---------------------------------------------HOME-PAGe------------------------------------ */
 /* ===========================================Hero-Section=================================== */
+.bg_hero {
+  background-image: url(/src/components//assets//images/webp/bgggg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(29, 121, 187);
+}
 .slick-dots {
   display: flex !important;
   justify-content: center !important;

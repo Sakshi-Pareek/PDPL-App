@@ -5,23 +5,36 @@ import UniosDashboard from "../components/assets/images/webp/UniosDashbord.jpg";
 const UniosDashBoard = () => {
   return (
     <>
-      <div className="py-4">
-        <Container className="py-lg-5 py-2 text-center">
-          <h3 className="fw-bold fs_8xl mx-auto letter_spacing mb-2 text-center">
-            Unios
-          </h3>
-          <h3 className="fs_2lg mx-auto letter_spacing mb-2 text-center text_sky">
+      <div className="py-4" data-aos="fade-in">
+        <Container className="py-lg-5 py-4 text-center">
+          <h3
+            className="fw-bold fs_8xl mx-auto letter_spacing mb-2 text-center"
+            data-aos="fade-down"
+            data-aos-delay="100"
+          >
             The Intelligence Behind PDPL
           </h3>
-          <p className="fs_8sm letter_spacing fw-normal lh-base text-black ff_roboto text-center px-lg-5 mx-lg-5">
-            Introducing Unios, an innovative digital platform by PDPL that
-            transforms healthcare distribution in India. Designed for efficiency
-            and ease of use, Unios connects healthcare providers, hospitals, and
-            distributors, ensuring a reliable supply chain for medical products
-            and services. Join us in shaping the future of healthcare
-            distribution!
+          <p
+            className="fs_8sm letter_spacing fw-normal lh-base text-black ff_roboto text-center px-lg-5 mx-lg-5"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            Unios is a comprehensive ERP software designed to streamline sales
+            processes, manage sales orders, and ensure effective tracking of
+            these orders. With a strong focus on customer-centric solutions,
+            Unios provides a complete dispatch system, inventory management, and
+            a seamless delivery process, all integrated with a robust tracking
+            system. This empowers businesses to operate efficiently and
+            effectively, offering end-to-end visibility and control over their
+            supply chain.
           </p>
-          <img src={UniosDashboard} alt="UniosDashboard" className="w-100" />
+          <div data-aos="zoom-in" data-aos-delay="500">
+            <img
+              src={UniosDashboard}
+              alt="UniosDashboard"
+              className="w-100 px-5"
+            />
+          </div>
         </Container>
       </div>
     </>

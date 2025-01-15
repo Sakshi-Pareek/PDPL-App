@@ -32,24 +32,31 @@ const OurInfrastructure = () => {
             <h2
               className="fw-bold fs_8xl mx-auto letter_spacing mb-3 text-lg-start text-center"
               data-aos="fade-down"
+              data-aos-delay="100"
             >
               Our Infrastructure
             </h2>
             <p
               className="fs_md letter_spacing fw-normal lh-base text-black ff_roboto mb-lg-5 mb-4 pb-lg-5 pb-0 text-lg-start text-center"
-              data-aos="fade-down"
+              data-aos="fade-up"
+              data-aos-delay="200"
             >
               20 warehouses, 500 people, and an internal order management system
               that handles over 15,000 orders per day.
             </p>
-            <Row className="d-flex flex-wrap justify-content-between gap-md-0 gap-4 mt-lg-5 pt-lg-5 pt-0 mt-0">
+            <Row
+              className="d-flex flex-wrap justify-content-between gap-md-0 gap-4 mt-lg-5 pt-lg-5 pt-0 mt-0"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
               {metrics.map((metric, index) => (
                 <Col
                   key={index}
                   xs={5}
                   md={3}
                   className="text-center"
-                  data-aos="fade-up"
+                  data-aos="zoom-in"
+                  data-aos-delay={`${300 + index * 100}`}
                 >
                   <div className="bg_skyblue w-100 p-xl-5 p-4 rounded-4 d-flex justify-content-center align-items-center mx-auto p-3">
                     <span
@@ -77,7 +84,11 @@ const OurInfrastructure = () => {
             md={5}
             className="d-lg-flex d-none justify-content-center"
           >
-            <div className="position-relative">
+            <div
+              className="position-relative"
+              data-aos="fade-right"
+              data-aos-delay="400"
+            >
               <img
                 src={Map}
                 alt="Map showing warehouse locations in India"
@@ -88,6 +99,8 @@ const OurInfrastructure = () => {
                   key={index}
                   className="position-absolute location-wrapper"
                   style={{ top: location.top, left: location.left }}
+                  data-aos="zoom-in"
+                  data-aos-delay={`${500 + index * 100}`}
                 >
                   <img
                     src={Pointer}
@@ -96,7 +109,13 @@ const OurInfrastructure = () => {
                     alt={`Pointer indicating ${location.name}`}
                     className="animation"
                   />
-                  <span className="location-name">{location.name}</span>
+                  <span 
+                    className="location-name"
+                    data-aos="fade-up"
+                    data-aos-delay={`${600 + index * 100}`}
+                  >
+                    {location.name}
+                  </span>
                 </div>
               ))}
             </div>
