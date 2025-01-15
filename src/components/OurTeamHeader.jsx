@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import CareerHero from "../components/assets/images/svg/careerAtPdpl.svg";
-import CommonBtn from "./common/CommonBtn";
 const OurTeamHeader = () => {
   return (
     <>

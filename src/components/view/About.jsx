@@ -5,10 +5,8 @@ import Nav from "../common/Nav";
 import Abouthero from "../Abouthero";
 import OurPurpose from "../OurPurpose";
 import OurValue from "../OurValue";
-// import MeetLeaders from "../MeetLeaders";
 import Awards from "../Awards";
 import Footer from "../common/Footer";
-import UniosApp from "../UniosApp";
 import CoverStory from "../CoverStory";
 import AsiaBusiness from "../AsiaBusiness";
 
@@ -25,7 +23,6 @@ const About = () => {
       <Abouthero />
       <OurPurpose />
       <OurValue />
-      {/* <MeetLeaders /> */}
       <CoverStory />
       <AsiaBusiness />
       <Awards />

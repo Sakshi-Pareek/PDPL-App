@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import CoverStoryImage from "../components/assets/images/webp/anilBhatia.jpg";
-import CommonBtn from "./common/CommonBtn";
 
 const CoverStory = () => {
   return (

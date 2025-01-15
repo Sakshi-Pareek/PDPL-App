@@ -12,21 +12,17 @@ const Nav = () => {
     setActiveLink(path);
     setShow(true);
   };
-
-  // Apply overflow-hidden to body when mobile menu is open
   useEffect(() => {
     if (!show) {
       document.body.classList.add("overflow-hidden");
     } else {
       document.body.classList.remove("overflow-hidden");
     }
-    // Clean up on component unmount
     return () => document.body.classList.remove("overflow-hidden");
   }, [show]);
 
   return (
     <>
-      {/* Overlay to close navbar when clicked outside */}
       {!show && (
         <div
           className="Nav_overlay"

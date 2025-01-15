@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import HimanshuBhatiaImage from "../components/assets/images/webp/HimashuBhatiaImage.jpg";
 import EqualOpp2 from "../components/assets/images/webp/office5.jpg";
 import EqualOpp3 from "../components/assets/images/webp/office1.jpg";
 import EqualOpp4 from "../components/assets/images/webp/officeimg3.jpg";
@@ -10,31 +9,6 @@ const JoinPDPL = () => {
   return (
     <>
       <Container className="py-5 my-4 d-flex flex-column gap-lg-5 gap-4 ">
-        {/* <Row className="justify-content-center align-items-center gap-lg-0 gap-4">
-          <Col lg={6}>
-            <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
-              <img
-                src={HimanshuBhatiaImage}
-                alt="Himanshu Bhatia Image "
-                className="transition w-100 min-h-290 object-fit-cover"
-              />
-            </div>
-          </Col>
-          <Col lg={6}>
-            <div className="ps-lg-5 ps-0">
-              <h3 className="text_sky fs_4md fw-semibold" data-aos="fade-left">
-                Equal Opportunities
-              </h3>
-              <p className="fw-normal text-black fs_6sm" data-aos="fade-left">
-                We are committed to fostering a workplace that promotes equal
-                opportunities for all. We believe in creating an inclusive
-                environment where talent is recognized and diversity is
-                celebrated, ensuring that every individual has the chance to
-                grow and succeed.
-              </p>
-            </div>
-          </Col>
-        </Row> */}
         <Row className="justify-content-center align-items-center flex-lg-row flex-column-reverse gap-lg-0 gap-4">
           <Col lg={6}>
             <div className="pe-lg-5 ps-0">
