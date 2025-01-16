@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import UniosSaleDashbord from "../components/assets/images/webp/UniosSaleDashBoard.webp";
 
 const HealthcareDistribution = () => {
   return (
@@ -30,7 +29,7 @@ const HealthcareDistribution = () => {
               data-aos-delay="200"
             >
               <img
-                src={UniosSaleDashbord}
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/u9YhBmGTR3.webp"
                 alt="Unios Sale Dashboard Image"
                 className="w-100"
               />

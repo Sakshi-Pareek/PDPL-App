@@ -1,35 +1,30 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Arrow from "./assets/images/webp/arrow.webp";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import CareerHero1 from "../components/assets/images/webp/hero2.webp";
-import CareerHero2 from "../components/assets/images/webp/hero1.webp";
-import CareerHero3 from "../components/assets/images/webp/hero3.webp";
-import CareerHero4 from "../components/assets/images/webp/hero4.webp";
 
 const slidesData = [
   {
     title: "Delivering Health, Empowering Lives",
-    image: CareerHero1,
+    image: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/ICdBPzRxeb.webp",
     description:
       "We deliver healthcare and empower lives through our experienced team and digital platforms. Our services include Pharma distribution, temperature-controlled storage, global distribution, customs clearance, and track-and-trace capabilities. With our commitment to excellence, we are a trusted provider in India, making a positive impact on healthcare.",
   },
   {
     title: "Partnering for Better Healthcare Access",
-    image: CareerHero2,
+    image: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/BTotAwhESm.webp",
     description:
       "We deliver healthcare and empower lives through our experienced team and digital platforms. Our services include Pharma distribution, temperature-controlled storage, global distribution, customs clearance, and track-and-trace capabilities. With our commitment to excellence, we are a trusted provider in India, making a positive impact on healthcare.",
   },
   {
     title: "Quality Products, Trusted Service",
-    image: CareerHero3,
+    image: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/gxs7yxyLhf.webp",
     description:
       "We deliver healthcare and empower lives through our experienced team and digital platforms. Our services include Pharma distribution, temperature-controlled storage, global distribution, customs clearance, and track-and-trace capabilities. With our commitment to excellence, we are a trusted provider in India, making a positive impact on healthcare.",
   },
   {
     title: "Health Solutions, Seamless Delivery",
-    image: CareerHero4,
+    image: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/W2BvwN1wYo.webp",
     description:
       "We deliver healthcare and empower lives through our experienced team and digital platforms. Our services include Pharma distribution, temperature-controlled storage, global distribution, customs clearance, and track-and-trace capabilities. With our commitment to excellence, we are a trusted provider in India, making a positive impact on healthcare.",
   },
@@ -75,7 +70,7 @@ export const Herosection = () => {
                   >
                     {" "}
                     <img
-                      src={Arrow}
+                      src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/1OyH6QBHD6.webp"
                       alt="arrow"
                       width="80"
                       height="50"

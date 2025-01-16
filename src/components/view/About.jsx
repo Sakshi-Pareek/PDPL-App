@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 
 import Nav from "../common/Nav";
 import Abouthero from "../Abouthero";
-import OurPurpose from "../OurPurpose";
+// import OurPurpose from "../OurPurpose";
 import OurValue from "../OurValue";
 import Awards from "../Awards";
 import Footer from "../common/Footer";
@@ -21,7 +21,7 @@ const About = () => {
     <>
       <Nav />
       <Abouthero />
-      <OurPurpose />
+      {/* <OurPurpose /> */}
       <OurValue />
       <CoverStory />
       <AsiaBusiness />

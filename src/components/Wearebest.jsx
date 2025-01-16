@@ -1,35 +1,31 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Business1 from "./assets/images/svg/distributre1.svg";
-import Business2 from "./assets/images/svg/distributre2.svg";
-import Business3 from "./assets/images/svg/distributre3.svg";
-import Business4 from "./assets/images/webp/pharma.webp";
 
 const Wearebest = () => {
   const data = [
     {
-      image: Business1,
+      image: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/YFxULCIxXW.svg",
       heading: "10+",
       para: "Warehouses Across India",
       rotate:
         "The healthcare and pharmaceutical supply chain manages the flow of materials and information from raw material procurement to final product delivery.",
     },
     {
-      image: Business2,
+      image: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/eK61IhwHk4.svg",
       heading: "4+",
       para: "Cold Storage System",
       rotate:
         "Cold storage in pharmaceuticals preserves the quality and efficacy of temperature-sensitive products by maintaining strict temperature control throughout the supply chain",
     },
     {
-      image: Business3,
+      image: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/FPOUALjMCz.svg",
       heading: "14+",
       para: "Supply Chain & Distribution",
       rotate:
         "We invest in technology at all of our distribution warehouses to enhance fulfilment rates, reliability and product availability",
     },
     {
-      image: Business4,
+      image: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/DuXQYwuTJi.webp",
       heading: "21+",
       para: "Hospital Pharmacies",
       rotate:

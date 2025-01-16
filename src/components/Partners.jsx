@@ -1,134 +1,134 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
-import Client1 from "./assets/images/webp/partner1.webp";
-import Client2 from "./assets/images/webp/partner2.webp";
-import Client3 from "./assets/images/webp/partner3.webp";
-import Client4 from "./assets/images/webp/partner4.webp";
-import Client5 from "./assets/images/webp/partner5.webp";
-import Client6 from "./assets/images/webp/partner6.webp";
-import Client7 from "./assets/images/webp/partner7.webp";
-import Client8 from "./assets/images/webp/partner8.webp";
-import Client9 from "./assets/images/webp/partner9.webp";
-import Client10 from "./assets/images/webp/partner10.webp";
-import Client11 from "./assets/images/webp/partner11.webp";
-import Client12 from "./assets/images/webp/partner12.webp";
-import Client13 from "./assets/images/webp/partner13.webp";
-import Client14 from "./assets/images/webp/partner14.webp";
-import Client15 from "./assets/images/webp/partner15.webp";
-import Client16 from "./assets/images/webp/partner16.webp";
-import Client17 from "./assets/images/webp/partner17.webp";
-import Client18 from "./assets/images/webp/partner18.webp";
-import Client19 from "./assets/images/webp/partner19.webp";
-import Client20 from "./assets/images/webp/partner20.webp";
-import Client21 from "./assets/images/webp/partner21.webp";
-import Client22 from "./assets/images/webp/partner22.webp";
-import Client23 from "./assets/images/webp/partner23.webp";
-import Client24 from "./assets/images/webp/partner24.webp";
-import Client25 from "./assets/images/webp/partner25.webp";
-import Client26 from "./assets/images/webp/partner26.webp";
-import Client27 from "./assets/images/webp/partner27.webp";
-import Client28 from "./assets/images/webp/partner28.webp";
-import Client29 from "./assets/images/webp/partner29.webp";
-import Client30 from "./assets/images/webp/partner30.webp";
-import Client31 from "./assets/images/webp/partner31.webp";
 
 const Partners = () => {
   const logos1 = [
     {
-      image: Client1,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/MQG86iwpSm.webp",
     },
     {
-      image: Client2,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/eKxUNdIxYz.webp",
     },
     {
-      image: Client3,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/s641n36Q0J.webp",
     },
     {
-      image: Client4,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/mdti5j8wYA.webp",
     },
     {
-      image: Client5,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/BCmmWq75ap.webp",
     },
     {
-      image: Client6,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/soVolPifap.webp",
     },
     {
-      image: Client7,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/LSkpyVjrvN.webp",
     },
     {
-      image: Client8,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/XTmi7OSm2A.webp",
     },
     {
-      image: Client9,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/xpX5wa2ZXi.webp",
     },
     {
-      image: Client10,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/GVc8mxsMTT.webp",
     },
     {
-      image: Client11,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/uAe9EOf4D8.webp",
     },
     {
-      image: Client12,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/XyOxd1YYPo.webp",
     },
     {
-      image: Client13,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/xlKCiAMmsH.webp",
     },
     {
-      image: Client14,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/oduQ0GYh7n.webp",
     },
     {
-      image: Client15,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/YY1mdsuObC.webp",
     },
     {
-      image: Client16,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/dJJFChrMzj.webp",
     },
   ];
   const logos2 = [
     {
-      image: Client17,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/2qSmYnVNtT.webp",
     },
     {
-      image: Client18,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kmYNKsvART.webp",
     },
     {
-      image: Client19,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/FYxy0scSdN.webp",
     },
     {
-      image: Client20,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/g9FCZJBvDa.webp",
     },
     {
-      image: Client21,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Ou4Nt2eevr.webp",
     },
     {
-      image: Client22,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/pUSvyfJDAv.webp",
     },
     {
-      image: Client23,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/JuRjZdwwIt.webp",
     },
     {
-      image: Client24,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/jEMMf3Iy3g.webp",
     },
     {
-      image: Client25,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/RgRP0LSaEm.webp",
     },
     {
-      image: Client26,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/013kqchTR9.webp",
     },
     {
-      image: Client27,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kf9w50roMo.webp",
     },
     {
-      image: Client28,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/hZjIkqLDlA.webp",
     },
     {
-      image: Client29,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/HzhfQyey6m.webp",
     },
     {
-      image: Client30,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/5IoANbNAhN.webp",
     },
     {
-      image: Client31,
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/KAKGbcBpPW.webp",
     },
   ];
   const settings1 = {

@@ -1,6 +1,5 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import UniosDashboard from "../components/assets/images/webp/UniosDashbord.webp";
 
 const UniosDashBoard = () => {
   return (
@@ -30,7 +29,7 @@ const UniosDashBoard = () => {
           </p>
           <div data-aos="zoom-in" data-aos-delay="500">
             <img
-              src={UniosDashboard}
+              src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/M2HFz5qJH8.webp"
               alt="UniosDashboard"
               className="w-100 px-5"
             />

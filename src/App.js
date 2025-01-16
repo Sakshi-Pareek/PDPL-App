@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import MainRoute from "./components/common/MainRoute";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Meta from "./components/Meta";
 
 function App() {
   // =======================aos============================
@@ -31,7 +30,6 @@ function App() {
   }, []);
 
   return <>
-    <Meta />
     <MainRoute />
     <div>
       <button className={`${backToTop ? "position-fixed back_to_top updown_ani cursor_pointer d-flex justify-content-center align-items-center  bg_sky" : "d-none"}`} onClick={() => top()}><svg width="16" height="16" fill="#FFFFFF" viewBox="0 0 16 16">

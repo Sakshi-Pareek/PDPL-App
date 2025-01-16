@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import PartnerHero from "../components/assets/images/svg/partners.svg";
 import { Link } from "react-router-dom";
 import CommonBtn from "./common/CommonBtn";
 
@@ -38,7 +37,7 @@ function OurPartner() {
             </Col>
             <Col lg={5}>
               <img
-                src={PartnerHero}
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/u3QYY8sjQU.svg"
                 alt="Partner with PDPL"
                 className="w-100 updown_ani"
               />

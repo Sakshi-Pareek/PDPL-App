@@ -1,33 +1,73 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
-import Client1 from "./assets/images/webp/client1.webp";
-import Client2 from "./assets/images/webp/client2.webp";
-import Client3 from "./assets/images/webp/client3.webp";
-import Client4 from "./assets/images/webp/client4.webp";
-import Client5 from "./assets/images/webp/client5.webp";
-import Client6 from "./assets/images/webp/client6.webp";
-import Client7 from "./assets/images/webp/client7.webp";
-import Client8 from "./assets/images/webp/client8.webp";
 
 const ClientsLogo = () => {
   const logo = [
-    { image: Client1 },
-    { image: Client2 },
-    { image: Client3 },
-    { image: Client4 },
-    { image: Client5 },
-    { image: Client6 },
-    { image: Client7 },
-    { image: Client8 },
-    { image: Client1 },
-    { image: Client2 },
-    { image: Client3 },
-    { image: Client4 },
-    { image: Client5 },
-    { image: Client6 },
-    { image: Client7 },
-    { image: Client8 },
+    {
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/5kcInQenKt.webp",
+    },
+    {
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/ddwVXpB1Sb.webp",
+    },
+    {
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/9WAegAXw9y.webp",
+    },
+    {
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/TaHjIJhAGn.webp",
+    },
+    {
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/OLuUDqvjo1.webp",
+    },
+    {
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/WuOQJE3wxV.webp",
+    },
+    {
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/fDkxqNd8ph.webp",
+    },
+    {
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/oRi235QMGm.webp",
+    },
+    {
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/5kcInQenKt.webp",
+    },
+    {
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/ddwVXpB1Sb.webp",
+    },
+    {
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/9WAegAXw9y.webp",
+    },
+    {
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/TaHjIJhAGn.webp",
+    },
+    {
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/OLuUDqvjo1.webp",
+    },
+    {
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/WuOQJE3wxV.webp",
+    },
+    {
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/fDkxqNd8ph.webp",
+    },
+    {
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/oRi235QMGm.webp",
+    },
   ];
 
   const settings = {
@@ -69,7 +109,10 @@ const ClientsLogo = () => {
   };
 
   return (
-    <Container fluid className="my-5 py-md-4 overflow-hidden max-w-1920 mx-auto">
+    <Container
+      fluid
+      className="my-5 py-md-4 overflow-hidden max-w-1920 mx-auto"
+    >
       <h2
         className="fw-bold fs_8xl mb-2 text-center mb-5 text-black"
         data-aos="fade-down"

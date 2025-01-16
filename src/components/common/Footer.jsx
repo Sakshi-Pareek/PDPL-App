@@ -1,12 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import WebLogo from "../assets/images/webp/webLogo.webp";
-import MailIcon from "../assets/images/svg/mail_icon.svg";
-import PhoneIcon from "../assets/images/svg/call_icon.svg";
-import LocationIcon from "../assets/images/svg/location_icon.svg";
-import FbIcon from "../assets/images/svg/fbicon.svg";
-import InstaIcon from "../assets/images/svg/instaicon.svg";
-import WhatsappIcon from "../assets/images/svg/whatsappicon.svg";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -24,7 +17,12 @@ const Footer = () => {
           <Row className="justify-content-between gap-lg-0 gap-3 border-bottom border-black py-5">
             <Col xl={4} lg={3} xs={12}>
               <a href="#" className="ms-auto">
-                <img src={WebLogo} alt="WebLogo" width={150} height={56} />
+                <img
+                  src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kT12dBWzNV.webp"
+                  alt="WebLogo"
+                  width={150}
+                  height={56}
+                />
               </a>
               <p className="text-black fs_4md fw-semibold ff_roboto mt-2">
                 Delivering Health, <br className="d-xl-block d-none" />
@@ -37,7 +35,7 @@ const Footer = () => {
                   rel="noreferrer"
                 >
                   <img
-                    src={FbIcon}
+                    src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/2pw0JLNPgp.svg"
                     alt="FbIcon"
                     width={35}
                     height={35}
@@ -50,7 +48,7 @@ const Footer = () => {
                   rel="noreferrer"
                 >
                   <img
-                    src={InstaIcon}
+                    src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/9LYBFyV7qv.svg"
                     alt="InstaIcon"
                     width={35}
                     height={35}
@@ -64,7 +62,7 @@ const Footer = () => {
                   className="social_icon transition"
                 >
                   <img
-                    src={WhatsappIcon}
+                    src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/l5XTh9isTH.svg"
                     alt="WhatsappIcon"
                     width={35}
                     height={35}
@@ -182,7 +180,7 @@ const Footer = () => {
                     className="fw-normal fs_8sm text-black ff_roboto mb-1 d-flex align-items-center gap-2 contact_icon nav_link transition"
                   >
                     <img
-                      src={MailIcon}
+                      src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/9vPwJkka3P.svg"
                       alt="MailIcon"
                       width={30}
                       height={30}
@@ -199,7 +197,7 @@ const Footer = () => {
                     className="fw-normal fs_8sm text-black ff_roboto mb-1 d-flex align-items-center gap-2 contact_icon nav_link transition"
                   >
                     <img
-                      src={PhoneIcon}
+                      src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/dn1jGDjdR9.svg"
                       className="transition"
                       alt="PhoneIcon"
                       width={30}
@@ -216,7 +214,7 @@ const Footer = () => {
                     className="fw-normal fs_8sm text-black ff_roboto mb-1 d-flex gap-2 contact_icon nav_link transition"
                   >
                     <img
-                      src={LocationIcon}
+                      src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/RrKLuyd86c.svg"
                       alt="LocationIcon"
                       className="transition"
                       width={35}

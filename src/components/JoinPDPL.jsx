@@ -1,9 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import EqualOpp2 from "../components/assets/images/webp/office5.webp";
-import EqualOpp3 from "../components/assets/images/webp/office1.webp";
-import EqualOpp4 from "../components/assets/images/webp/officeimg3.webp";
-import EqualOpp5 from "../components/assets/images/webp/hrimg.webp";
 
 const JoinPDPL = () => {
   return (
@@ -29,7 +25,7 @@ const JoinPDPL = () => {
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
               <img
-                src={EqualOpp2}
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Oz0QUwsV43.webp"
                 alt="Equal Opp at PDPL"
                 className="transition w-100 min-h-290 object-fit-cover"
               />
@@ -40,7 +36,7 @@ const JoinPDPL = () => {
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
               <img
-                src={EqualOpp3}
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Zl713Jx8H8.webp"
                 alt="Equal Opp at PDPL"
                 className="transition w-100 min-h-290 object-fit-cover"
               />
@@ -79,7 +75,7 @@ const JoinPDPL = () => {
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
               <img
-                src={EqualOpp4}
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/4cqq8qX1dS.webp"
                 alt="Equal Opp at PDPL"
                 className="transition w-100 min-h-290 object-fit-cover"
               />
@@ -90,7 +86,7 @@ const JoinPDPL = () => {
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
               <img
-                src={EqualOpp5}
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/IttG1Sfrm5.webp"
                 alt="Equal Opp at PDPL"
                 className="transition w-100 min-h-290 object-fit-cover"
               />

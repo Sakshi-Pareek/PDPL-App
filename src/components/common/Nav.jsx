@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Container } from "react-bootstrap";
-import WebLogo from "../assets/images/webp/webLogo.webp";
 import CommonBtn from "./CommonBtn";
 
 const Nav = () => {
@@ -44,14 +43,14 @@ const Nav = () => {
           <nav className="d-flex align-items-center justify-content-between py-2">
             <a href="/" className="text-black d-flex align-items-center">
               <img
-                src={WebLogo}
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kT12dBWzNV.webp"
                 alt="WebLogo"
                 className="w-100 sm:d-flex d-none"
                 width={65}
                 height={55}
               />
               <img
-                src={WebLogo}
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kT12dBWzNV.webp"
                 alt="WebLogo"
                 className="w-100 sm:d-none d-flex"
                 width={45}

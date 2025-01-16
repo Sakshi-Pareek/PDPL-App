@@ -1,9 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Quality from "../components/assets/images/svg/Quality.svg";
-import Affordable from "../components/assets/images/svg/affordability.svg";
-import Friendly from "../components/assets/images/svg/friendlySupport.svg";
-import Accessibility from "../components/assets/images/svg/access.svg";
 
 
 export const PartnerShip = () => {
@@ -31,7 +27,7 @@ export const PartnerShip = () => {
           <Col xl={3} md={5} xs={10} data-aos="fade-down">
             <div className="text-center d-flex flex-column gap-2 cursor_pointer partner_ani">
               <img
-                src={Quality}
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/qsb96NKuvM.svg"
                 alt="Product Quality"
                 width={50}
                 height={50}
@@ -47,7 +43,7 @@ export const PartnerShip = () => {
           <Col xl={3} md={5} xs={10} data-aos="fade-up">
             <div className="text-center d-flex flex-column gap-2 cursor_pointer partner_ani">
               <img
-                src={Affordable}
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/hOqrzPKpM8.svg"
                 alt="Affordable Product"
                 width={50}
                 height={50}
@@ -64,7 +60,7 @@ export const PartnerShip = () => {
             <div className="text-center d-flex flex-column gap-2 cursor_pointer partner_ani">
               {" "}
               <img
-                src={Friendly}
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/ngl5nIoLor.svg"
                 alt="Nature Friendly"
                 className="mx-auto transition"
                 width={50}
@@ -80,7 +76,7 @@ export const PartnerShip = () => {
           <Col xl={3} md={5} xs={10} data-aos="fade-up">
             <div className="text-center d-flex flex-column gap-2 cursor_pointer partner_ani">
               <img
-                src={Accessibility}
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/0JKiRsGGMe.svg"
                 alt="Easily Accessibility"
                 width={50}
                 height={50}

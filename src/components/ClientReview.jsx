@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Container } from "react-bootstrap";
 import Slider from "react-slick";
-import Profile from "./assets/images/svg/profile.svg";
 
 const ClientReview = () => {
   const sliderRef = useRef(null);
@@ -127,7 +126,7 @@ const ClientReview = () => {
                 <div className="review-card rounded-4 p-3 hover_active cursor_pointer bg-white h-full">
                   <div className="d-flex align-items-center gap-2 mb-3">
                     <img
-                      src={Profile}
+                      src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/WHmxoGQ4Pa.svg"
                       alt="Clients Profile"
                       height={45}
                       width={45}

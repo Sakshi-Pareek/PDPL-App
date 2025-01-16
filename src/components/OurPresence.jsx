@@ -1,8 +1,5 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Map from "./assets/images/webp/map.webp";
-import Location from "../components/assets/images/svg/location.svg";
-import Pointer from "../components/assets/images/webp/pointer.webp";
 
 const OurPresence = () => {
   return (
@@ -32,7 +29,7 @@ const OurPresence = () => {
             <Col lg={8} md={7} className="d-flex justify-content-center">
               <div className="position-relative">
                 <img
-                  src={Map}
+                  src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/cDn4XZNnjT.webp"
                   alt="Map of India"
                   className="w-100 max_w_500 position-relative h-auto"
                 />
@@ -40,7 +37,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "26%", left: "30%" }}
                 >
-                  <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
+                  <img src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp" width={20} height={20} alt="Pointer" className="animation" />
                   <span className="location-name text-black position-absolute text-nowrap">Hisar</span>
                 </div>
 
@@ -48,7 +45,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "28%", left: "37%" }}
                 >
-                  <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
+                  <img src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp" width={20} height={20} alt="Pointer" className="animation" />
                   <span className="location-name text-black position-absolute text-nowrap">Delhi</span>
                 </div>
 
@@ -56,7 +53,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "26%", left: "35%" }}
                 >
-                  <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
+                  <img src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp" width={20} height={20} alt="Pointer" className="animation" />
                   <span className="location-name text-black position-absolute text-nowrap">Gurugram</span>
                 </div>
 
@@ -64,7 +61,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "37%", left: "50%" }}
                 >
-                  <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
+                  <img src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp" width={20} height={20} alt="Pointer" className="animation" />
                   <span className="location-name text-black position-absolute text-nowrap">Noida</span>
                 </div>
 
@@ -72,7 +69,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "35%", left: "30%" }}
                 >
-                  <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
+                  <img src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp" width={20} height={20} alt="Pointer" className="animation" />
                   <span className="location-name text-black position-absolute text-nowrap">Jaipur</span>
                 </div>
 
@@ -80,7 +77,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "45%", left: "42%" }}
                 >
-                  <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
+                  <img src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp" width={20} height={20} alt="Pointer" className="animation" />
                   <span className="location-name text-black position-absolute text-nowrap">Bhopal</span>
                 </div>
 
@@ -88,7 +85,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "22%", left: "31%" }}
                 >
-                  <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
+                  <img src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp" width={20} height={20} alt="Pointer" className="animation" />
                   <span className="location-name text-black position-absolute text-nowrap">Ludhiana</span>
                 </div>
 
@@ -96,7 +93,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "24%", left: "43%" }}
                 >
-                  <img src={Pointer} width={20} height={20} alt="Pointer" className="animation"  />
+                  <img src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp" width={20} height={20} alt="Pointer" className="animation"  />
                   <span className="location-name text-black position-absolute text-nowrap">Dehradun</span>
                 </div>
 
@@ -104,7 +101,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "29%", left: "33%" }}
                 >
-                  <img src={Pointer} width={20} height={20} alt="Pointer"  className="animation"/>
+                  <img src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp" width={20} height={20} alt="Pointer"  className="animation"/>
                   <span className="location-name text-black position-absolute text-nowrap">Panipat</span>
                 </div>
               </div>
@@ -112,7 +109,7 @@ const OurPresence = () => {
             <Col lg={4} md={5} xs={8} className="mt-5" data-aos="fade-left">
               <h3 className="fs_md text-black ">
                 <img
-                  src={Location}
+                  src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/ZNmbLrAzdT.svg"
                   alt="Location Icon to define Location"
                   width={30}
                   height={30}

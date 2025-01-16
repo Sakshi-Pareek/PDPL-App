@@ -1,7 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Clients from "./assets/images/svg/our_clients.svg";
-import Arrow from "./assets/images/webp/arrow.webp";
 import { Link } from "react-router-dom";
 
 const OurClients = () => {
@@ -39,7 +37,7 @@ const OurClients = () => {
                   className="fs_md text-black nav_link transition position-relative"
                 >
                   <img
-                    src={Arrow}
+                    src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/TbQy5pzGGX.webp"
                     alt="arrow"
                     width="80"
                     height="50"
@@ -53,7 +51,7 @@ const OurClients = () => {
             </Col>
             <Col lg={5}>
               <img
-                src={Clients}
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/TumDkrj8Yq.svg"
                 alt="Company Clients"
                 className="w-100 updown_ani h-auto"
               />

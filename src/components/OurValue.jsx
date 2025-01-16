@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Card } from "react-bootstrap";
-import HandIcon from "../components/assets/images/webp/hand_icon.webp";
 
 const purposeData = [
   {
@@ -47,7 +46,7 @@ const Section = ({ data }) => {
           }}
         >
           <div className="d-flex">
-            <img src={HandIcon} alt="HandIcon" width={30} height={25} />
+            <img src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Ke0b32S2XU.webp" alt="HandIcon" width={30} height={25} />
             <h4 className="ms-3">{item.title}</h4>
           </div>
           <p className="mb-0">{item.description}</p>

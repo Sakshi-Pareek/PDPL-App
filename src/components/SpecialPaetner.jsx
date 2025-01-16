@@ -1,9 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
 import { Container, Row, Col } from "react-bootstrap";
-import EuroLifeLogo from "../components/assets/images/webp/EuroLifeLogo.webp";
-import GleeBioTechLogo from "../components/assets/images/webp/GleeBioTechLogo.webp";
-import SpecialPartner from "../components/assets/images/webp/specialpartner.webp";
 import CommonBtn from "./common/CommonBtn";
 
 const SpecialPaetner = () => {
@@ -30,9 +27,9 @@ const SpecialPaetner = () => {
   };
 
   const sliderImages = [
-    { src: EuroLifeLogo, alt: "EuroLife Logo" },
-    { src: SpecialPartner, alt: "Special Partner" },
-    { src: GleeBioTechLogo, alt: "GleeBioTech Logo" },
+    { src: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/SrhFee9rOT.webp", alt: "EuroLife Logo" },
+    { src: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/IndKuDTWFG.webp", alt: "Special Partner" },
+    { src: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/seN0NVEEmX.webp", alt: "GleeBioTech Logo" },
   ];
   return (
     <>

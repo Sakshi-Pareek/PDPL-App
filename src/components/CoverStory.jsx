@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import CoverStoryImage from "../components/assets/images/webp/anilBhatia.webp";
 
 const CoverStory = () => {
   return (
@@ -28,7 +27,7 @@ const CoverStory = () => {
               strong customer service while meeting regulatory standards.
             </p>
             <a
-              href=""
+              href="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/2ECKtO7rqA.pdf"
               target="_blank"
               rel="noreferrer"
               data-aos="fade-right"
@@ -39,8 +38,8 @@ const CoverStory = () => {
           </Col>
           <Col xl={4} lg={6} className="text-center p-4" data-aos="fade-right">
             <img
-              src={CoverStoryImage}
-              alt="Cover Story"
+              src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/vTWXbWIMnD.webp"
+              alt="Anil Bhatia Image"
               className="img-fluid rounded shadow-lg"
             />
             <p className="fs_6sm text-white text-end mt-2 fst-italic mb-0">

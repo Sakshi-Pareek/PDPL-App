@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Nurse from "./assets/images/svg/whatwedo.svg";
 const Whatwedo = () => {
   return (
     <>
@@ -8,7 +7,7 @@ const Whatwedo = () => {
         <Row className="justify-content-center flex-column-reverse flex-lg-row align-items-center gap-lg-0 gap-4">
           <Col lg={6} xs={10}>
             <img
-              src={Nurse}
+              src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/0KFiQgMHOD.svg"
               alt="Nurse"
               className="w-100 pe-xl-5 pe-lg-4 pe-0 updown_ani h-auto"
             />

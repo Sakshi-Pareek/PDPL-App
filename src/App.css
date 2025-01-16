@@ -201,7 +201,7 @@
 /* ---------------------------------------------HOME-PAGe------------------------------------ */
 /* ===========================================Hero-Section=================================== */
 .bg_hero {
-  background-image: url(/src/components//assets//images/webp/bgggg.webp);
+  background-image: url("https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/ZMRVzHFz5I.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -259,7 +259,7 @@
 }
 /* =======================================We-are-the-best===================================== */
 .distributor_bg {
-  background-image: url(./components/assets/images/svg/distributrebg.svg);
+  background-image: url("https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/jv9SSmR1xC.svg");
 }
 .distributor_bg,
 .bg_footer {
@@ -306,7 +306,7 @@
 }
 /* =======================================Footer============================================ */
 .bg_footer {
-  background-image: url(./components/assets/images/svg/footer_bg.svg);
+  background-image: url("https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/oreSxAVnlw.svg");
   background-color: rgb(224, 236, 252);
 }
 .social_icon:hover {
@@ -329,14 +329,6 @@
 }
 .mt_neg_50 {
   margin-top: -115px;
-}
-.phone_icon {
-  right: 1%;
-  bottom: 3%;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: #80a33e;
 }
 /* ---------------------------------------------PARTNER-PAGE------------------------------------ */
 /* ==============================================Partner-Hero=================================== */
@@ -406,7 +398,7 @@
   margin-bottom: -7px;
 }
 .logo_bg {
-  background-image: url("./components/assets/images/svg/PolygonShape.svg");
+  background-image: url("https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/fKPsWefJKk.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;

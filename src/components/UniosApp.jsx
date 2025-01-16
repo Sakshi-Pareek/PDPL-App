@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Uniosapp from "../components/assets/images/webp/unios.webp";
 import CommonBtn from "./common/CommonBtn";
 
 const UniosApp = () => {
@@ -39,7 +38,7 @@ const UniosApp = () => {
           </Col>
           <Col lg={5} xs={10}>
             <img
-              src={Uniosapp}
+              src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/nDAkqDHyMd.webp"
               alt="App Created By PDPL"
               className="w-100 p-sm-4 pt-5 p-0"
             />

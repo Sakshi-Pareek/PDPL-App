@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import AboutUs from "../components/assets/images/svg/aboutUs.svg";
 
 const Abouthero = () => {
   const currentYear = new Date().getFullYear();
@@ -8,8 +7,8 @@ const Abouthero = () => {
   return (
     <>
       <div className="bg_gray lg:py-5 pt-5">
-        <Container className="py-lg-5 my-lg-5">
-          <Row className="d-flex justify-content-lg-between justify-content-center align-items-center pb-5 mb-5">
+        <Container className="py-lg-5 mt-lg-5">
+          <Row className="d-flex justify-content-lg-between justify-content-center align-items-center pb-5">
             <Col lg={7} className="text-lg-start text-center">
               <h1
                 className="fw-bold text-black fs_xxl lh-1"
@@ -32,9 +31,9 @@ const Abouthero = () => {
             </Col>
             <Col lg={5}>
               <img
-                src={AboutUs}
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/23hVc1dQdM.svg"
                 alt="Connect with us"
-                className="w-100 updown_ani"
+                className="w-100 updown_ani h-auto"
               />
             </Col>
           </Row>

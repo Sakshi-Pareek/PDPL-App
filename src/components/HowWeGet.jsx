@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ColdStore from "../components/assets/images/webp/ColdStore.webp";
 import { TemperatureIcon, MonitoringIcon, DigitalAudit } from "./Icon";
 
 const logisticsData = [
@@ -69,7 +68,7 @@ const HowWeGet = () => {
             data-aos-delay="400"
           >
             <img
-              src={ColdStore}
+              src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Szy4LYbn9y.webp"
               alt="Cold Store"
               className="rounded-4 w-100 cursor_pointer h-100"
             />

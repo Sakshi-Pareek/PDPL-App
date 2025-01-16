@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import BusinessOutlookImage from "../components/assets/images/webp/BusinessOutlook.webp";
 
 const AsiaBusiness = () => {
   return (
@@ -26,7 +25,7 @@ const AsiaBusiness = () => {
           <Col lg={4}>
             {" "}
             <img
-              src={BusinessOutlookImage}
+              src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/IqIZtvFH4P.webp"
               alt="Business Outlook Recognition"
               className="img-fluid shadow-lg w-100"
             />

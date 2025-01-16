@@ -1,7 +1,5 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Map from "./assets/images/webp/map.webp";
-import Pointer from "../components/assets/images/webp/pointer.webp";
 import { ProductIcon, WareHouseIcon, CityIcon, WareHouseSpace } from "./Icon";
 
 const locations = [
@@ -41,7 +39,7 @@ const OurInfrastructure = () => {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              20 warehouses, 500 people, and an internal order management system
+              10 warehouses, 500 people, and an internal order management system
               that handles over 15,000 orders per day.
             </p>
             <Row
@@ -58,7 +56,7 @@ const OurInfrastructure = () => {
                   data-aos="zoom-in"
                   data-aos-delay={`${300 + index * 100}`}
                 >
-                  <div className="bg_skyblue w-100 p-xl-5 p-4 rounded-4 d-flex justify-content-center align-items-center mx-auto p-3">
+                  <div className="bg_skyblue w-100 p-xl-5 p-4 rounded-4 d-flex justify-content-center align-items-center mx-auto p-3 cursor_pointer">
                     <span
                       style={{
                         width: "40px",
@@ -90,7 +88,7 @@ const OurInfrastructure = () => {
               data-aos-delay="400"
             >
               <img
-                src={Map}
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/cDn4XZNnjT.webp"
                 alt="Map showing warehouse locations in India"
                 className="w-100 max_w_500 position-relative h-auto"
               />
@@ -103,7 +101,7 @@ const OurInfrastructure = () => {
                   data-aos-delay={`${500 + index * 100}`}
                 >
                   <img
-                    src={Pointer}
+                    src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
                     width={20}
                     height={20}
                     alt={`Pointer indicating ${location.name}`}
