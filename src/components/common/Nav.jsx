@@ -54,8 +54,8 @@ const Nav = () => {
                 src={WebLogo}
                 alt="WebLogo"
                 className="w-100 sm:d-none d-flex"
-                width={50}
-                height={45}
+                width={40}
+                height={35}
               />
             </a>
 
