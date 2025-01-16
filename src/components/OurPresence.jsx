@@ -34,7 +34,7 @@ const OurPresence = () => {
                 <img
                   src={Map}
                   alt="Map of India"
-                  className="w-100 max_w_500 position-relative"
+                  className="w-100 max_w_500 position-relative h-auto"
                 />
                 <div
                   className="position-absolute location-wrapper text-center cursor_pointer"

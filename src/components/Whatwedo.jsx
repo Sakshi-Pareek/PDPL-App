@@ -10,7 +10,7 @@ const Whatwedo = () => {
             <img
               src={Nurse}
               alt="Nurse"
-              className="w-100 pe-xl-5 pe-lg-4 pe-0 updown_ani"
+              className="w-100 pe-xl-5 pe-lg-4 pe-0 updown_ani h-auto"
             />
           </Col>
           <Col lg={6} className="text-lg-start text-center">

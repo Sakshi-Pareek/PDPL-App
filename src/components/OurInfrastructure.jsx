@@ -92,7 +92,7 @@ const OurInfrastructure = () => {
               <img
                 src={Map}
                 alt="Map showing warehouse locations in India"
-                className="w-100 max_w_500 position-relative"
+                className="w-100 max_w_500 position-relative h-auto"
               />
               {locations.map((location, index) => (
                 <div

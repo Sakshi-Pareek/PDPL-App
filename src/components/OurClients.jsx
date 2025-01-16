@@ -55,7 +55,7 @@ const OurClients = () => {
               <img
                 src={Clients}
                 alt="Company Clients"
-                className="w-100 updown_ani"
+                className="w-100 updown_ani h-auto"
               />
             </Col>
           </Row>

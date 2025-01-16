@@ -90,7 +90,7 @@ export const Herosection = () => {
                   <img
                     src={slide.image}
                     alt="Career at PDPL"
-                    className="w-100 updown_ani"
+                    className="w-100 updown_ani h-auto"
                   />
                 </Col>
               </Row>
