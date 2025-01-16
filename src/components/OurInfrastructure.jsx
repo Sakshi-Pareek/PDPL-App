@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Map from "./assets/images/webp/map.png";
-import Pointer from "../components/assets/images/webp/pointer.png";
+import Map from "./assets/images/webp/map.webp";
+import Pointer from "../components/assets/images/webp/pointer.webp";
 import { ProductIcon, WareHouseIcon, CityIcon, WareHouseSpace } from "./Icon";
 
 const locations = [

@@ -1,12 +1,12 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Arrow from "./assets/images/webp/arrow.png";
+import Arrow from "./assets/images/webp/arrow.webp";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import CareerHero1 from "../components/assets/images/webp/hero2.png";
-import CareerHero2 from "../components/assets/images/webp/hero1.png";
-import CareerHero3 from "../components/assets/images/webp/hero3.png";
-import CareerHero4 from "../components/assets/images/webp/hero4.png";
+import CareerHero1 from "../components/assets/images/webp/hero2.webp";
+import CareerHero2 from "../components/assets/images/webp/hero1.webp";
+import CareerHero3 from "../components/assets/images/webp/hero3.webp";
+import CareerHero4 from "../components/assets/images/webp/hero4.webp";
 
 const slidesData = [
   {
@@ -48,7 +48,7 @@ export const Herosection = () => {
   };
 
   return (
-    <div id="Home" className="bg_sky bg_h ero pt-lg-5 pt-4">
+    <div id="Home" className="bg_sky bg_hero pt-lg-5 pt-4">
       <Slider ref={slider} {...settings}>
         {slidesData.map((slide, index) => (
           <div key={index}>

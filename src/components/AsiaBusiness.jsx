@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import BusinessOutlookImage from "../components/assets/images/webp/BusinessOutlook.png";
+import BusinessOutlookImage from "../components/assets/images/webp/BusinessOutlook.webp";
 
 const AsiaBusiness = () => {
   return (

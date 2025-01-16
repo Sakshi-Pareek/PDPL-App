@@ -18,7 +18,6 @@ const MainRoute = () => {
         <Route path="partner" element={<Partner />} />
         <Route path="career" element={<Career />} />
         <Route path="contact" element={<Contact />} />
-
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </div>

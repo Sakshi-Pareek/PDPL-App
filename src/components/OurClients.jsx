@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Clients from "./assets/images/svg/our_clients.svg";
-import Arrow from "./assets/images/webp/arrow.png";
+import Arrow from "./assets/images/webp/arrow.webp";
 import { Link } from "react-router-dom";
 
 const OurClients = () => {

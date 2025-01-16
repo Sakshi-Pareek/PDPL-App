@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import EqualOpp2 from "../components/assets/images/webp/office5.jpg";
-import EqualOpp3 from "../components/assets/images/webp/office1.jpg";
-import EqualOpp4 from "../components/assets/images/webp/officeimg3.jpg";
-import EqualOpp5 from "../components/assets/images/webp/hrimg.jpg";
+import EqualOpp2 from "../components/assets/images/webp/office5.webp";
+import EqualOpp3 from "../components/assets/images/webp/office1.webp";
+import EqualOpp4 from "../components/assets/images/webp/officeimg3.webp";
+import EqualOpp5 from "../components/assets/images/webp/hrimg.webp";
 
 const JoinPDPL = () => {
   return (

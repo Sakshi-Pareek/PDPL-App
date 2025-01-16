@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
 import Award from "../components/assets/images/webp/awards.webp";
-import Victory from "../components/assets/images/webp/victory.png";
+import Victory from "../components/assets/images/webp/victory.webp";
 
 const Awards = () => {
   const awardsData = [

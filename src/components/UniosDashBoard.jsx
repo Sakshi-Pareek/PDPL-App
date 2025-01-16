@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import UniosDashboard from "../components/assets/images/webp/UniosDashbord.jpg";
+import UniosDashboard from "../components/assets/images/webp/UniosDashbord.webp";
 
 const UniosDashBoard = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import { Container, Row, Col } from "react-bootstrap";
-import EuroLifeLogo from "../components/assets/images/webp/EuroLifeLogo.png";
+import EuroLifeLogo from "../components/assets/images/webp/EuroLifeLogo.webp";
 import GleeBioTechLogo from "../components/assets/images/webp/GleeBioTechLogo.webp";
 import SpecialPartner from "../components/assets/images/webp/specialpartner.webp";
 import CommonBtn from "./common/CommonBtn";

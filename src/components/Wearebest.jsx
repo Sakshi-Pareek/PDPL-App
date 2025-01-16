@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import Business1 from "./assets/images/svg/distributre1.svg";
 import Business2 from "./assets/images/svg/distributre2.svg";
 import Business3 from "./assets/images/svg/distributre3.svg";
-import Business4 from "./assets/images/webp/pharma.png";
+import Business4 from "./assets/images/webp/pharma.webp";
 
 const Wearebest = () => {
   const data = [

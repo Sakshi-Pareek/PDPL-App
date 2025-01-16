@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import UniosSaleDashbord from "../components/assets/images/webp/UniosSaleDashBoard.png";
+import UniosSaleDashbord from "../components/assets/images/webp/UniosSaleDashBoard.webp";
 
 const HealthcareDistribution = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import CoverStoryImage from "../components/assets/images/webp/anilBhatia.jpg";
+import CoverStoryImage from "../components/assets/images/webp/anilBhatia.webp";
 
 const CoverStory = () => {
   return (

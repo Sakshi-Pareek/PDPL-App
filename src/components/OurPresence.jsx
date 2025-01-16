@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Map from "./assets/images/webp/map.png";
+import Map from "./assets/images/webp/map.webp";
 import Location from "../components/assets/images/svg/location.svg";
-import Pointer from "../components/assets/images/webp/pointer.png";
+import Pointer from "../components/assets/images/webp/pointer.webp";
 
 const OurPresence = () => {
   return (

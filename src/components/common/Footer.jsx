@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import WebLogo from "../assets/images/webp/webLogo.png";
+import WebLogo from "../assets/images/webp/webLogo.webp";
 import MailIcon from "../assets/images/svg/mail_icon.svg";
 import PhoneIcon from "../assets/images/svg/call_icon.svg";
 import LocationIcon from "../assets/images/svg/location_icon.svg";

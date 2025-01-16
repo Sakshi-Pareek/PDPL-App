@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ColdStore from "../components/assets/images/webp/ColdStore.jpg";
+import ColdStore from "../components/assets/images/webp/ColdStore.webp";
 import { TemperatureIcon, MonitoringIcon, DigitalAudit } from "./Icon";
 
 const logisticsData = [

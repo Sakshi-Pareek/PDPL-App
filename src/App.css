@@ -210,7 +210,7 @@
 /* ---------------------------------------------HOME-PAGe------------------------------------ */
 /* ===========================================Hero-Section=================================== */
 .bg_hero {
-  background-image: url(/src/components//assets//images/webp/bgggg.jpg);
+  background-image: url(/src/components//assets//images/webp/bgggg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
