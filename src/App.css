@@ -195,15 +195,6 @@
   width: 30px;
   height: 3px;
 }
-.cross .crl_1 {
-  transform: rotate(45deg) translate(5px, 5px);
-}
-.cross .crl_2 {
-  opacity: 0;
-}
-.cross .crl_3 {
-  transform: rotate(-45deg) translate(5px, -5px);
-}
 .max-w-1920 {
   max-width: 1920px;
 }
