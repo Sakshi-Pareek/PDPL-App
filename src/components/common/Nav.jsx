@@ -46,9 +46,16 @@ const Nav = () => {
               <img
                 src={WebLogo}
                 alt="WebLogo"
-                className="w-100"
+                className="w-100 sm:d-flex d-none"
                 width={65}
                 height={55}
+              />
+              <img
+                src={WebLogo}
+                alt="WebLogo"
+                className="w-100 sm:d-none d-flex"
+                width={50}
+                height={45}
               />
             </a>
 
