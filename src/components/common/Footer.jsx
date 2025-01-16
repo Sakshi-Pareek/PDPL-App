@@ -72,7 +72,7 @@ const Footer = () => {
                 </a>
               </div>
             </Col>
-            <Col lg={2} sm={3} xs={12} className="mt-2">
+            <Col lg={2} sm={3} xs={5} className="mt-2">
               <ul className="d-flex flex-column gap-2 mb-0 ps-0">
                 <li className="fw-semibold fs_md text-black ff_roboto">
                   Our Company
@@ -126,7 +126,7 @@ const Footer = () => {
             <Col
               lg={3}
               sm={3}
-              xs={12}
+              xs={5}
               className="d-lg-flex justify-content-center mt-2"
             >
               <ul className="d-flex flex-column gap-2 mb-0 ps-0">

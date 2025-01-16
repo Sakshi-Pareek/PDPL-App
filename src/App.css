@@ -490,6 +490,13 @@
     --fs-8xl: 42px;
     --fs-xxl: 48px;
   }
+  .crl_1,
+  .crl_2,
+  .crl_3 {
+    background-color: rgb(29, 121, 187);
+    width: 26px !important;
+    height: 3px;
+  }
 }
 @media (max-width: 425px) {
   :root {

@@ -54,8 +54,8 @@ const Nav = () => {
                 src={WebLogo}
                 alt="WebLogo"
                 className="w-100 sm:d-none d-flex"
-                width={40}
-                height={35}
+                width={45}
+                height={40}
               />
             </a>
 
@@ -95,10 +95,10 @@ const Nav = () => {
 
             <div
               onClick={() => setShow(!show)}
-              className={`navline cursor_pointer d-xl-none d-flex bg-transparent flex-column gap-2 justify-content-center align-items-center`}
+              className={`navline cursor_pointer d-xl-none d-flex bg-transparent flex-column gap-sm-2 gap-1 justify-content-center align-items-center`}
             >
               <span className="crl_1 bg_blue transition rounded"></span>
-              <span className="crl_2 bg_blue transition rounded"></span>
+              <span className="crl_2 bg_blue w-75 me-auto transition rounded"></span>
               <span className="crl_3 bg_blue transition rounded"></span>
             </div>
           </nav>
