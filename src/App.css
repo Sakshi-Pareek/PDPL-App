@@ -404,29 +404,6 @@
   top: 10px;
   content: "";
 }
-/* -----------------------------------------CAREER--------------------------------------- */
-/* =======================================Accordian====================================== */
-.accordion {
-  --bs-accordion-border-color: unset !important;
-  --bs-accordion-inner-border-radius: 0px !important;
-  --bs-accordion-btn-focus-box-shadow: unset !important;
-  --bs-accordion-active-color: unset !important;
-  --bs-accordion-active-bg: none !important;
-}
-.accordion-button {
-  font-size: var(--fs-4md) !important;
-  color: #000000 !important;
-}
-.custom-accordion-item {
-  border: 2px solid transparent !important;
-  border-bottom: 4px solid transparent !important;
-  box-shadow: 0px 4px 32px 0px #00000014 !important;
-  border-radius: 8px !important;
-}
-.custom-accordion-item.active {
-  border: 2px solid #1d79bb !important;
-  border-bottom: 4px solid #1d79bb !important;
-}
 /* -------------------------------------CONTACT-US----------------------------------------- */
 .contact_input {
   border: 2px solid #025066;
@@ -455,21 +432,10 @@
     width: 70%;
     padding-top: 100px;
   }
-
   .navline span {
     width: 30px;
     height: 3px;
     background-color: #0056b3;
-  }
-  .cross .crl_1 {
-    transform: rotate(45deg) translate(6px, 6px);
-    background-color: white;
-  }
-  .cross .crl_2 {
-    opacity: 0;
-  }
-  .cross .crl_3 {
-    transform: rotate(-45deg) translate(6px, -6px);
   }
   .nav_bar li {
     width: 100%;
@@ -547,22 +513,15 @@
     --fs-xxl: 34px;
   }
 }
-.location-wrapper {
-  text-align: center;
-  cursor: pointer;
-}
 .location-name {
   display: none;
   font-size: 14px;
-  color: #000;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 2px 8px;
   border-radius: 4px;
-  position: absolute;
   top: -25px;
   left: 50%;
   transform: translateX(-50%);
-  white-space: nowrap;
   z-index: 1;
 }
 .location-wrapper:hover .location-name {

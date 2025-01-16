@@ -97,7 +97,7 @@ const OurInfrastructure = () => {
               {locations.map((location, index) => (
                 <div
                   key={index}
-                  className="position-absolute location-wrapper"
+                  className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: location.top, left: location.left }}
                   data-aos="zoom-in"
                   data-aos-delay={`${500 + index * 100}`}
@@ -110,7 +110,7 @@ const OurInfrastructure = () => {
                     className="animation"
                   />
                   <span 
-                    className="location-name"
+                    className="location-name text-black position-absolute text-nowrap z-1"
                     data-aos="fade-up"
                     data-aos-delay={`${600 + index * 100}`}
                   >

@@ -37,75 +37,75 @@ const OurPresence = () => {
                   className="w-100 max_w_500 position-relative"
                 />
                 <div
-                  className="position-absolute location-wrapper"
+                  className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "26%", left: "30%" }}
                 >
                   <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
-                  <span className="location-name">Hisar</span>
+                  <span className="location-name text-black position-absolute text-nowrap">Hisar</span>
                 </div>
 
                 <div
-                  className="position-absolute location-wrapper"
+                  className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "28%", left: "37%" }}
                 >
                   <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
-                  <span className="location-name">Delhi</span>
+                  <span className="location-name text-black position-absolute text-nowrap">Delhi</span>
                 </div>
 
                 <div
-                  className="position-absolute location-wrapper"
+                  className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "26%", left: "35%" }}
                 >
                   <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
-                  <span className="location-name">Gurugram</span>
+                  <span className="location-name text-black position-absolute text-nowrap">Gurugram</span>
                 </div>
 
                 <div
-                  className="position-absolute location-wrapper"
+                  className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "37%", left: "50%" }}
                 >
                   <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
-                  <span className="location-name">Noida</span>
+                  <span className="location-name text-black position-absolute text-nowrap">Noida</span>
                 </div>
 
                 <div
-                  className="position-absolute location-wrapper"
+                  className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "35%", left: "30%" }}
                 >
                   <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
-                  <span className="location-name">Jaipur</span>
+                  <span className="location-name text-black position-absolute text-nowrap">Jaipur</span>
                 </div>
 
                 <div
-                  className="position-absolute location-wrapper"
+                  className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "45%", left: "42%" }}
                 >
                   <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
-                  <span className="location-name">Bhopal</span>
+                  <span className="location-name text-black position-absolute text-nowrap">Bhopal</span>
                 </div>
 
                 <div
-                  className="position-absolute location-wrapper"
+                  className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "22%", left: "31%" }}
                 >
                   <img src={Pointer} width={20} height={20} alt="Pointer" className="animation" />
-                  <span className="location-name">Ludhiana</span>
+                  <span className="location-name text-black position-absolute text-nowrap">Ludhiana</span>
                 </div>
 
                 <div
-                  className="position-absolute location-wrapper"
+                  className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "24%", left: "43%" }}
                 >
                   <img src={Pointer} width={20} height={20} alt="Pointer" className="animation"  />
-                  <span className="location-name">Dehradun</span>
+                  <span className="location-name text-black position-absolute text-nowrap">Dehradun</span>
                 </div>
 
                 <div
-                  className="position-absolute location-wrapper"
+                  className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "29%", left: "33%" }}
                 >
                   <img src={Pointer} width={20} height={20} alt="Pointer"  className="animation"/>
-                  <span className="location-name">Panipat</span>
+                  <span className="location-name text-black position-absolute text-nowrap">Panipat</span>
                 </div>
               </div>
             </Col>
