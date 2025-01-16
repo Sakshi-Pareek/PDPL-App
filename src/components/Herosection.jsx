@@ -48,7 +48,7 @@ export const Herosection = () => {
   };
 
   return (
-    <div id="Home" className="bg_sky pt-lg-5 pt-4">
+    <div id="Home" className="bg_sky bg_hero pt-lg-5 pt-4">
       <Slider ref={slider} {...settings}>
         {slidesData.map((slide, index) => (
           <div key={index}>
