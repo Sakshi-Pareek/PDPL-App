@@ -22,8 +22,11 @@ const Thrivingcareer = () => {
                 dynamic team, committed to innovation, growth, and making a
                 meaningful impact in the community.
               </p>
-              <a href="#hire" data-aos="fade-right ">
-                <CommonBtn btnname="Explore Career Opportunities"></CommonBtn>
+              <a
+                href="mailto:hr.workspace@plusdistributions.in"
+                data-aos="fade-right "
+              >
+                <CommonBtn btnname="Join Our Team!"></CommonBtn>
               </a>
             </Col>
             <Col lg={5}>

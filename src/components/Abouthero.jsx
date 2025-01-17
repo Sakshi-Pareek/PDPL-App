@@ -31,8 +31,8 @@ const Abouthero = () => {
             </Col>
             <Col lg={5}>
               <img
-                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/23hVc1dQdM.svg"
-                alt="Connect with us"
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kT12dBWzNV.webp"
+                alt="Pdpl Logo"
                 className="w-100 updown_ani h-auto"
               />
             </Col>

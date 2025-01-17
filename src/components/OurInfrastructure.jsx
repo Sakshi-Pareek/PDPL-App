@@ -15,10 +15,14 @@ const locations = [
 ];
 
 const metrics = [
-  { label: "Products", value: "4500+", img: <ProductIcon /> },
-  { label: "Warehouses", value: "10+", img: <WareHouseIcon /> },
-  { label: "Cities Delivered", value: "100+", img: <CityIcon /> },
-  { label: "Warehousing Space", value: "25000+sqft", img: <WareHouseSpace /> },
+  { label: "Products", value: "48000+", img: <ProductIcon /> },
+  { label: "Warehouses", value: "8+", img: <WareHouseIcon /> },
+  { label: "Cities Reach", value: "80+", img: <CityIcon /> },
+  {
+    label: "Each warehousing Space",
+    value: "25000+sqft",
+    img: <WareHouseSpace />,
+  },
 ];
 
 const OurInfrastructure = () => {
@@ -39,8 +43,10 @@ const OurInfrastructure = () => {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              10 warehouses, 500 people, and an internal order management system
-              that handles over 15,000 orders per day.
+              We’re excited to have 9 strategically located warehouses that
+              streamline storage and distribution! Our team processes over
+              8,000 orders daily with real-time tracking, ensuring we
+              efficiently meet our customers’ needs with a smile!
             </p>
             <Row
               className="d-flex flex-wrap justify-content-between gap-md-0 gap-4 mt-lg-5 pt-lg-5 pt-0 mt-0"
@@ -107,7 +113,7 @@ const OurInfrastructure = () => {
                     alt={`Pointer indicating ${location.name}`}
                     className="animation"
                   />
-                  <span 
+                  <span
                     className="location-name text-black position-absolute text-nowrap z-1"
                     data-aos="fade-up"
                     data-aos-delay={`${600 + index * 100}`}

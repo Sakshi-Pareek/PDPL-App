@@ -63,8 +63,7 @@ export const Herosection = () => {
                     {slide.description}
                   </p>
 
-                  <Link
-                    to="/about"
+                  <a href="#about"
                     aria-label="Navigate to about page"
                     className="fs_md text-black nav_link transition position-relative"
                   >
@@ -79,7 +78,7 @@ export const Herosection = () => {
                     <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
                       Get Started
                     </button>{" "}
-                  </Link>
+                  </a>
                 </Col>
                 <Col lg={5}>
                   <img

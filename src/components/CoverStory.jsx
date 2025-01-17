@@ -43,7 +43,7 @@ const CoverStory = () => {
               className="img-fluid rounded shadow-lg"
             />
             <p className="fs_6sm text-white text-end mt-2 fst-italic mb-0">
-              Anil Kumar, <cite title="Source Title">Managing Director</cite>
+              Mr. Anil Kumar, <cite title="Source Title">Managing Director</cite>
             </p>
           </Col>
         </Row>

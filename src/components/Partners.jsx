@@ -196,6 +196,12 @@ const Partners = () => {
         fluid
         className="overflow-hidden d-flex flex-column py-5 max-w-1920 mx-auto"
       >
+        <h2
+          className="fw-bold fs_8xl mb-2 text-center mb-5 text-black"
+          data-aos="fade-down"
+        >
+          Our Associations
+        </h2>
         <div data-aos="zoom-in">
           <Slider {...settings1}>
             {logos1.map((a, index) => (

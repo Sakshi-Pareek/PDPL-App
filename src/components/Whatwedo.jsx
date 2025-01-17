@@ -21,8 +21,8 @@ const Whatwedo = () => {
               data-aos="fade-left"
             >
               At our core, we are a trusted pharmaceutical distribution provider
-              in India, delivering only genuine healthcare products, medicines,
-              drugs, consumables, implants, masks, PPE kits, and more. Our
+              in India, delivering only <span className="fst-italic">Genuine healthcare products, Medicines,
+              Drugs, Consumables, Implants, Masks, and more</span>. Our
               experienced team adeptly leverages digital platforms to ensure
               efficient delivery through proper shipping channels. With an
               unwavering commitment to excellence and end-to-end technological

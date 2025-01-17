@@ -30,6 +30,7 @@ const SpecialPaetner = () => {
     { src: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/SrhFee9rOT.webp", alt: "EuroLife Logo" },
     { src: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/IndKuDTWFG.webp", alt: "Special Partner" },
     { src: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/seN0NVEEmX.webp", alt: "GleeBioTech Logo" },
+    { src: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/8FC8ZRxQ0X.png", alt: "PlusGen Logo" },
   ];
   return (
     <>

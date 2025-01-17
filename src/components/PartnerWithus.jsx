@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import CommonBtn from "./common/CommonBtn";
-import CountUp from "react-countup"; 
-import { useInView } from "react-intersection-observer"; 
+import CountUp from "react-countup";
+import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
 
 const PartnerWithus = () => {
-  const [hasAnimated, setHasAnimated] = useState(false); 
+  const [hasAnimated, setHasAnimated] = useState(false);
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.3,
@@ -14,16 +14,16 @@ const PartnerWithus = () => {
 
   const card = [
     {
-      heading: 350,
-      para: "Retail Customers",
+      heading: 28,
+      para: "Years of Pharma Experience",
     },
     {
       heading: 800,
       para: "Hospital Customers",
     },
     {
-      heading: 450,
-      para: "Employees",
+      heading: 48000,
+      para: "Products",
     },
   ];
 
@@ -61,15 +61,18 @@ const PartnerWithus = () => {
                   )}
                   +
                 </h3>
-                <p className=" fs_6md text_sky fw-semibold text-center lh-sn letter_spacing ff_roboto mb-0">
+                <p className=" fs_4md text_sky fw-semibold text-center lh-sn letter_spacing ff_roboto mb-0">
                   {a.para}
                 </p>
               </div>
             </Col>
           ))}
         </Row>
-        <Link aria-label="Navigate to Contact page"
-         to="/contact" data-aos="fade-up">
+        <Link
+          aria-label="Navigate to Contact page"
+          to="/contact"
+          data-aos="fade-up"
+        >
           <CommonBtn btnname="Contact Us"></CommonBtn>
         </Link>
       </Container>

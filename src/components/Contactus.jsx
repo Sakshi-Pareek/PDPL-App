@@ -98,13 +98,6 @@ const Contactus = () => {
             <p className="fs_md" data-aos="fade-right">
               <strong>Contact us at : </strong>
               <a
-                href="tel:9671480888"
-                className="text-black nav_link transition fs_6sm"
-              >
-                9671480888
-              </a>{" "}
-              /{" "}
-              <a
                 href="tel:+91124-4014675"
                 className="text-black nav_link transition fs_6sm"
               >

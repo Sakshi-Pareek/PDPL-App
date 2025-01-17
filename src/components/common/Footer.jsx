@@ -112,12 +112,12 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                     to="/contact"
                     className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition text-nowrap"
                   >
-                    Terms and Conditions
-                  </a>
+                   Contact Us
+                  </Link>
                 </li>
               </ul>
             </Col>
@@ -133,19 +133,20 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="https://www.unios.in/"
+                    target="_blank"
                     className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
                   >
-                    Security
+                    Unios
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                   to="/infrastructure"
                     className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
                   >
-                    Privacy
-                  </a>
+                    Infrastructure
+                  </Link>
                 </li>
                 <li>
                   <a
@@ -157,7 +158,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="mailto: hr.workspace@plusdistributions.in"
+                    href="mailto:hr.workspace@plusdistributions.in"
                     target="_blank"
                     rel="noreferrer"
                     className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"

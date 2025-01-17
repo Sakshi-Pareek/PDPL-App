@@ -4,29 +4,33 @@ import { Col, Container, Row } from "react-bootstrap";
 const Wearebest = () => {
   const data = [
     {
-      image: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/YFxULCIxXW.svg",
-      heading: "10+",
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/YFxULCIxXW.svg",
+      heading: "8+",
       para: "Warehouses Across India",
       rotate:
         "The healthcare and pharmaceutical supply chain manages the flow of materials and information from raw material procurement to final product delivery.",
     },
     {
-      image: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/eK61IhwHk4.svg",
-      heading: "4+",
-      para: "Cold Storage System",
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/PscRDw3smM.webp",
+      heading: "800+",
+      para: "Hospital Clients",
       rotate:
-        "Cold storage in pharmaceuticals preserves the quality and efficacy of temperature-sensitive products by maintaining strict temperature control throughout the supply chain",
+        "Cold storage in pharmaceuticals safeguards the quality and efficacy of temperature-sensitive products, ensuring reliable and safe delivery to hospitals through strict temperature control across the supply chain.",
     },
     {
-      image: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/FPOUALjMCz.svg",
-      heading: "14+",
-      para: "Supply Chain & Distribution",
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/zIIXF2gCr8.jpg",
+      heading: "48000+",
+      para: "Product Range",
       rotate:
-        "We invest in technology at all of our distribution warehouses to enhance fulfilment rates, reliability and product availability",
+        "We use technology in our warehouses to improve the quality and availability of our product range, ensuring reliable service for customers.",
     },
     {
-      image: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/DuXQYwuTJi.webp",
-      heading: "21+",
+      image:
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/DuXQYwuTJi.webp",
+      heading: "25+",
       para: "Hospital Pharmacies",
       rotate:
         "Customers can arrange for returns and claims settlements through our Unios Application",
@@ -34,7 +38,7 @@ const Wearebest = () => {
   ];
   return (
     <>
-      <div className="distributor_bg py-5 bg_gray">
+      <div className="distributor_bg py-5 bg_gray" id="about">
         <Container className="py-md-3">
           <h2
             className="text-center fw-bold fs_8xl mx-auto letter_spacing mb-0"
