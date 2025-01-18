@@ -45,7 +45,7 @@ const SpecialPaetner = () => {
                 Our Special Partner
               </h2>
               <p
-                className="fs_md letter_spacing fw- lh-base text-black ff_roboto"
+                className="fs_md letter_spacing fw- lh-base text-black ff_roboto text_justify"
                 data-aos="fade-right"
               >
                 As the exclusive C&F partner for GUFIC Bioscience Ltd in

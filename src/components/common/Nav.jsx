@@ -59,7 +59,7 @@ const Nav = () => {
             </a>
 
             <ul className="d-none d-xl-flex list-unstyled gap-4 align-items-center mb-0 pe-0">
-              {["Home", "About", "Infrastructure", "Partner", "Career"].map(
+              {["Home", "About", "Infrastructure", "Network", "Career"].map(
                 (item, index) => (
                   <li
                     key={index}

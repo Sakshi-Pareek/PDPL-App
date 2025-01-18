@@ -15,13 +15,13 @@ const CoverStory = () => {
             <h3 className="fw-bold fs_2xl mx-auto letter_spacing text-white">
               Streamlined Pharmaceutical Distribution
             </h3>
-            <p className="fs_md lh-normal text_sky fst-italic text-white">
+            <p className="fs_md lh-normal text_sky fst-italic text-white text_justify">
               “PDPL is one of the very few players in the country who ensure
-              comprehensive B2B pharmaceutical management compliance, while
+              comprehensive B2B pharmaceutical management and distribution compliance, while
               consistently maintaining a customer-driven approach.”
             </p>
 
-            <p className="fs_md lh-base text_gray mb-4 text-white">
+            <p className="fs_md lh-base text_gray mb-4 text-white text_justify">
               The pharmaceutical wholesale distribution sector has evolved. PDPL
               ensures timely delivery of quality products through innovation and
               strong customer service while meeting regulatory standards.

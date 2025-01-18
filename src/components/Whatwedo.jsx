@@ -17,7 +17,7 @@ const Whatwedo = () => {
               What We Do
             </h2>
             <p
-              className="ff_roboto fw-normal fs_md letter_spacing mb-0 lh-base text-black"
+              className="ff_roboto fw-normal fs_md letter_spacing mb-0 lh-base text-black text_justify"
               data-aos="fade-left"
             >
               At our core, we are a trusted pharmaceutical distribution provider

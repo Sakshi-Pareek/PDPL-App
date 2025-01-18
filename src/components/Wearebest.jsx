@@ -14,8 +14,8 @@ const Wearebest = () => {
     {
       image:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/PscRDw3smM.webp",
-      heading: "800+",
-      para: "Hospital Clients",
+      heading: "1000+",
+      para: "Healthcare Clients",
       rotate:
         "Cold storage in pharmaceuticals safeguards the quality and efficacy of temperature-sensitive products, ensuring reliable and safe delivery to hospitals through strict temperature control across the supply chain.",
     },

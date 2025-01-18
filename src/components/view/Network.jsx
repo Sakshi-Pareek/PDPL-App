@@ -7,7 +7,7 @@ import Partners from "../Partners";
 import SpecialPaetner from "../SpecialPaetner";
 import { PartnerShip } from "../PartnerShip";
 
-const Partner = () => {
+const Network = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -25,4 +25,4 @@ const Partner = () => {
   );
 };
 
-export default Partner;
+export default Network;

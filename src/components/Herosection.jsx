@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 const slidesData = [
@@ -57,7 +56,7 @@ export const Herosection = () => {
                     {slide.title}
                   </h1>
                   <p
-                    className="fw-normal text-white fs_md py-2 mb-4"
+                    className="fw-normal text-white fs_md py-2 mb-4 text_justify"
                     data-aos="fade-right"
                   >
                     {slide.description}

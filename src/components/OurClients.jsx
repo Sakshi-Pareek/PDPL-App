@@ -16,7 +16,7 @@ const OurClients = () => {
                 We Provide The Best Service To Our Clients And The Vendors
               </h2>
               <p
-                className="fs_6sm letter_spacing fw-normal lh-base text-white ff_roboto mb-3"
+                className="fs_6sm letter_spacing fw-normal lh-base text-white ff_roboto mb-3 text_justify"
                 data-aos="fade-right"
               >
                 With our extensive network and cutting-edge technology, we

@@ -17,7 +17,7 @@ function OurPartner() {
                 Our Partners
               </h1>
               <p
-                className="fw-normal text-black fs_md pt-2 mb-3"
+                className="fw-normal text-black fs_md pt-2 mb-3 text_justify"
                 data-aos="fade-right "
               >
                 Partnerships have been the key driving force behind PDPL’s

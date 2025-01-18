@@ -15,7 +15,7 @@ const Help = () => {
                 We’re Here to Help!
               </h1>
               <p
-                className="fw-normal text-black fs_md py-2 mb-4"
+                className="fw-normal text-black fs_md py-2 mb-4 text_justify"
                 data-aos="fade-right "
               >
                 For any questions or inquiries, please reach out to us using the

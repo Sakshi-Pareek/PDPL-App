@@ -17,7 +17,7 @@ const Abouthero = () => {
                 We are PDPL
               </h1>
               <p
-                className="fw-normal text-black fs_md py-2 mb-4"
+                className="fw-normal text-black fs_md py-2 mb-4 text_justify"
                 data-aos="fade-right "
               >
                 For over {yearsOfService} years, PDPL has been delivering health
@@ -29,7 +29,7 @@ const Abouthero = () => {
                 satisfaction.
               </p>
             </Col>
-            <Col lg={5}>
+            <Col lg={4} xs={7}>
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kT12dBWzNV.webp"
                 alt="Pdpl Logo"
