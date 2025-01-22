@@ -13,7 +13,7 @@ const OurPresence = () => {
             Our Presence
           </h2>
           <p
-            className="fs_md letter_spacing fw-normal lh-base text-black ff_roboto mb-4 text-center"
+            className="fs_md letter_spacing fw-normal lh-base text-black mb-4 text-center"
             data-aos="fade-down"
           >
             We’re proud of our wide-spread distribution network, spread across

@@ -15,7 +15,7 @@ const UniosApp = () => {
               Unios App
             </h2>
             <p
-              className="fs_md letter_spacing fw- lh-base text-black ff_roboto text_justify" 
+              className="fs_md letter_spacing fw- lh-base text-black text_justify" 
               data-aos="fade-right"
             >
               Unios is an advanced digital platform developed by PDPL to

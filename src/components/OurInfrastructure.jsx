@@ -39,7 +39,7 @@ const OurInfrastructure = () => {
               Our Infrastructure
             </h2>
             <p
-              className="fs_md letter_spacing fw-normal lh-base text-black ff_roboto mb-lg-5 mb-4 pb-lg-5 pb-0 text-lg-start text-center pe-lg-5"
+              className="fs_md letter_spacing fw-normal lh-base text-black mb-lg-5 mb-4 pb-lg-5 pb-0 text-lg-start text-center pe-lg-5"
               data-aos="fade-up"
               data-aos-delay="200"
             >

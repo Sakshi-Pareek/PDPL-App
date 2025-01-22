@@ -24,7 +24,7 @@ const Footer = () => {
                   height={56}
                 />
               </a>
-              <p className="text-black fs_4md fw-semibold ff_roboto mt-2">
+              <p className="text-black fs_4md fw-semibold mt-2">
                 Delivering Health, <br className="d-xl-block d-none" />
                 Empowering Lives
               </p>
@@ -72,14 +72,12 @@ const Footer = () => {
             </Col>
             <Col lg={2} sm={3} xs={5} className="mt-2">
               <ul className="d-flex flex-column gap-2 mb-0 ps-0">
-                <li className="fw-semibold fs_md text-black ff_roboto">
-                  Our Company
-                </li>
+                <li className="fw-semibold fs_md text-black">Our Company</li>
                 <li>
                   <Link
                     to="/"
                     aria-label="Go to the home page"
-                    className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
+                    className="fw-normal fs_8sm text-black under_line position-relative nav_link transition"
                   >
                     Home
                   </Link>
@@ -88,7 +86,7 @@ const Footer = () => {
                   <Link
                     to="/about"
                     aria-label="Learn more about us and our company"
-                    className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
+                    className="fw-normal fs_8sm text-black under_line position-relative nav_link transition"
                   >
                     About Us
                   </Link>
@@ -97,7 +95,7 @@ const Footer = () => {
                   <Link
                     to="/partner"
                     aria-label="Learn more about our partners and partnership opportunities"
-                    className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
+                    className="fw-normal fs_8sm text-black under_line position-relative nav_link transition"
                   >
                     Partners
                   </Link>
@@ -106,17 +104,17 @@ const Footer = () => {
                   <Link
                     to="/career"
                     aria-label="Explore career opportunities with us"
-                    className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
+                    className="fw-normal fs_8sm text-black under_line position-relative nav_link transition"
                   >
                     Career
                   </Link>
                 </li>
                 <li>
                   <Link
-                     to="/contact"
-                    className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition text-nowrap"
+                    to="/contact"
+                    className="fw-normal fs_8sm text-black under_line position-relative nav_link transition text-nowrap"
                   >
-                   Contact Us
+                    Contact Us
                   </Link>
                 </li>
               </ul>
@@ -128,31 +126,31 @@ const Footer = () => {
               className="d-lg-flex justify-content-center mt-2"
             >
               <ul className="d-flex flex-column gap-2 mb-0 ps-0">
-                <li className="fw-semibold fs_md text-black ff_roboto">
-                  Support
-                </li>
+                <li className="fw-semibold fs_md text-black">Support</li>
                 <li>
                   <a
                     href="https://www.unios.in/"
-                    target="_blank" rel="noreferrer" 
-                    className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="fw-normal fs_8sm text-black under_line position-relative nav_link transition"
                   >
                     Unios
                   </a>
                 </li>
                 <li>
                   <Link
-                   to="/infrastructure"
-                    className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
+                    to="/infrastructure"
+                    className="fw-normal fs_8sm text-black under_line position-relative nav_link transition"
                   >
                     Infrastructure
                   </Link>
                 </li>
                 <li>
-                  <Link to="/franchise "
-                    className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
+                  <Link
+                    to="/franchise "
+                    className="fw-normal fs_8sm text-black under_line position-relative nav_link transition"
                   >
-                    Franchise 
+                    Franchise
                   </Link>
                 </li>
                 <li>
@@ -160,7 +158,7 @@ const Footer = () => {
                     href="mailto:hr.workspace@plusdistributions.in"
                     target="_blank"
                     rel="noreferrer"
-                    className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
+                    className="fw-normal fs_8sm text-black under_line position-relative nav_link transition"
                   >
                     Join Us
                   </a>
@@ -169,15 +167,13 @@ const Footer = () => {
             </Col>
             <Col lg={3} xs={12} className="mt-2">
               <ul className="d-flex flex-column gap-2 mb-0 ps-0">
-                <li className="fw-semibold fs_md text-black ff_roboto">
-                  Contact Us
-                </li>
+                <li className="fw-semibold fs_md text-black">Contact Us</li>
                 <li>
                   <a
                     href="mailto: info@plusdistributions.in"
                     target="_blank"
                     rel="noreferrer"
-                    className="fw-normal fs_8sm text-black ff_roboto mb-1 d-flex align-items-center gap-2 contact_icon nav_link transition"
+                    className="fw-normal fs_8sm text-black mb-1 d-flex align-items-center gap-2 contact_icon nav_link transition"
                   >
                     <img
                       src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/9vPwJkka3P.svg"
@@ -194,7 +190,7 @@ const Footer = () => {
                     href="tel:  +91124-4014675"
                     target="_blank"
                     rel="noreferrer"
-                    className="fw-normal fs_8sm text-black ff_roboto mb-1 d-flex align-items-center gap-2 contact_icon nav_link transition"
+                    className="fw-normal fs_8sm text-black mb-1 d-flex align-items-center gap-2 contact_icon nav_link transition"
                   >
                     <img
                       src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/dn1jGDjdR9.svg"
@@ -211,7 +207,7 @@ const Footer = () => {
                     href="https://www.google.com/maps/place/Plus+Distribution+Pvt.+Ltd/@28.4339692,76.9917312,17z/data=!3m1!4b1!4m6!3m5!1s0x390d17bdf3ddf591:0xbdbb9a6f0115739d!8m2!3d28.4339645!4d76.9943061!16s%2Fg%2F11rn7qzn6k?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
                     target="_blank"
                     rel="noreferrer"
-                    className="fw-normal fs_8sm text-black ff_roboto mb-1 d-flex gap-2 contact_icon nav_link transition"
+                    className="fw-normal fs_8sm text-black mb-1 d-flex gap-2 contact_icon nav_link transition"
                   >
                     <img
                       src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/RrKLuyd86c.svg"
@@ -226,11 +222,8 @@ const Footer = () => {
               </ul>
             </Col>
           </Row>
-          <p className="fw-normal fs_8sm text-black ff_roboto mb-0 text-black py-3 text-center">
-            ©{" "}
-            <span id="year_change " className="ff_roboto">
-              {year}{" "}
-            </span>
+          <p className="fw-normal fs_8sm text-black mb-0 text-black py-3 text-center">
+            © <span id="year_change">{year} </span>
             plusdistributions | All Rights Reserved
           </p>
         </Container>

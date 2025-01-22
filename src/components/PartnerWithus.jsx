@@ -38,7 +38,7 @@ const PartnerWithus = () => {
           Why Partner With Us
         </h2>
         <p
-          className="fs_md letter_spacing fw-normal lh-base text-black ff_roboto mb-3"
+          className="fs_md letter_spacing fw-normal lh-base text-black mb-3"
           data-aos="fade-up"
         >
           As a leading pharmaceutical distributor, PDPL offers unparalleled
@@ -53,7 +53,7 @@ const PartnerWithus = () => {
           {card.map((a, index) => (
             <Col className="mb-4" md={4} xs={12} key={index}>
               <div className="h-100">
-                <h3 className="fs_2lg fw-bold letter_spacing ff_roboto text_sky mb-0">
+                <h3 className="fs_2lg fw-bold letter_spacing text_sky mb-0">
                   {hasAnimated ? (
                     <CountUp start={0} end={a.heading} duration={4} />
                   ) : (
@@ -61,7 +61,7 @@ const PartnerWithus = () => {
                   )}
                   +
                 </h3>
-                <p className=" fs_4md text_sky fw-semibold text-center lh-sn letter_spacing ff_roboto mb-0">
+                <p className="fs_4md text_sky fw-semibold text-center lh-sm letter_spacing mb-0">
                   {a.para}
                 </p>
               </div>

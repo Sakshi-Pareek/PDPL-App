@@ -14,7 +14,7 @@ const UniosDashBoard = () => {
             The Intelligence Behind PDPL
           </h3>
           <p
-            className="fs_8sm letter_spacing fw-normal lh-base text-black ff_roboto text-center px-lg-5 mx-lg-5"
+            className="fs_8sm letter_spacing fw-normal lh-base text-black text-center px-lg-5 mx-lg-5"
             data-aos="fade-up"
             data-aos-delay="300"
           >

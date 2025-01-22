@@ -69,16 +69,16 @@ const Wearebest = () => {
                           height="131px"
                           className="mx-auto"
                         />
-                        <h3 className="ff_roboto fs_4md fw-bold text-center mb-0 ">
+                        <h3 className="fs_4md fw-bold text-center mb-0 ">
                           {a.heading}
                         </h3>
-                        <p className="text-center fs_8sm fw-normal lh-base ff_roboto mb-0">
+                        <p className="text-center fs_8sm fw-normal lh-base mb-0">
                           {a.para}
                         </p>
                       </div>
                     </div>
                     <div className="cardbackside position-absolute w-100 h-100 bg_gray cursor_pointer rounded-4 shadow p-4 d-flex justify-content-center align-items-center">
-                      <h2 className="fs_8sm text-center text-black ff_roboto">
+                      <h2 className="fs_8sm text-center text-black">
                         {" "}
                         {a.rotate}
                       </h2>

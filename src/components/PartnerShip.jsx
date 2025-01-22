@@ -14,7 +14,7 @@ export const PartnerShip = () => {
             Partnership
           </h2>
           <p
-            className="fs_md letter_spacing fw-normal lh-base text-black ff_roboto mb-5 text-center"
+            className="fs_md letter_spacing fw-normal lh-base text-black mb-5 text-center"
             data-aos="fade-down"
           >
             At PDPL, our philosophy, embodies our commitment to enhancing health

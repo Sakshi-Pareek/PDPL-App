@@ -132,15 +132,15 @@ const ClientReview = () => {
                       width={45}
                     />
                     <div>
-                      <h3 className="ff_roboto fs_6sm text-black fw-bold mb-0">
+                      <h3 className="fs_6sm text-black fw-bold mb-0">
                         {review.name}
                       </h3>
-                      <p className="ff_roboto fs_6sm text-black fw-semibold mb-0">
+                      <p className="fs_6sm text-black fw-semibold mb-0">
                         {review.role}
                       </p>
                     </div>
                   </div>
-                  <p className="font-normal fs_6sm lh-sm text-black ff_roboto mb-0 flex-grow">
+                  <p className="font-normal fs_6sm lh-sm text-black mb-0 flex-grow">
                     {review.feedback}
                   </p>
                 </div>

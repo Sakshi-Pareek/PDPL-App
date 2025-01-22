@@ -16,7 +16,7 @@ const HealthcareDistribution = () => {
               <h2 className="fw-bold fs_8xl mx-auto letter_spacing mb-3 text-lg-start text-center">
                 Transform Your Healthcare Distribution
               </h2>
-              <p className="fs_8sm letter_spacing fw-normal lh-base text-black ff_roboto text-lg-start text-center">
+              <p className="fs_8sm letter_spacing fw-normal lh-base text-black text-lg-start text-center">
                 Operating across multiple locations in India, PDPL serves as the
                 heart and brain of business operations, ensuring seamless
                 processes and efficient execution to drive success.

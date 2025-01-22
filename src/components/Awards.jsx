@@ -34,7 +34,7 @@ const Awards = () => {
           data-aos="fade-down"
         />
         <p
-          className="ff_roboto fw-normal fs_md letter_spacing mb-0 lh-base text-black text-center"
+          className="fw-normal fs_md letter_spacing mb-0 lh-base text-black text-center"
           data-aos="fade-down"
         >
           PDPL has received numerous prestigious awards for its excellence in
