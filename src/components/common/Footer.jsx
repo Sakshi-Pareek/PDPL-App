@@ -134,7 +134,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="https://www.unios.in/"
-                    target="_blank"
+                    target="_blank" rel="noreferrer" 
                     className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
                   >
                     Unios
