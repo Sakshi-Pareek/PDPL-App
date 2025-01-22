@@ -149,12 +149,11 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <a
-                    href="#"
+                  <Link to="/franchise "
                     className="fw-normal fs_8sm text-black ff_roboto under_line position-relative nav_link transition"
                   >
-                    Sustainability
-                  </a>
+                    Franchise 
+                  </Link>
                 </li>
                 <li>
                   <a

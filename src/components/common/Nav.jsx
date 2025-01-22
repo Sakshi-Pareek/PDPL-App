@@ -59,29 +59,34 @@ const Nav = () => {
             </a>
 
             <ul className="d-none d-xl-flex list-unstyled gap-4 align-items-center mb-0 pe-0">
-              {["Home", "About", "Infrastructure", "Network", "Career"].map(
-                (item, index) => (
-                  <li
-                    key={index}
-                    aria-label="Learn more about our company"
-                    onClick={() =>
-                      handleNavClick(`/${item.toLowerCase().trim()}`)
-                    }
-                    className={`under_line position-relative ${
-                      activeLink === `/${item.toLowerCase().trim()}`
-                        ? "hover"
-                        : ""
-                    }`}
+              {[
+                "Home",
+                "About",
+                "Infrastructure",
+                "Franchise ",
+                "Network",
+                "Career",
+              ].map((item, index) => (
+                <li
+                  key={index}
+                  aria-label="Learn more about our company"
+                  onClick={() =>
+                    handleNavClick(`/${item.toLowerCase().trim()}`)
+                  }
+                  className={`under_line position-relative ${
+                    activeLink === `/${item.toLowerCase().trim()}`
+                      ? "hover"
+                      : ""
+                  }`}
+                >
+                  <Link
+                    to={`/${item.toLowerCase().trim()}`}
+                    className="fs_md text-black nav_link transition"
                   >
-                    <Link
-                      to={`/${item.toLowerCase().trim()}`}
-                      className="fs_md text-black nav_link transition"
-                    >
-                      {item}
-                    </Link>
-                  </li>
-                )
-              )}
+                    {item}
+                  </Link>
+                </li>
+              ))}
               <li onClick={() => handleNavClick("/contact")}>
                 <Link
                   to="/contact"
@@ -124,21 +129,26 @@ const Nav = () => {
             Menu
           </h3>
           <ul className="list-unstyled">
-            {["Home", "About", "Infrastructure", "Partner", "Career"].map(
-              (item, index) => (
-                <li key={index} className="py-3 border-bottom">
-                  <Link
-                    to={`/${item.toLowerCase().trim()}`}
-                    className="text-white d-flex justify-content-between align-items-center fs-5 px-4"
-                    onClick={() =>
-                      handleNavClick(`/${item.toLowerCase().trim()}`)
-                    }
-                  >
-                    {item}
-                  </Link>
-                </li>
-              )
-            )}
+            {[
+              "Home",
+              "About",
+              "Infrastructure",
+              "Franchise",
+              "Network",
+              "Career",
+            ].map((item, index) => (
+              <li key={index} className="py-3 border-bottom">
+                <Link
+                  to={`/${item.toLowerCase().trim()}`}
+                  className="text-white d-flex justify-content-between align-items-center fs-5 px-4"
+                  onClick={() =>
+                    handleNavClick(`/${item.toLowerCase().trim()}`)
+                  }
+                >
+                  {item}
+                </Link>
+              </li>
+            ))}
             <li
               onClick={() => handleNavClick("/contact")}
               className="border-bottom py-3"

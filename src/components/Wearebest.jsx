@@ -21,7 +21,7 @@ const Wearebest = () => {
     },
     {
       image:
-        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/zIIXF2gCr8.jpg",
+        "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/gsLt6qe5ZQ.webp",
       heading: "48000+",
       para: "Product Range",
       rotate:

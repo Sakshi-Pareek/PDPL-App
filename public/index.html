@@ -1,46 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Page Title -->
+    <title>Plus Distribution Pvt Ltd | Premier Pharmaceutical Distributor in India</title>
 
-<head>
-  <title>Plus Distribution Pvt Ltd | Premier Pharmaceutical Distributor in India</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="title" content="Excellence in Healthcare Supply Chain Management - PDPL" />
-  <meta name="description"
-    content="Plus Distribution Pvt Ltd (PDPL) is a leading pharmaceutical distributor in India, dedicated to providing high-quality healthcare products and efficient distribution services." />
-  <meta name="keywords"
-    content="PDPL, Plus Distribution Pvt Ltd, best pharmaceutical company, trusted pharmaceutical company in India" />
-  <meta name="google-site-verification" content="Gg8L6nileXCekzd5j_a-7t5w_klay94VsE4f1fIMdEE" />
-  <meta property="og:image" content="https://i.postimg.cc/Dy025yMR/Screenshot-2024-11-07-151431.png" />
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Excellence in Healthcare Supply Chain Management - PDPL" />
+    <meta
+      name="description"
+      content="Plus Distribution Pvt Ltd (PDPL) is a leading pharmaceutical distributor in India, dedicated to providing high-quality healthcare products and efficient distribution services."
+    />
+    <meta name="keywords" content="PDPL, Plus Distribution Pvt Ltd, best pharmaceutical company, trusted pharmaceutical company in India" />
+    <!-- <meta name="google-site-verification" content="mqnSZdtwXJwEQJyeCtc6sQitlLBzyXgn58jy_eqV8Ro" /> -->
+    <meta name="google-site-verification" content="Gg8L6nileXCekzd5j_a-7t5w_klay94VsE4f1fIMdEE" />
+    <meta property="og:image" content="https://i.postimg.cc/Dy025yMR/Screenshot-2024-11-07-151431.png" />
 
-  <script>
-    (function (w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-MMQXRGP6');
-  </script>
-</head>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-MMQXRGP6");
 
-<body>
-  <!-- Google Tag Manager (noscript fallback) -->
-  <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMQXRGP6" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe>
-  </noscript>
-  <noscript>
-    <iframe src="https://dunsregistered.dnb.com/SealAuthentication.aspx?Cid=1" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe>
-  </noscript>
+      // Function to modify meta tags
+      document.addEventListener("DOMContentLoaded", async function () {
+        try {
+          const response = await fetch("https://api.plusdistribution.in/meta/get-meta");
+          const data = await response.json();
+          const siteMeta = data.response.metaInf.find((site) => site.site_name === "plusdistributions.in");
 
-  <!-- Root Container -->
-  <div id="root"></div>
+          if (siteMeta) {
+            // Update the title tag
+            document.title = siteMeta.meta_title;
 
-</body>
+            // Modify the description meta tag
+            const metaDescription = document.querySelector('meta[name="description"]');
+            if (metaDescription) {
+              metaDescription.setAttribute("content", siteMeta.meta_desc);
+            }
 
+            // Modify the keywords meta tag
+            const metaKeywords = document.querySelector('meta[name="keywords"]');
+            if (metaKeywords) {
+              metaKeywords.setAttribute("content", siteMeta.meta_key);
+            }
+
+            // Modify the title meta tag
+            const metaTitle = document.querySelector('meta[name="title"]');
+            if (metaTitle) {
+              metaTitle.setAttribute("content", siteMeta.meta_title);
+            }
+
+            // Add a new meta tag for author
+            const metaAuthor = document.createElement("meta");
+            metaAuthor.name = "author";
+            metaAuthor.content = "John Doe";
+            document.head.appendChild(metaAuthor);
+
+            // Update the Open Graph image
+            const metaOgImage = document.querySelector('meta[property="og:image"]');
+            if (metaOgImage) {
+              metaOgImage.setAttribute("content", siteMeta.meta_image || "https://i.postimg.cc/Dy025yMR/Screenshot-2024-11-07-151431.png");
+            }
+          }
+        } catch (error) {
+          console.error("Error fetching meta data:", error);
+        }
+      });
+    </script>
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript fallback) -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMQXRGP6" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <noscript>
+      <iframe src="https://dunsregistered.dnb.com/SealAuthentication.aspx?Cid=1" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+
+    <!-- Root Container -->
+    <div id="root"></div>
+  </body>
 </html>

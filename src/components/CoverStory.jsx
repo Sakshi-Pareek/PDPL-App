@@ -31,7 +31,7 @@ const CoverStory = () => {
               target="_blank"
               rel="noreferrer"
               data-aos="fade-right"
-              class="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4"
+              className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4"
             >
               Read More
             </a>
