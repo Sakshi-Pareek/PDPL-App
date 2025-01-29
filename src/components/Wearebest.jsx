@@ -64,7 +64,7 @@ const Wearebest = () => {
                       <div className="bg-white rounded-4 shadow cursor_pointer d-flex flex-column gap-2 h-100 transition p-3">
                         <img
                           src={a.image}
-                          alt="Company Assets"
+                          alt="Pharmaceutical company assets representing 8+ Warehouses Across India"
                           width="186px"
                           height="131px"
                           className="mx-auto"

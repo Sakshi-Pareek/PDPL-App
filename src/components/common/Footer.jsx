@@ -19,7 +19,7 @@ const Footer = () => {
               <a href="#" className="ms-auto">
                 <img
                   src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kT12dBWzNV.webp"
-                  alt="WebLogo"
+                  alt="Plus Distribution Pvt. Ltd. logo"
                   width={150}
                   height={56}
                 />
@@ -36,7 +36,7 @@ const Footer = () => {
                 >
                   <img
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/2pw0JLNPgp.svg"
-                    alt="FbIcon"
+                    alt="Facebook icon"
                     width={35}
                     height={35}
                     className="social_icon transition"
@@ -49,7 +49,7 @@ const Footer = () => {
                 >
                   <img
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/9LYBFyV7qv.svg"
-                    alt="InstaIcon"
+                    alt="Instagram Icon"
                     width={35}
                     height={35}
                     className="social_icon transition"
@@ -63,7 +63,7 @@ const Footer = () => {
                 >
                   <img
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/l5XTh9isTH.svg"
-                    alt="WhatsappIcon"
+                    alt="WhatsApp icon"
                     width={35}
                     height={35}
                   />
@@ -177,7 +177,7 @@ const Footer = () => {
                   >
                     <img
                       src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/9vPwJkka3P.svg"
-                      alt="MailIcon"
+                      alt="Email icon"
                       width={30}
                       height={30}
                       className="transition"
@@ -195,7 +195,7 @@ const Footer = () => {
                     <img
                       src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/dn1jGDjdR9.svg"
                       className="transition"
-                      alt="PhoneIcon"
+                      alt="Phone icon"
                       width={30}
                       height={30}
                     />{" "}
@@ -211,7 +211,7 @@ const Footer = () => {
                   >
                     <img
                       src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/RrKLuyd86c.svg"
-                      alt="LocationIcon"
+                      alt="Location icon"
                       className="transition"
                       width={35}
                       height={35}

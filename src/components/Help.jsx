@@ -28,7 +28,7 @@ const Help = () => {
             <Col lg={6}>
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Z8dDxyk87S.webp"
-                alt="Connect with us"
+                alt="Image showing customer support and connection with PDPL team"
                 className="w-100 updown_ani"
               />
             </Col>

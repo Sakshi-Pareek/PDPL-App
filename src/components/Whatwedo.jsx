@@ -8,7 +8,7 @@ const Whatwedo = () => {
           <Col lg={6} xs={10}>
             <img
               src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/0KFiQgMHOD.svg"
-              alt="Nurse"
+              alt="Healthcare professional providing pharmaceutical distribution services"
               className="w-100 pe-xl-5 pe-lg-4 pe-0 updown_ani h-auto"
             />
           </Col>
@@ -21,13 +21,16 @@ const Whatwedo = () => {
               data-aos="fade-left"
             >
               At our core, we are a trusted pharmaceutical distribution provider
-              in India, delivering only <span className="fst-italic">Genuine healthcare products, Medicines,
-              Drugs, Consumables, Implants, Masks, and more</span>. Our
-              experienced team adeptly leverages digital platforms to ensure
-              efficient delivery through proper shipping channels. With an
-              unwavering commitment to excellence and end-to-end technological
-              solutions, we proudly stand as a leading name in pharmaceutical
-              distribution.
+              in India, delivering only{" "}
+              <span className="fst-italic">
+                Genuine healthcare products, Medicines, Drugs, Consumables,
+                Implants, Masks, and more
+              </span>
+              . Our experienced team adeptly leverages digital platforms to
+              ensure efficient delivery through proper shipping channels. With
+              an unwavering commitment to excellence and end-to-end
+              technological solutions, we proudly stand as a leading name in
+              pharmaceutical distribution.
             </p>
           </Col>
         </Row>

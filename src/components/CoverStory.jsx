@@ -17,8 +17,9 @@ const CoverStory = () => {
             </h3>
             <p className="fs_md lh-normal text_sky fst-italic text-white text_justify">
               “PDPL is one of the very few players in the country who ensure
-              comprehensive B2B pharmaceutical management and distribution compliance, while
-              consistently maintaining a customer-driven approach.”
+              comprehensive B2B pharmaceutical management and distribution
+              compliance, while consistently maintaining a customer-driven
+              approach.”
             </p>
 
             <p className="fs_md lh-base text_gray mb-4 text-white text_justify">
@@ -39,11 +40,12 @@ const CoverStory = () => {
           <Col xl={4} lg={6} className="text-center p-4" data-aos="fade-right">
             <img
               src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/vTWXbWIMnD.webp"
-              alt="Anil Bhatia Image"
+              alt="Portrait of Mr. Anil Kumar, Managing Director of PDPL"
               className="img-fluid rounded shadow-lg"
             />
             <p className="fs_6sm text-white text-end mt-2 fst-italic mb-0">
-              Mr. Anil Kumar, <cite title="Source Title">Managing Director</cite>
+              Mr. Anil Kumar,{" "}
+              <cite title="Source Title">Managing Director</cite>
             </p>
           </Col>
         </Row>

@@ -30,7 +30,7 @@ const UniosDashBoard = () => {
           <div data-aos="zoom-in" data-aos-delay="500">
             <img
               src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/M2HFz5qJH8.webp"
-              alt="UniosDashboard"
+              alt="Unios Dashboard - ERP Software for Sales Order Management and Supply Chain Tracking"
               className="w-100 px-5"
             />
           </div>

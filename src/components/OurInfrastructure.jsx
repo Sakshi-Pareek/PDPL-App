@@ -44,9 +44,9 @@ const OurInfrastructure = () => {
               data-aos-delay="200"
             >
               We’re excited to have 9 strategically located warehouses that
-              streamline storage and distribution! Our team processes over
-              8,000 orders daily with real-time tracking, ensuring we
-              efficiently meet our customers’ needs with a smile!
+              streamline storage and distribution! Our team processes over 8,000
+              orders daily with real-time tracking, ensuring we efficiently meet
+              our customers’ needs with a smile!
             </p>
             <Row
               className="d-flex flex-wrap justify-content-between gap-md-0 gap-4 mt-lg-5 pt-lg-5 pt-0 mt-0"
@@ -95,7 +95,7 @@ const OurInfrastructure = () => {
             >
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/cDn4XZNnjT.webp"
-                alt="Map showing warehouse locations in India"
+                alt="Map showing warehouse locations across India for pharmaceutical distribution"
                 className="w-100 max_w_500 position-relative h-auto"
               />
               {locations.map((location, index) => (
@@ -110,7 +110,7 @@ const OurInfrastructure = () => {
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
                     width={20}
                     height={20}
-                    alt={`Pointer indicating ${location.name}`}
+                    alt={`Pointer indicating ${location.name} warehouse location`}
                     className="animation"
                   />
                   <span

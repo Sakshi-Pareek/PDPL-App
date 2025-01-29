@@ -116,7 +116,8 @@ const Contactus = () => {
             <p data-aos="fade-right">
               <strong>Corporate Office : </strong>
               <a
-                target="_blank" rel="noreferrer" 
+                target="_blank"
+                rel="noreferrer"
                 href="https://www.google.com/maps/place/SAS+Tower/@28.4409488,77.0367062,17z/data=!3m1!4b1!4m6!3m5!1s0x390d18695c471015:0xa44b7b144935cae4!8m2!3d28.4409488!4d77.0392811!16s%2Fg%2F11byp844cp?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
                 className="text-black nav_link transition"
               >
@@ -127,22 +128,24 @@ const Contactus = () => {
             <p data-aos="fade-right">
               <strong>Warehouse : </strong>
               <a
-                target="_blank" rel="noreferrer" 
+                target="_blank"
+                rel="noreferrer"
                 href="https://www.google.com/maps/place/Plus+Distribution+Pvt.+Ltd/@28.4336586,76.9916927,17z/data=!3m1!4b1!4m6!3m5!1s0x390d17bdf3ddf591:0xbdbb9a6f0115739d!8m2!3d28.4336539!4d76.994273!16s%2Fg%2F11rn7qzn6k?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D"
                 className="text-black nav_link transition"
               >
-              Plot no. 581, Pace city 2, Sector-37, Gurugram, Haryana 122004
+                Plot no. 581, Pace city 2, Sector-37, Gurugram, Haryana 122004
               </a>
             </p>
             <p data-aos="fade-right">
               <a
                 href="https://www.linkedin.com/company/plus-distribution-private-limited"
                 className="text-black nav_link transition"
-                target="_blank" rel="noreferrer" 
+                target="_blank"
+                rel="noreferrer"
               >
                 <img
                   src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Ju1PpXvAGD.svg"
-                  alt="LinkedIn"
+                  alt="Follow Plus Distribution Private Limited on LinkedIn"
                   width={30}
                   height={30}
                   className="transition"
@@ -231,6 +234,7 @@ const Contactus = () => {
           height="340px"
           loading="lazy"
           className="mb_neg_7"
+          title="Plus Distribution Pvt. Ltd Location"
         ></iframe>
       </div>
     </>

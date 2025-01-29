@@ -38,11 +38,11 @@ const OurClients = () => {
                 >
                   <img
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/TbQy5pzGGX.webp"
-                    alt="arrow"
+                    alt="Arrow pointing to more details on About page"
                     width="80"
                     height="50"
                     className="position-absolute arrow"
-                  ></img>
+                  />
                   <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
                     More Details
                   </button>
@@ -52,7 +52,7 @@ const OurClients = () => {
             <Col lg={5}>
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/TumDkrj8Yq.svg"
-                alt="Company Clients"
+                alt="Representation of our pharmaceutical clients and partners"
                 className="w-100 updown_ani h-auto"
               />
             </Col>

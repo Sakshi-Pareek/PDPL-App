@@ -29,7 +29,7 @@ const Awards = () => {
         </h2>
         <img
           src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/SDWJuEMtO0.webp"
-          alt="Victory"
+          alt="PDPL Awards and Recognitions - Excellence in Pharmaceutical Logistics"
           className="w-100 max_w_500 mx-auto"
           data-aos="fade-down"
         />
@@ -55,7 +55,7 @@ const Awards = () => {
               <div className="award-card d-flex flex-column align-items-center p-3 h-100">
                 <img
                   src='https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/MyGqzXQ6Um.webp'
-                  alt="Awards of company"
+                  alt="Award Trophy Representing PDPL's Achievements in Pharmaceutical Distribution"
                   width={80}
                   height={80}
                   className="mx-auto"

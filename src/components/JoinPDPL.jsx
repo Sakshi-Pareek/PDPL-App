@@ -11,7 +11,10 @@ const JoinPDPL = () => {
               <h3 className="text_sky fs_4md fw-semibold" data-aos="fade-right">
                 Long Lasting Collaborations
               </h3>
-              <p className="fw-normal text-black fs_6sm text_justify" data-aos="fade-right">
+              <p
+                className="fw-normal text-black fs_6sm text_justify"
+                data-aos="fade-right"
+              >
                 We prioritize building long-lasting collaborations with our
                 partners, clients, and stakeholders. These enduring
                 relationships are rooted in mutual trust, shared values, and a
@@ -26,7 +29,7 @@ const JoinPDPL = () => {
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Oz0QUwsV43.webp"
-                alt="Equal Opp at PDPL"
+                alt="Long lasting collaborations at PDPL"
                 className="transition w-100 min-h-290 object-fit-cover"
               />
             </div>
@@ -37,7 +40,7 @@ const JoinPDPL = () => {
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Zl713Jx8H8.webp"
-                alt="Equal Opp at PDPL"
+                alt="Driving positive change at PDPL"
                 className="transition w-100 min-h-290 object-fit-cover"
               />
             </div>
@@ -47,7 +50,10 @@ const JoinPDPL = () => {
               <h3 className="text_sky fs_4md fw-semibold" data-aos="fade-left">
                 Driving Positive Change
               </h3>
-              <p className="fw-normal text-black fs_6sm text_justify" data-aos="fade-left">
+              <p
+                className="fw-normal text-black fs_6sm text_justify"
+                data-aos="fade-left"
+              >
                 Driving positive change is core to our mission. Through
                 innovation, sustainability, and ethical practices, we aim to
                 improve healthcare and enhance lives. Our focus goes beyond
@@ -63,7 +69,10 @@ const JoinPDPL = () => {
               <h3 className="text_sky fs_4md fw-semibold" data-aos="fade-right">
                 Empowering Teams
               </h3>
-              <p className="fw-normal text-black fs_6sm text_justify" data-aos="fade-right">
+              <p
+                className="fw-normal text-black fs_6sm text_justify"
+                data-aos="fade-right"
+              >
                 Empowering teams is key to our success. We foster a supportive
                 environment that encourages collaboration, innovation, and
                 ownership. By equipping our workforce with the tools and
@@ -76,7 +85,7 @@ const JoinPDPL = () => {
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/4cqq8qX1dS.webp"
-                alt="Equal Opp at PDPL"
+                alt="Empowering teams at PDPL"
                 className="transition w-100 min-h-290 object-fit-cover"
               />
             </div>
@@ -87,7 +96,7 @@ const JoinPDPL = () => {
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/IttG1Sfrm5.webp"
-                alt="Equal Opp at PDPL"
+                alt="Expertise and competence at PDPL"
                 className="transition w-100 min-h-290 object-fit-cover"
               />
             </div>
@@ -97,7 +106,10 @@ const JoinPDPL = () => {
               <h3 className="text_sky fs_4md fw-semibold" data-aos="fade-left">
                 Expertise in Competence
               </h3>
-              <p className="fw-normal text-black fs_6sm text_justify" data-aos="fade-left">
+              <p
+                className="fw-normal text-black fs_6sm text_justify"
+                data-aos="fade-left"
+              >
                 We prioritize expertise by fostering continuous learning and
                 excellence. Our commitment to competence ensures our team
                 excels, delivering exceptional results and setting industry

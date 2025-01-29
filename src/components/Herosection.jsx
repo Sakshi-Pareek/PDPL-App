@@ -5,25 +5,29 @@ import Slider from "react-slick";
 const slidesData = [
   {
     title: "Delivering Health, Empowering Lives",
-    image: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/ICdBPzRxeb.webp",
+    image:
+      "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/ICdBPzRxeb.webp",
     description:
       "We deliver healthcare and empower lives through our experienced team and digital platforms. Our services include Pharma distribution, temperature-controlled storage, global distribution, customs clearance, and track-and-trace capabilities. With our commitment to excellence, we are a trusted provider in India, making a positive impact on healthcare.",
   },
   {
     title: "Partnering for Better Healthcare Access",
-    image: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/BTotAwhESm.webp",
+    image:
+      "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/BTotAwhESm.webp",
     description:
       "We deliver healthcare and empower lives through our experienced team and digital platforms. Our services include Pharma distribution, temperature-controlled storage, global distribution, customs clearance, and track-and-trace capabilities. With our commitment to excellence, we are a trusted provider in India, making a positive impact on healthcare.",
   },
   {
     title: "Quality Products, Trusted Service",
-    image: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/gxs7yxyLhf.webp",
+    image:
+      "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/gxs7yxyLhf.webp",
     description:
       "We deliver healthcare and empower lives through our experienced team and digital platforms. Our services include Pharma distribution, temperature-controlled storage, global distribution, customs clearance, and track-and-trace capabilities. With our commitment to excellence, we are a trusted provider in India, making a positive impact on healthcare.",
   },
   {
     title: "Health Solutions, Seamless Delivery",
-    image: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/W2BvwN1wYo.webp",
+    image:
+      "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/W2BvwN1wYo.webp",
     description:
       "We deliver healthcare and empower lives through our experienced team and digital platforms. Our services include Pharma distribution, temperature-controlled storage, global distribution, customs clearance, and track-and-trace capabilities. With our commitment to excellence, we are a trusted provider in India, making a positive impact on healthcare.",
   },
@@ -62,14 +66,15 @@ export const Herosection = () => {
                     {slide.description}
                   </p>
 
-                  <a href="#about"
+                  <a
+                    href="#about"
                     aria-label="Navigate to about page"
                     className="fs_md text-black nav_link transition position-relative"
                   >
                     {" "}
                     <img
                       src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/1OyH6QBHD6.webp"
-                      alt="arrow"
+                      alt="Arrow icon for navigation"
                       width="80"
                       height="50"
                       className="position-absolute arrow"
@@ -82,7 +87,7 @@ export const Herosection = () => {
                 <Col lg={5}>
                   <img
                     src={slide.image}
-                    alt="Career at PDPL"
+                    alt={`Healthcare solution: ${slide.title}`}
                     className="w-100 updown_ani h-auto"
                   />
                 </Col>

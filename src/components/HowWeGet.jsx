@@ -9,8 +9,8 @@ const logisticsData = [
     title: "Temperature-Controlled Storage",
     description:
       "Multiple temperature zones from 2-8°C, 9-15°C, and 16-25°C for different pharmaceutical needs.",
-    aos: "fade-up", // Add specific AOS animations
-    aosDelay: "200", // Add delays for staggered effects
+    aos: "fade-up",
+    aosDelay: "200",
   },
   {
     id: 2,
@@ -69,7 +69,7 @@ const HowWeGet = () => {
           >
             <img
               src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Szy4LYbn9y.webp"
-              alt="Cold Store"
+              alt="Cold storage facility for pharmaceutical logistics"
               className="rounded-4 w-100 cursor_pointer h-100"
             />
           </Col>

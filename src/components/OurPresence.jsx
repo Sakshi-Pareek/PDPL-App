@@ -30,79 +30,151 @@ const OurPresence = () => {
               <div className="position-relative">
                 <img
                   src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/cDn4XZNnjT.webp"
-                  alt="Map of India"
+                  alt="Map of India showing PDPL's distribution network and presence"
                   className="w-100 max_w_500 position-relative h-auto"
                 />
                 <div
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "26%", left: "30%" }}
                 >
-                  <img src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp" width={20} height={20} alt="Pointer" className="animation" />
-                  <span className="location-name text-black position-absolute text-nowrap">Hisar</span>
+                  <img
+                    src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
+                    width={20}
+                    height={20}
+                    alt="Pointer indicating Hisar"
+                    className="animation"
+                  />
+                  <span className="location-name text-black position-absolute text-nowrap">
+                    Hisar
+                  </span>
                 </div>
 
                 <div
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "28%", left: "37%" }}
                 >
-                  <img src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp" width={20} height={20} alt="Pointer" className="animation" />
-                  <span className="location-name text-black position-absolute text-nowrap">Delhi</span>
+                  <img
+                    src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
+                    width={20}
+                    height={20}
+                    alt="Pointer indicating Delhi"
+                    className="animation"
+                  />
+                  <span className="location-name text-black position-absolute text-nowrap">
+                    Delhi
+                  </span>
                 </div>
 
                 <div
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "26%", left: "35%" }}
                 >
-                  <img src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp" width={20} height={20} alt="Pointer" className="animation" />
-                  <span className="location-name text-black position-absolute text-nowrap">Gurugram</span>
+                  <img
+                    src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
+                    width={20}
+                    height={20}
+                    alt="Pointer indicating Gurugram"
+                    className="animation"
+                  />
+                  <span className="location-name text-black position-absolute text-nowrap">
+                    Gurugram
+                  </span>
                 </div>
 
                 <div
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "37%", left: "50%" }}
                 >
-                  <img src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp" width={20} height={20} alt="Pointer" className="animation" />
-                  <span className="location-name text-black position-absolute text-nowrap">Noida</span>
+                  <img
+                    src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
+                    width={20}
+                    height={20}
+                    alt="Pointer indicating Noida"
+                    className="animation"
+                  />
+                  <span className="location-name text-black position-absolute text-nowrap">
+                    Noida
+                  </span>
                 </div>
 
                 <div
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "35%", left: "30%" }}
                 >
-                  <img src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp" width={20} height={20} alt="Pointer" className="animation" />
-                  <span className="location-name text-black position-absolute text-nowrap">Jaipur</span>
+                  <img
+                    src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
+                    width={20}
+                    height={20}
+                    alt="Pointer indicating Jaipur"
+                    className="animation"
+                  />
+                  <span className="location-name text-black position-absolute text-nowrap">
+                    Jaipur
+                  </span>
                 </div>
 
                 <div
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "45%", left: "42%" }}
                 >
-                  <img src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp" width={20} height={20} alt="Pointer" className="animation" />
-                  <span className="location-name text-black position-absolute text-nowrap">Bhopal</span>
+                  <img
+                    src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
+                    width={20}
+                    height={20}
+                    alt="Pointer indicating Bhopal"
+                    className="animation"
+                  />
+                  <span className="location-name text-black position-absolute text-nowrap">
+                    Bhopal
+                  </span>
                 </div>
 
                 <div
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "22%", left: "31%" }}
                 >
-                  <img src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp" width={20} height={20} alt="Pointer" className="animation" />
-                  <span className="location-name text-black position-absolute text-nowrap">Ludhiana</span>
+                  <img
+                    src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
+                    width={20}
+                    height={20}
+                    alt="Pointer indicating Ludhiana"
+                    className="animation"
+                  />
+                  <span className="location-name text-black position-absolute text-nowrap">
+                    Ludhiana
+                  </span>
                 </div>
 
                 <div
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "24%", left: "43%" }}
                 >
-                  <img src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp" width={20} height={20} alt="Pointer" className="animation"  />
-                  <span className="location-name text-black position-absolute text-nowrap">Dehradun</span>
+                  <img
+                    src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
+                    width={20}
+                    height={20}
+                    alt="Pointer indicating Dehradun"
+                    className="animation"
+                  />
+                  <span className="location-name text-black position-absolute text-nowrap">
+                    Dehradun
+                  </span>
                 </div>
 
                 <div
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "29%", left: "33%" }}
                 >
-                  <img src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp" width={20} height={20} alt="Pointer"  className="animation"/>
-                  <span className="location-name text-black position-absolute text-nowrap">Panipat</span>
+                  <img
+                    src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
+                    width={20}
+                    height={20}
+                    alt="Pointer indicating Panipat"
+                    className="animation"
+                  />
+                  <span className="location-name text-black position-absolute text-nowrap">
+                    Panipat
+                  </span>
                 </div>
               </div>
             </Col>
@@ -110,7 +182,7 @@ const OurPresence = () => {
               <h3 className="fs_md text-black ">
                 <img
                   src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/ZNmbLrAzdT.svg"
-                  alt="Location Icon to define Location"
+                  alt="Icon representing company warehouse locations"
                   width={30}
                   height={30}
                   className="animation"

@@ -32,7 +32,7 @@ const Thrivingcareer = () => {
             <Col lg={5}>
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/edEBT8n6TZ.svg"
-                alt="Career at PDPL"
+                alt="Career Opportunities at PDPL - Join our dynamic and innovative team"
                 className="w-100 updown_ani"
               />
             </Col>

@@ -32,7 +32,7 @@ const Abouthero = () => {
             <Col lg={4} xs={7}>
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kT12dBWzNV.webp"
-                alt="Pdpl Logo"
+                alt="Plus Distribution Pvt. Ltd. (PDPL) Logo - Trusted Pharmaceutical Distributor in India"
                 className="w-100 updown_ani h-auto"
               />
             </Col>

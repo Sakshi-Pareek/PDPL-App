@@ -125,7 +125,7 @@ const ClientsLogo = () => {
             <div key={index}>
               <img
                 src={a.image}
-                alt="Client Logo"
+                alt={`Logo of trusted partner ${index + 1}`}
                 width={190}
                 height={70}
                 className="object-fit-contain p-lg-0 p-1"

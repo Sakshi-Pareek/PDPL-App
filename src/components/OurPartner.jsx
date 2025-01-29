@@ -38,7 +38,7 @@ function OurPartner() {
             <Col lg={5}>
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/u3QYY8sjQU.svg"
-                alt="Partner with PDPL"
+                alt="Partnering with PDPL to deliver high-quality medical solutions and global impact"
                 className="w-100 updown_ani"
               />
             </Col>

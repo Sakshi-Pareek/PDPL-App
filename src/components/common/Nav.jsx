@@ -44,14 +44,14 @@ const Nav = () => {
             <a href="/" className="text-black d-flex align-items-center">
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kT12dBWzNV.webp"
-                alt="WebLogo"
+                alt="Plus Distribution Pvt. Ltd. logo"
                 className="w-100 sm:d-flex d-none"
                 width={65}
                 height={55}
               />
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kT12dBWzNV.webp"
-                alt="WebLogo"
+                alt="Plus Distribution Pvt. Ltd. logo"
                 className="w-100 sm:d-none d-flex"
                 width={45}
                 height={40}

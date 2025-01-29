@@ -15,7 +15,7 @@ const UniosApp = () => {
               Unios App
             </h2>
             <p
-              className="fs_md letter_spacing fw- lh-base text-black text_justify" 
+              className="fs_md letter_spacing fw- lh-base text-black text_justify"
               data-aos="fade-right"
             >
               Unios is an advanced digital platform developed by PDPL to
@@ -30,7 +30,6 @@ const UniosApp = () => {
               target="_blank"
               rel="noreferrer"
               data-aos="fade-right"
-              
             >
               {" "}
               <CommonBtn btnname="Explore"></CommonBtn>
@@ -39,7 +38,7 @@ const UniosApp = () => {
           <Col lg={5} xs={10}>
             <img
               src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/nDAkqDHyMd.webp"
-              alt="App Created By PDPL"
+              alt="Unios app by PDPL - Revolutionizing healthcare distribution across India"
               className="w-100 p-sm-4 pt-5 p-0"
             />
           </Col>

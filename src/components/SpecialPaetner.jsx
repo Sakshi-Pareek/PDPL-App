@@ -27,10 +27,22 @@ const SpecialPaetner = () => {
   };
 
   const sliderImages = [
-    { src: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/SrhFee9rOT.webp", alt: "EuroLife Logo" },
-    { src: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/IndKuDTWFG.webp", alt: "Special Partner" },
-    { src: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/seN0NVEEmX.webp", alt: "GleeBioTech Logo" },
-    { src: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/8FC8ZRxQ0X.png", alt: "PlusGen Logo" },
+    {
+      src: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/SrhFee9rOT.webp",
+      alt: "EuroLife Pharmaceutical Partnership Logo - Representing our trusted healthcare partner",
+    },
+    {
+      src: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/IndKuDTWFG.webp",
+      alt: "Special Partner - PDPL's valued business collaboration for healthcare solutions",
+    },
+    {
+      src: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/seN0NVEEmX.webp",
+      alt: "GleeBioTech Pharmaceutical Partner Logo - Delivering high-quality biotech solutions",
+    },
+    {
+      src: "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/8FC8ZRxQ0X.png",
+      alt: "PlusGen Healthcare Partnership Logo - Advancing innovative healthcare technologies",
+    },
   ];
   return (
     <>

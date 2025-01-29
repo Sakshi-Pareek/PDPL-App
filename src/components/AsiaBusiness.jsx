@@ -26,7 +26,7 @@ const AsiaBusiness = () => {
             {" "}
             <img
               src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/IqIZtvFH4P.webp"
-              alt="Business Outlook Recognition"
+              alt="Plus Distribution Pvt. Ltd. recognized as a Top 10 Pharmaceutical Distributor in India by Asia Business Outlook 2023"
               className="img-fluid shadow-lg w-100"
             />
           </Col>
