@@ -16,11 +16,13 @@ const WareHouse = () => {
   return (
     <>
       <Nav />
-      <FranchiseProgram />
-      <GrowWithUs />
-      <Franchise/>
-      <OwnBusiness />
-      <Footer />
+      <div className="overflow-hidden">
+        <FranchiseProgram />
+        <GrowWithUs />
+        <Franchise />
+        <OwnBusiness />
+        <Footer />
+      </div>
     </>
   );
 };

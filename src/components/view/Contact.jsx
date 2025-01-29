@@ -14,9 +14,11 @@ const Contact = () => {
   return (
     <>
       <Nav />
-      <Help />
-      <Contactus />
-      <Footer />
+      <div className="overflow-hidden">
+        <Help />
+        <Contactus />
+        <Footer />
+      </div>
     </>
   );
 };

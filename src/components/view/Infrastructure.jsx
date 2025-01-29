@@ -17,12 +17,14 @@ const Infrastructure = () => {
   return (
     <>
       <Nav />
-      <OurInfrastructure />
-      <HowWeGet />
-      <UniosApp />
-      <UniosDashBoard />
-      <HealthcareDistribution />
-      <Footer />
+      <div className="overflow-hidden">
+        <OurInfrastructure />
+        <HowWeGet />
+        <UniosApp />
+        <UniosDashBoard />
+        <HealthcareDistribution />
+        <Footer />
+      </div>
     </>
   );
 };

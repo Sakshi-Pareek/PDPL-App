@@ -16,11 +16,13 @@ const Network = () => {
   return (
     <>
       <Nav />
-      <OurPartner />
-      <Partners />
-      <SpecialPaetner />
-      <PartnerShip />
-      <Footer />
+      <div className="overflow-hidden">
+        <OurPartner />
+        <Partners />
+        <SpecialPaetner />
+        <PartnerShip />
+        <Footer />
+      </div>
     </>
   );
 };

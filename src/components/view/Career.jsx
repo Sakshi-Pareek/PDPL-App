@@ -14,9 +14,11 @@ const Career = () => {
   return (
     <div>
       <Nav />
-      <Thrivingcareer />
-      <JoinPDPL />
-      <Footer />
+      <div className="overflow-hidden">
+        <Thrivingcareer />
+        <JoinPDPL />
+        <Footer />
+      </div>
     </div>
   );
 };

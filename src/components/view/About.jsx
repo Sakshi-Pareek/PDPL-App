@@ -19,12 +19,14 @@ const About = () => {
   return (
     <>
       <Nav />
-      <Abouthero />
-      <OurValue />
-      <CoverStory />
-      <AsiaBusiness />
-      <Awards />
-      <Footer />
+      <div className="overflow-hidden">
+        <Abouthero />
+        <OurValue />
+        <CoverStory />
+        <AsiaBusiness />
+        <Awards />
+        <Footer />
+      </div>
     </>
   );
 };

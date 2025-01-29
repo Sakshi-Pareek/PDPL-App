@@ -22,16 +22,18 @@ const Homepage = () => {
   return (
     <>
       <Nav />
-      <Herosection />
-      <Banner />
-      <Wearebest />
-      <Whatwedo />
-      <OurPresence />
-      <PartnerWithus />
-      <OurClients />
-      <ClientsLogo />
-      <ClientReview />
-      <Footer />
+      <div className="overflow-hidden">
+        <Herosection />
+        <Banner />
+        <Wearebest />
+        <Whatwedo />
+        <OurPresence />
+        <PartnerWithus />
+        <OurClients />
+        <ClientsLogo />
+        <ClientReview />
+        <Footer />
+      </div>
     </>
   );
 };

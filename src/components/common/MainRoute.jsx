@@ -10,7 +10,6 @@ import WareHouse from "../view/WareHouse";
 
 const MainRoute = () => {
   return (
-    <div className="overflow-hidden">
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="about" element={<About />} />
@@ -21,7 +20,6 @@ const MainRoute = () => {
         <Route path="contact" element={<Contact />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
-    </div>
   );
 };
 
