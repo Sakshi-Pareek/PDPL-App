@@ -28,13 +28,13 @@ const CoverStory = () => {
               strong customer service while meeting regulatory standards.
             </p>
             <a
-              href="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/2ECKtO7rqA.pdf"
+              href="https://www.youtube.com/watch?v=4XvDidcFm9I"
               target="_blank"
               rel="noreferrer"
               data-aos="fade-right"
               className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4"
             >
-              Read More
+              Watch Video
             </a>
           </Col>
           <Col xl={4} lg={6} className="text-center p-4" data-aos="fade-right">
