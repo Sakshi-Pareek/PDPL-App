@@ -102,7 +102,7 @@ const Nav = () => {
               className={`navline cursor_pointer d-xl-none d-flex bg-transparent flex-column gap-sm-2 gap-1 justify-content-center align-items-center`}
             >
               <span className="crl_1 bg_blue transition rounded"></span>
-              <span className="crl_2 bg_blue w-75 me-auto transition rounded"></span>
+              <span className="crl_2 bg_blue w-75 transition rounded ms-auto"></span>
               <span className="crl_3 bg_blue transition rounded"></span>
             </div>
           </nav>
