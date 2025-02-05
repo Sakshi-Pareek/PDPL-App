@@ -12,7 +12,7 @@ const Footer = () => {
 
   return (
     <>
-      <div className="bg_footer pt-md-4 ">
+      <div className="bg_footer pt-md-4">
         <Container>
           <Row className="justify-content-between gap-lg-0 gap-3 border-bottom border-black py-5">
             <Col xl={4} lg={3} xs={12}>
@@ -30,7 +30,7 @@ const Footer = () => {
               </p>
               <div className="d-flex gap-2">
                 <a
-                  href="https://www.facebook.com/"
+                  href="https://www.facebook.com/people/Plus-Distribution-Pvt-Ltd/61572249527081/"
                   target="_black"
                   rel="noreferrer"
                 >
@@ -43,7 +43,7 @@ const Footer = () => {
                   />
                 </a>
                 <a
-                  href="https://www.instagram.com/"
+                  href="https://www.instagram.com/plusdistributionsindia"
                   target="_black"
                   rel="noreferrer"
                 >
@@ -93,11 +93,11 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    to="/partner"
+                    to="/network"
                     aria-label="Learn more about our partners and partnership opportunities"
                     className="fw-normal fs_8sm text-black under_line position-relative nav_link transition"
                   >
-                    Partners
+                    Network
                   </Link>
                 </li>
                 <li>
