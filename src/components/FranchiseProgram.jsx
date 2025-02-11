@@ -10,12 +10,12 @@ function FranchiseProgram() {
         <Container className="my-lg-5 my-4">
           <Row className="text-lg-start text-center align-items-center justify-content-between gap-lg-0 gap-3">
             <Col lg={7}>
-              <h1
+              <h2
                 className="fw-bold text-black fs_xxl lh-1"
                 data-aos="fade-right"
               >
                 Build A Small Business
-              </h1>
+              </h2>
               <p
                 className="fw-normal text-black fs_md pt-2 mb-3 text_justify"
                 data-aos="fade-right"

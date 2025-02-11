@@ -8,12 +8,12 @@ const Thrivingcareer = () => {
         <Container className="py-5">
           <Row className="text-lg-start text-center align-items-center">
             <Col lg={7}>
-              <h1
+              <h2
                 className="fw-bold text-black fs_xxl lh-1"
                 data-aos="fade-right "
               >
                 Discover a Flourishing Career at PDPL!
-              </h1>
+              </h2>
               <p
                 className="fw-normal text-black fs_md py-2 mb-4"
                 data-aos="fade-right"

@@ -8,12 +8,12 @@ const Help = () => {
         <Container className="py-4">
           <Row className="d-flex justify-content-lg-between justify-content-center align-items-center">
             <Col lg={6} className="text-lg-start text-center">
-              <h1
+              <h2
                 className="fw-bold text-black fs_xxl lh-1"
                 data-aos="fade-right "
               >
                 We’re Here to Help!
-              </h1>
+              </h2>
               <p
                 className="fw-normal text-black fs_md py-2 mb-4 text_justify"
                 data-aos="fade-right "
