@@ -30,7 +30,7 @@ const UniosDashBoard = () => {
           <div data-aos="zoom-in" data-aos-delay="500">
             <img
               src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/M2HFz5qJH8.webp"
-              alt="Unios Dashboard - ERP Software for Sales Order Management and Supply Chain Tracking"
+              alt="Unios Dashboard – Advanced ERP software by Plus Distribution Pvt. Ltd. for streamlined sales order management and real-time supply chain tracking, optimizing efficiency and control"
               className="w-100 px-5"
             />
           </div>

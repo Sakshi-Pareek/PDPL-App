@@ -69,7 +69,7 @@ const HowWeGet = () => {
           >
             <img
               src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Szy4LYbn9y.webp"
-              alt="Cold storage facility for pharmaceutical logistics"
+              alt="Cold storage facility at Plus Distribution Pvt. Ltd., designed for the safe and efficient transportation of pharmaceutical products, ensuring temperature-controlled conditions to maintain product integrity"
               className="rounded-4 w-100 cursor_pointer h-100"
             />
           </Col>

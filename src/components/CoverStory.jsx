@@ -40,7 +40,7 @@ const CoverStory = () => {
           <Col xl={4} lg={6} className="text-center p-4" data-aos="fade-right">
             <img
               src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/vTWXbWIMnD.webp"
-              alt="Portrait of Mr. Anil Kumar, Managing Director of PDPL"
+              alt="Portrait of Mr. Anil Kumar, Managing Director of Plus Distribution Pvt. Ltd."
               className="img-fluid rounded shadow-lg"
             />
             <p className="fs_6sm text-white text-end mt-2 fst-italic mb-0">

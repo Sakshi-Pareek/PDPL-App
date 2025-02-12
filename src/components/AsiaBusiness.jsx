@@ -34,7 +34,7 @@ const AsiaBusiness = () => {
           <Col lg={4}>
             <img
               src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/IqIZtvFH4P.webp"
-              alt="Plus Distribution Pvt. Ltd. recognized as a Top 10 Pharmaceutical Distributor in India by Asia Business Outlook 2023"
+              alt="Plus Distribution Pvt. Ltd. has been honored as one of the Top 10 Pharmaceutical Distributors in India for 2023, as recognized by Asia Business Outlook, highlighting the company's excellence and leadership in the pharmaceutical distribution industry"
               className="img-fluid shadow-lg w-100"
             />
           </Col>

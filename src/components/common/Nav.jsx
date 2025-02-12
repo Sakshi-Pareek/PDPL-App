@@ -125,9 +125,12 @@ const Nav = () => {
         }}
       >
         <div className="d-flex flex-column py-4">
-          <h3 className="mb-0 text-white px-4 border-bottom text-center pb-4">
-            Menu
-          </h3>
+          <div className="d-flex justify-content-between align-items-center border-bottom px-4 pb-4">
+            <h3 className="mb-0 text-whit text-center">Menu</h3>
+            <p onClick={() => setShow(!show)} className="mb-0 cursor_pointer fs-5">
+              X
+            </p>
+          </div>
           <ul className="list-unstyled">
             {[
               "Home",

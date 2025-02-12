@@ -38,7 +38,7 @@ const UniosApp = () => {
           <Col lg={5} xs={10}>
             <img
               src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/nDAkqDHyMd.webp"
-              alt="Unios app by PDPL - Revolutionizing healthcare distribution across India"
+              alt="Unios app by Plus Distribution Pvt. Ltd. (PDPL) – Transforming healthcare distribution across India with innovative technology for seamless operations and improved supply chain management"
               className="w-100 p-sm-4 pt-5 p-0"
             />
           </Col>

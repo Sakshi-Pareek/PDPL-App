@@ -30,7 +30,7 @@ const HealthcareDistribution = () => {
             >
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/u9YhBmGTR3.webp"
-                alt="Unios Sale Dashboard Image"
+                alt="Unios Sales Dashboard – Visual representation of sales performance and key metrics, providing real-time insights into sales trends and order management"
                 className="w-100"
               />
             </Col>
