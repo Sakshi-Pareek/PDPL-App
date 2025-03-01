@@ -169,14 +169,16 @@ const ContactUsPopup = () => {
           )}
         </Formik>
         <Row className="text-center">
-          <Col className="d-flex justify-content-center align-items-center gap-2">
-          <img
+          <Col>
+         <a href="https://wa.me/919891069195" target="_blank" rel="noopener noreferrer" className="d-flex justify-content-center align-items-center gap-2">
+         <img
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kEebY0ifpR.png"
                     alt="WhatsApp icon"
                     width={30}
                     height={30}
                   />
-            <span>+91-XXXXXXXXXX</span>
+            <span>+91-9891069195</span>
+         </a>
           </Col>
         </Row>
       </Modal.Body>
