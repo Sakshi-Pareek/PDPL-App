@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import MainRoute from "./components/common/MainRoute";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import ContactUsPopup from "./components/common/ContactUsPopup";
 
 function App() {
   // =======================aos============================
@@ -30,27 +31,30 @@ function App() {
   }, []);
   return (
     <>
-      <MainRoute />
+      <ContactUsPopup />
       <div>
-        <button
-          className={`${
-            backToTop
-              ? "position-fixed back_to_top updown_ani cursor_pointer d-flex justify-content-center align-items-center  bg_sky"
-              : "d-none"
-          }`}
-          onClick={() => top()}
-        >
-          <svg width="16" height="16" fill="#FFFFFF" viewBox="0 0 16 16">
-            <path
-              fillRule="evenodd"
-              d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"
-            ></path>
-            <path
-              fillRule="evenodd"
-              d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"
-            ></path>
-          </svg>
-        </button>
+        <MainRoute />
+        <div>
+          <button
+            className={`${
+              backToTop
+                ? "position-fixed back_to_top updown_ani cursor_pointer d-flex justify-content-center align-items-center bg_sky"
+                : "d-none"
+            }`}
+            onClick={() => top()}
+          >
+            <svg width="16" height="16" fill="#FFFFFF" viewBox="0 0 16 16">
+              <path
+                fillRule="evenodd"
+                d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"
+              ></path>
+              <path
+                fillRule="evenodd"
+                d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"
+              ></path>
+            </svg>
+          </button>
+        </div>
       </div>
     </>
   );

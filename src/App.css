@@ -151,7 +151,7 @@
   }
 }
 .learn_btn {
-  color: rgb(29, 121, 187);
+  color: #1d79bb;
   border: 2px solid white;
 }
 .learn_btn:hover {
@@ -521,3 +521,23 @@
 .location-wrapper:hover .location-name {
   display: block;
 }
+.contact-popup {
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  animation: fadeIn 0.5s ease;
+}
+.fade-in {
+  animation: fadeIn 0.5s ease;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
