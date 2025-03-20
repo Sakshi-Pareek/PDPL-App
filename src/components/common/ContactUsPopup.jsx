@@ -35,7 +35,7 @@ const ContactUsPopup = () => {
     setLoading(true);
     try {
       const response = await axios.post(
-        "https://api.plusdistribution.in/pdpl/contact-us",
+        "https://api.plusdistribution.in/pdpl/sakshi/franchise",
         values
       );
       alert(response.data.message);
@@ -74,10 +74,10 @@ const ContactUsPopup = () => {
       <Modal.Body>
         <p className="text-muted text-center fs_6sm mb-2">
           We will give you a complete pharmacy setup with inventory, licensing,
-          and all other requirements. Write to us at
+          and all other requirements. Write to us at{" "}
           <a href="mailto:info@plusdistributions.in" className="text-primary">
             info@plusdistributions.in
-          </a>
+          </a>{" "}
           to know more about us.
         </p>
         <Formik

@@ -20,9 +20,12 @@ const OwnBusiness = () => {
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (values, { resetForm }) => {
-    setLoading(true); 
+    setLoading(true);
     try {
-      const response = await axios.post("https://api.plusdistribution.in/pdpl/contact-us", values);
+      const response = await axios.post(
+        "https://api.plusdistribution.in/pdpl/sakshi/franchise",
+        values
+      );
       alert(response.data.message);
       resetForm();
     } catch (error) {
