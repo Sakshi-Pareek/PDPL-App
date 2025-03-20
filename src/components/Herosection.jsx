@@ -55,13 +55,13 @@ export const Herosection = () => {
                 <Col lg={7}>
                   <h1
                     className="fw-bold text-white fs_xxl"
-                    data-aos="fade-right"
+                    // data-aos="fade-right"
                   >
                     {slide.title}
                   </h1>
                   <p
                     className="fw-normal text-white fs_md py-2 mb-4 text_justify"
-                    data-aos="fade-right"
+                    // data-aos="fade-right"
                   >
                     {slide.description}
                   </p>

@@ -21,7 +21,7 @@ const Footer = () => {
                   src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kT12dBWzNV.webp"
                   alt="Plus Distribution Pvt. Ltd. logo"
                   width={150}
-                  height={56}
+                  height={59}
                 />
               </a>
               <p className="text-black fs_4md fw-semibold mt-2">

@@ -21,7 +21,7 @@ const Banner = () => {
               }}
             >
               <div className="text-center">
-                <h6 className="fs_md mb-0 text-center">{card.text}</h6>
+                <h2 className="fs_md mb-0 text-center">{card.text}</h2>
               </div>
             </div>
           </div>

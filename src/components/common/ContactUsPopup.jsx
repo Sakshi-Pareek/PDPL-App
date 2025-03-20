@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Form, Button, Modal, Row, Col } from "react-bootstrap";
 import { Formik } from "formik";
 import * as Yup from "yup";
+import axios from "axios";
 
 const validationSchema = Yup.object().shape({
   name: Yup.string().required("Name is required"),
@@ -17,6 +18,7 @@ const validationSchema = Yup.object().shape({
 
 const ContactUsPopup = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -29,9 +31,22 @@ const ContactUsPopup = () => {
     setIsOpen(false);
   };
 
-  const handleSubmit = (values) => {
-    console.log("Form submitted:", values);
-    alert("Form submitted successfully!");
+  const handleSubmit = async (values, { resetForm }) => {
+    setLoading(true);
+    try {
+      const response = await axios.post(
+        "https://api.plusdistribution.in/pdpl/contact-us",
+        values
+      );
+      alert(response.data.message);
+      resetForm();
+      setIsOpen(false);
+    } catch (error) {
+      console.error("Error sending email:", error);
+      alert("Failed to send email. Please try again later.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -43,9 +58,12 @@ const ContactUsPopup = () => {
       backdrop="static"
       keyboard={false}
       className="contact-popup p-3"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="contactUsModalTitle"
     >
       <Modal.Header closeButton className="border-0 pb-0">
-        <Modal.Title className="w-100 text-center">
+        <Modal.Title id="contactUsModalTitle" className="w-100 text-center">
           <img
             src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kT12dBWzNV.webp"
             alt="Company Logo"
@@ -56,10 +74,10 @@ const ContactUsPopup = () => {
       <Modal.Body>
         <p className="text-muted text-center fs_6sm mb-2">
           We will give you a complete pharmacy setup with inventory, licensing,
-          and all other requirements. Write to us at{" "}
+          and all other requirements. Write to us at
           <a href="mailto:info@plusdistributions.in" className="text-primary">
             info@plusdistributions.in
-          </a>{" "}
+          </a>
           to know more about us.
         </p>
         <Formik
@@ -71,10 +89,7 @@ const ContactUsPopup = () => {
             state: "",
           }}
           validationSchema={validationSchema}
-          onSubmit={(values, { resetForm }) => {
-            handleSubmit(values);
-            resetForm();
-          }}
+          onSubmit={handleSubmit}
         >
           {({
             values,
@@ -162,23 +177,29 @@ const ContactUsPopup = () => {
               <Button
                 type="submit"
                 className="w-100 fw-medium fs_md rounded-3 common_btn py-2 px-4 text-white cursor_pointer transition mb-3"
+                disabled={loading}
               >
-               Submit
+                {loading ? "Submitting..." : "Submit"}
               </Button>
             </Form>
           )}
         </Formik>
         <Row className="text-center">
           <Col>
-         <a href="https://wa.me/919891069195" target="_blank" rel="noopener noreferrer" className="d-flex justify-content-center align-items-center gap-2">
-         <img
-                    src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kEebY0ifpR.png"
-                    alt="WhatsApp icon"
-                    width={30}
-                    height={30}
-                  />
-            <span>+91-9891069195</span>
-         </a>
+            <a
+              href="https://wa.me/919891069195"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="d-flex justify-content-center align-items-center gap-2"
+            >
+              <img
+                src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kEebY0ifpR.png"
+                alt="WhatsApp icon"
+                width={30}
+                height={30}
+              />
+              <span>+91-9891069195</span>
+            </a>
           </Col>
         </Row>
       </Modal.Body>

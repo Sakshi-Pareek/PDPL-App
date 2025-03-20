@@ -46,8 +46,8 @@ const Nav = () => {
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kT12dBWzNV.webp"
                 alt="Plus Distribution Pvt. Ltd. logo"
                 className="w-100 sm:d-flex d-none"
-                width={65}
-                height={55}
+                width={102} height={40}
+                
               />
               <img
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kT12dBWzNV.webp"

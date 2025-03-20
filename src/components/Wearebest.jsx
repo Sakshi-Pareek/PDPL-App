@@ -66,8 +66,7 @@ const Wearebest = () => {
                           src={a.image}
                           alt="Pharmaceutical company assets representing 8+ Warehouses Across India"
                           width="186px"
-                          height="131px"
-                          className="mx-auto"
+                          className="mx-auto h-auto"
                         />
                         <h3 className="fs_4md fw-bold text-center mb-0 ">
                           {a.heading}
