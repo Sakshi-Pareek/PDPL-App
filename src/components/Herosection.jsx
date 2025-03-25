@@ -53,7 +53,7 @@ export const Herosection = () => {
             <Container>
               <Row className="text-lg-start text-center align-items-center gap-lg-0 gap-5 py-5">
                 <Col lg={7}>
-                  <h1 className="fw-bold text-white fs_xxl">{slide.title}</h1>
+                  <h2 className="fw-bold text-white fs_xxl">{slide.title}</h2>
                   <p className="fw-normal text-white fs_md py-2 mb-4 text_justify">
                     {slide.description}
                   </p>

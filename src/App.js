@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import MainRoute from "./components/common/MainRoute";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import ContactUsPopup from "./components/common/ContactUsPopup";
 import { BacktoTop } from "./components/Icon";
 
 function App() {
@@ -32,7 +31,6 @@ function App() {
   }, []);
   return (
     <>
-      <ContactUsPopup />
       <div>
         <MainRoute />
         <div>
