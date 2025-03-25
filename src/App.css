@@ -5,6 +5,7 @@
   text-decoration: none !important;
   box-sizing: border-box;
   font-family: "Outfit", sans-serif !important;
+  font-display: swap;
   list-style: none;
   scroll-behavior: smooth !important;
 }
@@ -199,7 +200,6 @@
   max-width: 1920px;
 }
 /* ---------------------------------------------HOME-PAGe------------------------------------ */
-/* ===========================================Hero-Section=================================== */
 .bg_hero {
   background-image: url("https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/ZMRVzHFz5I.webp");
   background-repeat: no-repeat;
@@ -316,7 +316,6 @@
   transform: scale(1.1);
 }
 /* -----------------------------------------ABOUT-US-------------------------------------------- */
-/* =======================================About-Hero============================================= */
 .gray_layer {
   backdrop-filter: blur(30px);
   opacity: 0.8;
@@ -331,7 +330,6 @@
   margin-top: -115px;
 }
 /* ---------------------------------------------PARTNER-PAGE------------------------------------ */
-/* ==============================================Partner-Hero=================================== */
 .glass:hover {
   animation: tilt linear 2s infinite;
 }
