@@ -25,7 +25,7 @@ export const PartnerShip = () => {
           </p>
           <Col xl={3} md={5} xs={10} data-aos="fade-down">
             <div className="text-center d-flex flex-column gap-2 cursor_pointer partner_ani">
-              <img
+              <img loading="lazy" 
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/qsb96NKuvM.svg"
                 alt="Product Quality Icon - Representing commitment to high product quality standards"
                 width={50}
@@ -41,7 +41,7 @@ export const PartnerShip = () => {
           </Col>
           <Col xl={3} md={5} xs={10} data-aos="fade-up">
             <div className="text-center d-flex flex-column gap-2 cursor_pointer partner_ani">
-              <img
+              <img loading="lazy" 
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/hOqrzPKpM8.svg"
                 alt="Affordable Product Icon - Symbolizing affordability in healthcare solutions"
                 width={50}
@@ -57,7 +57,7 @@ export const PartnerShip = () => {
           </Col>
           <Col xl={3} md={5} xs={10} data-aos="fade-down">
             <div className="text-center d-flex flex-column gap-2 cursor_pointer partner_ani">
-              <img
+              <img loading="lazy" 
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/ngl5nIoLor.svg"
                 alt="24/7 Support Icon - Representing round-the-clock customer service"
                 className="mx-auto transition"
@@ -73,7 +73,7 @@ export const PartnerShip = () => {
           </Col>
           <Col xl={3} md={5} xs={10} data-aos="fade-up">
             <div className="text-center d-flex flex-column gap-2 cursor_pointer partner_ani">
-              <img
+              <img loading="lazy" 
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/0JKiRsGGMe.svg"
                 alt="Accessibility Icon - Symbolizing easy access to healthcare products"
                 width={50}

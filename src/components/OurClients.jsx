@@ -36,7 +36,7 @@ const OurClients = () => {
                   aria-label="Navigate to About page"
                   className="fs_md text-black nav_link transition position-relative"
                 >
-                  <img
+                  <img loading="lazy" 
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/TbQy5pzGGX.webp"
                     alt="Arrow pointing to more details on About page"
                     width="80"
@@ -50,7 +50,7 @@ const OurClients = () => {
               </div>
             </Col>
             <Col lg={5}>
-              <img
+              <img loading="lazy" 
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/TumDkrj8Yq.svg"
                 alt="Representation of our pharmaceutical clients and partners"
                 className="w-100 updown_ani h-auto"

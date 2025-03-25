@@ -93,7 +93,7 @@ const OurInfrastructure = () => {
               data-aos="fade-right"
               data-aos-delay="400"
             >
-              <img
+              <img loading="lazy" 
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/cDn4XZNnjT.webp"
                 alt="Map showing warehouse locations across India for pharmaceutical distribution"
                 className="w-100 max_w_500 position-relative h-auto"
@@ -106,7 +106,7 @@ const OurInfrastructure = () => {
                   data-aos="zoom-in"
                   data-aos-delay={`${500 + index * 100}`}
                 >
-                  <img
+                  <img loading="lazy" 
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
                     width={20}
                     height={20}

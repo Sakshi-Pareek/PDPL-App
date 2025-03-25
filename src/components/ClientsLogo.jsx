@@ -123,7 +123,7 @@ const ClientsLogo = () => {
         <Slider {...settings}>
           {logo.map((a, index) => (
             <div key={index}>
-              <img
+              <img loading="lazy" 
                 src={a.image}
                 alt={`Logo of trusted partner ${index + 1}`}
                 width={190}

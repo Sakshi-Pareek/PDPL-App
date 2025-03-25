@@ -125,7 +125,7 @@ const ClientReview = () => {
               >
                 <div className="review-card rounded-4 p-3 hover_active cursor_pointer bg-white h-full">
                   <div className="d-flex align-items-center gap-2 mb-3">
-                    <img
+                    <img loading="lazy" 
                       src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/WHmxoGQ4Pa.svg"
                       alt="Client Profile Icon - PDPL Customer Testimonial"
                       height={45}

@@ -207,7 +207,7 @@ const Partners = () => {
             {logos1.map((a, index) => (
               <div key={index} className="logo_bg">
                 <div>
-                  <img
+                  <img loading="lazy" 
                     src={a.image}
                     alt="Partners Of PDPL"
                     width={146}
@@ -223,7 +223,7 @@ const Partners = () => {
           <Slider {...settings2}>
             {logos2.map((a, index) => (
               <div key={index} className="logo_bg">
-                <img
+                <img loading="lazy" 
                   src={a.image}
                   alt="Partners Of PDPL"
                   width={146}

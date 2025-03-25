@@ -42,14 +42,14 @@ const Nav = () => {
         <Container>
           <nav className="d-flex align-items-center justify-content-between py-2">
             <a href="/" className="text-black d-flex align-items-center">
-              <img
+              <img loading="lazy" 
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kT12dBWzNV.webp"
                 alt="Plus Distribution Pvt. Ltd. logo"
                 className="w-100 sm:d-flex d-none"
                 width={102} height={40}
                 
               />
-              <img
+              <img loading="lazy" 
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kT12dBWzNV.webp"
                 alt="Plus Distribution Pvt. Ltd. logo"
                 className="w-100 sm:d-none d-flex"

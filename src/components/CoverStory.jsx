@@ -38,7 +38,7 @@ const CoverStory = () => {
             </a>
           </Col>
           <Col xl={4} lg={6} className="text-center p-4" data-aos="fade-right">
-            <img
+            <img loading="lazy" 
               src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/vTWXbWIMnD.webp"
               alt="Portrait of Mr. Anil Kumar, Managing Director of Plus Distribution Pvt. Ltd."
               className="img-fluid rounded shadow-lg"

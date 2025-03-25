@@ -30,7 +30,7 @@ const Thrivingcareer = () => {
               </a>
             </Col>
             <Col lg={5}>
-              <img
+              <img loading="lazy" 
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/edEBT8n6TZ.svg"
                 alt="Career Opportunities at PDPL - Join our dynamic and innovative team"
                 className="w-100 updown_ani"

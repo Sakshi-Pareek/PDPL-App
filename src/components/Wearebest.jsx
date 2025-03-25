@@ -62,7 +62,7 @@ const Wearebest = () => {
                   <div className="flip-card-inner position-relative w-100 h-100 text-center">
                     <div className="cardfrontside position-absolute w-100 h-100">
                       <div className="bg-white rounded-4 shadow cursor_pointer d-flex flex-column gap-2 h-100 transition p-3">
-                        <img
+                        <img loading="lazy" 
                           src={a.image}
                           alt="Pharmaceutical company assets representing 8+ Warehouses Across India"
                           width="186px"

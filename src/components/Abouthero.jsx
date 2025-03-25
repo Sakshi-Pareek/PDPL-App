@@ -30,10 +30,10 @@ const Abouthero = () => {
               </p>
             </Col>
             <Col lg={4} xs={7}>
-              <img
+              <img loading="lazy" 
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kT12dBWzNV.webp"
                 alt="Plus Distribution Pvt. Ltd. (PDPL) Logo - Trusted Pharmaceutical Distributor in India"
-                className="w-100 updown_ani h-auto"
+                className="w-100 updown_ani h-auto" 
               />
             </Col>
           </Row>

@@ -27,7 +27,7 @@ const JoinPDPL = () => {
           </Col>
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
-              <img
+              <img loading="lazy" 
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Oz0QUwsV43.webp"
                 alt="Long lasting collaborations at PDPL"
                 className="transition w-100 min-h-290 object-fit-cover"
@@ -38,7 +38,7 @@ const JoinPDPL = () => {
         <Row className="justify-content-center align-items-center gap-lg-0 gap-4">
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
-              <img
+              <img loading="lazy" 
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Zl713Jx8H8.webp"
                 alt="Driving positive change at PDPL"
                 className="transition w-100 min-h-290 object-fit-cover"
@@ -83,7 +83,7 @@ const JoinPDPL = () => {
           </Col>
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
-              <img
+              <img loading="lazy" 
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/4cqq8qX1dS.webp"
                 alt="Empowering teams at PDPL"
                 className="transition w-100 min-h-290 object-fit-cover"
@@ -94,7 +94,7 @@ const JoinPDPL = () => {
         <Row className="justify-content-center align-items-center gap-lg-0 gap-4">
           <Col lg={6}>
             <div className="rounded-4 w-100 overflow-hidden contact_icon transition cursor_pointer">
-              <img
+              <img loading="lazy" 
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/IttG1Sfrm5.webp"
                 alt="Expertise and competence at PDPL"
                 className="transition w-100 min-h-290 object-fit-cover"

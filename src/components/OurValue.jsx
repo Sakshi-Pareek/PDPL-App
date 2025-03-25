@@ -46,7 +46,7 @@ const Section = ({ data }) => {
           }}
         >
           <div className="d-flex">
-            <img
+            <img loading="lazy" 
               src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Ke0b32S2XU.webp"
               alt="Hand icon representing purpose"
               width={30}

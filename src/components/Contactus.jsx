@@ -143,7 +143,7 @@ const Contactus = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
+                <img loading="lazy" 
                   src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/Ju1PpXvAGD.svg"
                   alt="Follow Plus Distribution Private Limited on LinkedIn"
                   width={30}

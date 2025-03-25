@@ -31,7 +31,7 @@ const Franchise = () => {
           <h2 className="fw-bold fs_8xl mb-2 text-center" data-aos="fade-down">
         Warehouse Franchise Program
           </h2>
-          <img
+          <img loading="lazy" 
             src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/yrdo4WuHC1.webp"
             alt="WareHouse Franchise Rules"
             className="w-75 d-lg-flex d-none mx-auto py-5"
@@ -56,7 +56,7 @@ const Franchise = () => {
                 data-aos="fade-down"
               >
                 <div className="award-card d-flex flex-column align-items-center p-3 h-100">
-                  <img
+                  <img loading="lazy" 
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/iBYIZCNIH1.webp"
                     alt="Warehouse Icon"
                     width={80}

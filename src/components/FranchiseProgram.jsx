@@ -38,7 +38,7 @@ function FranchiseProgram() {
               </Link>
             </Col>
             <Col lg={5} data-aos="fade-left">
-              <img
+              <img loading="lazy" 
                 src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/wr4KyfncFu.jpg"
                 alt="Partner with PDPL"
                 className="w-100 updown_ani"

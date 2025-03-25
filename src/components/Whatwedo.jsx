@@ -6,7 +6,7 @@ const Whatwedo = () => {
       <Container className="py-4 my-4">
         <Row className="justify-content-center flex-column-reverse flex-lg-row align-items-center gap-lg-0 gap-4">
           <Col lg={6} xs={10}>
-            <img
+            <img loading="lazy" 
               src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/0KFiQgMHOD.svg"
               alt="Healthcare professional providing pharmaceutical distribution services"
               className="w-100 pe-xl-5 pe-lg-4 pe-0 updown_ani h-auto"

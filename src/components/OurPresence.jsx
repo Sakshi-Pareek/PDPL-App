@@ -28,7 +28,7 @@ const OurPresence = () => {
           <Row>
             <Col lg={8} md={7} className="d-flex justify-content-center">
               <div className="position-relative">
-                <img
+                <img loading="lazy" 
                   src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/cDn4XZNnjT.webp"
                   alt="Map of India showing PDPL's distribution network and presence"
                   className="w-100 max_w_500 position-relative h-auto"
@@ -37,7 +37,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "26%", left: "30%" }}
                 >
-                  <img
+                  <img loading="lazy" 
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
                     width={20}
                     height={20}
@@ -53,7 +53,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "28%", left: "37%" }}
                 >
-                  <img
+                  <img loading="lazy" 
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
                     width={20}
                     height={20}
@@ -69,7 +69,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "26%", left: "35%" }}
                 >
-                  <img
+                  <img loading="lazy" 
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
                     width={20}
                     height={20}
@@ -85,7 +85,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "37%", left: "50%" }}
                 >
-                  <img
+                  <img loading="lazy" 
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
                     width={20}
                     height={20}
@@ -101,7 +101,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "35%", left: "30%" }}
                 >
-                  <img
+                  <img loading="lazy" 
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
                     width={20}
                     height={20}
@@ -117,7 +117,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "45%", left: "42%" }}
                 >
-                  <img
+                  <img loading="lazy" 
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
                     width={20}
                     height={20}
@@ -133,7 +133,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "22%", left: "31%" }}
                 >
-                  <img
+                  <img loading="lazy" 
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
                     width={20}
                     height={20}
@@ -149,7 +149,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "24%", left: "43%" }}
                 >
-                  <img
+                  <img loading="lazy" 
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
                     width={20}
                     height={20}
@@ -165,7 +165,7 @@ const OurPresence = () => {
                   className="position-absolute location-wrapper text-center cursor_pointer"
                   style={{ top: "29%", left: "33%" }}
                 >
-                  <img
+                  <img loading="lazy" 
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/AxulE2jwl2.webp"
                     width={20}
                     height={20}
@@ -180,7 +180,7 @@ const OurPresence = () => {
             </Col>
             <Col lg={4} md={5} xs={8} className="mt-5" data-aos="fade-left">
               <h3 className="fs_md text-black ">
-                <img
+                <img loading="lazy" 
                   src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/ZNmbLrAzdT.svg"
                   alt="Icon representing company warehouse locations"
                   width={30}

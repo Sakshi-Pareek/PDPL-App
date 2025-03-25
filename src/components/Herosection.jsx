@@ -63,7 +63,7 @@ export const Herosection = () => {
                     className="fs_md text-black nav_link transition position-relative"
                   >
                     {" "}
-                    <img
+                    <img loading="lazy" 
                       src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/1OyH6QBHD6.webp"
                       alt="Arrow icon for navigation"
                       width="80"
@@ -76,7 +76,7 @@ export const Herosection = () => {
                   </a>
                 </Col>
                 <Col lg={5}>
-                  <img
+                  <img loading="lazy" 
                     src={slide.image}
                     alt={`Healthcare solution: ${slide.title}`}
                     className="w-100 updown_ani h-auto"

@@ -79,7 +79,7 @@ const SpecialPaetner = () => {
               <Slider {...sliderSettings}>
                 {sliderImages.map((image, index) => (
                   <div key={index} className="slider-image-container">
-                    <img
+                    <img loading="lazy" 
                       src={image.src}
                       alt={image.alt}
                       className="w-100 p-lg-4 pt-5 px-5"
