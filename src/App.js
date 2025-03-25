@@ -6,46 +6,30 @@ import "aos/dist/aos.css";
 import { BacktoTop } from "./components/Icon";
 
 function App() {
-  // =======================aos============================
   useEffect(() => {
-    Aos.init({
-      once: true,
-      duration: 900,
-      easing: "ease-in-out",
-    });
-    Aos.refresh();
+    Aos.init({ once: true, duration: 900, easing: "ease-in-out" });
   }, []);
-  // ======================back-to-top===================
-  const top = () => {
-    document.documentElement.scrollTop = 0;
-  };
-  const [backToTop, setbackToTop] = useState(false);
+
+  const [backToTop, setBackToTop] = useState(false);
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (document.documentElement.scrollTop > 100) {
-        setbackToTop(true);
-      } else {
-        setbackToTop(false);
-      }
-    });
+    const handleScroll = () => {
+      setBackToTop(document.documentElement.scrollTop > 100);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
   return (
     <>
-      <div>
-        <MainRoute />
-        <div>
-          <button
-            className={`${
-              backToTop
-                ? "position-fixed back_to_top updown_ani cursor_pointer d-flex justify-content-center align-items-center bg_sky"
-                : "d-none"
-            }`}
-            onClick={() => top()}
-          >
-            <BacktoTop />
-          </button>
-        </div>
-      </div>
+      <MainRoute />
+      {backToTop && (
+        <button
+          className="position-fixed back_to_top updown_ani cursor_pointer d-flex justify-content-center align-items-center bg_sky"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        >
+          <BacktoTop />
+        </button>
+      )}
     </>
   );
 }
