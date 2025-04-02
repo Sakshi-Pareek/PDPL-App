@@ -17,7 +17,8 @@ const Footer = () => {
           <Row className="justify-content-between gap-lg-0 gap-3 border-bottom border-black py-5">
             <Col xl={4} lg={3} xs={12}>
               <a href="#" className="ms-auto">
-                <img loading="lazy" 
+                <img
+                  loading="lazy"
                   src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/kT12dBWzNV.webp"
                   alt="Plus Distribution Pvt. Ltd. logo"
                   width={150}
@@ -34,7 +35,8 @@ const Footer = () => {
                   target="_black"
                   rel="noreferrer"
                 >
-                  <img loading="lazy" 
+                  <img
+                    loading="lazy"
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/2pw0JLNPgp.svg"
                     alt="Facebook icon"
                     width={35}
@@ -47,7 +49,8 @@ const Footer = () => {
                   target="_black"
                   rel="noreferrer"
                 >
-                  <img loading="lazy" 
+                  <img
+                    loading="lazy"
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/9LYBFyV7qv.svg"
                     alt="Instagram Icon"
                     width={35}
@@ -61,7 +64,8 @@ const Footer = () => {
                   rel="noreferrer"
                   className="social_icon transition"
                 >
-                  <img loading="lazy" 
+                  <img
+                    loading="lazy"
                     src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/l5XTh9isTH.svg"
                     alt="WhatsApp icon"
                     width={35}
@@ -163,6 +167,14 @@ const Footer = () => {
                     Join Us
                   </a>
                 </li>
+                <li>
+                  <Link
+                    to="/terms"
+                    className="fw-normal fs_8sm text-black under_line position-relative nav_link transition"
+                  >
+                    Terms & Conditions
+                  </Link>
+                </li>
               </ul>
             </Col>
             <Col lg={3} xs={12} className="mt-2">
@@ -175,7 +187,8 @@ const Footer = () => {
                     rel="noreferrer"
                     className="fw-normal fs_8sm text-black mb-1 d-flex align-items-center gap-2 contact_icon nav_link transition"
                   >
-                    <img loading="lazy" 
+                    <img
+                      loading="lazy"
                       src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/9vPwJkka3P.svg"
                       alt="Email icon"
                       width={30}
@@ -192,7 +205,8 @@ const Footer = () => {
                     rel="noreferrer"
                     className="fw-normal fs_8sm text-black mb-1 d-flex align-items-center gap-2 contact_icon nav_link transition"
                   >
-                    <img loading="lazy" 
+                    <img
+                      loading="lazy"
                       src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/dn1jGDjdR9.svg"
                       className="transition"
                       alt="Phone icon"
@@ -209,7 +223,8 @@ const Footer = () => {
                     rel="noreferrer"
                     className="fw-normal fs_8sm text-black mb-1 d-flex gap-2 contact_icon nav_link transition"
                   >
-                    <img loading="lazy" 
+                    <img
+                      loading="lazy"
                       src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/RrKLuyd86c.svg"
                       alt="Location icon"
                       className="transition"

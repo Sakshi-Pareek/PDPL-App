@@ -7,6 +7,7 @@ import Career from "../view/Career";
 import Contact from "../view/Contact";
 import Infrastructure from "../view/Infrastructure";
 import WareHouse from "../view/WareHouse";
+import Terms from "../view/Terms";
 
 const MainRoute = () => {
   return (
@@ -18,6 +19,7 @@ const MainRoute = () => {
         <Route path="network" element={<Network />} />
         <Route path="career" element={<Career />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="terms" element={<Terms />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
   );
