@@ -73,6 +73,28 @@
     transform: rotate(-15deg);
   }
 }
+/* =======================================Accordian====================================== */
+.accordion {
+  --bs-accordion-border-color: unset !important;
+  --bs-accordion-inner-border-radius: 0px !important;
+  --bs-accordion-btn-focus-box-shadow: unset !important;
+  --bs-accordion-active-color: unset !important;
+  --bs-accordion-active-bg: none !important;
+}
+.accordion-button {
+  font-size: var(--fs-4md) !important;
+  color: #000000 !important;
+}
+.custom-accordion-item {
+  border: 2px solid transparent !important;
+  border-bottom: 4px solid transparent !important;
+  box-shadow: 0px 4px 32px 0px #00000014 !important;
+  border-radius: 8px !important;
+}
+.custom-accordion-item.active {
+  border: 2px solid rgb(29, 121, 187) !important;
+  border-bottom: 4px solid rgb(29, 121, 187) !important;
+}
 /* ===============================================Root=========================================== */
 :root {
   --fs-6sm: 16px;

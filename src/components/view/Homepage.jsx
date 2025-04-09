@@ -12,6 +12,7 @@ import OurClients from "../OurClients";
 import ClientsLogo from "../ClientsLogo";
 import ClientReview from "../ClientReview";
 import Banner from "../Banner";
+import Faqs from "../Faqs";
 
 const Homepage = () => {
   const { pathname } = useLocation();
@@ -32,6 +33,7 @@ const Homepage = () => {
         <OurClients />
         <ClientsLogo />
         <ClientReview />
+        <Faqs />
         <Footer />
       </div>
     </>

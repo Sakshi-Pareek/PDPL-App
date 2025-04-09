@@ -1,7 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
 import { Container, Row, Col } from "react-bootstrap";
-import CommonBtn from "./common/CommonBtn";
 
 const SpecialPaetner = () => {
   const sliderSettings = {
@@ -65,7 +64,7 @@ const SpecialPaetner = () => {
                 of high-quality medical products and guarantees reliable access
                 to essential medications for better healthcare outcomes.
               </p>
-              <a
+              {/* <a
                 href="https://plusdistributions.in/Assets/partners.pdf"
                 target="_blank"
                 rel="noreferrer"
@@ -73,7 +72,7 @@ const SpecialPaetner = () => {
               >
                 {" "}
                 <CommonBtn btnname="Product List"></CommonBtn>
-              </a>
+              </a> */}
             </Col>
             <Col lg={5} xs={12}>
               <Slider {...sliderSettings}>

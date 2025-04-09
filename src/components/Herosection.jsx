@@ -47,6 +47,8 @@ export const Herosection = () => {
 
   return (
     <div id="Home" className="bg_sky bg_hero pt-lg-5 pt-4">
+      <h1 className="visually-hidden">Plus Distribution | Delivering Healthcare Excellence</h1>
+
       <Slider ref={slider} {...settings}>
         {slidesData.map((slide, index) => (
           <div key={index}>
@@ -62,8 +64,8 @@ export const Herosection = () => {
                     aria-label="Navigate to about page"
                     className="fs_md text-black nav_link transition position-relative"
                   >
-                    {" "}
-                    <img loading="lazy" 
+                    <img
+                      loading="lazy"
                       src="https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/1OyH6QBHD6.webp"
                       alt="Arrow icon for navigation"
                       width="80"
@@ -72,11 +74,12 @@ export const Herosection = () => {
                     />
                     <button className="learn_btn fw-medium fs_md rounded-3 cursor_pointer transition bg-white py-2 px-4">
                       Get Started
-                    </button>{" "}
+                    </button>
                   </a>
                 </Col>
                 <Col lg={5}>
-                  <img loading="lazy" 
+                  <img
+                    loading="lazy"
                     src={slide.image}
                     alt={`Healthcare solution: ${slide.title}`}
                     className="w-100 updown_ani h-auto"
