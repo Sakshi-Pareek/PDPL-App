@@ -93,7 +93,7 @@
 }
 .custom-accordion-item.active {
   border: 2px solid rgb(29, 121, 187) !important;
-  border-bottom: 4px solid rgb(29, 121, 187) !important;
+  border-bottom: 4px solid #1d79bb !important;
 }
 /* ===============================================Root=========================================== */
 :root {

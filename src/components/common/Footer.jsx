@@ -59,8 +59,8 @@ const Footer = () => {
                   />
                 </a>
                 <a
-                  href="https://www.whatsapp.com/"
-                  target="_black"
+                  href="https://wa.me/917082109652"
+                  target="_blank"
                   rel="noreferrer"
                   className="social_icon transition"
                 >

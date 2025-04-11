@@ -10,99 +10,84 @@ const Faqs = () => {
 
   const accordionData = [
     {
-      title: "Front-end Developer",
+      title: "What does Plus Distributions Pvt. Ltd. do?",
       content:
-        "Artificial Intelligence refers to the simulation of human intelligence in machines that are programmed to think and learn.",
-      restext:
-        "Build responsive web applications using HTML, CSS, JavaScript. Work with modern frameworks (React, Angular, or Vue). Ensure cross-browser compatibility and smooth user experiences.",
-      reqtext:
-        "Proficiency in HTML, CSS, and JavaScript. Experience with JavaScript frameworks (React, Vue, or Angular). Strong attention to detail and problem-solving skills.",
+        "Plus Distributions Pvt. Ltd. is a pharmaceutical distribution company that supplies a wide range of high-quality medicines across India. We ensure timely delivery, proper storage, and a reliable supply chain for all our clients.",
     },
     {
-      title: "UX/UI Designer",
+      title: "Do you manufacture your own products?",
       content:
-        "AI can enhance business processes by improving efficiency, reducing costs, and providing data-driven insights.",
-      restext:
-        "Design user-friendly interfaces for web and mobile applications. Conduct user research and usability testing. Create wireframes, prototypes, and mockups.",
-      reqtext:
-        "Strong portfolio showcasing UI/UX design work. Proficiency in design tools (Figma, Sketch, Adobe XD). Knowledge of user-centered design principles.",
+        "No, we do not manufacture our own products. We distribute pharma products from trusted and certified manufacturers to ensure quality and compliance.",
     },
     {
-      title: "HR Executive",
+      title: "Are your products certified?",
       content:
-        "Relevant AI technologies include machine learning, natural language processing, and computer vision.",
-      restext:
-        "Manage recruitment processes and onboarding of new employees. Administer employee benefits and maintain HR records. Assist in performance management and employee relations. Develop and implement HR policies and procedures.",
-      reqtext:
-        "Bachelor’s degree in Human Resources or related field. Proven experience in HR roles. Strong communication and interpersonal skills. Knowledge of HR software and labor laws.",
+        <>Yes, all the products we distribute are certified with <strong>WHO-GMP</strong> and other relevant authorities, ensuring safety and quality.</>,
     },
     {
-      title: "Graphic Designer",
+      title: "Do you deal in critical care medicines?",
       content:
-        "Relevant AI technologies include machine learning, natural language processing, and computer vision.",
-      restext:
-        "Create visually appealing designs for print and digital media. Collaborate with marketing teams to develop branding materials. Produce layouts, logos, and illustrations based on project requirements. Ensure consistency in designs across various platforms.",
-      reqtext:
-        "Proven experience as a Graphic Designer with a strong portfolio. Proficiency in design software (Adobe Creative Suite, CorelDRAW, etc.). Strong creative skills and attention to detail. Excellent communication and teamwork abilities",
+        "No, Plus Distributions does not deal in critical care products. Our focus is on general and specialty medicines with a strong distribution network.",
     },
     {
-      title: "Fullstack Developer",
+      title: "Which locations do you serve?",
       content:
-        "Relevant AI technologies include machine learning, natural language processing, and computer vision.",
-      restext:
-        "Develop and maintain both front-end and back-end applications. Collaborate with designers and product managers to implement user-friendly features. Write clean, scalable code using programming languages such as JavaScript, Python, or Java. Manage databases and ensure data security and integrity.",
-      reqtext:
-        "Proven experience as a Full Stack Developer with a strong portfolio. Proficiency in front-end technologies (HTML, CSS, JavaScript) and frameworks (React, Angular, or Vue). Experience with back-end technologies (Node.js, Express, Django, etc.). Knowledge of database management (SQL, NoSQL). Strong problem-solving skills and ability to work in a team.",
+        "We provide pharmaceutical distribution services across multiple regions in India. For specific location inquiries, feel free to contact our support team.",
+    },
+    {
+      title: "How can I place an order?",
+      content:
+        <>Orders can be placed through our dedicated sales team or by contacting us via <strong>phone</strong> or <strong>email</strong>. We ensure a smooth and timely order processing experience.</>,
+    },
+    {
+      title: "Do you provide cold chain logistics?",
+      content:
+        "Yes, we offer cold chain logistics for temperature-sensitive medicines to maintain their efficacy and quality during transit.",
+    },
+    {
+      title: "Are you open to new business partnerships?",
+      content:
+        "Absolutely! We welcome partnerships with pharma manufacturers and medical institutions. Get in touch with us to explore collaboration opportunities.",
+    },
+    {
+      title: "How do you ensure the quality of distributed medicines?",
+      content:
+        "We source only from certified manufacturers, follow strict storage protocols, and maintain regular quality checks throughout the supply chain.",
     },
   ];
 
   return (
     <Container className="py-5 my-4" id="hire">
       <div className="px-lg-5 mx-lg-5">
-      <h2 className="fw-bold fs_8xl mb-2 text-center mb-lg-5" data-aos="fade-down">
-      Frequently Asked Questions
-      </h2>
-      <Accordion
-        activeKey={activeKey}
-        className="d-flex flex-column gap-4 mx-lg-5"
-        data-aos="fade-down"
-      >
-        {accordionData.map((item, index) => (
-          <Accordion.Item
-            eventKey={index.toString()}
-            key={index}
-            onClick={() => handleSelect(index.toString())}
-            className={`custom-accordion-item ${
-              activeKey === index.toString() ? "active" : ""
-            }`}
-          >
-            <Accordion.Header>{item.title}</Accordion.Header>
-            <Accordion.Body className="pt-0">
-              <div>
-                <h5 className="mb-1">Location: Gurugram</h5>
-                <p className="mb-1">
-                  <span className="fw-bold">Responsibilities:</span>{" "}
-                  {item.restext}
-                </p>
-                <p className="mb-1">
-                  <span className="fw-bold">Requirements:</span> {item.reqtext}
-                </p>
-                <p className="mb-0">
-                  <span className="fw-bold">Apply: </span>
-                  Send your portfolio or resume to{" "}
-                  <a
-                    href="mailto:info@plusdistributions.in"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    info@plusdistributions.in
-                  </a>
-                </p>
-              </div>
-            </Accordion.Body>
-          </Accordion.Item>
-        ))}
-      </Accordion>
+        <h2
+          className="fw-bold fs_8xl mb-2 text-center mb-lg-5"
+          data-aos="fade-down"
+        >
+          Frequently Asked Questions
+        </h2>
+        <Accordion
+          activeKey={activeKey}
+          className="d-flex flex-column gap-4 mx-lg-5"
+          data-aos="fade-down"
+        >
+          {accordionData.map((item, index) => (
+            <Accordion.Item
+              eventKey={index.toString()}
+              key={index}
+              onClick={() => handleSelect(index.toString())}
+              className={`custom-accordion-item ${
+                activeKey === index.toString() ? "active" : ""
+              }`}
+            >
+              <Accordion.Header>{item.title}</Accordion.Header>
+              <Accordion.Body className="pt-0">
+                <div>
+                  <p className="mb-1">{item.content}</p>
+                </div>
+              </Accordion.Body>
+            </Accordion.Item>
+          ))}
+        </Accordion>
       </div>
     </Container>
   );
