@@ -49,8 +49,8 @@ const OwnBusiness = () => {
             We will give you a complete pharmacy setup with inventory,
             licensing, and all other requirements.
             <br /> Write to us at{" "}
-            <a href="mailto:info@plusdistributions.in">
-              info@plusdistributions.in
+            <a href="mailto:franchise@plusdistributions.in">
+              franchise@plusdistributions.in
             </a>{" "}
             to know more about us.
           </p>
