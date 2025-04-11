@@ -25,19 +25,9 @@ const Faqs = () => {
         <>Yes, all the products we distribute are certified with <strong>WHO-GMP</strong> and other relevant authorities, ensuring safety and quality.</>,
     },
     {
-      title: "Do you deal in critical care medicines?",
-      content:
-        "No, Plus Distributions does not deal in critical care products. Our focus is on general and specialty medicines with a strong distribution network.",
-    },
-    {
       title: "Which locations do you serve?",
       content:
         "We provide pharmaceutical distribution services across multiple regions in India. For specific location inquiries, feel free to contact our support team.",
-    },
-    {
-      title: "How can I place an order?",
-      content:
-        <>Orders can be placed through our dedicated sales team or by contacting us via <strong>phone</strong> or <strong>email</strong>. We ensure a smooth and timely order processing experience.</>,
     },
     {
       title: "Do you provide cold chain logistics?",
