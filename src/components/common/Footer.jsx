@@ -182,7 +182,7 @@ const Footer = () => {
                 <li className="fw-semibold fs_md text-black">Contact Us</li>
                 <li>
                   <a
-                    href="mailto: franchise@plusdistributions.in"
+                    href="mailto: info@plusdistributions.in"
                     target="_blank"
                     rel="noreferrer"
                     className="fw-normal fs_8sm text-black mb-1 d-flex align-items-center gap-2 contact_icon nav_link transition"
@@ -195,7 +195,7 @@ const Footer = () => {
                       height={30}
                       className="transition"
                     />{" "}
-                    franchise@plusdistributions.in
+                    info@plusdistributions.in
                   </a>
                 </li>
                 <li>
