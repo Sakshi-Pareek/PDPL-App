@@ -6,7 +6,7 @@ const Wearebest = () => {
     {
       image:
         "https://pdpl-stuff.s3.ap-south-1.amazonaws.com/dynamic/ksshospitals.com/YFxULCIxXW.svg",
-      heading: "8+",
+      heading: "10+",
       para: "Warehouses Across India",
       rotate:
         "The healthcare and pharmaceutical supply chain manages the flow of materials and information from raw material procurement to final product delivery.",
@@ -64,7 +64,7 @@ const Wearebest = () => {
                       <div className="bg-white rounded-4 shadow cursor_pointer d-flex flex-column gap-2 h-100 transition p-3">
                         <img loading="lazy" 
                           src={a.image}
-                          alt="Pharmaceutical company assets representing 8+ Warehouses Across India"
+                          alt="Pharmaceutical company assets representing 10+ Warehouses Across India"
                           width="186px"
                           className="mx-auto h-auto"
                         />

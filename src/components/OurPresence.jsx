@@ -217,6 +217,12 @@ const OurPresence = () => {
                 <li className="text-black fs_md mb-0 cursor_pointer position-relative">
                   Ludhiana
                 </li>
+                <li className="text-black fs_md mb-0 cursor_pointer position-relative">
+                Chandigarh
+                </li>
+                <li className="text-black fs_md mb-0 cursor_pointer position-relative">
+                 Yamuna Nagar
+                </li>
               </ul>
             </Col>
           </Row>

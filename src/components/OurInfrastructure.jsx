@@ -16,11 +16,11 @@ const locations = [
 
 const metrics = [
   { label: "Products", value: "48000+", img: <ProductIcon /> },
-  { label: "Warehouses", value: "8+", img: <WareHouseIcon /> },
+  { label: "Warehouses", value: "10+", img: <WareHouseIcon /> },
   { label: "Cities Reach", value: "80+", img: <CityIcon /> },
   {
-    label: "Each warehousing Space",
-    value: "25000+sqft",
+    label: "Warehousing Space",
+    value: "75000+sqft",
     img: <WareHouseSpace />,
   },
 ];
@@ -43,8 +43,8 @@ const OurInfrastructure = () => {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              We’re excited to have 9 strategically located warehouses that
-              streamline storage and distribution! Our team processes over 8,000
+              We’re excited to have 11 strategically located warehouses that
+            streamline storage and distribution! Our team processes over 8,000
               orders daily with real-time tracking, ensuring we efficiently meet
               our customers’ needs with a smile!
             </p>

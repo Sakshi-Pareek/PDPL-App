@@ -30,7 +30,7 @@ function FranchiseProgram() {
                 contribute to the healthcare distribution network.
               </p>
               <Link
-                to="/"
+                to="/about"
                 aria-label="Navigate to about page"
                 className="fs_md text-black nav_link transition"
               >

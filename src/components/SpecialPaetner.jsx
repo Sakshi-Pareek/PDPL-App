@@ -59,20 +59,10 @@ const SpecialPaetner = () => {
                 className="fs_md letter_spacing fw- lh-base text-black text_justify"
                 data-aos="fade-right"
               >
-                As the exclusive C&F partner for GUFIC Bioscience Ltd in
-                Northern-Central India, PDPL ensures quick and smoother delivery
+                As the exclusive C&F partner, PDPL ensures quick and smoother delivery
                 of high-quality medical products and guarantees reliable access
                 to essential medications for better healthcare outcomes.
               </p>
-              {/* <a
-                href="https://plusdistributions.in/Assets/partners.pdf"
-                target="_blank"
-                rel="noreferrer"
-                data-aos="fade-right"
-              >
-                {" "}
-                <CommonBtn btnname="Product List"></CommonBtn>
-              </a> */}
             </Col>
             <Col lg={5} xs={12}>
               <Slider {...sliderSettings}>
