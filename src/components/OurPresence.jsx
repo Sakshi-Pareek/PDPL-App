@@ -16,11 +16,11 @@ const OurPresence = () => {
             className="fs_md letter_spacing fw-normal lh-base text-black mb-4 text-center"
             data-aos="fade-down"
           >
-            We’re proud of our wide-spread distribution network, spread across
+            We're proud of our wide-spread distribution network, spread across
             various states and cities of India. We firmly believe in making
-            healthcare accessible to everyone and slowly, we’re moving towards
+            healthcare accessible to everyone and slowly, we're moving towards
             our aim of establishing our presence in more regions, to reach as
-            many people as we can. Currently, we’re operating in districts of
+            many people as we can. Currently, we're operating in districts of
             Haryana, Punjab, Rajasthan, U.P and Delhi/NCR where we partner with
             hospitals, distributors and retailers to ensure the efficient and
             secure delivery of life-saving medications and healthcare products.
@@ -43,6 +43,7 @@ const OurPresence = () => {
                     height={20}
                     alt="Pointer indicating Hisar"
                     className="animation"
+                    aria-hidden="true"
                   />
                   <span className="location-name text-black position-absolute text-nowrap">
                     Hisar
@@ -59,6 +60,7 @@ const OurPresence = () => {
                     height={20}
                     alt="Pointer indicating Delhi"
                     className="animation"
+                    aria-hidden="true"
                   />
                   <span className="location-name text-black position-absolute text-nowrap">
                     Delhi
@@ -75,6 +77,7 @@ const OurPresence = () => {
                     height={20}
                     alt="Pointer indicating Gurugram"
                     className="animation"
+                    aria-hidden="true"
                   />
                   <span className="location-name text-black position-absolute text-nowrap">
                     Gurugram
@@ -91,6 +94,7 @@ const OurPresence = () => {
                     height={20}
                     alt="Pointer indicating Noida"
                     className="animation"
+                    aria-hidden="true"
                   />
                   <span className="location-name text-black position-absolute text-nowrap">
                     Noida
@@ -107,6 +111,7 @@ const OurPresence = () => {
                     height={20}
                     alt="Pointer indicating Jaipur"
                     className="animation"
+                    aria-hidden="true"
                   />
                   <span className="location-name text-black position-absolute text-nowrap">
                     Jaipur
@@ -123,6 +128,7 @@ const OurPresence = () => {
                     height={20}
                     alt="Pointer indicating Bhopal"
                     className="animation"
+                    aria-hidden="true"
                   />
                   <span className="location-name text-black position-absolute text-nowrap">
                     Bhopal
@@ -139,6 +145,7 @@ const OurPresence = () => {
                     height={20}
                     alt="Pointer indicating Ludhiana"
                     className="animation"
+                    aria-hidden="true"
                   />
                   <span className="location-name text-black position-absolute text-nowrap">
                     Ludhiana
@@ -155,6 +162,7 @@ const OurPresence = () => {
                     height={20}
                     alt="Pointer indicating Dehradun"
                     className="animation"
+                    aria-hidden="true"
                   />
                   <span className="location-name text-black position-absolute text-nowrap">
                     Dehradun
@@ -171,6 +179,7 @@ const OurPresence = () => {
                     height={20}
                     alt="Pointer indicating Panipat"
                     className="animation"
+                    aria-hidden="true"
                   />
                   <span className="location-name text-black position-absolute text-nowrap">
                     Panipat
