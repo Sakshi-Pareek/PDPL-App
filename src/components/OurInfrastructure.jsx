@@ -15,13 +15,13 @@ const locations = [
 ];
 
 const metrics = [
-  { label: "Products", value: "48000+", img: <ProductIcon /> },
-  { label: "Warehouses", value: "10+", img: <WareHouseIcon /> },
-  { label: "Cities Reach", value: "80+", img: <CityIcon /> },
+  { label: "Products", value: "48000+", icon: <ProductIcon /> },
+  { label: "Warehouses", value: "10+", icon: <WareHouseIcon /> },
+  { label: "Cities Reach", value: "80+", icon: <CityIcon /> },
   {
     label: "Warehousing Space",
     value: "75000+sqft",
-    img: <WareHouseSpace />,
+    icon: <WareHouseSpace />,
   },
 ];
 
@@ -70,7 +70,7 @@ const OurInfrastructure = () => {
                         margin: "0 auto",
                       }}
                     >
-                      {metric.img}
+                      {metric.icon}
                     </span>
                   </div>
                   <h3 className="fs_6sm fw-bold mt-2 mb-0 text-center">
