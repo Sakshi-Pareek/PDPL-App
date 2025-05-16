@@ -560,3 +560,6 @@
     transform: scale(1);
   }
 }
+.fixed-hero-container {
+  min-height: 400px; /* Adjust based on your design */
+}
